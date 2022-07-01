@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/data_entry_portal",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

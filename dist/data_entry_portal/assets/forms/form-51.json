@@ -1,0 +1,3373 @@
+{
+  "status": "success",
+  "parameters": [
+    {
+      "elementLabel": {
+        "en": "(1) Personal Info",
+        "hin": "(1) व्यक्तिगत जानकारी"
+      },
+      "elementOptionLabel": {},
+      "dependentApi": [],
+      "elementType": "ElementTab",
+      "elementID": "tab_basic_information",
+      "elementName": "tab_basic_information",
+      "name": "tab_basic_information ( ElementTab )",
+      "id": 104,
+      "children": [
+        {
+          "elementLabel": {},
+          "elementOptionLabel": {},
+          "dependentApi": [],
+          "elementType": "ElementRow",
+          "elementID": "row_basic_information",
+          "elementName": "row_basic_information",
+          "name": "row_basic_information",
+          "elementClass": "",
+          "id": 7,
+          "children": [
+            {
+              "elementLabel": {},
+              "elementOptionLabel": {},
+              "dependentApi": [],
+              "elementType": "ElementCols",
+              "elementID": "col_basic_information",
+              "elementName": "col_basic_information",
+              "name": "col_basic_information",
+              "elementClass": "col-12",
+              "id": 17,
+              "children": [
+                {
+                  "elementLabel": {
+                    "en": "(1.1) What is your full name (as per any approved Government ID)?",
+                    "hin": "(1.1) आपका पूरा नाम क्या है ? (किसी भी सरकारी ID अनुसार)?",
+                    "mr": "(1.1) तुमचे पूर्ण नाव काय आहे ? (प्रमाणित शासकीय  ID नुसार)?",
+                    "as": "(1.1) আপোনাৰ সম্পূৰ্ণ নাম কি (যিকোনো চৰকাৰী মান্যতা প্ৰাপ্ত নথি অনুযায়ী)?",
+                    "bn": "(১.১) আপনার সম্পুর্ন নাম কি? (যেকোনো সরাকরি নথি অনুযায়ী)",
+                    "gu": "(1.1) તમારું પૂરું નામ શું છે (કોઈપણ માન્ય સરકારી ID મુજબ)?",
+                    "kn": "(1.1) ನಿಮ್ಮ ಪೂರ್ಣ ಹೆಸರು ಏನು (ಯಾವುದೇ ಅನುಮೋದಿತ ಸರ್ಕಾರಿ ID ಯ ಪ್ರಕಾರ)?",
+                    "ta": "(1.1)உங்கள் முழு பெயர் என்ன?(அரசு ஆவனத்தின் படி)",
+                    "te": "(1.1) మీ పూర్తి పేరు ఏమిటి (ఏదైనా ఆమోదించబడిన ప్రభుత్వ ID ప్రకారం)?",
+                    "or": "ତୁମର ପୂର୍ଣ୍ଣ ନାମ କ’ଣ (କୌଣସି ଅନୁମୋଦିତ ସରକାରୀ ID ଅନୁଯାୟୀ)?",
+                    "pa": "(1.1) ਤੁਹਾਡਾ ਪੂਰਾ ਨਾਮ ਕੀ ਹੈ (ਕਿਸੇ ਵੀ ਪ੍ਰਵਾਨਿਤ ਸਰਕਾਰੀ ID ਦੇ ਅਨੁਸਾਰ) ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_full_name",
+                  "elementName": "text_full_name",
+                  "name": "text_full_name ( ElementTextBox )",
+                  "parameterId": 1,
+                  "isDependent": "false",
+                  "inputtype": "text",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.2) What is your personal email ID (fill 'na@na' if you don't have a personal email ID)?",
+                    "hin": "(1.2) आपकी व्यक्तिगत इ-मेल ID क्या है? (यदि आपके पास व्यक्तिगत ईमेल ID नहीं है, तो \"na@na\" भरें)?",
+                    "mr": "(1.2) तुमची वैयक्तिक इ-मेल ID काय आहे ? (जर तुमच्या कडे वैयक्तिक ईमेल ID नसेल तर ,  \"na@na\" लिहा )?",
+                    "as": "(1.2) আপোনাৰ নিজা ই-মেইল ID কি (যদি নাই তেনেহলে কাষত দিয়াৰ দৰে লিখক - na@na)?",
+                    "bn": "(১.২) আপনার নিজস্ব ই-মেইল আইডি টি কি (যদি না থাকে তো এটি পুরন করুন \"na@na\") ?",
+                    "gu": "(1.2) તમારી વ્યક્તિગત ઇમેઇલ આઈડી શું છે (જો તમારી પાસે વ્યક્તિગત ઇમેઇલ આઈડી ન હોય તો 'NA@NA' ભરો)?",
+                    "kn": "(1.2) ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಇಮೇಲ್ ಐಡಿ ಯಾವುದು (ವೈಯಕ್ತಿಕ ಇಮೇಲ್ ಐಡಿ ಇಲ್ಲದಿದ್ದರೆ 'na@na' ಎಂದು ಬರೆಯಿರಿ)?",
+                    "ta": "(1.2)உங்கள் தனிப்பட்ட மின் அஞ்சல் முகவரி என்ன?(மின் அஞ்சல் முகவரி இல்லை என்றால் na@na என்று பதிவிடவும்)",
+                    "te": "(1.2) మీ వ్యక్తిగత ఈ - మెయిల్ ఐడి ఏమిటి (మీకు వ్యక్తిగత ఈ - మెయిల్ ఐడి లేకపోతే ' na@na  నింపండి)?",
+                    "or": "ତୁମର ବ୍ୟକ୍ତିଗତ ଇମେଲ୍ id କ’ଣ? (ଯଦି ଆପଣଙ୍କର ବ୍ୟକ୍ତିଗତ ଇମେଲ୍ ID ନାହିଁ ତେବେ 'na @ na' ପୁରଣ କରନ୍ତୁ)?",
+                    "pa": "(1.2) ਤੁਹਾਡੀ ਨਿਜੀ ਈਮੇਲ ਆਈਡੀ ਕੀ ਹੈ ('na @ na' ਭਰੋ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਨਿੱਜੀ ਈਮੇਲ ਆਈਡੀ ਨਹੀਂ ਹੈ)?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_email",
+                  "elementName": "text_email",
+                  "name": "text_email ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 2,
+                  "isDependent": "false",
+                  "inputtype": "email",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.3) What is your gender?",
+                    "hin": "(1.3) आपका लिंग क्या है?",
+                    "mr": "(1.3) आपले लिंग काय आहे ?",
+                    "as": "(1.3) আপোনাৰ লিংগ কি?",
+                    "bn": "(১.৩) আপনার লিঙ্গ কি?",
+                    "gu": "(1.3) તમારું લિંગ શું છે?",
+                    "kn": "(1.3) ನಿಮ್ಮ ಲಿಂಗ ಯಾವುದು?",
+                    "ta": "(1.2)உங்கள் பாலினம் என்ன?",
+                    "te": "(1.3) మీ లింగం ఏమిటి?",
+                    "or": "ତୁମର ଲିଙ୍ଗ କ’ଣ?",
+                    "pa": "(1.3) ਤੁਹਾਡਾ ਲਿੰਗ ਕੀ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Male",
+                      "Female",
+                      "Prefer not to say",
+                      "Other"
+                    ],
+                    "hin": [
+                      "पुरुष",
+                      "महिला",
+                      "कोई टिप्पणी नहीं",
+                      "अन्य"
+                    ],
+                    "mr": [
+                      "पुरुष  (Male)",
+                      "स्त्री (Female)",
+                      "कोणत्याही टिप्पणी नाही",
+                      "इत्यादी"
+                    ],
+                    "as": [
+                      "পুৰুষ",
+                      "মহিলা",
+                      "ক'ব বিচৰা নাই",
+                      "অন্য"
+                    ],
+                    "bn": [
+                      "পুরুষ",
+                      "স্ত্রী",
+                      "আমি বলতে চাইনা",
+                      "অন্য"
+                    ],
+                    "gu": [
+                      "પુરુષ",
+                      "સ્ત્રી",
+                      "ન કહેવાનું પસંદ કરો",
+                      "અન્ય"
+                    ],
+                    "kn": [
+                      "ಗಂಡು",
+                      "ಹೆಣ್ಣು",
+                      "ಹೇಳಲು ಇಚ್ಚಿಸುವುದಿಲ್ಲ",
+                      "ಇತರೆ"
+                    ],
+                    "ta": [
+                      "ஆண்",
+                      "பெண்",
+                      "சொல்ல விருப்பம் இல்லை",
+                      "வேறு"
+                    ],
+                    "te": [
+                      "పురుషుడు",
+                      "స్త్రీ",
+                      "చెప్పడానికి ఇష్టం లేదు",
+                      "ఇతరములు"
+                    ],
+                    "or": [
+                      "ପୁରୁଷ",
+                      "ମହିଳା",
+                      "କହିବାକୁ ପସନ୍ଦ କରୁନାହିଁ",
+                      "ଅନ୍ୟାନ୍ୟ"
+                    ],
+                    "pa": [
+                      "ਮਰਦ",
+                      "ਔਰਤ",
+                      "ਦੱਸਣਾ ਨਹੀਂ",
+                      "ਹੋਰ"
+                    ]
+                  },
+                  "dependentApi": [],
+                  "elementType": "ElementRadio",
+                  "elementID": "radio_gender",
+                  "elementName": "radio_gender",
+                  "name": "radio_gender ( ElementRadio )",
+                  "id": 141,
+                  "isDependent": "false",
+                  "parameterId": 3,
+                  "elementOptionValue": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                  ],
+                  "elementOptionDependent": {
+                    "4": "text_gender_other"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "Other, please mention",
+                    "mr": "इत्यादी , खास निर्देश करून सांगा",
+                    "as": "যদি অন্য, উল্লেখ কৰক",
+                    "bn": "অন্য হলে , দয়া করে উল্লেখ করুন",
+                    "gu": "અન્ય, કૃપા કરીને ઉલ્લેખ કરો",
+                    "kn": "ಇತರೆಯಾಗಿದ್ದಲ್ಲಿ ದಯವಿಟ್ಟು ನಮೂದಿಸಿ",
+                    "ta": "வேறு என்றால் இங்கே பதிவிடவும்",
+                    "te": "ఇతరములు అయితే , దయచేసి తెలపండి.",
+                    "or": "ଅନ୍ୟ, ଦୟାକରି ଉଲ୍ଲେଖ କରନ୍ତୁ |",
+                    "pa": "ਜੇਕਰ ਕੋਈ ਹੋਰ, ਤਾ ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_gender_other",
+                  "elementName": "text_gender_other",
+                  "name": "text_gender_other ( ElementTextBox )",
+                  "elementClass": "",
+                  "isDependent": "true",
+                  "inputtype": "text",
+                  "parameterId": 4
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.4) Which program are you in?",
+                    "hin": "(1.4) आप किस कार्यक्रम में हैं?",
+                    "mr": "(1.4) आपण कोणत्या कार्यक्रमात सहभागी आहात ?",
+                    "as": "(1.4) আপুনি কোনটো কাৰ্যক্ৰমৰ অন্তৰ্ভুক্ত?",
+                    "bn": "(১.৪) আপনি কোন প্রোগ্রামে আছেন?",
+                    "gu": "(1.4) તમે કયા પ્રોગ્રામમાં છો?",
+                    "kn": "(1.4) ನೀವು ಯಾವ ಕರ್ಯಕ್ರಮದಲ್ಲಿರುವಿರಿ ?",
+                    "ta": "(1.4)நீங்கள் எந்த செயல்முறை திட்டத்தில் உள்ளீர்கள்?",
+                    "te": "(1.4) మీరు ఏ ప్రోగ్రామ్‌లో ఉన్నారు?",
+                    "or": "ଆପଣ କେଉଁ ପ୍ରୋଗ୍ରାମରେ ଅଛନ୍ତି?",
+                    "pa": "(1.4) ਤੁਸੀਂ ਕਿਹੜੇ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਹੋ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "ASER (Assessment, Survey etc)",
+                      "Education (ECE, Elementary, Beyond Elementary, Digital etc)",
+                      " PCVC",
+                      " Vocational Skilling",
+                      " Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "hin": [
+                      "ASER (मूल्यांकन, सर्वे आदि)",
+                      "Education (ECE, 1-10 तक चलने वाला कोई भी प्रोग्राम, डिजिटल)",
+                      "PCVC",
+                      "Vocational Skilling",
+                      "Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "mr": [
+                      "ASER (Assessment, Survey etc)",
+                      "Education (ECE, Elementary, Beyond Elementary, Digital etc)",
+                      " PCVC",
+                      " Vocational Skilling",
+                      " Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "as": [
+                      "ASER (মূল্যায়ন, জৰীপ ইত্যাদি)",
+                      "Education (ECE, Elementary, Beyond Elementary, Digital etc)",
+                      "PCVC",
+                      "Vocational Skilling",
+                      "Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "bn": [
+                      "ASER (Assessment, Survey etc)",
+                      "Education (ECE, Elementary, Beyond Elementary, Digital etc)",
+                      " PCVC",
+                      " Vocational Skilling",
+                      " Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "gu": [
+                      "ASER (Assessment, Survey etc)",
+                      "Education (ECE, Elementary, Beyond Elementary, Digital etc)",
+                      " PCVC",
+                      " Vocational Skilling",
+                      " Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "kn": [
+                      "ASER (Assessment, Survey etc)",
+                      "Education (ECE, Elementary, Beyond Elementary, Digital etc)",
+                      " PCVC",
+                      " Vocational Skilling",
+                      " Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "ta": [
+                      "ASER (Assessment, Survey etc)",
+                      "Education (ECE, Elementary, Beyond Elementary, Digital etc)",
+                      " PCVC",
+                      " Vocational Skilling",
+                      " Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "te": [
+                      "ASER (Assessment, Survey etc)",
+                      "Education (ECE, Elementary, Beyond Elementary, Digital etc)",
+                      " PCVC",
+                      " Vocational Skilling",
+                      " Central support functions (HR, Finance, PMG, Central MME, Central Content etc)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "or": [
+                      "ASER (ମୂଲ୍ୟାଙ୍କନ, ସର୍ଭେ ଇତ୍ୟାଦି)",
+                      "ଶିକ୍ଷା (ECE, ପ୍ରାଥମିକ, ବାହାର ପ୍ରାଥମିକ, ଡିଜିଟାଲ୍ ଇତ୍ୟାଦି)",
+                      "ପିସିଭିସି",
+                      "ଧନ୍ଦାମୂଳକ ଦକ୍ଷତା |",
+                      "କେନ୍ଦ୍ରୀୟ ସହାୟତା କାର୍ଯ୍ୟ (HR, Finance, PMG, Central MME, Central Content ଇତ୍ୟାଦି)",
+                      "State support functions (HR, Finance, Office admin & support etc)"
+                    ],
+                    "pa": [
+                      "ASER (ਮੁਲਾਂਕਣ, ਸਰਵੇਖਣ ਆਦਿ)",
+                      "ਸਿੱਖਿਆ (ਈਸੀਈ, ਐਲੀਮੈਂਟਰੀ, ਐਲੀਮੈਂਟਰੀ ਤੋਂ ਪਰੇ, ਡਿਜੀਟਲ ਆਦਿ)",
+                      "ਪੀ.ਸੀ.ਵੀ.ਸੀ.",
+                      "ਕਿੱਤਾਮੁਖੀ ਹੁਨਰ",
+                      "ਕੇਂਦਰੀ ਸਹਾਇਤਾ ਮੈਂਬਰ (HR, Finance, PMG, Central MME, Central Content etc)"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_program",
+                  "name": "select_program ( ElementDropDown )",
+                  "elementName": "select_program",
+                  "elementClass": "",
+                  "isMultiple": "No",
+                  "parameterId": 5,
+                  "isDependent": "false",
+                  "id": 150,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "96"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.5) Which team are you in?",
+                    "hin": "(1.5) आप किस स्तर पर कार्य करते है ?",
+                    "mr": "(1.5) आपण कोणत्या स्तरावर काम करता ?",
+                    "as": "(1.5) আপুনি কোনটো দলৰ সদস্য?",
+                    "bn": "(১.৫) আপনি কোন দলে/team এ আছেন?",
+                    "gu": "(1.5) તમે કઈ ટીમમાં છો?",
+                    "kn": "(1.5) ನೀವು ಯಾವ ತಂಡದಲ್ಲಿರುವಿರಿ?",
+                    "ta": "(1.5)நீங்கள் எந்த குழுவில் உள்ளீர்கள்?",
+                    "te": "(1.5) మీరు ఏ సమూహంలో ఉన్నారు?",
+                    "or": "ଆପଣ କେଉଁ ଦଳରେ ଅଛନ୍ତି?",
+                    "pa": "(1.5) ਤੁਸੀਂ ਕਿਸ ਟੀਮ ਵਿਚ ਹੋ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Cluster/ Block/ District/ Location",
+                      "State",
+                      "Central"
+                    ],
+                    "hin": [
+                      "Cluster/ ब्लॉक / जिला / स्थान",
+                      " राज्य",
+                      " केंद्र"
+                    ],
+                    "mr": [
+                      "Cluster/तालुका (Block)/ जिल्हा (District)/ ठिकाण (Location)",
+                      "State",
+                      "Central"
+                    ],
+                    "as": [
+                      "Cluster/ ব্লক/জিলা/অঞ্চল",
+                      "ৰাজ্যিক",
+                      "কেন্দ্ৰ"
+                    ],
+                    "bn": [
+                      "Cluster/ ব্লক / জেলা / অঞ্চল",
+                      "রাজ্য",
+                      "কেন্দ্র"
+                    ],
+                    "gu": [
+                      "Cluster/બ્લોક / જિલ્લા / સ્થાન",
+                      "રાજ્ય",
+                      "સેન્ટ્રલ"
+                    ],
+                    "kn": [
+                      "Cluster/ತಾಲ್ಲೂಕು / ಜಿಲ್ಲೆ / ಲೋಕೇಷನ್",
+                      "ರಾಜ್ಯ (state)",
+                      "ಕೇಂದ್ರ (Central)"
+                    ],
+                    "ta": [
+                      "Cluster/ Block/ District/ Location",
+                      "State",
+                      "Central"
+                    ],
+                    "te": [
+                      "Cluster/ Block/ District/ Location",
+                      "State",
+                      "Central"
+                    ],
+                    "or": [
+                      "Cluster/ବ୍ଲକ / ଜିଲ୍ଲା / ନିର୍ଦ୍ଧିଷ୍ଟ ସ୍ଥାନ",
+                      "ରାଜ୍ୟ",
+                      "କେନ୍ଦ୍ରୀୟ |"
+                    ],
+                    "pa": [
+                      "ਬਲਾਕ / ਜ਼ਿਲ੍ਹਾ / ਸਥਾਨ",
+                      "ਰਾਜ",
+                      "ਕੇਂਦਰੀ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_designation",
+                  "name": "select_designation ( ElementDropDown )",
+                  "elementName": "select_designation",
+                  "elementClass": "",
+                  "isMultiple": "No",
+                  "parameterId": 6,
+                  "isDependent": "false",
+                  "id": 148,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "10",
+                    "11",
+                    "12"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.6) What is your date of birth (DD/MM/YYYY)?",
+                    "hin": "(1.6) आपकी जन्मतिथि क्या है (DD/MM/YYYY)?",
+                    "mr": "(1.6) आपली जन्म तारीख किती आहे?  (DD/MM/YYYY)",
+                    "as": "(1.6) আপোনাৰ জন্ম তিথি (DD/MM/YYYY)?",
+                    "bn": "(১.৬) আপনার জন্ম তারিখ কি (দিন/মাস/বছর) ?",
+                    "gu": "તમારી જન્મ તારીખ શું છે? (DD / MM / YYYY)",
+                    "kn": "(1.6) ನಿಮ್ಮ ಹುಟ್ಟಿದ ದಿನಾಂಕ ಯಾವುದು  (ದಿನ/ ತಿಂಗಳು /ವರ್ಷ)?",
+                    "ta": "(1.6)உங்களின் பிறந்த தேதி என்ன?(DD/MM/YYYY)",
+                    "te": "(1.6) మీ పుట్టిన తేదీ (DD / MM / YYYY) ఏమిటి?",
+                    "or": "ତୁମର ଜନ୍ମ ତାରିଖ କ’ଣ (DD / MM / YYYY)?",
+                    "pa": "(1.6) ਤੁਹਾਡੀ ਜਨਮ ਮਿਤੀ ਕੀ ਹੈ (DD / MM / YYYY)?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementDatePicker",
+                  "elementID": "text_dob",
+                  "elementName": "text_dob",
+                  "name": "text_dob ( ElementDatePicker )",
+                  "elementClass": "",
+                  "parameterId": 7,
+                  "isDependent": "false"
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.7) What is your blood group?",
+                    "hin": "(1.7) आपका ब्लड ग्रुप क्या है ?",
+                    "mr": "(1.7) तुमचा रक्तगट काय आहे ?",
+                    "as": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+                    "bn": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+                    "gu": "(1.7) તમારું બ્લડ ગ્રુપ શું છે?",
+                    "kn": "(1.7) ನಿಮ್ಮ ರಕ್ತದ ಗುಂಪು ಯಾವುದು ?",
+                    "ta": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+                    "te": "(1.7) మీ రక్త సమూహం  యొక్క రకం ఏమిటి?",
+                    "or": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+                    "pa": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "I don't know"
+                    ],
+                    "mr": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "मला माहित नाही (I don't know)"
+                    ],
+                    "as": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "নাজানো"
+                    ],
+                    "bn": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "আমি জানি না"
+                    ],
+                    "gu": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "મને ખબર નથી"
+                    ],
+                    "kn": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "ನನಗೆ ಗೊತ್ತಿಲ್ಲ"
+                    ],
+                    "ta": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "எனக்கு தெரியாது"
+                    ],
+                    "te": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "నాకు తెలియదు"
+                    ],
+                    "or": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "ମୁଁ ଜାଣି ନାହିଁ"
+                    ],
+                    "pa": [
+                      "A+",
+                      "A-",
+                      "B+",
+                      "B-",
+                      "O+",
+                      "O-",
+                      "AB+",
+                      "AB-",
+                      "I don't know"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_blood_group",
+                  "name": "select_blood_group ( ElementDropDown )",
+                  "elementName": "select_blood_group",
+                  "elementClass": "",
+                  "isMultiple": "No",
+                  "parameterId": 8,
+                  "isDependent": "false",
+                  "id": 114,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20",
+                    "21"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.8) What phone number do you regularly use?",
+                    "hin": "(1.8) आप नियमित रूप से किस फ़ोन नंबर का उपयोग करते हैं?",
+                    "mr": "(1.8) आपण नियमितपणे कोणता फोन नंबर वापरता ?",
+                    "as": "(1.8) ফোন নম্বৰ (সদায় ব্যৱহাৰ কৰা)",
+                    "bn": "(১.৮) কোন ফোন নম্বরটি আপনি নিয়মিত ব্যবহার করেন ?",
+                    "gu": "(1.8) તમે નિયમિતપણે કયો ફોન નંબર વાપરો છો?",
+                    "kn": "(1.8) ನೀವು ಸಕ್ರಿಯವಾಗಿ ಬಳಸುವ ದಾರವಾಣಿ ಸಂಖ್ಯೆ ಯಾವುದು?",
+                    "ta": "(1.8)நீங்கள் தினசரி உபயோகிக்கும் தொலைபேசி எண்?",
+                    "te": "(1.8) మీరు ఎల్లప్పుడు ఏ ఫోన్ నంబర్‌ను ఉపయోగిస్తున్నారు?",
+                    "or": "ଆପଣ କେଉଁ ଫୋନ୍ ନମ୍ବର ନିୟମିତ ବ୍ୟବହାର କରନ୍ତି?",
+                    "pa": "(1.8) ਤੁਸੀਂ ਨਿਯਮਤ ਤੌਰ ਤੇ ਕਿਹੜਾ ਫੋਨ ਨੰਬਰ ਵਰਤਦੇ ਹੋ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_primary_contact",
+                  "elementName": "text_primary_contact",
+                  "name": "text_primary_contact ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 9,
+                  "isDependent": "false",
+                  "inputtype": "mobile",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.8.1) Does this number have WhatsApp?",
+                    "hin": "(1.8.1) क्या इस नंबर से व्हट्स ऐप पर है ?",
+                    "mr": "(1.8.1) या नंबरवर व्हॉट्सअ‍ॅप आहे का?",
+                    "as": "(1.8.1) এই নম্বৰত What'sApp আছে নে?",
+                    "bn": "(১.৮.১) এই নম্বরটি কি whatsapp নম্বর আছে?",
+                    "gu": "(1.8.1) શું આ નંબર પર વોટ્સએપ છે?",
+                    "kn": "(1.8.1) ಈ ದೂರವಾಣಿ ಸಂಖ್ಯೆಯಲ್ಲಿ whatsapp (ವಾಟ್ಸಾಪ್) ಇದಿಯೇ?",
+                    "ta": "(1.8.1)இந்த எண்ணில் Whatsapp உள்ளதா?",
+                    "te": "(1.8.1) ఈ నంబర్‌కు వాట్సాప్ ఉందా?",
+                    "or": "ଏହି ସଂଖ୍ୟାରେ ହୁଆଟ୍ସ ଆପ୍ ଅଛି କି?",
+                    "pa": "(1.8.1) ਕੀ ਤੁਹਾਡੇ ਇਸ ਨੰਬਰ 'ਤੇ ਵਟਸਐਪ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Yes",
+                      "No"
+                    ],
+                    "hin": [
+                      "हाँ",
+                      " नहीं"
+                    ],
+                    "mr": [
+                      "होय  (Yes)",
+                      "नाही  (No)"
+                    ],
+                    "as": [
+                      "আছে",
+                      "নাই"
+                    ],
+                    "bn": [
+                      "হ্যাঁ",
+                      "না"
+                    ],
+                    "gu": [
+                      "હા",
+                      "ના"
+                    ],
+                    "kn": [
+                      "ಹೌದು",
+                      "ಇಲ್ಲಾ"
+                    ],
+                    "ta": [
+                      "ஆம்",
+                      "இல்லை"
+                    ],
+                    "te": [
+                      "అవును",
+                      "కాదు"
+                    ],
+                    "or": [
+                      "ହଁ",
+                      "ନା"
+                    ],
+                    "pa": [
+                      "ਹਾਂ",
+                      "ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [],
+                  "elementType": "ElementRadio",
+                  "elementID": "radio_primary_whatsapp",
+                  "elementName": "radio_primary_whatsapp",
+                  "elementClass": "",
+                  "name": "radio_primary_whatsapp ( ElementRadio )",
+                  "id": 115,
+                  "isDependent": "false",
+                  "parameterId": 10,
+                  "elementOptionValue": [
+                    "22",
+                    "23"
+                  ],
+                  "elementOptionDependent": {
+                    "23": "radio_secondary_whatsapp"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.8.2) Do you have access to Whatsapp on any other number?",
+                    "hin": "(1.8.2) क्या आप किसी अन्य नंबर से व्हट्स ऐप पर है ?",
+                    "mr": "(1.8.2) आपण व्हॉट्सअ‍ॅप वर दुसरा संपर्क क्रमांक वापरता का ?",
+                    "as": "(1.8.2) আন কোনো নম্বৰত What'sApp চলাই নেকি?",
+                    "bn": "(১.৮.২) আপনি কি অন্যকোন whatsApp নম্বর আছে ?",
+                    "gu": "(1.8.2) શું તમારી પાસે બીજા કોઈપણ નંબર પર વોટ્સએપ છે?",
+                    "kn": "(1.8.2) ನೀವು ಯಾವುದಾದರು ಬೇರೆ ದೂರವಾಣಿ ಸಂಖ್ಯೆಯಲ್ಲಿ ವಾಟ್ಸಾಪ್ ಬಳಸುವಿರ?",
+                    "ta": "(1.8.2)உங்களுக்கு மற்ற எண்ணில் Whatsapp உள்ளதா?",
+                    "te": "(1.8.2) మీకు మరేదైనా నంబర్‌లో వాట్సాప్ యాక్సెస్ ఉందా?",
+                    "or": "ଆପଣଙ୍କର ଅନ୍ୟ କୌଣସି ନମ୍ବରରେ ହୁଆଟ୍ସ ଆପ୍ ଆକ୍ସେସ ଅଛି କି?",
+                    "pa": "(1.8.2) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਕਿਸੇ ਹੋਰ ਨੰਬਰ 'ਤੇ ਵਟਸਐਪ ਚੱਲਦਾ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Yes",
+                      "No"
+                    ],
+                    "hin": [
+                      "हाँ",
+                      " नहीं"
+                    ],
+                    "mr": [
+                      "होय  (Yes)",
+                      "नाही  (No)"
+                    ],
+                    "as": [
+                      "হয়",
+                      "নহয়"
+                    ],
+                    "bn": [
+                      "হ্যাঁ",
+                      "না"
+                    ],
+                    "gu": [
+                      "હા",
+                      "ના"
+                    ],
+                    "kn": [
+                      "ಹೌದು",
+                      "ಇಲ್ಲಾ"
+                    ],
+                    "ta": [
+                      "ஆம்",
+                      "இல்லை"
+                    ],
+                    "te": [
+                      "అవును",
+                      "కాదు"
+                    ],
+                    "or": [
+                      "ହଁ",
+                      "ନା"
+                    ],
+                    "pa": [
+                      "ਹਾਂ",
+                      "ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [],
+                  "elementType": "ElementRadio",
+                  "elementID": "radio_secondary_whatsapp",
+                  "elementName": "radio_secondary_whatsapp",
+                  "name": "radio_secondary_whatsapp ( ElementRadio )",
+                  "id": 116,
+                  "isDependent": "true",
+                  "parameterId": 13,
+                  "elementOptionValue": [
+                    "25",
+                    "26"
+                  ],
+                  "elementOptionDependent": {
+                    "25": "text_secondary_contact"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.8.3) What is your secondary contact number (with WhatsApp access)?",
+                    "hin": "(1.8.3) आपका दूसरा नंबर क्या है (जिससे आप व्हट्स ऐप पर है ?)",
+                    "mr": "(1.8.3) आपला दुसरा संपर्क क्रमांक काय आहे ? (ज्या नंबर ला whats app वापरता)",
+                    "as": "(1.8.3) আপোনাৰ অন্য ফোন নম্বৰ (যিটোৱে What'sApp চলাই)?",
+                    "bn": "(১.৮.৩) আপনার অন্য/দ্বিতীয় নম্বর টি কি ( যেটিতে whatsapp আছে)?",
+                    "gu": "(1.8.3) તમારો બીજો અન્ય સંપર્ક નંબર (વ્હોટ્સએપ સાથે) શું છે?",
+                    "kn": "(1.8.3) ನಿಮ್ಮ ದ್ವಿತೀಯ (ಪರ್ಯಾಯ) ದೂರವಾಣಿ ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಯಾವುದು  (ವಾಟ್ಸಾಪ್ ಬಳಕೆ ಮಾಡಬಹುದಾದ)?",
+                    "ta": "(1.8.3)உங்களின் வேறு தொடர்பு எண் என்ன(Whatsapp உள்ளதா)?",
+                    "te": "(1.8.3) మీకు సంప్రదించుటకు మీ రెండవ నెంబర్  (వాట్సాప్ యాక్సెస్‌తో) ఏమిటి?",
+                    "or": "ଆପଣଙ୍କର ଦ୍ବିତୀୟ ଯୋଗାଯୋଗ ନମ୍ବର (ହୁଆଟ୍ସ ଆପ୍ ଆକ୍ସେସ୍ ସହିତ) କ’ଣ?",
+                    "pa": "(1.8.3) ਤੁਹਾਡਾ ਸੈਕੰਡਰੀ ਸੰਪਰਕ ਨੰਬਰ ਕੀ ਹੈ (ਜਿਸ ਤੇ WhatsApp ਚੱਲਦਾ ਹੋਵੇ )?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_secondary_contact",
+                  "elementName": "text_secondary_contact",
+                  "name": "text_secondary_contact ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 11,
+                  "isDependent": "true",
+                  "inputtype": "mobile",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.9) What is the name of your emergency contact person?",
+                    "hin": "(1.9) आपके आपातकालीन संपर्क व्यक्ति का नाम क्या है ?",
+                    "mr": "(1.9) तुमच्या आपातकालीन संपर्क व्यक्तीचे नाव काय आहे?",
+                    "as": "(1.9) আপোনাৰ বাবে জৰুৰীকালীন অৱস্থাত যোগাযোগ কৰিব পৰা ব্যক্তিৰ নাম?",
+                    "bn": "(১.৯) আপনার জরুরি যোগাযোগের ব্যক্তির নাম কী?",
+                    "gu": "(1.9) તમારી આપાતકાલીન સમય દરમિયાન સંપર્ક માટેના વ્યક્તિનું નામ શું છે?",
+                    "kn": "(1.9) ನಿಮ್ಮ ತುರ್ತು ಸಂಪರ್ಕ ವ್ಯಕ್ತಿಯ ಹೆಸರೇನು ?",
+                    "ta": "(1.9)உங்கள் அவசர தொடர்பு நபரின் பெயர் என்ன?",
+                    "te": "(1.9)మీకు అత్యవసర సమయంలో  సంప్రదించదగిన వ్యక్తి పేరు ఏమిటి?",
+                    "or": "ତୁମର ଜରୁରୀ ଯୋଗାଯୋଗ ବ୍ୟକ୍ତିଙ୍କ ନାମ କ’ଣ?",
+                    "pa": "(1.9) ਤੁਹਾਡੇ ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਨੰਬਰ ਵਾਲੇ ਵਿਅਕਤੀ ਦਾ ਨਾਮ ਕੀ ਹੈ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_emg_cont_person_name",
+                  "elementName": "text_emg_cont_person_name",
+                  "name": "text_emg_cont_person_name ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 14,
+                  "isDependent": "false",
+                  "inputtype": "text",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.10) What is the relation of the emergency contact person to you (mother, father, wife, husband, sister, brother etc)?",
+                    "hin": "(1.10) आपके साथ आपातकालीन संपर्क व्यक्ति का क्या संबंध है (माता, पिता, पत्नी, पति, बहन, भाई etc)?",
+                    "mr": "(1.10) आपातकालीन संपर्क व्यक्तीशी काय संबध आहे? (आई , बाबा , बायको, नवरा, ताई , दादा  इत्यादी )",
+                    "as": "(1.10) তেওঁৰ সৈতে আপোনাৰ সম্বন্ধ? (মা, দেউতা, পত্নী, স্বামী, ভাই-ককাই, বাই-ভণী)",
+                    "bn": "(১.১০) আপনার সাথে জরুরি যোগাযোগের ব্যক্তির (মা, বাবা, স্ত্রী, স্বামী, বোন, ভাই ইত্যাদি) সম্পর্ক কী?",
+                    "gu": "(1.10) આપાતકાલીન સંપર્ક વ્યક્તિ સાથે તમારો સંબંધ શું છે? (માતા, પિતા, પત્ની, પતિ, બહેન, ભાઈ વગેરે)",
+                    "kn": "(1.10) ತುರ್ತು ಸಂಪರ್ಕ ವ್ಯಕ್ತಿಯ ಜೊತೆಗಿನ ನಿಮ್ಮ ಸಂಬಂಧವೇನು? (ತಾಯಿ, ತಂದೆ, ಪತ್ನಿ, ಪತಿ, ಸಹೋದರಿ, ಸಹೋದರ  ಇತರೆ?",
+                    "ta": "(1.10)அவசர தொடர்பு நபரிற்கும் உங்களுக்கும் இடையேயான உறவு என்ன?(தாய், தந்தை, மனைவி, கணவன், சகோதரி, சகோதரன் மற்றவை)",
+                    "te": "(1.10) మీకు అత్యవసర సంప్రదింపు వ్యక్తితో ఉన్న సంబంధం ఏమిటి? (తల్లి, తండ్రి, భార్య, భర్త, సోదరి, సోదరుడు మొదలైనవారు)",
+                    "or": "ତୁମର ଜରୁରୀ ସମ୍ପର୍କ ବ୍ୟକ୍ତିଙ୍କ ସହିତ କ’ଣ ସମ୍ପର୍କ ଅଛି (ମା, ବାପା, ସ୍ତ୍ରୀ, ସ୍ୱାମୀ, ଭଉଣୀ, ଭାଇ ଇତ୍ୟାଦି)?",
+                    "pa": "(1.10) ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਨੰਬਰ ਵਾਲੇ ਵਿਅਕਤੀ ਦਾ ਤੁਹਾਡੇ ਨਾਲ ਕੀ ਸੰਬੰਧ ਹੈ (ਮਾਂ, ਪਿਤਾ, ਪਤਨੀ, ਪਤੀ, ਭੈਣ, ਭਰਾ ਆਦਿ)?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_emg_cont_person_rel",
+                  "elementName": "text_emg_cont_person_rel",
+                  "name": "text_emg_cont_person_rel ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 15,
+                  "isDependent": "false",
+                  "inputtype": "text",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(1.11) What is the emergency contact person's number? ",
+                    "hin": "(1.11) आपातकालीन संपर्क व्यक्ति का नंबर ?",
+                    "mr": "(1.11) आपातकालीन च्या वेळी संपर्क करण्याऱ्या व्यक्तीचा संपर्क क्रमांक ?",
+                    "as": "(1.11) তেওঁৰ ফোন নম্বৰ?",
+                    "bn": "(১.১১) জরুরী যোগাযোগের ব্যক্তির ফোন নম্বরটি কী?",
+                    "gu": "(1.11) આપાતકાલીન સંપર્ક વ્યક્તિની નંબર શું છે?",
+                    "kn": "(1.11) ತುರ್ತು ಸಂಪರ್ಕ ವ್ಯಕ್ತಿಯ ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಏನು?",
+                    "ta": "(1.11)அவசர தொடர்பு நபரின் தொலைபேசி எண் என்ன?",
+                    "te": "(1.11) అత్యవసర సంప్రదింపు వ్యక్తి యొక్క ఫోన్  నెంబర్ ఏమిటి?",
+                    "or": "ଜରୁରୀକାଳୀନ ଯୋଗାଯୋଗ ବ୍ୟକ୍ତିଙ୍କ ନମ୍ବର କ’ଣ?",
+                    "pa": "(1.11) ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਨੰਬਰ ਵਾਲੇ ਵਿਅਕਤੀ ਦਾ ਨੰਬਰ ਕੀ ਹੈ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_emg_cont_person_number",
+                  "elementName": "text_emg_cont_person_number",
+                  "name": "text_emg_cont_person_number ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 16,
+                  "isDependent": "false",
+                  "inputtype": "mobile",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elementLabel": {
+        "en": "(2) Location Info",
+        "hin": "(2) स्थान सम्बंधित जानकारी"
+      },
+      "elementOptionLabel": {},
+      "dependentApi": [],
+      "elementType": "ElementTab",
+      "elementID": "tab_location_information",
+      "elementName": "tab_location_information",
+      "name": "tab_location_information ( ElementTab )",
+      "elementClass": "",
+      "id": 105,
+      "children": [
+        {
+          "elementLabel": {},
+          "elementOptionLabel": {},
+          "dependentApi": [],
+          "elementType": "ElementRow",
+          "elementID": "row_location_information",
+          "elementName": "row_location_information",
+          "name": "row_location_information",
+          "elementClass": "",
+          "id": 9,
+          "children": [
+            {
+              "elementLabel": {},
+              "elementOptionLabel": {},
+              "dependentApi": [],
+              "elementType": "ElementCols",
+              "elementID": "col_location_information",
+              "elementName": "col_location_information",
+              "name": "col_location_information ( ElementCols )",
+              "elementClass": "col-12",
+              "id": 57,
+              "children": [
+                {
+                  "elementLabel": {
+                    "en": "(2.1) What is your current address?",
+                    "hin": "(2.1) आपका वर्तमान पता क्या है ?",
+                    "mr": "(2.1) तुमचा सध्याचा पत्ता काय आहे ?",
+                    "as": "(2.1) আপোনাৰ বৰ্তমান ঠিকনা?",
+                    "bn": "(২.১) আপনার বর্তমান ঠিকানাটি কী?",
+                    "gu": "(2.1) તમારું હાલનું સરનામું શું છે?",
+                    "kn": "(2.1) ನಿಮ್ಮ ಪ್ರಸ್ತುತ ವಿಳಾಸವೇನು?",
+                    "ta": "(2.1)உங்களின் தற்போதைய முகவரி என்ன?",
+                    "te": "(2.1) మీ ప్రస్తుత చిరునామా ఏమిటి?",
+                    "or": "ତୁମର ବର୍ତ୍ତମାନ ଠିକଣା କ’ଣ?",
+                    "pa": "(2.1) ਤੁਹਾਡਾ ਮੌਜੂਦਾ ਪਤਾ ਕੀ ਹੈ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_home_location",
+                  "elementName": "text_home_location",
+                  "name": "text_home_location ( ElementTextBox )",
+                  "parameterId": 17,
+                  "isDependent": "false",
+                  "inputtype": "text",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.2) What is your current Pincode?",
+                    "hin": "(2.2) आपका वर्तमान पिनकोड क्या है ?",
+                    "mr": "(2.2) तुमचा सध्याचा पिनकोड काय आहे ?",
+                    "as": "(2.2) পিন নং?",
+                    "bn": "(২.২) আপনার বর্তমান পিনকোডটি কী?",
+                    "gu": "(2.2) તમારું વર્તમાન પિનકોડ શું છે?",
+                    "kn": "(2.2) ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಪಿನ್ ಕೋಡ್ ಏನು ?",
+                    "ta": "(2.2)உங்களின் தற்போதைய அஞ்சல் குறியீடு என்ன?",
+                    "te": "(2.2) మీ ప్రస్తుత పిన్‌కోడ్ ఏమిటి?",
+                    "or": "ତୁମର ବର୍ତ୍ତମାନ ପିନକୋଡ଼ କ’ଣ?",
+                    "pa": "(2.2) ਤੁਹਾਡਾ ਮੌਜੂਦਾ ਪਿੰਨਕੋਡ ਕੀ ਹੈ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_home_pincode",
+                  "elementName": "text_home_pincode",
+                  "name": "text_home_pincode ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 18,
+                  "isDependent": "false",
+                  "inputtype": "pincode",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.3) Which state are you currently in?",
+                    "hin": "(2.3) आप वर्तमान में किस राज्य में है ?",
+                    "mr": "(2.3) सध्या तुम्ही कोणत्या राज्यात आहात ?",
+                    "as": "(2.3) বৰ্তমান কোন ৰাজ্যত আছে?",
+                    "bn": "(২.৩) আপনি বর্তমানে কোন রাজ্যে রয়েছেন?",
+                    "gu": "(2.3) તમે હાલમાં કયા રાજ્યમાં છો?",
+                    "kn": "(2.3) ನೀವು ಪ್ರಸ್ತುತ ಯಾವ ರಾಜ್ಯದಲ್ಲಿರುವಿರಿ?",
+                    "ta": "(2.3)தற்போது நீங்கள் எந்த மாநிலதில் உள்ளீர்கள்?",
+                    "te": "(2.3) మీరు ప్రస్తుతం ఏ రాష్ట్రంలో ఉన్నారు?",
+                    "or": "ଆପଣ ବର୍ତ୍ତମାନ କେଉଁ ରାଜ୍ୟରେ ଅଛନ୍ତି?",
+                    "pa": "(2.3) ਤੁਸੀਂ ਇਸ ਸਮੇਂ ਮੌਜੂਦਾ ਕਿਸ ਰਾਜ ਵਿੱਚ ਹੋ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      ""
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "post",
+                      "url": "https://gpadmin.prathaminsights.in/cf/api/location/",
+                      "parameter": "{\"filter_type\": \"state\", \"filter_value\": \"select_home_state\"}",
+                      "dependent_id": "select_home_district"
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_home_state",
+                  "name": "select_home_state ( ElementDropDown )",
+                  "elementName": "select_home_state",
+                  "isMultiple": "No",
+                  "parameterId": 19,
+                  "isDependent": "false",
+                  "id": 117,
+                  "apiMethod": "post",
+                  "apiUrl": "https://gpadmin.prathaminsights.in/cf/api/location/",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "27"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.4) Which district are you currently in?",
+                    "hin": "(2.4) आप वर्तमान में किस जिले में है ?",
+                    "mr": "(2.4) सध्या तुम्ही कोणत्या जिल्ह्यात आहात ?",
+                    "as": "(2.4) বৰ্তমান কোন জিলাত আছে?",
+                    "bn": "(২.৪) আপনি বর্তমানে কোন জেলায় রয়েছেন?",
+                    "gu": "(2.4) તમે હાલમાં કયા જિલ્લામાં છો?",
+                    "kn": "(2.4) ನೀವು ಪ್ರಸ್ತುತ ಯಾವ ಜಿಲ್ಲೆಯಲ್ಲಿರುವಿರಿ?",
+                    "ta": "(2.4)தற்போது நீங்கள் எந்த மாவட்டதில் உள்ளீர்கள்?",
+                    "te": "(2.4) మీరు ప్రస్తుతం ఏ జిల్లాలో ఉన్నారు?",
+                    "or": "ଆପଣ ବର୍ତ୍ତମାନ କେଉଁ ଜିଲ୍ଲାରେ ଅଛନ୍ତି?",
+                    "pa": "(2.4) ਤੁਸੀਂ ਇਸ ਸਮੇਂ ਮੌਜੂਦਾ ਕਿਸ ਜ਼ਿਲ੍ਹੇ ਵਿੱਚ ਹੋ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      ""
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "post",
+                      "url": "https://gpadmin.prathaminsights.in/cf/api/location/",
+                      "parameter": "{\"filter_type\": \"district\", \"filter_value\": \"select_home_district\"}",
+                      "dependent_id": "select_home_block"
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_home_district",
+                  "name": "select_home_district ( ElementDropDown )",
+                  "elementName": "select_home_district",
+                  "elementClass": "",
+                  "isMultiple": "No",
+                  "parameterId": 20,
+                  "isDependent": "false",
+                  "id": 118,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "28"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.5) Which block/ ward/ tehsil etc are you currently in?",
+                    "hin": "(2.5) आप वर्तमान समय में किस ब्लाक / तहसील आदि में है ?",
+                    "mr": "(2.5) सध्या तुम्ही कोणत्या तालुक्यात आहात ?",
+                    "as": "(2.5) কোন ব্লক/ৱাৰ্ড/তহচিলত আছে?",
+                    "bn": "(২.৫ ) বর্তমানে আপনি কোন ব্লক / ওয়ার্ড / তহসিল ইত্যাদিতে রয়েছেন?",
+                    "gu": "(2.5) તમે હાલમાં કયા બ્લોક / વોર્ડ / તહસીલ વગેરેમાં છો?",
+                    "kn": "(2.5) ನೀವು ಪ್ರಸ್ತುತ ಯಾವ ಬ್ಲಾಕ್/ ವಾರ್ಡ್/ ತಾಲ್ಲೂಕು / ಇತರೆ ಯಲ್ಲಿರುವಿರಿ?",
+                    "ta": "(2.5)தற்போது நீங்கள் எந்த தொகுதி / வார்டு / வட்டத்தில் உள்ளீர்கள்?",
+                    "te": "(2.5) మీరు ప్రస్తుతం ఏ బ్లాక్ / వార్డ్ / మండలం లో ఉన్నారు",
+                    "or": "ଆପଣ ବର୍ତ୍ତମାନ କେଉଁ ବ୍ଲକ୍ / ୱାର୍ଡ / ତହସିଲ ଇତ୍ୟାଦିରେ ଅଛନ୍ତି?",
+                    "pa": "(2.5. 2.5) ਤੁਸੀਂ ਇਸ ਸਮੇਂ ਕਿਹੜੇ ਬਲਾਕ / ਵਾਰਡ / ਤਹਿਸੀਲ ਆਦਿ ਵਿੱਚ ਹੋ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      ""
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_home_block",
+                  "name": "select_home_block ( ElementDropDown )",
+                  "elementName": "select_home_block",
+                  "elementClass": "",
+                  "parameterId": 21,
+                  "isDependent": "false",
+                  "id": 124,
+                  "elementOptionValue": [
+                    ""
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.6) Is your current address the same as the address where you lived prior to COVID-19 (before March '20)?",
+                    "hin": "(2.6) क्या आपका वर्तमान पता वही है जहाँ आप COVID-19 से पहले रहते थे (मार्च '20 से पहले)?",
+                    "mr": "(2.6) तुमचा सध्याचा पत्ता COVID-19 पूर्वी तुम्ही राहत होता त्याचप्रमाणे आहे का (before March '20)?",
+                    "as": "(2.6) আপোনাৰ বৰ্তমানৰ ঠিকনা আৰু কভিড-১৯ ৰ আগত আপুনি থকাৰ ঠিকনা একে নে (before March '20)?",
+                    "bn": "(২.৬) আপনার বর্তমান ঠিকানাটি ঠিক সেই জায়গার মতোই যেখানে আপনি COVID-19 এর আগে বাস করেছিলেন (before March '20)?",
+                    "gu": "(2.6) શું તમારું વર્તમાન સરનામું એ સરનામાં જેવું જ છે જ્યાં તમે COVID-19 પહેલાં રહેતા હતા (before March '20)?",
+                    "kn": "(2.6) ನಿಮ್ಮ ಪ್ರಸ್ತುತ ವಿಳಾಸವು  COVID-19 ಮುಂಚೆ ವಾಸಿಸುತ್ತಿದ್ದ ವಿಳಾಸವಾಗಿದಿಯೇ (before March '20)?",
+                    "ta": "(2.6)உங்கள் தற்போதைய முகவரி COVID-19 க்கு முன்பு நீங்கள் வசிக்கும் முகவரியும் ஒன்றா (before March '20)?",
+                    "te": "(2.6) మీ ప్రస్తుత చిరునామా COVID-19 కి ముందు మీరు నివసించిన చిరునామా, రెండు ఒకటేనా (before March '20)?",
+                    "or": "ତୁମର ବର୍ତ୍ତମାନ ଠିକଣା ସେହି ଠିକଣା ସହିତ ସମାନ କି ଯେଉଁଠାରେ ଆପଣ କୋଭିଡ- ୧୯ ପୂର୍ବରୁ ରହୁଥିଲେ (before March '20)?",
+                    "pa": "(2.6) ਕੀ ਤੁਹਾਡਾ ਮੌਜੂਦਾ ਪਤਾ ਉਹੀ ਹੈ ਜਿਥੇ ਤੁਸੀਂ COVID-19 ਤੋਂ ਪਹਿਲਾਂ ਰਹਿੰਦੇ ਸੀ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Yes",
+                      "No"
+                    ],
+                    "hin": [
+                      "हाँ",
+                      " नहीं"
+                    ],
+                    "mr": [
+                      "होय  (Yes)",
+                      "नाही  (No)"
+                    ],
+                    "as": [
+                      "হয়",
+                      "নহয়"
+                    ],
+                    "bn": [
+                      "হ্যাঁ",
+                      "না"
+                    ],
+                    "gu": [
+                      "હા",
+                      "ના"
+                    ],
+                    "kn": [
+                      "ಹೌದು",
+                      "ಇಲ್ಲಾ"
+                    ],
+                    "ta": [
+                      "ஆம்",
+                      "இல்லை"
+                    ],
+                    "te": [
+                      "అవును",
+                      "కాదు"
+                    ],
+                    "or": [
+                      "ହଁ",
+                      "ନା"
+                    ],
+                    "pa": [
+                      "ਹਾਂ",
+                      "ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [],
+                  "elementType": "ElementRadio",
+                  "elementID": "check_same_home_add",
+                  "elementName": "check_same_home_add",
+                  "elementClass": "",
+                  "name": "check_same_home_add ( ElementRadio )",
+                  "id": 151,
+                  "isDependent": "false",
+                  "parameterId": 22,
+                  "elementOptionValue": [
+                    "31",
+                    "92"
+                  ],
+                  "elementOptionDependent": {
+                    "92": "text_work_adress,text_work_pincode,select_work_state,select_work_district,select_work_block"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.6.1) Prior to COVID-19, what was your address of where you lived while working?",
+                    "hin": "(2.6.1) COVID-19 से पहले, आपका पता क्या था जहाँ पर आप कार्य करते थे और रहते थे ?",
+                    "mr": "(2.6.1) COVID-19 पूर्वी तुम्ही कुठे काम  करत होते व राहत होते तेथील पत्ता काय होता?",
+                    "as": "(2.6.1) কভিড-১৯ ৰ আগত যদি‌ কৰ্ম সূত্ৰে আন ঠাইত থাকিছিল তাৰ ঠিকনা দিব",
+                    "bn": "(২.৬.১) কোভিড -১৯ এর আগে, আপনি কোথায় কাজ করছিলেন সেই ঠিকানাটি কী ছিল?",
+                    "gu": "(2.6.1) COVID-19 પહેલા, તમે કામ કરતા હતા તે સમયે જ્યાં રહેતા હતા તેનું તમારું સરનામું શું હતું?",
+                    "kn": "(2.6.1) COVID-19ನ ಮುಂಚೆ, ಕೆಲಸಮಾಡುತ್ತಿರುವಾಗ ನೀವು ವಾಸಿಸುತ್ತಿದ್ದ ವಿಳಾಸ ಯಾವುದು ?",
+                    "ta": "(2.6.1)COVID-19 க்கு முன்பு, நீங்கள் பணிபுரியும் போது நீங்கள் வசித்த முகவரி என்ன?",
+                    "te": "(2.6.1) COVID-19 కి ముందు మీరు పనిచేసేటప్పుడు ఎక్కడ నివసించారు, దాని చిరునామా ఏమిటి?",
+                    "or": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, କାର୍ଯ୍ୟ କରିବା ସମୟରେ ଆପଣ କେଉଁଠାରେ ରହୁଥିଲେ ଆପଣଙ୍କର ଠିକଣା କ’ଣ ଥିଲା?",
+                    "pa": "(2.6.1) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਹਾਡਾ ਪਤਾ ਕੀ ਸੀ ਜਿੱਥੇ ਤੁਸੀਂ ਕੰਮ ਕਰਦਿਆਂ ਰਹਿੰਦੇ ਸੀ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_work_adress",
+                  "elementName": "text_work_adress",
+                  "name": "text_work_adress ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 23,
+                  "isDependent": "false",
+                  "inputtype": "text",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.6.2) Prior to COVID-19, what was your address' Pincode of where you lived while working?",
+                    "hin": "(2.6.2) COVID-19 से पहले, आपका पता 'पिनकोड क्या था जहाँ आप काम करते हुए रहते थे?",
+                    "mr": "(2.6.2) COVID-19 पूर्वी जिथे काम करत होता तेथील पिनकोड काय होता?",
+                    "as": "(2.6.2) সেই‌‌‍‌ ঠাইৰ পিন নং দিব",
+                    "bn": "(২.৬.২) কোভিড -১৯ এর আগে, আপনি কোথায় কাজ করছিলেন সেই ঠিকানাটির পিন কোড কী ছিল?",
+                    "gu": "(2.6.2) COVID-19 પહેલા, તમે કામ કરતા હતા તે સમયે જ્યાં રહેતા હતા ત્યાં નો પીનકોડ શું છે?",
+                    "kn": "(2.6.1) COVID-19ನ ಮುಂಚೆ, ಕೆಲಸಮಾಡುತ್ತಿರುವಾಗ ನೀವು ವಾಸಿಸುತ್ತಿದ್ದ ವಿಳಾಸದ ಪಿನ್-ಕೋಡ್  ಯಾವುದು ?",
+                    "ta": "(2.6.2)COVID-19 க்கு முன்பு, நீங்கள் பணிபுரியும் போது நீங்கள் வசித்த முகவரியின் அஞ்சல் குறியீடு என்ன?",
+                    "te": "(2.6.2) COVID-19 కి ముందు మీరు పనిచేసేటప్పుడు ఎక్కడ నివసించారు, దాని పిన్‌కోడ్  ఏమిటి?",
+                    "or": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, କାର୍ଯ୍ୟ କରିବା ସମୟରେ ତୁମେ ଯେଉଁଠାରେ ରହୁଥିଲ, ତୁମର ଠିକଣା ପିନକୋଡ଼୍ କ’ଣ ଥିଲା?",
+                    "pa": "(2.6.2) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਹਾਡੇ ਪਤੇ ਦਾ 'ਪਿੰਨ ਕੋਡ' ਕੀ ਸੀ ਜਿੱਥੇ ਤੁਸੀਂ ਕੰਮ ਕਰਦੇ ਸਮੇ ਰਹਿੰਦੇ ਸੀ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_work_pincode",
+                  "elementName": "text_work_pincode",
+                  "name": "text_work_pincode ( ElementTextBox )",
+                  "elementClass": "checkbox_",
+                  "parameterId": 24,
+                  "isDependent": "false",
+                  "inputtype": "pincode",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.6.3) Prior to COVID-19, which state did you live in?",
+                    "hin": "(2.6.3) COVID-19 से पहले, आप किस राज्य में रहते थे?",
+                    "mr": "(2.6.3) COVID-19 पूर्वी तुम्ही कोणत्या राज्यात राहत होता?",
+                    "as": "(2.6.3) ৰাজ্যৰ নাম (যদি বেলেগ ৰাজ্যত আছিলে)",
+                    "bn": "(২.৬.৩) কোভিড -১৯ এর আগে আপনি কোন রাজ্যে বাস করতেন?",
+                    "gu": "(2.6.3) COVID-19 પહેલા, તમે કયા રાજ્યમાં રહેતા હતા?",
+                    "kn": "(2.6.3) COVID-19ನ ಮುಂಚೆ, ನೀವು ಯಾವ ರಾಜ್ಯದಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಿರಿ?",
+                    "ta": "(2.6.3)COVID-19 க்கு முன்பு, நீங்கள் எந்த மாநிலத்தில் இருந்தீர்கள்?",
+                    "te": "(2.6.3) COVID-19 కి ముందు, మీరు ఏ రాష్ట్రంలో నివసించారు?",
+                    "or": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, ଆପଣ କେଉଁ ରାଜ୍ୟରେ ରହୁଥିଲେ?",
+                    "pa": "(2.6.3) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਕਿਸ ਰਾਜ ਵਿੱਚ ਰਹਿੰਦੇ ਸੀ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      ""
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "post",
+                      "url": "https://gpadmin.prathaminsights.in/cf/api/location/",
+                      "parameter": "{\"filter_type\": \"state\", \"filter_value\": \"select_work_state\"}",
+                      "dependent_id": "select_work_district"
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_work_state",
+                  "name": "select_work_state ( ElementDropDown )",
+                  "elementName": "select_work_state",
+                  "elementClass": "",
+                  "isMultiple": "No",
+                  "parameterId": 25,
+                  "isDependent": "false",
+                  "id": 121,
+                  "apiMethod": "post",
+                  "apiUrl": "https://gpadmin.prathaminsights.in/cf/api/location/",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "28"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.6.4) Prior to COVID-19, which district did you live in?",
+                    "hin": "(2.6.4)COVID-19 से पहले, आप किस जिले में रहते थे ?",
+                    "mr": "(2.6.4) COVID-19 पूर्वी तुम्ही कोणत्या जिल्ह्यात राहत होता?",
+                    "as": "(2.6.4)‌ সেই জিলাৰ নাম",
+                    "bn": "(২.৬.৪) কোভিড -১৯ এর আগে আপনি কোন জেলায় বাস করতেন?",
+                    "gu": "(2.6.4) COVID-19 પહેલા, તમે કયા જિલ્લામાં રહેતા હતા?",
+                    "kn": "(2.6.4) COVID-19ನ ಮುಂಚೆ, ನೀವು ಯಾವ ಜಿಲ್ಲೆಯಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಿರಿ?",
+                    "ta": "(2.6.3)COVID-19 க்கு முன்பு, நீங்கள் எந்த மாவட்டத்தில் இருந்தீர்கள்?",
+                    "te": "(2.6.4) COVID-19 కి ముందు, మీరు ఏ జిల్లాలో నివసించారు?",
+                    "or": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, ଆପଣ କେଉଁ ଜିଲ୍ଲାରେ ରହୁଥିଲେ?",
+                    "pa": "(2.6.4) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਕਿਸ ਜ਼ਿਲ੍ਹੇ ਵਿੱਚ ਰਹਿੰਦੇ ਸੀ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      ""
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "post",
+                      "url": "https://gpadmin.prathaminsights.in/cf/api/location/",
+                      "parameter": "{\"filter_type\": \"district\", \"filter_value\": \"select_work_district\"}",
+                      "dependent_id": "select_work_block"
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_work_district",
+                  "name": "select_work_district ( ElementDropDown )",
+                  "elementName": "select_work_district",
+                  "elementClass": "",
+                  "isMultiple": "No",
+                  "parameterId": 26,
+                  "isDependent": "false",
+                  "id": 122,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "33"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.6.5) Prior to COVID-19, which block/ ward/ tehsil/ zone etc did you live in?",
+                    "hin": "(2.6.5) COVID-19 से पहले, आप किस ब्लॉक / वार्ड / तहसील / जोन आदि में रहते थे ?",
+                    "mr": "(2.6.5) COVID-19 पूर्वी तुम्ही कोणत्या तालुक्यात राहत होता?",
+                    "as": "(2.6.5) ব্লক/ৱাৰ্ড/তহচিল/অঞ্চলৰ নাম",
+                    "bn": "(২.৬.৫) কোভিড -১৯ এর পূর্বে আপনি কোন ব্লক / ওয়ার্ড / তহসিল / অঞ্চল-এ বাস করতেন?",
+                    "gu": "(2.6.5) COVID-19 પહેલા, તમે કયા બ્લોક / વોર્ડ / તહેસીલ / ઝોન વગેરેમાં રહેતા હતા?",
+                    "kn": "(2.6.5) COVID-19ನ ಮುಂಚೆ, ಯಾವ ಬ್ಲಾಕ್/ ವಾರ್ಡ್/ ತಾಲ್ಲೂಕು /  ಪ್ರದೇಶ / ಇತರೆ ಎಲ್ಲಿ ವಾಸವಾಗಿದ್ದಿರಿ ?",
+                    "ta": "(2.6.3)COVID-19 க்கு முன்பு, நீங்கள் எந்த தொகுதி/ வார்டு/ வட்டத்தில் இருந்தீர்கள்?",
+                    "te": "(2.6.5) COVID-19 కి ముందు మీరు ఎక్కడ  నివసించారు? దాని పేరు రాయండి.( బ్లాక్ / వార్డ్ / మండలం / జోన్ మొదలైనవి )",
+                    "or": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, ଆପଣ କେଉଁ ବ୍ଲକ / ୱାର୍ଡ / ତହସିଲ / ଜୋନ୍ ଇତ୍ୟାଦିରେ ରହୁଥିଲେ?",
+                    "pa": "(2.6.5) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਕਿਹੜੇ ਬਲਾਕ / ਵਾਰਡ / ਤਹਿਸੀਲ / ਜ਼ੋਨ ਆਦਿ ਵਿੱਚ ਰਹਿੰਦੇ ਸੀ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      ""
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_work_block",
+                  "name": "select_work_block ( ElementDropDown )",
+                  "elementName": "select_work_block",
+                  "elementClass": "",
+                  "isMultiple": "No",
+                  "parameterId": 27,
+                  "isDependent": "false",
+                  "id": 123,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "34"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(2.7) Has your immediate neighbourhood been affected by any natural calamity in the last 6 months (multi-select allowed)?",
+                    "hin": "(2.7) आपके वर्तमान पते के अनुसार क्या आपका तत्काल पड़ोसी पिछले 6 महीनों में किसी प्राकृतिक आपदा से प्रभावित हुआ है (एक से अधिक विकल्प का चयन करें)?",
+                    "mr": "(2.7) तुमच्या सध्याच्या पत्त्यानुसार तुमच्या जवळच्या शेजार्‍यावर गेल्या ६ महिन्यांत कोणत्याही प्रकारचा नैसर्गिक परिणाम झाला का ?(एकापेक्षा अधिक पर्याय निवडा)",
+                    "as": "(2.7) যোৱা ৬য় মাহত দাতি কাষৰীয়া অঞ্চল সমূহত যিকোনো প্ৰাকৃতিক দুৰ্যোগ হৈছিল নেকি? (এটাত কৈ বেছি উত্তৰ বাছিব পাৰে)",
+                    "bn": "(২.৭) আপনার নিকটবর্তী প্রতিবেশীরা কি গত ৬ মাসে কোনও প্রাকৃতিক দুর্যোগ দ্বারা প্রভাবিত হয়েছে (একের বেশি নির্বাচন প্রযোজ্য)?",
+                    "gu": "(2.7) શું તમારા નજીકના વિસ્તારને છેલ્લા 6 મહિનામાં કોઈ પણ કુદરતી આફતથી અસર થઈ છે ? (એક થી વધારે જવાબ પસંદ કરી શકો છો)",
+                    "kn": "(2.7) ಕಳೆದ 6 ತಿಂಗಳುಗಳಲ್ಲಿ ನಿಮ್ಮ ನೆರೆಹೊರೆಯವರು ಪ್ರಕೃತಿ ವಿಕೋಪವನ್ನು ಎದುರಿಸಿದ್ದಾರೆಯೇ (ಬಹು ಅಯ್ಕೆ ಮಾಡಬಹುದು)?",
+                    "ta": "(2.7) கடந்த 6 மாதங்களில் ஏதேனும் இயற்கை பேரழிவுகளால் உங்கள் அருகிலுள்ளவர்கள் பாதிக்கப்பட்டு உள்ளார்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+                    "te": "(2.7) గత 6 నెలల్లో మీ సమీప పరిసరాలు ఏదైనా ప్రకృతి వైపరీత్యంతో ప్రభావితమయ్యాయా (బహుళ-ఎంపిక అనుమతించబడింది)?",
+                    "or": "ଗତ ୬ ମାସ ମଧ୍ୟରେ ଆପଣଙ୍କର ପାଖ ପଡ଼ୋଶୀ କୌଣସି ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇଛନ୍ତି କି (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ)?",
+                    "pa": "(2.7) ਕੀ ਪਿਛਲੇ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਤੁਹਾਡਾ ਨਜ਼ਦੀਕੀ ਇਲਾਕਾ? ਕਿਸੇ ਕੁਦਰਤੀ ਆਫ਼ਤ ਨਾਲ ਪ੍ਰਭਾਵਿਤ ਹੋਇਆ ਹੈ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Not been affected",
+                      " Flood",
+                      " Cyclone",
+                      " Drought",
+                      " Earthquake",
+                      " Disease breakout (excluding COVID)",
+                      " Any other - please specify"
+                    ],
+                    "hin": [
+                      "प्रभावित नहीं हुआ",
+                      "बाढ़",
+                      "चक्रवात",
+                      "सूखा",
+                      "भूकंप",
+                      "किसी अन्य रोग का फैलना (COVID को छोड़कर)",
+                      "कोई अन्य, कृपया विवरण दें"
+                    ],
+                    "mr": [
+                      "परिणाम झाला नाही (Not been affected)",
+                      "पूर (Flood)",
+                      "चक्रीवादळ (Cyclone)",
+                      "दुष्काळ (Drought)",
+                      "भूकंप (Earthquake)",
+                      "रोग ब्रेकआउट (कोविड वगळता) (Disease breakout (excluding COVID))",
+                      "इत्यादी , खास निर्देश करून सांगा (Any other - please specify)"
+                    ],
+                    "as": [
+                      "নাই হোৱা",
+                      "বানপানী",
+                      "ঘূৰ্ণি বতাহ",
+                      "খৰাং পৰিস্থিতি",
+                      "ভূমিকম্প",
+                      "কভিড-১৯ ৰ বাদে আন তেনে বেমাৰ",
+                      "যদি আন কিবা, উল্লেখ কৰক"
+                    ],
+                    "bn": [
+                      "প্রভাবিত হয়নি",
+                      "বন্যা",
+                      "ঘূর্ণিঝড়",
+                      "খরা",
+                      "ভুমিকম্প",
+                      "রোগ ব্রেকআউট (COVID ব্যতীত)",
+                      "অন্য হলে- বর্ণনা করুন"
+                    ],
+                    "gu": [
+                      "અસર થઈ નથી",
+                      "પૂર",
+                      "ચક્રવાત",
+                      "દુષ્કાળ",
+                      "ભૂકંપ",
+                      "રોગ બ્રેકઆઉટ (COVID સિવાય)",
+                      "કોઈપણ અન્ય - કૃપા કરીને સ્પષ્ટ કરો"
+                    ],
+                    "kn": [
+                      "ಎದುರಿಸಿಲ್ಲ",
+                      "ಪ್ರವಾಹ",
+                      "ಚಂಡಮಾರುತ",
+                      "ಬರ",
+                      "ಭೂಕಂಪ",
+                      "ಕಾಯಿಲೆ ಹರಡುವಿಕೆ (COVID ಹೊರತುಪಡಿಸಿ)",
+                      "ಇತರೆಯಗಿದ್ದಲ್ಲಿ - ದಯವಿಟ್ಟು ನಮೂದಿಸಿ"
+                    ],
+                    "ta": [
+                      "பாதிக்கபடவில்லை",
+                      "வெள்ளம்",
+                      "சூறாவளி",
+                      "வறட்சி",
+                      "நில நடுக்கம்",
+                      "(COVID-19 தவிற) மற்ற நோய்",
+                      "வேறு ஏதாவது என்றால் - குறிப்பிடவும்"
+                    ],
+                    "te": [
+                      "ప్రభావితం కాలేదు",
+                      "వరదలు",
+                      "తుఫాను",
+                      "కరువు",
+                      "భూకంపం",
+                      "ఇతర వ్యాధులు (COVID -19 కాకుండా)",
+                      "ఏదైనా ఉంటే, దయచేసి తెలపండి."
+                    ],
+                    "or": [
+                      "ପ୍ରଭାବିତ ହୋଇନାହିଁ |",
+                      "ବନ୍ୟା",
+                      "ଘୂର୍ଣ୍ଣିବଳୟ",
+                      "ମରୁଡ଼ି",
+                      "ଭୂକମ୍ପ",
+                      "ରୋଗ ବ୍ରେକଆଉଟ୍ (କୋଭିଡ କୁ ବାଦ ଦେଇ)",
+                      "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |"
+                    ],
+                    "pa": [
+                      "ਪ੍ਰਭਾਵਿਤ ਨਹੀਂ ਹੋਇਆ",
+                      "ਹੜ੍ਹ",
+                      "ਚੱਕਰਵਾਤ",
+                      "ਸੋਕਾ",
+                      "ਭੁਚਾਲ",
+                      "ਕਿਸੇ ਹੋਰ ਬਿਮਾਰੀ ਦਾ ਫੈਲਣਾ (COVID ਨੂੰ ਛੱਡ ਕੇ)",
+                      "ਕੋਈ ਹੋਰ - ਕਿਰਪਾ ਕਰਕੇ ਨਿਰਧਾਰਤ ਕਰੋ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_neighbourhood_affected",
+                  "name": "select_neighbourhood_affected ( ElementDropDown )",
+                  "elementName": "select_neighbourhood_affected",
+                  "elementClass": "",
+                  "isMultiple": "Yes",
+                  "parameterId": 28,
+                  "isDependent": "false",
+                  "id": 11,
+                  "apiMethod": "get",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "35",
+                    "36",
+                    "37",
+                    "81",
+                    "82",
+                    "83",
+                    "84"
+                  ],
+                  "elementOptionDependent": {
+                    "84": "text_neighbourhood_affected"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "Please specify",
+                    "hin": "कृपया निर्दिष्ट करें",
+                    "mr": "इत्यादी , खास निर्देश करून सांगा",
+                    "as": "সময়ৰ বৰ্ণনা দিব",
+                    "bn": "দয়া করে বর্ণনা করুন",
+                    "gu": "કૃપા કરીને સ્પષ્ટ કરો",
+                    "kn": "ದಯವಿಟ್ಟು ತಿಳಿಸಿ",
+                    "ta": "",
+                    "te": "దయచేసి తెలపండి.",
+                    "or": "ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |",
+                    "pa": "ਕਿਰਪਾ ਕਰਕੇ ਨਿਰਧਾਰਿਤ ਕਰੋ"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_neighbourhood_affected",
+                  "elementName": "text_neighbourhood_affected",
+                  "name": "text_neighbourhood_affected ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": "50",
+                  "isDependent": "true",
+                  "inputtype": "",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elementLabel": {
+        "en": "(3) COVID-19 related Info",
+        "hin": "(3) COVID-19 सम्बंधित जानकारी"
+      },
+      "elementOptionLabel": {},
+      "dependentApi": [],
+      "elementType": "ElementTab",
+      "elementID": "tab_covid_related_information",
+      "elementName": "tab_covid_related_information",
+      "name": "tab_covid_related_information ( ElementTab )",
+      "elementClass": "",
+      "id": 106,
+      "children": [
+        {
+          "elementLabel": {},
+          "elementOptionLabel": {},
+          "dependentApi": [],
+          "elementType": "ElementRow",
+          "elementID": "row_covid_related_information",
+          "elementName": "row_covid_related_information",
+          "name": "row_covid_related_information",
+          "elementClass": "",
+          "id": 15,
+          "children": [
+            {
+              "elementLabel": {},
+              "elementOptionLabel": {},
+              "dependentApi": [],
+              "elementType": "ElementCols",
+              "elementID": "col_covid_related_information",
+              "elementName": "col_covid_related_information",
+              "name": "col_covid_related_information ( ElementCols )",
+              "elementClass": "col-12",
+              "id": 52,
+              "children": [
+                {
+                  "elementLabel": {
+                    "en": "(3.1) Have you been tested for COVID-19 in the last 4 months? ",
+                    "hin": "(3.1) क्या आपको पिछले 4 महीनों में COVID-19 के लिए टेस्ट किया गया है?",
+                    "mr": "(3.1) गेल्या ४ महिन्यात आपल्याकडे COVID-19 ची चाचणी घेण्यात आली का?",
+                    "as": "(3.1)বিগত ৪ মাহত আপোনাৰ কভিড-১৯ ৰ পৰীক্ষা কৰাইছে নেকি?",
+                    "bn": "(৩.১) আপনি কি গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করেছেন?",
+                    "gu": "(3.1) શું તમે છેલ્લા 4 મહિનામાં COVID-19 માટે પરીક્ષણ કરાવ્યું છે?",
+                    "kn": "(3.1) ಕಳೆದ 4 ತಿಂಗಳುಗಳಲ್ಲಿ ನೀವು COVID-19 ಪರೀಕ್ಷಿಗೆ ಒಳಪಟ್ಟಿರುವಿರಾ ?",
+                    "ta": "(3.1) கடந்த 4 மாதங்களில் நீங்கள் COVID-19 க்கு சோதனை செய்து உள்ளீர்களா?",
+                    "te": "(3.1) మీరు గత 4 నెలల్లో COVID-19 పరీక్షలు చేయించుకున్నారా?",
+                    "or": "ଆପଣ ଗତ ୪ ମାସ ମଧ୍ୟରେ ନିଜର କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରିଛନ୍ତି କି?",
+                    "pa": "(3.1) ਕੀ ਤੁਹਾਡਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ-19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "No",
+                      "Yes, tested positive",
+                      " Yes, tested negative",
+                      " Yes, result awaited"
+                    ],
+                    "hin": [
+                      "नहीं",
+                      "हाँ, टेस्ट सकारात्मक रहा",
+                      "हाँ, टेस्ट नकारात्मक रहा",
+                      "हाँ, परिणाम की प्रतीक्षा है"
+                    ],
+                    "mr": [
+                      "नाही  (No)",
+                      "होय, सकारात्मक चाचणी  (Yes, tested positive)",
+                      "होय, चाचणी नकारात्मक (Yes, tested negative)",
+                      "होय, चाचणी येण्याची प्रतीक्षा आहे (Yes, result awaited)"
+                    ],
+                    "as": [
+                      "নাই",
+                      "হয়, Positive",
+                      "হয়, Negative",
+                      "হয়, ফলাফল অহা নাই"
+                    ],
+                    "bn": [
+                      "না",
+                      "হ্যাঁ, পরীক্ষিত পজিটিভ",
+                      "হ্যাঁ, পরীক্ষিত নেগেটিভ",
+                      "হ্যাঁ, ফলাফল প্রতীক্ষিত"
+                    ],
+                    "gu": [
+                      "ના",
+                      "હા, સકારાત્મક રીપોર્ટ",
+                      "હા, નકારાત્મક રીપોર્ટ",
+                      "હા,પરિણામની રાહ જોવાઈ રહી છે."
+                    ],
+                    "kn": [
+                      "ಇಲ್ಲ",
+                      "ಹೌದು, ಪಾಸಿಟಿವ್ ಬಂದಿದೆ",
+                      "ಹೌದು, ನೆಗೆಟಿವ್ ಬಂದಿದೆ",
+                      "ಹೌದು, ಫಲಿತಾಂಶಕ್ಕಾಗಿ ಕಾಯುತ್ತಿದ್ದೇನೆ"
+                    ],
+                    "ta": [
+                      "இல்லை",
+                      "ஆம், தொற்று உறுதி செய்யப்பட்டது",
+                      "ஆம், தொற்று இல்லை",
+                      "ஆம், முடிவுக்கு காத்திருக்கிறோம்"
+                    ],
+                    "te": [
+                      "లేదు",
+                      "అవును, పాజిటివ్ వచ్చింది.",
+                      "అవును, నెగిటివే వచ్చింది.",
+                      "అవును, ఫలితం కోసం వేచి ఉన్నాం."
+                    ],
+                    "or": [
+                      "ନା",
+                      "ହଁ, ପରୀକ୍ଷା ପଜିଟିଭ୍",
+                      "ହଁ, ପରୀକ୍ଷା ନେଗେଟିଭ",
+                      "ହଁ, ଫଳାଫଳକୁ ଅପେକ୍ଷା କରିଛି |"
+                    ],
+                    "pa": [
+                      "ਨਹੀਂ",
+                      "ਹਾਂ, ਸਕਾਰਾਤਮਕ ਟੈਸਟ",
+                      "ਹਾਂ, ਨਕਾਰਾਤਮਕ ਟੈਸਟ",
+                      "ਹਾਂ, ਨਤੀਜੇ ਦਾ ਇੰਤਜ਼ਾਰ ਹੈ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_tested_for_covid",
+                  "name": "select_tested_for_covid ( ElementDropDown )",
+                  "elementName": "select_tested_for_covid",
+                  "elementClass": "",
+                  "parameterId": 44,
+                  "isDependent": "false",
+                  "id": 126,
+                  "elementOptionValue": [
+                    "69",
+                    "70",
+                    "71",
+                    "93"
+                  ],
+                  "elementOptionDependent": {
+                    "70": "text_tested_positive_date"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(3.1.1) On what date were you tested positive (DD/MM/YYYY)?",
+                    "hin": "(3.1.1) आप किस तारीख को सकारात्मक टेस्ट में पाए गए थे (DD/MM/YYYY)?",
+                    "mr": "(3.1.1) तुम्हाला कोणत्या तारखेला सकारात्मक चाचणी मिळाली? (DD/MM/YYYY)?",
+                    "as": "(3.1.1) যদি আক্ৰান্ত হৈছিল কোন তাৰিখৰ পৰা, তাৰিখটো জনাব (DD/MM/YYYY)",
+                    "bn": "(৩.১.১) আপনি কোন তারিখে ইতিবাচক পরীক্ষা করেছেন (দিন /মাস / বছর )?",
+                    "gu": "(3.1.1) કઇ તારીખે તમારું સકારાત્મક પરીક્ષણ કરવામાં આવ્યું હતું ? (DD/MM/YYYY)",
+                    "kn": "(3.1.1) ಯಾವ ದಿನದಂದು ನಿಮಗೆ ಪರೀಕ್ಷೆಯಲ್ಲಿ ಪಾಸಿಟಿವ್ ಎಂದು ತಿಳಿಯಿತು (ದಿನ/ತಿಂಗಳು/ವರ್ಷ)?",
+                    "ta": "(3.1.1) எந்த தேதியில் உங்களுக்கு நோய் தொற்று உறுதிசெய்யப்பட்டது? (DD/MM/YYYY)?",
+                    "te": "(3.1.1) మీకు  ఏ తేదీన పాజిటివ్  అని తేలింది ?(DD / MM / YYYY)",
+                    "or": "କେଉଁ ତାରିଖରେ ଆପଣ ପଜିଟିଭ୍ ପରୀକ୍ଷା କରିଥିଲେ (DD / MM / YYYY)?",
+                    "pa": "(3.1.1) ਤੁਹਾਨੂੰ ਕਿਸ ਮਿਤੀ ਨੂੰ ਸਕਾਰਾਤਮਕ ਪਾਇਆ ਗਿਆ (DD/MM/YYYY)"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementDatePicker",
+                  "elementID": "text_tested_positive_date",
+                  "elementName": "text_tested_positive_date",
+                  "name": "text_tested_positive_date ( ElementDatePicker )",
+                  "elementClass": "",
+                  "parameterId": 45,
+                  "isDependent": "true"
+                },
+                {
+                  "elementLabel": {
+                    "en": "(3.2) Has anyone you live with been tested for COVID-19 in the last 4 months? ",
+                    "hin": "(3.2) क्या आप COVID-19 के लिए परीक्षण किए गए किसी व्यक्ति के साथ रहते हैं जिसका पिछले 4 महीनों में टेस्ट किया गया है ?",
+                    "mr": "(3.2) आपण COVID-19 ची चाचणी केलेल्या एखाद्या व्यक्ती बरोबर राहात आहात ज्याची मागील 4 महिन्यात चाचणी घेण्यात आली?",
+                    "as": "(3.2) বিগত ৪ মাহত একেলগে থকা আন কৰোবাৰ কভিড-১৯ ৰ পৰীক্ষা কৰোৱা হৈছিল নেকি?",
+                    "bn": "(৩.২) আপনি যাদের সাথে থাকেন তাদের মধ্যে কারোও , গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করা হয়েছে কি ?",
+                    "gu": "(3.2) તમે જેની સાથે રહેતા છો તેના છેલ્લા 4 મહિનામાં COVID-19 માટે પરીક્ષણ કરાયું છે?",
+                    "kn": "(3.2) ಕಳೆದ 4 ತಿಂಗಳುಗಳಲ್ಲಿ ನಿಮ್ಮೊಂದಿಗೆ ವಾಸಿಸುವ ಯಾರಾದರು COVID-19 ಪರೀಕ್ಷಿಗೆ ಒಳಪಟ್ಟಿರುವರಾ?",
+                    "ta": "(3.2) கடந்த 4 மாதங்களில் உங்களுடன் வசிக்கும் யாருக்காவது COVID-19 க்கு சோதனை செய்யப்பட்டுள்ளதா?",
+                    "te": "(3.2) మీతో  నివసించే వారు ఎవరైనా గత 4 నెలల్లో COVID-19 కోసం పరీక్షించబడ్డారా?",
+                    "or": "ଆପଣଙ୍କ ସହ ରହୁଥିବା କାହାକୁ ବି ଗତ ୪ ମାସ ମଧ୍ୟରେ କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରାଯାଇଛି କି?",
+                    "pa": "(3.2) ਕੀ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦੇ ਕਿਸੇ ਵੀ ਵਿਅਕਤੀ ਦਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ -19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "No",
+                      " Yes, tested positive",
+                      " Yes, tested negative",
+                      "Yes, result awaited "
+                    ],
+                    "hin": [
+                      "नहीं",
+                      "हाँ, टेस्ट सकारात्मक रहा",
+                      "हाँ, टेस्ट नकारात्मक रहा",
+                      "हाँ, परिणाम की प्रतीक्षा है"
+                    ],
+                    "mr": [
+                      "नाही  (No)",
+                      "होय, सकारात्मक चाचणी  (Yes, tested positive)",
+                      "होय, चाचणी नकारात्मक (Yes, tested negative)",
+                      "होय, चाचणी येण्याची प्रतीक्षा आहे (Yes, result awaited)"
+                    ],
+                    "as": [
+                      "নাই",
+                      "হয়, Positive",
+                      "হয়, Negative",
+                      "হয়, ফলাফল অহা নাই"
+                    ],
+                    "bn": [
+                      "না",
+                      "হ্যাঁ, পরীক্ষিত পজিটিভ",
+                      "হ্যাঁ, পরীক্ষিত নেগেটিভ",
+                      "হ্যাঁ, ফলাফল প্রতীক্ষিত"
+                    ],
+                    "gu": [
+                      "ના",
+                      "હા, સકારાત્મક રીપોર્ટ",
+                      "હા, નકારાત્મક રીપોર્ટ",
+                      "હા,પરિણામની રાહ જોવાઈ રહી છે."
+                    ],
+                    "kn": [
+                      "ಇಲ್ಲ",
+                      "ಹೌದು, ಪಾಸಿಟಿವ್ ಬಂದಿದೆ",
+                      "ಹೌದು, ನೆಗೆಟಿವ್ ಬಂದಿದೆ",
+                      "ಹೌದು, ಫಲಿತಾಂಶಕ್ಕಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ"
+                    ],
+                    "ta": [
+                      "No",
+                      "ஆம், தொற்று உறுதி செய்யப்பட்டது",
+                      "ஆம், தொற்று இல்லை",
+                      "ஆம், முடிவுக்கு காத்திருக்கிறோம்"
+                    ],
+                    "te": [
+                      "లేదు",
+                      "అవును, పాజిటివ్ వచ్చింది.",
+                      "అవును, నెగిటివే వచ్చింది.",
+                      "అవును, ఫలితం కోసం వేచి ఉన్నాం."
+                    ],
+                    "or": [
+                      "ନା",
+                      "ହଁ, ପରୀକ୍ଷା ପଜିଟିଭ୍",
+                      "ହଁ, ପରୀକ୍ଷା ନେଗେଟିଭ",
+                      "ହଁ, ଫଳାଫଳକୁ ଅପେକ୍ଷା କରିଛି |"
+                    ],
+                    "pa": [
+                      "ਨਹੀਂ",
+                      "ਹਾਂ, ਸਕਾਰਾਤਮਕ ਟੈਸਟ",
+                      "ਹਾਂ, ਨਕਾਰਾਤਮਕ ਟੈਸਟ",
+                      "ਹਾਂ, ਨਤੀਜੇ ਦਾ ਇੰਤਜ਼ਾਰ ਹੈ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_anyone_tested_for_covid",
+                  "name": "select_anyone_tested_for_covid ( ElementDropDown )",
+                  "elementName": "select_anyone_tested_for_covid",
+                  "elementClass": "",
+                  "parameterId": 46,
+                  "isDependent": "false",
+                  "id": 127,
+                  "elementOptionValue": [
+                    "72",
+                    "73",
+                    "74",
+                    "94"
+                  ],
+                  "elementOptionDependent": {
+                    "73": "text_anyone_tested_positive_date"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(3.2.1) On what date were they tested positive (DD/MM/YYYY)?",
+                    "hin": "(3.2.1) वह किस तारीख को सकारात्मक टेस्ट में पाए गए थे (DD/MM/YYYY)?",
+                    "mr": "(3.2.1) कोणत्या तारखेला तो चाचणी मध्ये सकारात्मक सापडला ? (DD/MM/YYYY)",
+                    "as": "(3.2.1) যদি আক্ৰান্ত হৈছিল কোন তাৰিখৰ পৰা, তাৰিখটো জনাব (DD/MM/YYYY)",
+                    "bn": "(৩.২.১) কোন তারিখে তাদের ইতিবাচক পরীক্ষা করা হয়েছিল (দিন /মাস / বছর )?",
+                    "gu": "(3.2.1) કઇ તારીખે તેમનું સકારાત્મક પરીક્ષણ કરવામાં આવ્યું હતું ? (DD/MM/YYYY)",
+                    "kn": "(3.2.1) ಯಾವ ದಿನದಂದು ಅವರಿಗೆ ಪರೀಕ್ಷೆಯಲ್ಲಿ ಪಾಸಿಟಿವ್ ಎಂದು ತಿಳಿಯಿತು (ದಿನ/ತಿಂಗಳು/ವರ್ಷ)?",
+                    "ta": "(3.2.1) எந்த தேதியில் அவர்களுக்கு நோய் தொற்று உறுதிசெய்யப்பட்டது? (DD/MM/YYYY)?",
+                    "te": "(3.2.1) వారికి ఏ తేదీన పాజిటివ్  అని తేలింది ?(DD / MM / YYYY)",
+                    "or": "କେଉଁ ତାରିଖରେ ସେମାନେ ପଜିଟିଭ୍ ପରୀକ୍ଷା କରିଥିଲେ (DD / MM / YYYY)?",
+                    "pa": "(3.2.1) ਕਿਸ ਤਾਰੀਖ 'ਤੇ ਉਨ੍ਹਾਂ ਦਾ ਸਕਾਰਾਤਮਕ ਟੈਸਟ ਕੀਤਾ ਗਿਆ (DD/ MM/ YYYY)?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementDatePicker",
+                  "elementID": "text_anyone_tested_positive_date",
+                  "elementName": "text_anyone_tested_positive_date",
+                  "name": "text_anyone_tested_positive_date ( ElementDatePicker )",
+                  "elementClass": "",
+                  "parameterId": 47,
+                  "isDependent": "true"
+                },
+                {
+                  "elementLabel": {
+                    "en": "(3.3) With regard to Aarogya Setu app, which of the following options apply to you?",
+                    "hin": "(3.3) आरोग्य सेतु ऐप के संबंध में, निम्नलिखित में से कौन सा विकल्प आप पर लागू होता है?",
+                    "mr": "(3.3)आरोग्य सेतु App च्या संदर्भात पुढीलपैकी कोणता पर्याय तुम्हाला लागू  होतो ?",
+                    "as": "(3.3) আৰোগ্য সেতু এʼপ টোৰ সম্বন্ধত আপোনাৰ সৈতে উল্লেখিত কোনটো কথা প্ৰযোজ্য হ'ব?",
+                    "bn": "(৩.৩) আরোগ্য সেতু অ্যাপ্লিকেশন সম্পর্কিত, নিচের কোন বিকল্পগুলি আপনার জন্য প্রযোজ্য?",
+                    "gu": "(3.3) આરોગ્ય સેતુ એપ્લિકેશનના સંદર્ભમાં, નીચેનામાંથી કયા વિકલ્પો તમને લાગુ પડે છે?",
+                    "kn": "(3.3) ಆರೋಗ್ಯ ಸೇತು ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ, ಈ ಕೆಳಗಿನ ಯಾವ ಆಯ್ಕೆಗಳು ನಿಮಗೆ ಅನ್ವಯಿಸುತ್ತವೆ?",
+                    "ta": "(3.3) ஆரோக்யா சேது செயலி பயன்பாட்டைப் பொறுத்தவரை, பின்வருவனவற்றில் எது உங்களுக்கு பொருந்தும்?",
+                    "te": "(3.3) ఈ క్రింది వాటిలో  ఆరోగ్య సేతు app కి  సంబంధించి మీకు ఏది వర్తిస్తుంది?",
+                    "or": "ଆରୋଗ୍ୟ ସେତୁ ଆପ୍ ବିଷୟରେ, ନିମ୍ନଲିଖିତ ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ଆପଣଙ୍କ ପାଇଁ ପ୍ରଯୁଜ୍ୟ?",
+                    "pa": "(3.3) ਅਰੋਗਿਆ ਸੇਤੂ ਐਪ ਦੇ ਸੰਬੰਧ ਵਿਚ, ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਵਿਕਲਪ ਤੁਹਾਡੇ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Downloaded app & done self assessment in the last 1 week",
+                      " Downloaded app but not done self assessment in the last 1 week",
+                      "Downloaded the app but not done self assessment ever",
+                      "Not downloaded the app"
+                    ],
+                    "hin": [
+                      "पिछले 1 सप्ताह में डाउनलोड किया गया ऐप और किया गया स्व-मूल्यांकन",
+                      " डाउनलोड किया गया ऐप लेकिन पिछले 1 हफ्ते में स्व-मूल्यांकन नहीं किया",
+                      " ऐप डाउनलोड किया लेकिन स्व-मूल्यांकन कभी नहीं किया",
+                      " ऐप डाउनलोड नहीं किया"
+                    ],
+                    "mr": [
+                      "Downloaded app & done self assessment in the last 1 week",
+                      "Downloaded app but not done self assessment in the last 1 week",
+                      "Downloaded the app but not done self assessment ever",
+                      "अ‍ॅप डाउनलोड केलेला नाही (Not downloaded the app)"
+                    ],
+                    "as": [
+                      "যোৱা সপ্তাহত ডাউনলোড কৰি নিজৰ পৰীক্ষা কৰা হয়",
+                      "যোৱা সপ্তাহত ডাউনলোড কৰা হʼল কিন্তু নিজৰ পৰীক্ষা কৰা হোৱা নাই",
+                      "ডাউনলোড কৰা হʼল কিন্তু কেতিয়াও নিজৰ পৰীক্ষা কৰা হোৱা নাই",
+                      "এʼপ টো ডাউনলোড কৰা হোৱা নাই"
+                    ],
+                    "bn": [
+                      "গত 1 সপ্তাহে অ্যাপ্লিকেশন ডাউনলোড হয়েছে এবং নিজের মূল্যায়ন হয়েছে",
+                      "অ্যাপ্লিকেশন ডাউনলোড হয়েছে তবে গত 1 সপ্তাহে নিজের মূল্যায়ন করা হয়নি",
+                      "অ্যাপ্লিকেশন ডাউনলোড করেছেন তবে নিজের মূল্যায়ন কখনও করা হয়নি",
+                      "অ্যাপ্লিকেশন ডাউনলোড করা হয়নি"
+                    ],
+                    "gu": [
+                      "એપ્લિકેશન ડાઉનલોડ કરેલી અને છેલ્લા 1 અઠવાડિયામાં સ્વ મૂલ્યાંકન કરેલું",
+                      "એપ્લિકેશન ડાઉનલોડ કરેલી અને છેલ્લા 1 અઠવાડિયામાં સ્વ મૂલ્યાંકન નથી કર્યું",
+                      "એપ્લિકેશન ડાઉનલોડ કરેલી પરંતુ સ્વ મૂલ્યાંકન ક્યારેય નથી કર્યું",
+                      "એપ્લિકેશન ડાઉનલોડ કરી નથી"
+                    ],
+                    "kn": [
+                      "ಅಪ್ಲಿಕೇಶನ್ ಡೌನ್ಲೋಡ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಕಳೆದ 1 ವಾರದಲ್ಲಿ ಸ್ವಯಂ ಮೌಲ್ಯಮಾಪನ ಮಾಡಲಾಗಿದೆ",
+                      "ಅಪ್ಲಿಕೇಶನ್ ಡೌನ್ಲೋಡ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಕಳೆದ 1 ವಾರದಲ್ಲಿ ಸ್ವಯಂ ಮೌಲ್ಯಮಾಪನ ಮಾಡಲಾಗಿಲ್ಲ",
+                      "ಅಪ್ಲಿಕೇಶನ್ ಡೌನ್ಲೋಡ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಇದುವರೆಗೂ ಸ್ವಯಂ ಮೌಲ್ಯಮಾಪನ ಮಾಡಲಾಗಿದೆ",
+                      "ಅಪ್ಲಿಕೇಶನ್ ಡೌನ್ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ"
+                    ],
+                    "ta": [
+                      "பதிவிறக்கம் செய்து முதல் வாரத்தில் சுய பரிசோதனை செய்த்தேன்",
+                      "பதிவிறக்கம் செய்து முதல் வாரத்தில் சுய பரிசோதனை செய்யவில்லை",
+                      "பதிவிறக்கம் செய்த்திலிருந்து சுய பரிசோதனை செய்யவில்லை",
+                      "பதிவிறக்கம் செய்யவில்லை"
+                    ],
+                    "te": [
+                      "App డౌన్‌లోడ్ చేశాము మరియు గత వారంలో స్వయంగా పరీక్షించుకున్నాము",
+                      "App డౌన్‌లోడ్ చేశాము కానీ గత వారంలో స్వయంగా పరీక్షించుకోలేదు.",
+                      "App డౌన్‌లోడ్ చేశాము కానీ ఎప్పుడు స్వయంగా పరీక్షించుకోలేదు.",
+                      "App డౌన్‌లోడ్ చేసుకోలేదు."
+                    ],
+                    "or": [
+                      "ଆପ୍ ଡାଉନଲୋଡ୍ ହୋଇଛି ଏବଂ ଗତ ୧ ସପ୍ତାହରେ ନିଜର ମୂଲ୍ୟାଙ୍କନ କରିଛି |",
+                      "ଆପ୍ ଡାଉନଲୋଡ୍ ହୋଇଛି କିନ୍ତୁ ଗତ ୧ ସପ୍ତାହରେ ନିଜର ମୂଲ୍ୟାଙ୍କନ କରାଇ ନାହିଁ |",
+                      "ଆପ୍ ଡାଉନଲୋଡ୍ କରିଛ୍ତି କିନ୍ତୁ ସର୍ବଦା ନିଜର ମୂଲ୍ୟାଙ୍କନ କରିନାହିଁ |",
+                      "ଆପ୍ ଡାଉନଲୋଡ୍ କରିନାହିଁ |"
+                    ],
+                    "pa": [
+                      "ਪਿਛਲੇ 1 ਹਫ਼ਤੇ ਵਿੱਚ ਐਪ ਡਾਉਨਲੋਡ ਕੀਤੀ ਗਈ ਅਤੇ ਸਵੈ ਮੁਲਾਂਕਣ ਕੀਤਾ",
+                      "ਐਪ ਡਾਉਨਲੋਡ ਕੀਤਾ ਪਰ ਪਿਛਲੇ 1 ਹਫ਼ਤੇ ਵਿੱਚ ਸਵੈ ਮੁਲਾਂਕਣ ਨਹੀਂ ਕੀਤਾ",
+                      "ਐਪ ਡਾਉਨਲੋਡ ਕੀਤਾ ਪਰ ਸਵੈ ਮੁਲਾਂਕਣ ਕਦੇ ਨਹੀਂ ਕੀਤਾ",
+                      "ਐਪ ਨੂੰ ਡਾਉਨਲੋਡ ਨਹੀਂ ਕੀਤਾ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_aarogya_setu_app",
+                  "name": "select_aarogya_setu_app ( ElementDropDown )",
+                  "elementName": "select_aarogya_setu_app",
+                  "elementClass": "",
+                  "parameterId": 48,
+                  "isDependent": "false",
+                  "id": 128,
+                  "elementOptionValue": [
+                    "75",
+                    "76",
+                    "77",
+                    "91"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(3.4) Has your area been classified as a containment zone (by your state/ district/ municipality etc)?",
+                    "hin": "(3.4) क्या आपके क्षेत्र को एक कन्टेनमेंट ज़ोन के रूप में वर्गीकृत किया गया है (आपके राज्य / जिले / नगरपालिका आदि द्वारा)?",
+                    "mr": "(3.4) आपले क्षेत्र कंटेनमेंट झोन म्हणून वर्गीकृत केले आहे का? (आपले राज्य / जिल्हा / नगरपालिका इ.)",
+                    "as": "(3.4) আপোনাৰ অঞ্চলটোক কণ্টেনমেণ্ট জ'ন ঘোষণা কৰিছিল নেকি (ৰাজ্য/জিলা/পৌৰসভাৰ দ্বাৰা)",
+                    "bn": "(৩.৪) আপনার অঞ্চলটি কি কোনও নিয়ন্ত্রণ ক্ষেত্র/কনটেনমেন্ট জোন হিসাবে শ্রেণীবদ্ধ করা হয়েছে (আপনার রাজ্য / জেলা / পৌরসভা ইত্যাদি)?",
+                    "gu": "(3.4) શું તમારા ક્ષેત્રને કન્ટિમેન્ટ ઝોન તરીકે વર્ગીકૃત કરવામાં આવ્યું છે? (તમારા રાજ્ય / જિલ્લા / પાલિકા વગેરે દ્વારા)",
+                    "kn": "(3.4) ನಿಮ್ಮ ಪ್ರದೇಶವನ್ನು ನಿರ್ಭಂದಿತ ವಲಯ ಎಂದು ವರ್ಗೀಕರಿಸಲಾಗಿದೆಯೇ (ನಿಮ್ಮ ರಾಜ್ಯ / ಜಿಲ್ಲೆ / ಪುರಸಭೆ ಇತ್ಯಾದಿಗಳಿಂದ?",
+                    "ta": "(3.4) உங்கள் பகுதி ஒரு கட்டுப்பாட்டு மண்டலமாக வகைப்படுத்தப்பட்டுள்ளதா (உங்கள் மாநிலம் / மாவட்டம் / நகராட்சி போன்றவை)?",
+                    "te": "(3.4) మీ ప్రాంతాన్ని కంటైన్‌మెంట్ జోన్‌గా వర్గీకరించారా (మీ రాష్ట్రం / జిల్లా / మునిసిపాలిటీ మొదలైనవి)?",
+                    "or": "ଆପଣଙ୍କ ଅଞ୍ଚଳକୁ ଏକ କଣ୍ଟେନମେଣ୍ଟ ଜୋନରେ ଶ୍ରେଣୀଭୁକ୍ତ କରାଯାଇଛି କି (ଆପଣଙ୍କ ରାଜ୍ୟ / ଜିଲ୍ଲା / ପୌରପାଳିକା ଇତ୍ୟାଦି ଦ୍ୱାରା) ?",
+                    "pa": "(3.4) ਕੀ ਤੁਹਾਡੇ ਖੇਤਰ ਨੂੰ ਕੰਟੇਨਮੈਂਟ ਜ਼ੋਨ ਬਣਾਇਆ ਗਿਆ ਹੈ (ਤੁਹਾਡੇ ਰਾਜ / ਜ਼ਿਲ੍ਹਾ / ਨਗਰਪਾਲਿਕਾ ਵੱਲੋ)"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Yes: currently containment zone",
+                      " No: but previously was one",
+                      " No: has never been a containment zone"
+                    ],
+                    "hin": [
+                      "हाँ : वर्तमान समय में कन्टेनमेंट ज़ोन में है",
+                      "नहीं : पर पहले एक बार था",
+                      "नहीं : कभी कोई कन्टेनमेंट ज़ोन में नहीं रहा"
+                    ],
+                    "mr": [
+                      "होय - सध्या कंटेन्ट झोन (Yes - currently containment zone)",
+                      "नाही - परंतु पूर्वी एक होता ( No - but previously was one)",
+                      "नाही  (No)"
+                    ],
+                    "as": [
+                      "হয়, বৰ্তমান কণ্টেনমেণ্ট জ'ন",
+                      "বৰ্তমান নহয়",
+                      "নাই"
+                    ],
+                    "bn": [
+                      "হ্যাঁ - বর্তমানে কন্টেন্টমেন্ট জোন",
+                      "না - তবে আগে ছিল",
+                      "না"
+                    ],
+                    "gu": [
+                      "હા - હાલમાં કન્ટિમેન્ટ ઝોન",
+                      "ના - પણ અગાઉ એક હતું",
+                      "ના"
+                    ],
+                    "kn": [
+                      "ಹೌದು - ಪ್ರಸ್ತುತ ನಿರ್ಭಂದಿತ ಪ್ರದೇಶ",
+                      "ಇಲ್ಲ -  ಆದರೆ ಹಿಂದೆಯಾಗಿತ್ತು",
+                      "ಇಲ್ಲ"
+                    ],
+                    "ta": [
+                      "ஆம்-கட்டுப்பாட்டு மண்டலமாக உள்ளது",
+                      "இல்லை - ஆனால் முன்பு ஒன்று இருந்தது",
+                      "இல்லை"
+                    ],
+                    "te": [
+                      "అవును - ప్రస్తుతం కంటైన్‌మెంట్ జోన్",
+                      "",
+                      "లేదు"
+                    ],
+                    "or": [
+                      "ହଁ - ବର୍ତ୍ତମାନ କଣ୍ଟେନମେଣ୍ଟ ଜୋନ୍ |",
+                      "ନା - କିନ୍ତୁ ପୂର୍ବରୁ ଗୋଟିଏ ଥିଲା |",
+                      "ନା"
+                    ],
+                    "pa": [
+                      "ਹਾਂ - ਇਸ ਵੇਲੇ ਕੰਟੇਨਮੈਂਟ ਜ਼ੋਨ ਹੈ",
+                      "ਨਹੀਂ - ਪਰ ਪਹਿਲਾਂ ਇਕ ਵਾਰ ਸੀ",
+                      "ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_containment_zone",
+                  "name": "select_containment_zone ( ElementDropDown )",
+                  "elementName": "select_containment_zone",
+                  "elementClass": "",
+                  "parameterId": 49,
+                  "isDependent": "false",
+                  "id": 129,
+                  "elementOptionValue": [
+                    "78",
+                    "79",
+                    "80"
+                  ],
+                  "elementOptionDependent": {}
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elementLabel": {
+        "en": "(4) Provisions Info",
+        "hin": "(4) प्रावधान सम्बंधित जानकारी"
+      },
+      "elementOptionLabel": {},
+      "dependentApi": [],
+      "elementType": "ElementTab",
+      "elementID": "tab_personal_provisions",
+      "elementName": "tab_personal_provisions",
+      "name": "tab_personal_provisions ( ElementTab )",
+      "elementClass": "",
+      "id": 107,
+      "children": [
+        {
+          "elementLabel": {},
+          "elementOptionLabel": {},
+          "dependentApi": [],
+          "elementType": "ElementRow",
+          "elementID": "row_personal_provisions",
+          "elementName": "row_personal_provisions",
+          "name": "row_personal_provisions",
+          "elementClass": "",
+          "id": 11,
+          "children": [
+            {
+              "elementLabel": {},
+              "elementOptionLabel": {},
+              "dependentApi": [],
+              "elementType": "ElementCols",
+              "elementID": "col_personal_provisions",
+              "elementName": "col_personal_provisions",
+              "name": "col_personal_provisions ( ElementCols )",
+              "elementClass": "col-12",
+              "id": 62,
+              "children": [
+                {
+                  "elementLabel": {
+                    "en": "(4.1) Select all the documents which you currently have (multi-select allowed):",
+                    "hin": "(4.1) वर्तमान में आपके पास मौजूद सभी दस्तावेजों का चयन करें (एक से अधिक विकल्प का चयन करें)?",
+                    "mr": "(4.1) सध्या आपल्याकडे असलेली सर्व कागदपत्रे निवडा (एकापेक्षा अधिक पर्याय निवडा)?",
+                    "as": "(4.1) বৰ্তমান আপোনাৰ লগত থকা নথি-পত্ৰ সমুহ চয়ন কৰক (এটাত কৈ বেছি  বাছিব পাৰে)",
+                    "bn": "(৪.১) আপনার কাছে থাকা সমস্ত নথিপত্র/ডকুমেন্ট করুন (একের বেশি নির্বাচন প্রযোজ্য)",
+                    "gu": "(4.1) તમારી પાસે હાલમાં હાજર બધા દસ્તાવેજો પસંદ કરો (એક થી વધારે જવાબ પસંદ કરી શકો છો)",
+                    "kn": "(4.1) ನೀವು ಪ್ರಸ್ತುತ ಹೊಂದಿರುವ ಎಲ್ಲಾ ದಾಖಲೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಬಹು ಅಯ್ಕೆ ಮಾಡಬಹುದು):",
+                    "ta": "(4.1)தற்போது நீங்கள் வைத்து இருக்கும் ஆவணத்தை தேர்வு செய்யவும் (பல்வேறு தேர்வுகள் செய்யலாம்):",
+                    "te": "(4.1) ప్రస్తుతం మీ వద్ద  కలిగి ఉన్న అన్ని పత్రాలను ఎంచుకోండి (బహుళ-ఎంపిక అనుమతించబడింది):",
+                    "or": "ଆପଣଙ୍କର ବର୍ତ୍ତମାନ ଥିବା ସମସ୍ତ ଡକ୍ୟୁମେଣ୍ଟ୍କୁ ଚୟନ କରନ୍ତୁ (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ):",
+                    "pa": "(4.1) ਤੁਹਾਡੇ ਕੋਲ ਮੌਜੂਦਾ ਕਿਹੜੇ ਕਿਹੜੇ ਦਸਤਾਵੇਜ਼ ਹਨ , ਚੋਣ ਕਰੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ):"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Aadhaar Card",
+                      "ESI Card",
+                      "MNREGA Job Card",
+                      "PAN Card",
+                      "Voter ID Card",
+                      "None"
+                    ],
+                    "hin": [
+                      "आधार कार्ड",
+                      " ESI कार्ड",
+                      " मनरेगा जॉब कार्ड",
+                      " पैन कार्ड",
+                      " वोटर ID",
+                      " कोई नहीं"
+                    ],
+                    "mr": [
+                      "Aadhaar Card",
+                      "ESI Card",
+                      "MNREGA Job Card",
+                      "PAN Card",
+                      "Voter ID Card",
+                      "None"
+                    ],
+                    "as": [
+                      "Aadhaar Card",
+                      "ESI Card",
+                      "MNREGA Job Card",
+                      "PAN Card",
+                      "Voter ID Card",
+                      "এটাও নহয়"
+                    ],
+                    "bn": [
+                      "আধার কার্ড",
+                      "ESI Card",
+                      "MNREGA Job Card",
+                      "প্যান কার্ড",
+                      "ভোটার আইডি কার্ড",
+                      "কোনটি নয়"
+                    ],
+                    "gu": [
+                      "આધારકાર્ડ",
+                      "ઇએસઆઈ કાર્ડ",
+                      "મનરેગા જોબ કાર્ડ",
+                      "પાનકાર્ડ",
+                      "મતદાર આઈડી કાર્ડ",
+                      "નહીં"
+                    ],
+                    "kn": [
+                      "ಆಧಾರ್ ಕಾರ್ಡ್",
+                      "ಇಎಸ್ಐ ಕಾರ್ಡ್",
+                      "MNREGA ಜಾಬ್ ಕಾರ್ಡ್",
+                      "ಪಾನ್ ಕಾರ್ಡ್",
+                      "ವೋಟರ್ ಐಡಿ ಕಾರ್ಡ್",
+                      "ಯಾವುದು ಇಲ್ಲ"
+                    ],
+                    "ta": [
+                      "Aadhaar Card",
+                      "ESI Card",
+                      "MNREGA Job Card",
+                      "PAN Card",
+                      "Voter ID Card",
+                      "இல்லை"
+                    ],
+                    "te": [
+                      "Aadhaar Card",
+                      "ESI Card",
+                      "MNREGA Job Card",
+                      "PAN Card",
+                      "Voter ID Card",
+                      "ఏవీ లేవు"
+                    ],
+                    "or": [
+                      "ଆଧାର କାର୍ଡ |",
+                      "ESI କାର୍ଡ |",
+                      "MNREGA ଚାକିରି କାର୍ଡ |",
+                      "ପାନ୍ କାର୍ଡ |",
+                      "ଭୋଟର ପରିଚୟ ପତ୍ର",
+                      "କିଛି ନୁହେଁ |"
+                    ],
+                    "pa": [
+                      "ਆਧਾਰ ਕਾਰਡ",
+                      "ਈ.ਐਸ.ਆਈ ਕਾਰਡ",
+                      "ਮਨਰੇਗਾ ਜੌਬ ਕਾਰਡ",
+                      "ਪੈਨ ਕਾਰਡ",
+                      "ਵੋਟਰ ਆਈ ਡੀ ਕਾਰਡ",
+                      "ਕੋਈ ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_documents",
+                  "name": "select_documents ( ElementDropDown )",
+                  "elementName": "select_documents",
+                  "elementClass": "",
+                  "isMultiple": "Yes",
+                  "parameterId": 29,
+                  "isDependent": "false",
+                  "id": 144,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "38",
+                    "39",
+                    "40",
+                    "41",
+                    "42",
+                    "43"
+                  ],
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(4.2) Does your household have a Ration Card?",
+                    "hin": "(4.2) क्या आपके घर में राशन कार्ड है?",
+                    "mr": "(4.2) तुमच्या घरात रेशनकार्ड आहे का ?",
+                    "as": "(4.2) আপোনালোকৰ ৰাচন কাৰ্ভ আছে নে",
+                    "bn": "(৪.২) আপনার পরিবারের কি রেশন কার্ড রয়েছে?",
+                    "gu": "(4.2) શું તમારા ઘરનું રેશનકાર્ડ છે?",
+                    "kn": "(4.2) ನಿಮ್ಮ ಮನೆಯವರಿಗೆ ರೇಷನ್ ಕಾರ್ಡ್ ಇದೆಯೇ?",
+                    "ta": "(4.2) உங்கள் வீட்டுக்கு ரேஷன் கார்டு இருக்கிறதா?",
+                    "te": "(4.2) మీ ఇంటికి రేషన్ కార్డ్ ఉందా?",
+                    "or": "ଆପଣଙ୍କ ଘରର ରେସନ କାର୍ଡ ଅଛି କି?",
+                    "pa": "(4.2) ਕੀ ਤੁਹਾਡੇ ਪਰਿਵਾਰ ਕੋਲ ਰਾਸ਼ਨ ਕਾਰਡ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Yes & my name is on it",
+                      "Yes but my name is not on it",
+                      "No",
+                      "Don't know"
+                    ],
+                    "hin": [
+                      "हाँ, मेरा नाम इस पर प्रदर्शित है",
+                      "हां, लेकिन मेरा नाम उस पर नहीं है",
+                      "नहीं",
+                      "पता नहीं"
+                    ],
+                    "mr": [
+                      "होय , माझे नाव त्यावर आहे (Yes & my name is on it)",
+                      "होय, पण त्यावर माझे नाव नाही (Yes but my name is not on it)",
+                      "नाही  (No)",
+                      "माहित नाही (Don't know)"
+                    ],
+                    "as": [
+                      "আছে আৰু মোৰো নাম সোমায় আছে",
+                      "আছে কিন্তু তাত মোৰ নাম নাই",
+                      "নাই",
+                      "নাজানো"
+                    ],
+                    "bn": [
+                      "হ্যাঁ এবং আমার নাম রয়েছে",
+                      "হ্যাঁ কিন্তু আমার নাম নেই",
+                      "না",
+                      "জানি না"
+                    ],
+                    "gu": [
+                      "હા અને મારું નામ તેના પર છે",
+                      "હા, પણ મારું નામ તેના પર નથી",
+                      "ના",
+                      "ખબર નથી"
+                    ],
+                    "kn": [
+                      "ಹೌದು ಮತ್ತು ನನ್ನ ಹೆಸರು ಅದರಲ್ಲಿದೆ",
+                      "ಹೌದು ಮತ್ತು ನನ್ನ ಹೆಸರು ಅದರಲ್ಲಿ ಇಲ್ಲ",
+                      "ಇಲ್ಲ",
+                      "ಗೊತ್ತಿಲ್ಲ"
+                    ],
+                    "ta": [
+                      "ஆம் & அதில் என் பெயரும் உள்ளது",
+                      "ஆம் & ஆனால் என் பெயர் அதில் இல்லை",
+                      "இல்லை",
+                      "தெரியவில்லை"
+                    ],
+                    "te": [
+                      "అవును & నా పేరు దానిపై ఉంది",
+                      "అవును, కానీ నా పేరు దానిపై లేదు",
+                      "లేదు",
+                      "నాకు తెలియదు"
+                    ],
+                    "or": [
+                      "ହଁ ଏବଂ ମୋ ନାମ ଏଥିରେ ଅଛି |",
+                      "ହଁ କିନ୍ତୁ ମୋ ନାମ ଏଥିରେ ନାହିଁ |",
+                      "ନା",
+                      "ଜାଣି ନାହିଁ"
+                    ],
+                    "pa": [
+                      "ਹਾਂ ਅਤੇ ਮੇਰਾ ਨਾਮ ਇਸ 'ਤੇ ਹੈ",
+                      "ਹਾਂ ਪਰ ਮੇਰਾ ਨਾਮ ਇਸ 'ਤੇ ਨਹੀਂ ਹੈ",
+                      "ਨਹੀਂ",
+                      "ਪਤਾ ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_ration_card",
+                  "name": "select_ration_card ( ElementDropDown )",
+                  "elementName": "select_ration_card",
+                  "elementClass": "",
+                  "parameterId": 30,
+                  "isDependent": "false",
+                  "id": 131,
+                  "elementOptionValue": [
+                    "44",
+                    "45",
+                    "46",
+                    "95"
+                  ],
+                  "elementOptionDependent": {}
+                },
+                {
+                  "elementLabel": {
+                    "en": "(4.3) Do you have any personal medical insurance from any insurance company (like ICICI, LIC, National Insurance Company etc.)?",
+                    "hin": "(4.3) क्या आपके पास किसी भी बीमा कंपनी से व्यक्तिगत चिकित्सा बीमा है (जैसे- ICICI, LIC, National Insurance Company आदि)?",
+                    "mr": "(4.3) आपल्याकडे कोणत्याही विमा कंपनीकडून वैयक्तिक वैद्यकीय विमा काढलेला आहे का? (उदा - ICICI, LIC, National Insurance Company इत्यादी)?",
+                    "as": "(4.3) যিকোনো বীমা কোম্পানী সৈতে আপোনাৰ কোনো চিকিৎসা বীমা কৰাই থৈছে নেকি? (যেনে- ICICI, LIC বা NIC ইত্যাদিত)",
+                    "bn": "(৪.৩) আপনার কোনও বীমা সংস্থা (আইসিসিআই, এলআইসি, জাতীয় বীমা সংস্থা ইত্যাদি) এর কোনও ব্যক্তিগত মেডিকেল বীমা রয়েছে?",
+                    "gu": "(4.3) શું તમારી પાસે કોઈ વીમા કંપની નો કોઈ વ્યક્તિગત તબીબી વીમો છે?  (જેમ કે આઈસીઆઈસીઆઈ, એલઆઈસી, રાષ્ટ્રીય વીમા કંપની વગેરે)",
+                    "kn": "(4.3) ನೀವು ಯಾವುದೇ ವಿಮಾ ಕಂಪನಿಯಿಂದ ಯಾವುದೇ ವೈಯಕ್ತಿಕ ವೈದ್ಯಕೀಯ ವಿಮೆಯನ್ನು ಹೊಂದಿದ್ದೀರಾ (ಉದಾಹರಣೆಗೆ ಐಸಿಐಸಿಐ, ಎಲ್.ಐ.ಸಿ, ರಾಷ್ಟೀಯ ವಿಮಾ ಸಂಸ್ಥೆ ಇತ್ಯಾದಿ)?",
+                    "ta": "(4.3) எந்தவொரு காப்பீட்டு நிறுவனத்திடமிருந்தும் உங்களுக்கு தனிப்பட்ட மருத்துவ காப்பீடு இருக்கிறதா? (ICICI, LIC, தேசிய காப்பீடு நிறுவனம் மற்றவை போன்று.)?",
+                    "te": "(4.3) మీకు ఏదైనా భీమా సంస్థ (ఐసిఐసిఐ, ఎల్ఐసి, నేషనల్ ఇన్సూరెన్స్ కంపెనీ మొదలైనవి) నుండి వ్యక్తిగత వైద్య బీమా ఉందా?",
+                    "or": "ଆପଣଙ୍କର କୌଣସି ବୀମା କମ୍ପାନୀ (ଯେପରିକି ICICI, LIC, ନ୍ୟାସନାଲ ଇନସୁରାନ୍ସ କମ୍ପାନୀ ଇତ୍ୟାଦି) ଠାରୁ ବ୍ୟକ୍ତିଗତ ଚିକିତ୍ସା ବୀମା ଅଛି କି?",
+                    "pa": "(3.3) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਕਿਸੇ ਬੀਮਾ ਕੰਪਨੀ ਦਾ ਕੋਈ ਨਿੱਜੀ ਮੈਡੀਕਲ ਬੀਮਾ ਹੈ (ਜਿਵੇਂ ਕਿ ICICI, LIC, ਨੈਸ਼ਨਲ ਇੰਸ਼ੋਰੈਂਸ ਕੰਪਨੀ ਆਦਿ)?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Yes",
+                      "No"
+                    ],
+                    "hin": [
+                      "हाँ",
+                      "नही"
+                    ],
+                    "mr": [
+                      "होय  (Yes)",
+                      "नाही  (No)"
+                    ],
+                    "as": [
+                      "আছে",
+                      "নাই"
+                    ],
+                    "bn": [
+                      "হ্যাঁ",
+                      "না"
+                    ],
+                    "gu": [
+                      "હા",
+                      "ના"
+                    ],
+                    "kn": [
+                      "ಹೌದು",
+                      "ಇಲ್ಲ"
+                    ],
+                    "ta": [
+                      "ஆம்",
+                      "இல்லை"
+                    ],
+                    "te": [
+                      "అవును",
+                      "లేదు"
+                    ],
+                    "or": [
+                      "ହଁ",
+                      "ନା"
+                    ],
+                    "pa": [
+                      "ਹਾਂ",
+                      "ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_personal_insurance",
+                  "name": "select_personal_insurance ( ElementDropDown )",
+                  "elementName": "select_personal_insurance",
+                  "elementClass": "",
+                  "parameterId": 31,
+                  "isDependent": "false",
+                  "id": 134,
+                  "elementOptionValue": [
+                    "47",
+                    "48"
+                  ],
+                  "elementOptionDependent": {
+                    "55": "text_other_govt_scheme"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(4.4) Which of the following govt. medical insurance schemes are you enrolled in (multiple-select allowed)?",
+                    "hin": "(4.4) निम्नलिखित सरकारी चिकित्सा बीमा योजनाओं में से आप किन योजनाओं में नामांकित है (एक से अधिक विकल्प का चयन करें)?",
+                    "mr": "(4.4) खालीलपैकी कोणत्या शासकीय वैद्यकीय विमा योजनेमध्ये तुम्ही नाव नोंदविला आहे ?(एकापेक्षा अधिक पर्याय निवडा)",
+                    "as": "(4.4) উল্লেখিত কোনো এটা বা একাধিক চৰকাৰী বীমা আঁচনিত আপোনাৰ নাম তালিকাভূক্ত কৰিছে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+                    "bn": "(৪.৪) নিম্নলিখিত সরকারী চিকিত্সা বীমা স্কিম গুলির মধ্যে কোনটিতে আপনি (একের বেশি নির্বাচন প্রযোজ্য) এ তালিকাভুক্ত হয়েছেন ?",
+                    "gu": "(4.4) નીચેના માંથી ક્યા સરકારી તબીબી વીમા યોજનાઓ તમે દાખલ છો? (એક થી વધારે જવાબ પસંદ કરી શકો છો)",
+                    "kn": "(4.4) ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಸರ್ಕಾರದ ಯಾವ ವೈದ್ಯಕೀಯ ವಿಮಾ ಯೋಜನೆಗಳಲ್ಲಿ ನೀವು ನೋಂದಣಿ ಆಗಿರುವಿರಿ (ಬಹು ಅಯ್ಕೆ ಮಾಡಬಹುದು)?",
+                    "ta": "(4.4)பின்வரும் எந்த அரசு மருத்துவ காப்பீடு திட்டத்தின் கீழ் நீங்கள் சேர்ந்து உள்ளீர்கள்(பல்வேறு தேர்வுகள் செய்யலாம்)?",
+                    "te": "(4.4) కిందివాటిలో ఏదైనా వైద్య బీమా పథకాలలో మీరు చేరారా (బహుళ-ఎంపిక అనుమతి)?",
+                    "or": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଡାକ୍ତରୀ ବୀମା ଯୋଜନାଗୁଡିକରେ ଆପଣ ନାମ ଲେଖାଇଛନ୍ତି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+                    "pa": "(4.4) ਨਿਮਨਲਿਖਤ ਵਿੱਚੋਂ ਕਿਹੜੀ ਸਰਕਾਰੀ ਮੈਡੀਕਲ ਬੀਮਾ ਯੋਜਨਾ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Ayushman Bharat",
+                      "Rashtriya Swasthya Bima Yojana (RSBY)",
+                      " Aam Aadmi Bima Yojana",
+                      "  Janni Suraksha Yojana",
+                      "  Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+                      "  None",
+                      " Any other state govt scheme"
+                    ],
+                    "hin": [
+                      "आयुष्मान भारत",
+                      "राष्ट्रीय स्वास्थ्य बीमा योजना (RSBY)",
+                      "आम आदमी बीमा योजना",
+                      "जननी सुरक्षा योजना",
+                      "प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY)",
+                      "कोई नहीं",
+                      "कोई अन्य राज्य सरकार की योजना"
+                    ],
+                    "mr": [
+                      "Ayushman Bharat",
+                      "Rashtriya Swasthya Bima Yojana (RSBY)",
+                      "Aam Aadmi Bima Yojana",
+                      "Janni Suraksha Yojana",
+                      "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+                      "काहीही नाही  (None)",
+                      "इतर कोणतीही राज्य सरकारची योजना (Any other state govt scheme)"
+                    ],
+                    "as": [
+                      "আয়ুস্মান ভাৰত",
+                      "ৰাষ্ট্ৰীয় স্বাস্থ্য বীমা যোজনা (RSBY)",
+                      "আম আদমি বীমা যোজনা",
+                      "জননী সুৰক্ষা যোজনা",
+                      "প্ৰধান মন্ত্ৰী সুৰক্ষা বীমা যোজনা (PMSBY)",
+                      "এটাও নহয়",
+                      "অন্য কোনো ৰাজ্যিক চৰকাৰৰ আঁচনি"
+                    ],
+                    "bn": [
+                      "আয়ুস্মান ভারত",
+                      "জাতীয় স্বাস্থ্য বীমা প্রকল্প (RSBY)",
+                      "আম আদমী বিমা যোজনা",
+                      "জননী সুরক্ষা যোজনা",
+                      "প্রধানমন্ত্রী সুরক্ষা বিমা যোজনা (PMSBY)",
+                      "কোনটি নয়",
+                      "অন্য রাজ্য সরকারের স্কিম"
+                    ],
+                    "gu": [
+                      "આયુષ્માન ભરત",
+                      "રાષ્ટ્રીય સ્વાસ્થ્ય વિમા યોજના (આરએસબીવાય)",
+                      "આમ આદમી વિમા યોજના",
+                      "જનની સુરક્ષા યોજના",
+                      "વડામંત્રી સુરક્ષા વિમા યોજના (પીએમએસબીવાય)",
+                      "કંઈ નહીં",
+                      "અન્ય કોઈપણ રાજ્ય સરકારની યોજના"
+                    ],
+                    "kn": [
+                      "ಆಯುಷ್ಮಾನ್ ಭಾರತ್",
+                      "ರಾಷ್ಟ್ರೀಯ ಸ್ವಾಸ್ತ್ಯ  ಭೀಮಾ ಯೋಜನಾ (RSBY)",
+                      "ಅಮ್ ಆದ್ಮಿ ಭೀಮ ಯೋಜನಾ",
+                      "ಜನನಿ ಸುರಕ್ಷಾ ಯೋಜನಾ",
+                      "ಪ್ರಧಾನ ಮಂತ್ರಿ ಭೀಮ ಸುರಕ್ಷಾ ಯೋಜನಾ (PMSBY)",
+                      "ಯಾವುದು ಇಲ್ಲ",
+                      "ಇತರೆ ಯಾವುದಾದರು ರಾಜ್ಯ ಸರ್ಕಾರದ ಯೋಜನೆಗಳು"
+                    ],
+                    "ta": [
+                      "Ayushman Bharat",
+                      "Rashtriya Swasthya Bima Yojana (RSBY)",
+                      "Aam Aadmi Bima Yojana",
+                      "Janni Suraksha Yojana",
+                      "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+                      "இல்லை",
+                      "வேறு மாநில அரசின் திட்டம்"
+                    ],
+                    "te": [
+                      "Ayushman Bharat",
+                      "Rashtriya Swasthya Bima Yojana (RSBY)",
+                      "Aam Aadmi Bima Yojana",
+                      "Janni Suraksha Yojana",
+                      "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+                      "ఏవీ లేవు",
+                      "Any other state govt scheme"
+                    ],
+                    "or": [
+                      "ଆୟୁଷ୍ମାନ ଭାରତ",
+                      "ରାଷ୍ଟ୍ରିୟ ସ୍ୱାସ୍ଥ୍ୟ ବିମା ଯୋଜନା (RSBY)",
+                      "ଆମ୍ ଆଦମୀ ବିମା ଯୋଜନା",
+                      "ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା",
+                      "ପ୍ରଧାନ ମନ୍ତ୍ରୀ ସୁରକ୍ଷା ବିମା ଯୋଜନା (PMSBY)",
+                      "କିଛି ନୁହେଁ |",
+                      "ଅନ୍ୟ କୌଣସି ରାଜ୍ୟ ସରକାର ଯୋଜନା |"
+                    ],
+                    "pa": [
+                      "ਆਯੁਸ਼ਮਾਨ ਭਰਤ",
+                      "ਰਾਸ਼ਟਰੀ ਸਵੱਛਤਾ ਬੀਮਾ ਯੋਜਨਾ (ਆਰਐਸਬੀਵਾਈ)",
+                      "ਆਮ ਆਦਮੀ ਬੀਮਾ ਯੋਜਨਾ",
+                      "ਮਾਵਾਂ ਲਈ ਸੁਰੱਖਿਆ ਯੋਜਨਾ",
+                      "ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਸੁਰੱਖਿਆ ਬੀਮਾ ਯੋਜਨਾ (ਪੀਐਮਐਸਬੀਵਾਈ)",
+                      "ਕੋਈ ਨਹੀਂ",
+                      "ਕੋਈ ਹੋਰ ਰਾਜ ਸਰਕਾਰ ਦੀ ਸਕੀਮ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_govt_medical_insurance",
+                  "name": "select_govt_medical_insurance ( ElementDropDown )",
+                  "elementName": "select_govt_medical_insurance",
+                  "elementClass": "",
+                  "isMultiple": "Yes",
+                  "parameterId": 32,
+                  "isDependent": "false",
+                  "id": 145,
+                  "elementOptionValue": [
+                    "49",
+                    "50",
+                    "51",
+                    "52",
+                    "53",
+                    "54",
+                    "55"
+                  ],
+                  "elementOptionDependent": {
+                    "55": "text_other_govt_scheme"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "Please mention name",
+                    "hin": "उपरोक्त का संक्षिप विवरण लिखें |",
+                    "mr": "वरील थोडक्यात वर्णन करा?",
+                    "as": "যদি অন্য, নাম উল্লেখ কৰিব",
+                    "bn": "দয়া করে নাম উল্লেখ করুন",
+                    "gu": "કૃપા કરીને નામનો ઉલ્લેખ કરો",
+                    "kn": "ದಯವಿಟ್ಟು ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+                    "ta": "பெயரைக் குறிப்பிடவும்",
+                    "te": "దయచేసి పేరును  తెలపండి .",
+                    "or": "ଦୟାକରି ନାମ ଉଲ୍ଲେଖ କରନ୍ତୁ |",
+                    "pa": "ਕਿਰਪਾ ਕਰਕੇ ਨਾਮ ਦੱਸੋ"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_other_govt_scheme",
+                  "elementName": "text_other_govt_scheme",
+                  "name": "text_other_govt_scheme ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 33,
+                  "isDependent": "true",
+                  "inputtype": "text",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(4.5) Do you have a Jan Dhan bank account? ",
+                    "hin": "(4.5) क्या आपका जन धन खाता है?",
+                    "mr": "(4.5) तुमचा जन धन मध्ये खाता आहे का ?",
+                    "as": "(4.5) আপোনাৰ জন ধন বেঙ্ক একাউণ্ট আছে নেকি?",
+                    "bn": "(৪.৫) আপনার কি জনধনের ব্যাংক অ্যাকাউন্ট আছে?",
+                    "gu": "(4.5) શું તમારી પાસે જન ધન બેંક ખાતું છે?",
+                    "kn": "(4.5) ನೀವು ಜನ ಧನ್ ಬ್ಯಾಂಕ್ ಖಾತೆ ಹೊಂದಿದ್ದೀರಾ?",
+                    "ta": "(4.5) உங்களிடம் ஜன தன் வங்கி கணக்கு இருக்கிறதா?",
+                    "te": "(4.5) మీకు జన ధన్ బ్యాంకు ఖాతా ఉందా?",
+                    "or": "ଆପଣଙ୍କର ଜନଧନ ବ୍ୟାଙ୍କ ଆକାଉଣ୍ଟ ଅଛି କି?",
+                    "pa": "(4.5.?) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਜਨ ਧਨ ਬੈਂਕ ਖਾਤਾ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Yes",
+                      "No"
+                    ],
+                    "hin": [
+                      "हाँ",
+                      "नही"
+                    ],
+                    "mr": [
+                      "होय  (Yes)",
+                      "नाही  (No)"
+                    ],
+                    "as": [
+                      "আছে",
+                      "নাই"
+                    ],
+                    "bn": [
+                      "হ্যাঁ",
+                      "না"
+                    ],
+                    "gu": [
+                      "હા",
+                      "ના"
+                    ],
+                    "kn": [
+                      "ಹೌದು",
+                      "ಇಲ್ಲ"
+                    ],
+                    "ta": [
+                      "ஆம்",
+                      "இல்லை"
+                    ],
+                    "te": [
+                      "అవును",
+                      "లేదు"
+                    ],
+                    "or": [
+                      "ହଁ",
+                      "ନା"
+                    ],
+                    "pa": [
+                      "ਹਾਂ",
+                      "ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [],
+                  "elementType": "ElementRadio",
+                  "elementID": "radio_jandhan_account",
+                  "elementName": "radio_jandhan_account",
+                  "elementClass": "",
+                  "name": "radio_jandhan_account ( ElementRadio )",
+                  "id": 135,
+                  "isDependent": "false",
+                  "parameterId": 34,
+                  "elementOptionValue": [
+                    "56",
+                    "57"
+                  ],
+                  "elementOptionDependent": {}
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elementLabel": {
+        "en": "(5) House Info",
+        "hin": "(5) घर से सम्बंधित जानकारी"
+      },
+      "elementOptionLabel": {},
+      "dependentApi": [],
+      "elementType": "ElementTab",
+      "elementID": "tab_hosuehold_information",
+      "elementName": "tab_hosuehold_information",
+      "name": "tab_hosuehold_information ( ElementTab )",
+      "elementClass": "",
+      "id": 108,
+      "children": [
+        {
+          "elementLabel": {},
+          "elementOptionLabel": {},
+          "dependentApi": [],
+          "elementType": "ElementRow",
+          "elementID": "row_household_information",
+          "elementName": "row_household_information",
+          "name": "row_household_information",
+          "elementClass": "",
+          "id": 13,
+          "children": [
+            {
+              "elementLabel": {},
+              "elementOptionLabel": {},
+              "dependentApi": [],
+              "elementType": "ElementCols",
+              "elementID": "col_household_information",
+              "elementName": "col_household_information",
+              "name": "col_household_information ( ElementCols )",
+              "elementClass": "col-12",
+              "id": 1,
+              "children": [
+                {
+                  "elementLabel": {
+                    "en": "(5.1) Currently, how many people live in your house apart from yourself?",
+                    "hin": "(5.1) आपको छोड़ कर आपके घर में कितने लोग रहते हैं? (छोटे-बड़े सभी मिलाकर)",
+                    "mr": "(5.1) तुम्हाला सोडून तुमच्या घरात किती लोक राहतात? ( लहान आणि मोठे सगळे मिळून)",
+                    "as": "(5.1) আপোনাৰ বাহিৰে বৰ্তমান ঘৰত আৰু কেইজন সদস্য থাকে?",
+                    "bn": "(৫.১) বর্তমানে, নিজেকে বাদ দিয়ে আপনার বাড়িতে কত লোক থাকেন?",
+                    "gu": "(5.1) હાલમાં, તમારા ઘરમાં તમારા સિવાય કેટલા લોકો રહે છે?",
+                    "kn": "(5.1) ಪ್ರಸ್ತುತ ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ನಿಮ್ಮನ್ನು ಹೊರತುಪಡಿಸಿ ಎಷ್ಟು ಜನ ವಾಸಿಸುತ್ತಿದ್ದಾರೆ?",
+                    "ta": "(5.1) தற்போது, உங்கள் வீட்டில் உங்களை தவிர எத்தனை நபர்கள் உள்ளனர்?",
+                    "te": "(5.1) ప్రస్తుతం మీ ఇంట్లో  మీరు కాకుండా ఎంత మంది నివసిస్తున్నారు?",
+                    "or": "ବର୍ତ୍ତମାନ, ଆପଣଙ୍କ ବ୍ୟତୀତ ଆପଣଙ୍କ ଘରେ କେତେ ଜଣ ଲୋକ ବାସ କରୁଛନ୍ତି?",
+                    "pa": "(5.1) ਇਸ ਵੇਲੇ, ਤੁਹਾਡੇ ਘਰ ਵਿੱਚ ਤੁਹਾਡੇ ਤੋਂ ਇਲਾਵਾ ਕਿੰਨੇ ਲੋਕ ਰਹਿੰਦੇ ਹਨ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_how_many_people_live",
+                  "elementName": "text_how_many_people_live",
+                  "name": "text_how_many_people_live ( ElementTextBox )",
+                  "elementClass": "col-12",
+                  "parameterId": 35,
+                  "isDependent": "false",
+                  "inputtype": "number",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(5.2) How many family members (parents, spouse, children below 18 years) are financially dependent on you?",
+                    "hin": "(5.2) कितने परिवार के सदस्य (माता-पिता, पति, 18 वर्ष से कम के बच्चे) आर्थिक रूप से आप पर निर्भर हैं?",
+                    "mr": "(5.2) कुटुंबातील किती सदस्य (आई -बाबा , नवरा , 18 वर्षाखालील मुले) आपल्यावर आर्थिकदृष्ट्या अवलंबून आहेत?",
+                    "as": "(5.2) আৰ্থিক ভাবে পৰিয়ালৰ কেইজন সদস্য আপোনাৰ ওপৰত নিৰ্ভৰশীল (যেনে - পিতৃ-মাতৃ, পতি-পত্নী, ১৮ বছৰৰ তলৰ শিশু)?",
+                    "bn": "(৫.২) পরিবারের কতজন সদস্য (পিতা-মাতা, স্ত্রী, 18 বছরের কম বয়সী শিশু) আপনার উপর আর্থিকভাবে নির্ভরশীল?",
+                    "gu": "(5.2) પરિવારના કેટલા સભ્યો (માતાપિતા, જીવનસાથી, 18 વર્ષથી નીચેના બાળકો) તમારા પર આર્થિક આધાર રાખે છે?",
+                    "kn": "(5.2) ಎಷ್ಟು ಕುಟುಂಬ ಸದಸ್ಯರು (ಪೋಷಕರು, ಸಂಗಾತಿ, 18 ವರ್ಷಕ್ಕಿಂತ ಕಡಿಮೆ ವಯಸ್ಸಿನ ಮಕ್ಕಳು) ಆರ್ಥಿಕವಾಗಿ ಅವಲಂಬಿತರಾಗಿರುವರು ?",
+                    "ta": "(5.2) எத்தனை குடும்ப உறுப்பினர்கள் (பெற்றோர், மனைவி, 18 வயதுக்குக் குறைவான குழந்தைகள்) உங்களைச் சார்ந்திருக்கிறார்கள்?",
+                    "te": "(5.2) ఎంత మంది కుటుంబ సభ్యులు మీపై ఆర్థికంగా ఆధారపడి ఉన్నారు (తల్లిదండ్రులు, జీవిత భాగస్వామి, 18 సంవత్సరాల కంటే తక్కువ వయస్సు ఉన్న పిల్లలు) ?",
+                    "or": "କେତେ ଜଣ ପରିବାର ସଦସ୍ୟ (ପିତାମାତା, ସ୍ୱାମୀ ବା ସ୍ତ୍ରୀ, 18 ବର୍ଷରୁ କମ୍ ପିଲା) ଆପଣଙ୍କ ଉପରେ ଆର୍ଥିକ ନିର୍ଭରଶୀଳ ଅଛନ୍ତି?",
+                    "pa": "(5.2) ਕਿੰਨੇ ਪਰਿਵਾਰਕ ਮੈਂਬਰ (ਮਾਪੇ, ਜੀਵਨ ਸਾਥੀ, 18 ਸਾਲ ਤੋਂ ਘੱਟ ਉਮਰ ਦੇ ਬੱਚੇ) ਤੁਹਾਡੇ ਉੱਤੇ ਵਿੱਤੀ ਤੌਰ 'ਤੇ ਨਿਰਭਰ ਹਨ?"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_how_many_family_members",
+                  "elementName": "text_how_many_family_members",
+                  "name": "text_how_many_family_members ( ElementTextBox )",
+                  "elementClass": "col-12",
+                  "parameterId": 36,
+                  "isDependent": "false",
+                  "inputtype": "number",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(5.3) Do you live with any of the following people on a regular basis (multi-select allowed)?",
+                    "hin": "(5.3) क्या आप नियमित रूप से निम्नलिखित लोगों में से किसी के साथ रहते हैं (एक से अधिक विकल्प का चयन करें)?",
+                    "mr": "(5.3)तुम्ही खालीलपैकी कोणत्या व्यक्तीबरोबर नियमितपणे राहता (एकापेक्षा अधिक पर्याय निवडा)?",
+                    "as": "(5.3) উল্লেখিত এনে কোনো ব্যক্তিৰ সৈতে দৈনিক বসবাস কৰে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+                    "bn": "(৫.৩) আপনি কি নিয়মিতভাবে নিম্নলিখিত ব্যক্তির সাথে থাকেন (একের বেশি নির্বাচন প্রযোজ্য )?",
+                    "gu": "(5.3) શું તમે નીચેનામાંથી કોઈની સાથે નિયમિત ધોરણે રહો છો ? (એક થી વધારે જવાબ પસંદ કરી શકો છો)",
+                    "kn": "(5.3) ನೀವು ಈ ಕೆಳಗಿನ ಯಾವುದೇ ಜನರೊಂದಿಗೆ ನಿಯಮಿತವಾಗಿ ವಾಸಿಸುತ್ತಿದ್ದೀರಾ (ಬಹು ಅಯ್ಕೆ ಮಾಡಬಹುದು)?",
+                    "ta": "(5.3) பின்வரும் மக்களுடன் தினசரி சேர்ந்து வாழ்வீர்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+                    "te": "(5.3) మీరు ఈ క్రింది వ్యక్తులలో ఎవరితోనైనా రోజూ నివసిస్తున్నారా (బహుళ-ఎంపిక అనుమతించబడింది)\t?",
+                    "or": "ଆପଣ ନିୟମିତ ଭାବରେ ନିମ୍ନଲିଖିତ ଲୋକମାନଙ୍କ ମଧ୍ୟରୁ କୌଣସି ବ୍ୟକ୍ତିଙ୍କ ସହିତ ରୁହନ୍ତି କି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+                    "pa": "(5.3) ਕੀ ਤੁਸੀਂ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨਾਲ ਰਹਿੰਦੇ ਹੋ ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "No one",
+                      " 0-6 yr old children",
+                      " School-going children (Std I-XII)",
+                      " Persons above 60 yrs of age",
+                      " People with pre-existing medical conditions (such as asthma, diabetes, heart disease etc)",
+                      " Pregnant women"
+                    ],
+                    "hin": [
+                      "कोई भी नहीं",
+                      "0-6 वर्ष के बच्चे",
+                      "स्कूल जाने वाले बच्चे (कक्षा 1-12)",
+                      "60 वर्ष से अधिक आयु के व्यक्ति",
+                      "पहले से मौजूद चिकित्सा शर्तों वाले लोग (जैसे अस्थमा, मधुमेह, हृदय रोग आदि)",
+                      "गर्भवती महिला",
+                      ""
+                    ],
+                    "mr": [
+                      "कोणीही नाही  (No one)",
+                      "0-6 वर्षाची मुले (0-6 yr old children)",
+                      "शाळेत जाणारी मुले (इयत्ता पहिली-बारावी) (School-going children (Std I-XII))",
+                      "60 वर्षांवरील व्यक्ती (Persons above 60 yrs of age)",
+                      "People with pre-existing medical conditions (such as asthma, diabetes, heart disease etc)",
+                      "गर्भवती महिला (Pregnant women)"
+                    ],
+                    "as": [
+                      "০-৬ বছৰ বয়সৰ শিশু",
+                      "শ্ৰেণী ১-১২ লৈ স্কুল গৈ থকা শিশু",
+                      "৬০ বছৰ উৰ্ধ ব্যক্তিৰ লগত",
+                      "কোনো অসুস্থ ব্যক্তি যেনে হাঁপানি, মধুমেহ বা হৃদৰোগ থকা",
+                      "গৰ্ভৱতী মহিলা",
+                      "এটাও নহয়"
+                    ],
+                    "bn": [
+                      "কেউ না",
+                      "০-৬ বছর বয়সী বাচ্চা",
+                      "স্কুলে পড়া শিশু (শ্রেণী- প্রথম থেকে দ্বাদশ)",
+                      "60 বছরের বেশি বয়সী ব্যক্তিরা",
+                      "প্রাক-বিদ্যমান চিকিত্সা শর্তযুক্ত লোকেরা (যেমন হাঁপানি, ডায়াবেটিস, হৃদরোগ ইত্যাদি)",
+                      "গর্ভবতী মহিলা"
+                    ],
+                    "gu": [
+                      "કોઈ નહીં",
+                      "0-6 વર્ષની ઉમરના બાળકો",
+                      "શાળાએ જતા બાળકો (ધોરણ I-XII)",
+                      "60 વર્ષથી વધુ ઉંમરના વ્યક્તિઓ",
+                      "અત્યારે તબીબી સારવાર ની પરિસ્થિતિઓ વાળા લોકો (જેમ કે અસ્થમા, ડાયાબિટીઝ, હૃદય રોગ વગેરે)",
+                      "સગર્ભા સ્ત્રીઓ"
+                    ],
+                    "kn": [
+                      "ಯಾರು ಇಲ್ಲ",
+                      "0-6 ವರ್ಷದ ಮಕ್ಕಳು",
+                      "ಶಾಲೆಗೆ ಹೋಗುವ ಮಕ್ಕಳು (Std I-XII)",
+                      "60 ವರ್ಷಕ್ಕಿಂತ ಮೇಲ್ಪಟ್ಟ ವ್ಯಕ್ತಿಗಳು",
+                      "ಮೊದಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ವೈದ್ಯಕೀಯ ಪರಿಸ್ಥಿತಿಗಳು (ಆಸ್ತಮಾ, ಮಧುಮೇಹ, ಹೃದ್ರೋಗ ಇತ್ಯಾದಿ)",
+                      "ಗರ್ಭಿಣಿಯರು"
+                    ],
+                    "ta": [
+                      "ஒன்றுமே இல்லை",
+                      "0-6 வயது குழந்தைகள்",
+                      "பள்ளி செல்லும் குழந்தைகள் (Std I-XII)",
+                      "60 வயதுக்கு மேற்ப்பட்டவர்கள்",
+                      "People with pre-existing medical conditions (such as asthma, diabetes, heart disease etc)",
+                      "கர்ப்பிணி பெண்கள்"
+                    ],
+                    "te": [
+                      "ఎవరూ లేరు",
+                      "0-6 సంవత్సరాల వయస్సు పిల్లలు",
+                      "పాఠశాలకు వెళ్ళే పిల్లలు (STD I-XII)",
+                      "60 ఏళ్లు పైబడిన వ్యక్తులు",
+                      "ముందుగా ఇటువంటి వైద్య పరిస్థితులతో ఉన్నవారు (ఉబ్బసం, మధుమేహం, గుండె జబ్బులు వంటివి)",
+                      "గర్భిణీ స్త్రీలు"
+                    ],
+                    "or": [
+                      "କେହି ନୁହେଁ",
+                      "o-୬ ବର୍ଷର ପିଲାମାନେ |",
+                      "ବିଦ୍ୟାଳୟ ଯାଉଥିବା ପିଲାମାନେ (ଶ୍ରେଣୀ ୧-୧୨)",
+                      "୬୦ ବର୍ଷରୁ ଅଧିକ ବୟସ୍କ ବ୍ୟକ୍ତି |",
+                      "ପୂର୍ବରୁ ଚିକିତ୍ସା ଅବସ୍ଥାରେ ଥିବା ବ୍ୟକ୍ତି (ଯେପରିକି ଆଜମା, ମଧୁମେହ, ହୃଦ ରୋଗ ଇତ୍ୟାଦି)",
+                      "ଗର୍ଭବତୀ ମହିଳା |"
+                    ],
+                    "pa": [
+                      "ਕੋਈ ਨਹੀਂ",
+                      "0-6 ਸਾਲ ਦੇ ਬੱਚੇ",
+                      "ਸਕੂਲ ਜਾਣ ਵਾਲੇ ਬੱਚੇ (ਪਹਿਲੀ ਜਮਾਤ-ਬਾਰ੍ਹਵੀਂ)",
+                      "60 ਸਾਲ ਤੋਂ ਵੱਧ ਉਮਰ ਦੇ ਲੋਕ",
+                      "ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਡਾਕਟਰੀ ਸਥਿਤੀਆਂ ਵਾਲੇ ਲੋਕ (ਜਿਵੇਂ ਦਮਾ, ਸ਼ੂਗਰ, ਦਿਲ ਦੀ ਬਿਮਾਰੀ ਆਦਿ)",
+                      "ਗਰਭਵਤੀ ਔਰਤ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_live_regular_basis",
+                  "name": "select_live_regular_basis ( ElementDropDown )",
+                  "elementName": "select_live_regular_basis",
+                  "elementClass": "",
+                  "isMultiple": "Yes",
+                  "parameterId": 41,
+                  "isDependent": "false",
+                  "id": 146,
+                  "elementOptionValue": [
+                    "85",
+                    "86",
+                    "87",
+                    "88",
+                    "89",
+                    "90"
+                  ],
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(5.4) What are the frequent challenges you face while 'Working from Home' (multi-select allowed)? ",
+                    "hin": "(5.4) घर से काम करते हुए आपको किन चुनौतियों का सामना करना पड़ता है ' (बहुविकल्प का चयन कर सकते है)?",
+                    "mr": "(5.4) घरातून काम करताना आपल्याला समोर कोणती आव्हाने उभी राहतात ?( एकापेक्षा जास्त पर्याय निवडू शकता )",
+                    "as": "(5.4) ঘৰৰ পৰাই কাম কৰি থকা অৱস্থাত আপুনি সচৰাচৰ কেনেধৰণৰ সমস্যাৰ সম্মুখীন হৈছে (এটাত কৈ বেছি বাছিব পাৰে)?",
+                    "bn": "(৫.৪) 'বাড়ি থেকে কাজ' করার সময় আপনি নিয়মিতভাবে কি কি চ্যালেঞ্জ-এর সম্মুখীন হয়েছেন, (একের বেশি নির্বাচন প্রযোজ্য) ?",
+                    "gu": "(5.4) \"ઘરથી કામ કરવામાં\"  તમને વારંવાર કેવા પ્રકારની સમસ્યાઓંનો સામનો કરવો પડે છે? (એક થી વધારે જવાબ પસંદ કરી શકો છો)",
+                    "kn": "(5.4) 'ಮನೆಯಿಂದ ಕೆಲಸ ಮಾಡುವಾಗ' ನೀವು ಆಗಾಗ್ಗೆ ಎದುರಿಸುತ್ತಿರುವ ಸವಾಲುಗಳು ಯಾವುವು (ಬಹು ಅಯ್ಕೆ ಮಾಡಬಹುದು)?",
+                    "ta": "(5.4) 'வீட்டிலிருந்து வேலை செய்யும் போது' நீங்கள் அடிக்கடி எதிர்கொள்ளும் சவால்கள் யாவை?(பல்வேறு தேர்வுகள் செய்யலாம்)",
+                    "te": "(5.4) 'ఇంటి నుండి పని చేస్తున్నప్పుడు' మీరు తరచుగా ఎదుర్కొంటున్న సవాళ్లు ఏమిటి? (బహుళ-ఎంపిక అనుమతించబడింది)",
+                    "or": "ଘରୁ କାମ କରିବା' ସମୟରେ ଆପଣ ବାରମ୍ବାର ସମ୍ମୁଖୀନ କରିଥିବା ଚାଲେଞ୍ଜସଗୁଡିକ କ’ଣ (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+                    "pa": "(5.4) ਘਰ ਤੋਂ ਕੰਮ ਕਰਦਿਆਂ ਤੁਹਾਨੂੰ ਕਿਹੜੀਆਂ- ਕਿਹੜੀਆਂ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈਂਦਾ ਹੈ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "No challenge",
+                      " Poor internet / network connectivity",
+                      " Lack of space for working",
+                      " Electricity issues",
+                      " Any other, please specify"
+                    ],
+                    "hin": [
+                      "कोई चुनौती नहीं",
+                      "खराब इंटरनेट / नेटवर्क कनेक्टिविटी",
+                      "काम करने के लिए जगह की कमी",
+                      "बिजली के समस्या",
+                      "कोई अन्य, कृपया निर्दिष्ट करें"
+                    ],
+                    "mr": [
+                      "काहीही आव्हान नाही (No challenge)",
+                      "खराब इंटरनेट / नेटवर्क कनेक्टिव्हिटी (Poor internet / network connectivity)",
+                      "कामासाठी जागेचा अभाव (Lack of space for working)",
+                      "वीजेची समस्या (Electricity issues)",
+                      "इत्यादी , खास निर्देश करून सांगा (Any other - please specify)"
+                    ],
+                    "as": [
+                      "তেনে কোনো সমস্যা নাই",
+                      "নিম্ন ইন্টাৰনেট/নেটৱৰ্ক সেৱা",
+                      "কাম কৰাৰ ঠাইৰ অভাৱ",
+                      "বিজুলীৰ সমস্যা",
+                      "আৰু অন্য অসুবিধা আছে নেকি জনাওক"
+                    ],
+                    "bn": [
+                      "No challenge",
+                      "দুর্বল ইন্টারনেট / নেটওয়ার্ক সংযোগ",
+                      "কাজের জায়গার অভাব",
+                      "বিদ্যুতের সমস্যা",
+                      "অন্য হলে- বর্ণনা করুন"
+                    ],
+                    "gu": [
+                      "કોઈ સમસ્યા નથી",
+                      "નબળું ઇન્ટરનેટ / નેટવર્ક કનેક્ટિવિટી",
+                      "કામ કરવા માટે જગ્યાનો અભાવ",
+                      "વીજળીના પ્રશ્નો",
+                      "કોઈપણ અન્ય, કૃપા કરીને સ્પષ્ટ કરો"
+                    ],
+                    "kn": [
+                      "ಯಾವುದೇ ಸವಾಲು ಇಲ್ಲ",
+                      "ಕಳಪೆ ಇಂಟರ್ನೆಟ್ / ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕ",
+                      "ಕೆಲಸ ಮಾಡಲು ಸ್ಥಳದ ಕೊರತೆ",
+                      "ವಿದ್ಯುತ್ ಸಮಸ್ಯೆಗಳು",
+                      "ಬೇರೆ ಯಾವುದಾದರೂ, ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ"
+                    ],
+                    "ta": [
+                      "மாற்றம் இல்லை",
+                      "இணைய சேவை சரி இல்லை/மோசமான இணைய சேவை",
+                      "வேலை செய்ய போதிய இடம் இல்லை",
+                      "மின்சார சிக்கல்கள்",
+                      "வேறு ஏதாவது என்றால் - குறிப்பிடவும்"
+                    ],
+                    "te": [
+                      "ఏమి సమస్యలు లేవు",
+                      "పేలవమైన ఇంటర్నెట్ / నెట్‌వర్క్ కనెక్టివిటీ",
+                      "పని చేయడానికి స్థలం లేకపోవడం",
+                      "విద్యుత్ సమస్యలు",
+                      "ఏదైనా ఉంటే, దయచేసి తెలపండి."
+                    ],
+                    "or": [
+                      "କୌଣସି ଚାଲେଞ୍ଜସ ନାହିଁ",
+                      "ଖରାପ ଇଣ୍ଟରନେଟ୍ / ନେଟୱାର୍କ ସଂଯୋଗ |",
+                      "କାମ କରିବା ପାଇଁ ସ୍ଥାନ ଅଭାବ |",
+                      "ବିଦ୍ୟୁତ୍ ସମସ୍ୟା",
+                      "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |"
+                    ],
+                    "pa": [
+                      "ਕੋਈ ਚੁਣੌਤੀ ਨਹੀਂ",
+                      "ਮਾੜਾ ਇੰਟਰਨੈਟ / ਨੈਟਵਰਕ ਕਨੈਕਟੀਵਿਟੀ",
+                      "ਕੰਮ ਕਰਨ ਲਈ ਜਗ੍ਹਾ ਦੀ ਘਾਟ",
+                      "ਬਿਜਲੀ ਦੇ ਮੁੱਦੇ",
+                      "ਕੋਈ ਹੋਰ, ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "dropdown_challenges",
+                  "name": "dropdown_challenges ( ElementDropDown )",
+                  "elementName": "dropdown_challenges",
+                  "elementClass": "col-12",
+                  "isMultiple": "Yes",
+                  "parameterId": 37,
+                  "isDependent": "false",
+                  "id": 138,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "58",
+                    "59",
+                    "60",
+                    "61",
+                    "62"
+                  ],
+                  "elementOptionDependent": {
+                    "62": "text_challenges_wfh"
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "Any other, please specify",
+                    "hin": "कोई अन्य, कृपया निर्दिष्ट करें",
+                    "mr": "इत्यादी , खास निर्देश करून सांगा",
+                    "as": "আৰু অন্য অসুবিধা আছে নেকি জনাওক",
+                    "bn": "অন্য কোন, বর্ণনা করুন",
+                    "gu": "કોઈપણ અન્ય, કૃપા કરીને સ્પષ્ટ કરો",
+                    "kn": "ಇತರೆಯಾಗಿದ್ದಲ್ಲಿ, ದಯವಿಟ್ಟು ತಿಳಿಸಿ",
+                    "ta": "வேறு ஏதாவது இருந்தால், குறிப்பிடவும்",
+                    "te": "ఏదైనా ఉంటే, దయచేసి తెలపండి.",
+                    "or": "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |",
+                    "pa": "ਕੋਈ ਹੋਰ, ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_challenges_wfh",
+                  "elementName": "text_challenges_wfh",
+                  "name": "text_challenges_wfh ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": 38,
+                  "isDependent": "true",
+                  "inputtype": "",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(5.5) If office reopens/ work in the field starts, what will be your most preferred mode of commute for work?",
+                    "hin": "(5.5) यदि कार्यालय फिर से खुलता है/ क्षेत्र में काम शुरू होता है, तो आपके काम के लिए आवागमन का सबसे पसंदीदा तरीका क्या होगा?",
+                    "mr": "(5.5) जर कार्यालय पुन्हा उघडले तर आपल्या कामासाठी प्रवासाचा सर्वात योग्य मार्ग कोणता असेल?",
+                    "as": "(5.5) যদি কাৰ্যালয় পুণৰ খোলা হয়, আপোনাৰ বাবে যাতায়তৰ আটাইতকৈ সু-ব্যবস্থা কি হʼব?",
+                    "bn": "(৫.৫) যদি অফিসটি আবার খোলে, কাজের জন্য আপনার যাত্রাপথের সর্বাধিক পছন্দের পদ্ধতিটি কী হবে?",
+                    "gu": "(5.5) જો ઓફિસ ફરીથી ખોલવામાં આવે છે, તો તમારા કામ માટે જવાનું સૌથી પસંદનું પરિવહન સાધન કયું હશે?",
+                    "kn": "(5.5) ಮತ್ತೆ ಕಚೇರಿ (ಆಫಿಸ್) ತೆರೆದರೆ, ಕೆಲಸಕ್ಕಾಗಿ ನೀವು ಹೆಚ್ಚು ಆದ್ಯತೆ ನೀಡುವ ಪ್ರಯಾಣದ ವಿಧಾನ ಯಾವುದು?",
+                    "ta": "(5.5) அலுவலகம் மீண்டும் திறந்தால், வேலைக்கு நீங்கள் விரும்பும் பயண முறை எதுவாக இருக்கும்?",
+                    "te": "(5.5) కార్యాలయం తిరిగి తెరిస్తే, పని కోసం మీరు ఎక్కువగా ఇష్టపడే ప్రయాణం చేసే విధానం ఏమిటి?",
+                    "or": "ଯଦି ଅଫିସ୍ ପୁନଃ-ଖୋଲିବ, କାର୍ଯ୍ୟ ପାଇଁ ଆପଣଙ୍କର ଯାତାୟାତର ସବୁଠାରୁ ପସନ୍ଦ ମୋଡ୍ କ’ଣ ହେବ?",
+                    "pa": "(5.5) ਜੇ ਦਫਤਰ ਦੁਬਾਰਾ ਖੁੱਲ੍ਹਦਾ ਹੈ, ਤਾਂ ਤੁਹਾਡੇ ਲਈ ਕੰਮ ਤੇ ਆਉਣ-ਜਾਣ ਦਾ ਸਾਧਨ ਕੀ ਹੋਵੇਗਾ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Own/ family vehicle (2/4-wheeler, Cycle)",
+                      " Public Transport (e-Rickshaw, Bus, Train, Metro, Auto, Cab)",
+                      " Walking",
+                      " Any other, please specify"
+                    ],
+                    "hin": [
+                      "स्वयं / पारिवारिक वाहन (2/4-व्हीलर, साइकिल)",
+                      "सार्वजनिक परिवहन (ई-रिक्शा, बस, ट्रेन, मेट्रो, ऑटो, टैक्सी)",
+                      "पैदल",
+                      "कोई अन्य, कृपया विवरण दें"
+                    ],
+                    "mr": [
+                      "स्वतःचे / कौटुंबिक वाहन (2/4-चाकी वाहन, सायकल) Own/ family vehicle (2/4-wheeler, Cycle)",
+                      "सार्वजनिक परिवहन (ई-रिक्षा, बस, ट्रेन, मेट्रो, ऑटो, कॅब) , Public Transport (e-Rickshaw, Bus, Train, Metro, Auto, Cab)",
+                      "चालणे (Walking)",
+                      "इत्यादी , खास निर्देश करून सांगा (Any other - please specify)"
+                    ],
+                    "as": [
+                      "নিজৰ বা ঘৰৰ বাহন",
+                      "সমুহীয়া বাহন (ই-ৰিক্সা, বাছ, ট্ৰেন, মেট্ৰ', অʼট, সৰু গাড়ী)",
+                      "খোজকাঢ়ি যোৱা",
+                      "যদি অন্য উল্লেখ কৰিব"
+                    ],
+                    "bn": [
+                      "নিজস্ব / পারিবারিক গাড়ির (2/4-Wheeler, সাইকেল)",
+                      "গণপরিবহন (ই-রিকশা, বাস, ট্রেন, মেট্রো, অটো, ক্যাব)",
+                      "হাঁটা",
+                      "অন্য হলে- বর্ণনা করুন"
+                    ],
+                    "gu": [
+                      "પોતાનું / કૌટુંબિક વાહન (2/4-વ્હીલર, સાયકલ)",
+                      "સાર્વજનિક પરિવહન (ઇ-રીક્ષા, બસ, ટ્રેન, મેટ્રો, રીક્ષા, કેબ)",
+                      "ચાલવું",
+                      "કોઈપણ અન્ય, કૃપા કરીને સ્પષ્ટ કરો"
+                    ],
+                    "kn": [
+                      "ಸ್ವಂತ / ಕುಟುಂಬ ವಾಹನ (2/4-ವೀಲರ್, ಸೈಕಲ್)",
+                      "ಸಾರ್ವಜನಿಕ ಸಾರಿಗೆ (ಇ-ರಿಕ್ಷಾ, ಬಸ್, ರೈಲು, ಮೆಟ್ರೋ, ಆಟೋ, ಕ್ಯಾಬ್)",
+                      "ನಡಿಗೆ",
+                      "ಬೇರೆ ಯಾವುದಾದರೂ, ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ"
+                    ],
+                    "ta": [
+                      "சுய/ குடும்ப வாகனம் (2/4-wheeler, Cycle)",
+                      "பொது போக்குவரத்து (e-Rickshaw, Bus, Train, Metro, Auto, Cab)",
+                      "நடை பயணம்",
+                      "வேறு ஏதாவது என்றால் - குறிப்பிடவும்"
+                    ],
+                    "te": [
+                      "సొంత / కుటుంబ వాహనం (2/4-వీలర్, సైకిల్)",
+                      "ప్రజా రవాణా (ఇ-రిక్షా, బస్సు, రైలు, మెట్రో, ఆటో, క్యాబ్)",
+                      "నడకను",
+                      "ఏదైనా ఉంటే, దయచేసి తెలపండి."
+                    ],
+                    "or": [
+                      "ନିଜର / ପାରିବାରିକ ଯାନ (2/4 ଚକିଆ ଯାନ, ଚକ୍ର)",
+                      "ଜନସାଧାରଣ ପରିବହନ (ଇ-ରିକ୍ସା, ବସ୍, ଟ୍ରେନ୍, ମେଟ୍ରୋ, ଅଟୋ, କ୍ୟାବ)",
+                      "ଚାଲିବା",
+                      "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |"
+                    ],
+                    "pa": [
+                      "ਆਪਣਾ / ਪਰਿਵਾਰਕ ਵਾਹਨ (2/4-ਪਹੀਆ ਵਾਲਾ ਵਾਹਨ)",
+                      "ਜਨਤਕ ਆਵਾਜਾਈ (ਈ-ਰਿਕਸ਼ਾ, ਬੱਸ, ਰੇਲ, ਮੈਟਰੋ, ਆਟੋ, ਕੈਬ)",
+                      "ਤੁਰ ਕੇ",
+                      "ਕੋਈ ਹੋਰ, ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "dropdown_mode_of_commute_for_work",
+                  "name": "dropdown_mode_of_commute_for_work ( ElementDropDown )",
+                  "elementName": "dropdown_mode_of_commute_for_work",
+                  "elementClass": "col-12",
+                  "isMultiple": "Yes",
+                  "parameterId": 39,
+                  "isDependent": "false",
+                  "id": 149,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "63",
+                    "64",
+                    "65",
+                    "66"
+                  ],
+                  "elementOptionDependent": {
+                    "66": "text_mode_of_commute",
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "Any other, please specify",
+                    "hin": "कोई अन्य, कृपया निर्दिष्ट करें",
+                    "mr": "इत्यादी , खास निर्देश करून सांगा",
+                    "as": "যদি অন্য উল্লেখ কৰিব",
+                    "bn": "অন্য কোন, বর্ণনা করুন",
+                    "gu": "કોઈપણ અન્ય, કૃપા કરીને સ્પષ્ટ કરો",
+                    "kn": "ಇತರೆಯಾಗಿದ್ದಲ್ಲಿ, ದಯವಿಟ್ಟು ತಿಳಿಸಿ",
+                    "ta": "வேறு ஏதாவது இருந்தால், குறிப்பிடவும்",
+                    "te": "ఏదైనా ఉంటే, దయచేసి తెలపండి.",
+                    "or": "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |",
+                    "pa": "ਕੋਈ ਹੋਰ, ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ"
+                  },
+                  "elementOptionLabel": {},
+                  "dependentApi": [],
+                  "elementType": "ElementTextBox",
+                  "elementID": "text_mode_of_commute",
+                  "elementName": "text_mode_of_commute",
+                  "name": "text_mode_of_commute ( ElementTextBox )",
+                  "elementClass": "",
+                  "parameterId": "40",
+                  "isDependent": "true",
+                  "inputtype": "",
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                },
+                {
+                  "elementLabel": {
+                    "en": "(5.6) Does anyone else in your household (who lives with you regularly) currently commute for work? ",
+                    "hin": "(5.6) क्या आपके घर में कोई और (जो आपके साथ नियमित रूप से रहता है) वर्तमान में काम के लिए जाता है (दफ़्तर,शिक्षण कार्य हेतु आदि )?",
+                    "mr": "(5.6) तुमच्या घरात दुसरा कोणी (जो तुमच्याबरोबर नियमितपणे राहतो) आणि सध्या कामावर जातो का? (कार्यालय, शिकवण्याचे काम इ.)",
+                    "as": "(5.6)পৰিয়ালৰ এনে কোনো ব্যক্তি (সদায় একেলগে থাকা) কাম কৰিবলৈ গৈ আছে নেকি?",
+                    "bn": "(৫.৬) আপনার পরিবারের অন্য কেউ (যারা আপনার সাথে নিয়মিত থাকেন) বর্তমানে কাজের জন্য যাতায়াত করেন?",
+                    "gu": "(5.6) શું તમારા ઘરના બીજા કોઈ હાલમાં કામ માટે મુસાફરી કરે છે? (જે તમારી સાથે નિયમિત રહે છે)",
+                    "kn": "(5.6) ನಿಮ್ಮ ಮನೆಯಲ್ಲಿ ಬೇರೆ ಯಾರಾದರೂ (ನಿಮ್ಮೊಂದಿಗೆ ನಿಯಮಿತವಾಗಿ ವಾಸಿಸುವವರು) ಪ್ರಸ್ತುತ ಕೆಲಸಕ್ಕಾಗಿ ಪ್ರಯಾಣಿಸುತ್ತಾರೆಯೇ?",
+                    "ta": "(5.6) உங்கள் வீட்டில் வேறு யாராவது (உங்களுடன் தினமும் வசிப்பவர்கள்) தற்போது வேலைக்காக பயணம் செய்கிறார்களா?",
+                    "te": "(5.6) మీ ఇంట్లో మరెవరైనా ప్రస్తుతం పని కోసం ప్రయాణిస్తున్నారా? (మీతో ఎల్లప్పుడు నివసించేవారు)",
+                    "or": "ଆପଣଙ୍କ ଘରର ଅନ୍ୟ କେହି ସଦସ୍ୟ (ଯିଏ ନିୟମିତ ଆପଣଙ୍କ ସହିତ ରୁହନ୍ତି) ବର୍ତ୍ତମାନ କାମ ପାଇଁ ଯାତାୟାତ କରୁଛନ୍ତି କି?",
+                    "pa": "(5.6) ਕੀ ਤੁਹਾਡੇ ਘਰ ਵਿੱਚ ਕੋਈ ਵੀ (ਜੋ ਤੁਹਾਡੇ ਨਾਲ ਨਿਯਮਿਤ ਰੂਪ ਵਿੱਚ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦਾ ਹੈ) ਵਰਤਮਾਨ ਵਿੱਚ ਕੰਮ 'ਤੇ ਜਾਂਦਾ ਹੈ?"
+                  },
+                  "elementOptionLabel": {
+                    "en": [
+                      "Yes",
+                      "No"
+                    ],
+                    "hin": [
+                      "हाँ",
+                      "नही"
+                    ],
+                    "mr": [
+                      "होय  (Yes)",
+                      "नाही  (No)"
+                    ],
+                    "as": [
+                      "আছে",
+                      "নাই"
+                    ],
+                    "bn": [
+                      "হ্যাঁ",
+                      "না"
+                    ],
+                    "gu": [
+                      "હા",
+                      "ના"
+                    ],
+                    "kn": [
+                      "ಹೌದು",
+                      "ಇಲ್ಲ"
+                    ],
+                    "ta": [
+                      "ஆம்",
+                      "இல்லை"
+                    ],
+                    "te": [
+                      "అవును",
+                      "లేదు"
+                    ],
+                    "or": [
+                      "ହଁ",
+                      "ନା"
+                    ],
+                    "pa": [
+                      "ਹਾਂ",
+                      "ਨਹੀਂ"
+                    ]
+                  },
+                  "dependentApi": [
+                    {
+                      "method": "",
+                      "url": "",
+                      "parameter": "",
+                      "dependent_id": ""
+                    }
+                  ],
+                  "elementType": "ElementDropDown",
+                  "elementID": "select_currently_commute_work",
+                  "name": "select_currently_commute_work ( ElementDropDown )",
+                  "elementName": "select_currently_commute_work",
+                  "isMultiple": "No",
+                  "parameterId": 43,
+                  "isDependent": "false",
+                  "id": 147,
+                  "apiMethod": "",
+                  "apiUrl": "",
+                  "apiParameter": "",
+                  "elementOptionValue": [
+                    "67",
+                    "68"
+                  ],
+                  "elementOptionDependent": {
+                    "totalElement": "",
+                    "elementCondition": "",
+                    "dependentIDs": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+[
+  {
+    "parameter_id": 1,
+    "parameter_name": "(1.1) ਤੁਹਾਡਾ ਪੂਰਾ ਨਾਮ ਕੀ ਹੈ (ਕਿਸੇ ਵੀ ਪ੍ਰਵਾਨਿਤ ਸਰਕਾਰੀ ID ਦੇ ਅਨੁਸਾਰ) ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 2,
+    "parameter_name": "(1.2) ਤੁਹਾਡੀ ਨਿਜੀ ਈਮੇਲ ਆਈਡੀ ਕੀ ਹੈ ('na @ na' ਭਰੋ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਨਿੱਜੀ ਈਮੇਲ ਆਈਡੀ ਨਹੀਂ ਹੈ)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) ਤੁਹਾਡਾ ਲਿੰਗ ਕੀ ਹੈ?",
+    "parameter_value_id": 1,
+    "parameter_value": "ਮਰਦ"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) ਤੁਹਾਡਾ ਲਿੰਗ ਕੀ ਹੈ?",
+    "parameter_value_id": 2,
+    "parameter_value": "ਔਰਤ"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) ਤੁਹਾਡਾ ਲਿੰਗ ਕੀ ਹੈ?",
+    "parameter_value_id": 3,
+    "parameter_value": "ਦੱਸਣਾ ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) ਤੁਹਾਡਾ ਲਿੰਗ ਕੀ ਹੈ?",
+    "parameter_value_id": 4,
+    "parameter_value": "ਹੋਰ"
+  },
+  {
+    "parameter_id": 4,
+    "parameter_name": "ਜੇਕਰ ਕੋਈ ਹੋਰ, ਤਾ ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) ਤੁਸੀਂ ਕਿਹੜੇ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਹੋ?",
+    "parameter_value_id": 5,
+    "parameter_value": "ASER (ਮੁਲਾਂਕਣ, ਸਰਵੇਖਣ ਆਦਿ)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) ਤੁਸੀਂ ਕਿਹੜੇ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਹੋ?",
+    "parameter_value_id": 6,
+    "parameter_value": "ਸਿੱਖਿਆ (ਈਸੀਈ, ਐਲੀਮੈਂਟਰੀ, ਐਲੀਮੈਂਟਰੀ ਤੋਂ ਪਰੇ, ਡਿਜੀਟਲ ਆਦਿ)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) ਤੁਸੀਂ ਕਿਹੜੇ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਹੋ?",
+    "parameter_value_id": 7,
+    "parameter_value": "ਪੀ.ਸੀ.ਵੀ.ਸੀ."
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) ਤੁਸੀਂ ਕਿਹੜੇ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਹੋ?",
+    "parameter_value_id": 8,
+    "parameter_value": "ਕਿੱਤਾਮੁਖੀ ਹੁਨਰ"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) ਤੁਸੀਂ ਕਿਹੜੇ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਹੋ?",
+    "parameter_value_id": 9,
+    "parameter_value": "ਕੇਂਦਰੀ ਸਹਾਇਤਾ ਮੈਂਬਰ (HR, Finance, PMG, Central MME, Central Content etc)"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) ਤੁਸੀਂ ਕਿਸ ਟੀਮ ਵਿਚ ਹੋ?",
+    "parameter_value_id": 10,
+    "parameter_value": "ਬਲਾਕ / ਜ਼ਿਲ੍ਹਾ / ਸਥਾਨ"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) ਤੁਸੀਂ ਕਿਸ ਟੀਮ ਵਿਚ ਹੋ?",
+    "parameter_value_id": 11,
+    "parameter_value": "ਰਾਜ"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) ਤੁਸੀਂ ਕਿਸ ਟੀਮ ਵਿਚ ਹੋ?",
+    "parameter_value_id": 12,
+    "parameter_value": "ਕੇਂਦਰੀ"
+  },
+  {
+    "parameter_id": 7,
+    "parameter_name": "(1.6) ਤੁਹਾਡੀ ਜਨਮ ਮਿਤੀ ਕੀ ਹੈ (DD / MM / YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 13,
+    "parameter_value": "A+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 14,
+    "parameter_value": "A-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 15,
+    "parameter_value": "B+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 16,
+    "parameter_value": "B-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 17,
+    "parameter_value": "O+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 18,
+    "parameter_value": "O-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 19,
+    "parameter_value": "AB+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 20,
+    "parameter_value": "AB-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) ਤੁਹਾਡਾ ਬਲੱਡ ਗਰੁੱਪ ਕੀ ਹੈ?",
+    "parameter_value_id": 21,
+    "parameter_value": "I don't know"
+  },
+  {
+    "parameter_id": 9,
+    "parameter_name": "(1.8) ਤੁਸੀਂ ਨਿਯਮਤ ਤੌਰ ਤੇ ਕਿਹੜਾ ਫੋਨ ਨੰਬਰ ਵਰਤਦੇ ਹੋ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(1.8.1) ਕੀ ਤੁਹਾਡੇ ਇਸ ਨੰਬਰ 'ਤੇ ਵਟਸਐਪ ਹੈ?",
+    "parameter_value_id": 22,
+    "parameter_value": "ਹਾਂ"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(1.8.1) ਕੀ ਤੁਹਾਡੇ ਇਸ ਨੰਬਰ 'ਤੇ ਵਟਸਐਪ ਹੈ?",
+    "parameter_value_id": 23,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 11,
+    "parameter_name": "(1.8.3) ਤੁਹਾਡਾ ਸੈਕੰਡਰੀ ਸੰਪਰਕ ਨੰਬਰ ਕੀ ਹੈ (ਜਿਸ ਤੇ WhatsApp ਚੱਲਦਾ ਹੋਵੇ )?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(1.8.2) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਕਿਸੇ ਹੋਰ ਨੰਬਰ 'ਤੇ ਵਟਸਐਪ ਚੱਲਦਾ ਹੈ?",
+    "parameter_value_id": 25,
+    "parameter_value": "ਹਾਂ"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(1.8.2) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਕਿਸੇ ਹੋਰ ਨੰਬਰ 'ਤੇ ਵਟਸਐਪ ਚੱਲਦਾ ਹੈ?",
+    "parameter_value_id": 26,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 14,
+    "parameter_name": "(1.9) ਤੁਹਾਡੇ ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਨੰਬਰ ਵਾਲੇ ਵਿਅਕਤੀ ਦਾ ਨਾਮ ਕੀ ਹੈ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 15,
+    "parameter_name": "(1.10) ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਨੰਬਰ ਵਾਲੇ ਵਿਅਕਤੀ ਦਾ ਤੁਹਾਡੇ ਨਾਲ ਕੀ ਸੰਬੰਧ ਹੈ (ਮਾਂ, ਪਿਤਾ, ਪਤਨੀ, ਪਤੀ, ਭੈਣ, ਭਰਾ ਆਦਿ)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 16,
+    "parameter_name": "(1.11) ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਨੰਬਰ ਵਾਲੇ ਵਿਅਕਤੀ ਦਾ ਨੰਬਰ ਕੀ ਹੈ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 17,
+    "parameter_name": "(2.1) ਤੁਹਾਡਾ ਮੌਜੂਦਾ ਪਤਾ ਕੀ ਹੈ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 18,
+    "parameter_name": "(2.2) ਤੁਹਾਡਾ ਮੌਜੂਦਾ ਪਿੰਨਕੋਡ ਕੀ ਹੈ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 19,
+    "parameter_name": "(2.3) ਤੁਸੀਂ ਇਸ ਸਮੇਂ ਮੌਜੂਦਾ ਕਿਸ ਰਾਜ ਵਿੱਚ ਹੋ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 20,
+    "parameter_name": "(2.4) ਤੁਸੀਂ ਇਸ ਸਮੇਂ ਮੌਜੂਦਾ ਕਿਸ ਜ਼ਿਲ੍ਹੇ ਵਿੱਚ ਹੋ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 21,
+    "parameter_name": "(2.5. 2.5) ਤੁਸੀਂ ਇਸ ਸਮੇਂ ਕਿਹੜੇ ਬਲਾਕ / ਵਾਰਡ / ਤਹਿਸੀਲ ਆਦਿ ਵਿੱਚ ਹੋ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(2.6) ਕੀ ਤੁਹਾਡਾ ਮੌਜੂਦਾ ਪਤਾ ਉਹੀ ਹੈ ਜਿਥੇ ਤੁਸੀਂ COVID-19 ਤੋਂ ਪਹਿਲਾਂ ਰਹਿੰਦੇ ਸੀ?",
+    "parameter_value_id": 31,
+    "parameter_value": "ਹਾਂ"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(2.6) ਕੀ ਤੁਹਾਡਾ ਮੌਜੂਦਾ ਪਤਾ ਉਹੀ ਹੈ ਜਿਥੇ ਤੁਸੀਂ COVID-19 ਤੋਂ ਪਹਿਲਾਂ ਰਹਿੰਦੇ ਸੀ?",
+    "parameter_value_id": 92,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 23,
+    "parameter_name": "(2.6.1) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਹਾਡਾ ਪਤਾ ਕੀ ਸੀ ਜਿੱਥੇ ਤੁਸੀਂ ਕੰਮ ਕਰਦਿਆਂ ਰਹਿੰਦੇ ਸੀ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 24,
+    "parameter_name": "(2.6.2) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਹਾਡੇ ਪਤੇ ਦਾ 'ਪਿੰਨ ਕੋਡ' ਕੀ ਸੀ ਜਿੱਥੇ ਤੁਸੀਂ ਕੰਮ ਕਰਦੇ ਸਮੇ ਰਹਿੰਦੇ ਸੀ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 25,
+    "parameter_name": "(2.6.3) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਕਿਸ ਰਾਜ ਵਿੱਚ ਰਹਿੰਦੇ ਸੀ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 26,
+    "parameter_name": "(2.6.4) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਕਿਸ ਜ਼ਿਲ੍ਹੇ ਵਿੱਚ ਰਹਿੰਦੇ ਸੀ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 27,
+    "parameter_name": "(2.6.5) ਕੋਵਿਡ -19 ਤੋਂ ਪਹਿਲਾਂ, ਤੁਸੀਂ ਕਿਹੜੇ ਬਲਾਕ / ਵਾਰਡ / ਤਹਿਸੀਲ / ਜ਼ੋਨ ਆਦਿ ਵਿੱਚ ਰਹਿੰਦੇ ਸੀ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) ਕੀ ਪਿਛਲੇ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਤੁਹਾਡਾ ਨਜ਼ਦੀਕੀ ਇਲਾਕਾ? ਕਿਸੇ ਕੁਦਰਤੀ ਆਫ਼ਤ ਨਾਲ ਪ੍ਰਭਾਵਿਤ ਹੋਇਆ ਹੈ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 35,
+    "parameter_value": "ਪ੍ਰਭਾਵਿਤ ਨਹੀਂ ਹੋਇਆ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) ਕੀ ਪਿਛਲੇ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਤੁਹਾਡਾ ਨਜ਼ਦੀਕੀ ਇਲਾਕਾ? ਕਿਸੇ ਕੁਦਰਤੀ ਆਫ਼ਤ ਨਾਲ ਪ੍ਰਭਾਵਿਤ ਹੋਇਆ ਹੈ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 36,
+    "parameter_value": "ਹੜ੍ਹ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) ਕੀ ਪਿਛਲੇ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਤੁਹਾਡਾ ਨਜ਼ਦੀਕੀ ਇਲਾਕਾ? ਕਿਸੇ ਕੁਦਰਤੀ ਆਫ਼ਤ ਨਾਲ ਪ੍ਰਭਾਵਿਤ ਹੋਇਆ ਹੈ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 37,
+    "parameter_value": "ਚੱਕਰਵਾਤ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) ਕੀ ਪਿਛਲੇ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਤੁਹਾਡਾ ਨਜ਼ਦੀਕੀ ਇਲਾਕਾ? ਕਿਸੇ ਕੁਦਰਤੀ ਆਫ਼ਤ ਨਾਲ ਪ੍ਰਭਾਵਿਤ ਹੋਇਆ ਹੈ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 81,
+    "parameter_value": "ਸੋਕਾ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) ਕੀ ਪਿਛਲੇ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਤੁਹਾਡਾ ਨਜ਼ਦੀਕੀ ਇਲਾਕਾ? ਕਿਸੇ ਕੁਦਰਤੀ ਆਫ਼ਤ ਨਾਲ ਪ੍ਰਭਾਵਿਤ ਹੋਇਆ ਹੈ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 82,
+    "parameter_value": "ਭੁਚਾਲ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) ਕੀ ਪਿਛਲੇ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਤੁਹਾਡਾ ਨਜ਼ਦੀਕੀ ਇਲਾਕਾ? ਕਿਸੇ ਕੁਦਰਤੀ ਆਫ਼ਤ ਨਾਲ ਪ੍ਰਭਾਵਿਤ ਹੋਇਆ ਹੈ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 83,
+    "parameter_value": "ਕਿਸੇ ਹੋਰ ਬਿਮਾਰੀ ਦਾ ਫੈਲਣਾ (COVID ਨੂੰ ਛੱਡ ਕੇ)"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) ਕੀ ਪਿਛਲੇ 6 ਮਹੀਨਿਆਂ ਵਿੱਚ ਤੁਹਾਡਾ ਨਜ਼ਦੀਕੀ ਇਲਾਕਾ? ਕਿਸੇ ਕੁਦਰਤੀ ਆਫ਼ਤ ਨਾਲ ਪ੍ਰਭਾਵਿਤ ਹੋਇਆ ਹੈ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 84,
+    "parameter_value": "ਕੋਈ ਹੋਰ - ਕਿਰਪਾ ਕਰਕੇ ਨਿਰਧਾਰਤ ਕਰੋ"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) ਤੁਹਾਡੇ ਕੋਲ ਮੌਜੂਦਾ ਕਿਹੜੇ ਕਿਹੜੇ ਦਸਤਾਵੇਜ਼ ਹਨ , ਚੋਣ ਕਰੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ):",
+    "parameter_value_id": 38,
+    "parameter_value": "ਆਧਾਰ ਕਾਰਡ"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) ਤੁਹਾਡੇ ਕੋਲ ਮੌਜੂਦਾ ਕਿਹੜੇ ਕਿਹੜੇ ਦਸਤਾਵੇਜ਼ ਹਨ , ਚੋਣ ਕਰੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ):",
+    "parameter_value_id": 39,
+    "parameter_value": "ਈ.ਐਸ.ਆਈ ਕਾਰਡ"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) ਤੁਹਾਡੇ ਕੋਲ ਮੌਜੂਦਾ ਕਿਹੜੇ ਕਿਹੜੇ ਦਸਤਾਵੇਜ਼ ਹਨ , ਚੋਣ ਕਰੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ):",
+    "parameter_value_id": 40,
+    "parameter_value": "ਮਨਰੇਗਾ ਜੌਬ ਕਾਰਡ"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) ਤੁਹਾਡੇ ਕੋਲ ਮੌਜੂਦਾ ਕਿਹੜੇ ਕਿਹੜੇ ਦਸਤਾਵੇਜ਼ ਹਨ , ਚੋਣ ਕਰੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ):",
+    "parameter_value_id": 41,
+    "parameter_value": "ਪੈਨ ਕਾਰਡ"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) ਤੁਹਾਡੇ ਕੋਲ ਮੌਜੂਦਾ ਕਿਹੜੇ ਕਿਹੜੇ ਦਸਤਾਵੇਜ਼ ਹਨ , ਚੋਣ ਕਰੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ):",
+    "parameter_value_id": 42,
+    "parameter_value": "ਵੋਟਰ ਆਈ ਡੀ ਕਾਰਡ"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) ਤੁਹਾਡੇ ਕੋਲ ਮੌਜੂਦਾ ਕਿਹੜੇ ਕਿਹੜੇ ਦਸਤਾਵੇਜ਼ ਹਨ , ਚੋਣ ਕਰੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ):",
+    "parameter_value_id": 43,
+    "parameter_value": "ਕੋਈ ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) ਕੀ ਤੁਹਾਡੇ ਪਰਿਵਾਰ ਕੋਲ ਰਾਸ਼ਨ ਕਾਰਡ ਹੈ?",
+    "parameter_value_id": 44,
+    "parameter_value": "ਹਾਂ ਅਤੇ ਮੇਰਾ ਨਾਮ ਇਸ 'ਤੇ ਹੈ"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) ਕੀ ਤੁਹਾਡੇ ਪਰਿਵਾਰ ਕੋਲ ਰਾਸ਼ਨ ਕਾਰਡ ਹੈ?",
+    "parameter_value_id": 45,
+    "parameter_value": "ਹਾਂ ਪਰ ਮੇਰਾ ਨਾਮ ਇਸ 'ਤੇ ਨਹੀਂ ਹੈ"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) ਕੀ ਤੁਹਾਡੇ ਪਰਿਵਾਰ ਕੋਲ ਰਾਸ਼ਨ ਕਾਰਡ ਹੈ?",
+    "parameter_value_id": 46,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) ਕੀ ਤੁਹਾਡੇ ਪਰਿਵਾਰ ਕੋਲ ਰਾਸ਼ਨ ਕਾਰਡ ਹੈ?",
+    "parameter_value_id": 95,
+    "parameter_value": "ਪਤਾ ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(3.3) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਕਿਸੇ ਬੀਮਾ ਕੰਪਨੀ ਦਾ ਕੋਈ ਨਿੱਜੀ ਮੈਡੀਕਲ ਬੀਮਾ ਹੈ (ਜਿਵੇਂ ਕਿ ICICI, LIC, ਨੈਸ਼ਨਲ ਇੰਸ਼ੋਰੈਂਸ ਕੰਪਨੀ ਆਦਿ)?",
+    "parameter_value_id": 47,
+    "parameter_value": "ਹਾਂ"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(3.3) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਕਿਸੇ ਬੀਮਾ ਕੰਪਨੀ ਦਾ ਕੋਈ ਨਿੱਜੀ ਮੈਡੀਕਲ ਬੀਮਾ ਹੈ (ਜਿਵੇਂ ਕਿ ICICI, LIC, ਨੈਸ਼ਨਲ ਇੰਸ਼ੋਰੈਂਸ ਕੰਪਨੀ ਆਦਿ)?",
+    "parameter_value_id": 48,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) ਨਿਮਨਲਿਖਤ ਵਿੱਚੋਂ ਕਿਹੜੀ ਸਰਕਾਰੀ ਮੈਡੀਕਲ ਬੀਮਾ ਯੋਜਨਾ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 49,
+    "parameter_value": "ਆਯੁਸ਼ਮਾਨ ਭਰਤ"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) ਨਿਮਨਲਿਖਤ ਵਿੱਚੋਂ ਕਿਹੜੀ ਸਰਕਾਰੀ ਮੈਡੀਕਲ ਬੀਮਾ ਯੋਜਨਾ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 50,
+    "parameter_value": "ਰਾਸ਼ਟਰੀ ਸਵੱਛਤਾ ਬੀਮਾ ਯੋਜਨਾ (ਆਰਐਸਬੀਵਾਈ)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) ਨਿਮਨਲਿਖਤ ਵਿੱਚੋਂ ਕਿਹੜੀ ਸਰਕਾਰੀ ਮੈਡੀਕਲ ਬੀਮਾ ਯੋਜਨਾ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 51,
+    "parameter_value": "ਆਮ ਆਦਮੀ ਬੀਮਾ ਯੋਜਨਾ"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) ਨਿਮਨਲਿਖਤ ਵਿੱਚੋਂ ਕਿਹੜੀ ਸਰਕਾਰੀ ਮੈਡੀਕਲ ਬੀਮਾ ਯੋਜਨਾ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 52,
+    "parameter_value": "ਮਾਵਾਂ ਲਈ ਸੁਰੱਖਿਆ ਯੋਜਨਾ"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) ਨਿਮਨਲਿਖਤ ਵਿੱਚੋਂ ਕਿਹੜੀ ਸਰਕਾਰੀ ਮੈਡੀਕਲ ਬੀਮਾ ਯੋਜਨਾ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 53,
+    "parameter_value": "ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਸੁਰੱਖਿਆ ਬੀਮਾ ਯੋਜਨਾ (ਪੀਐਮਐਸਬੀਵਾਈ)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) ਨਿਮਨਲਿਖਤ ਵਿੱਚੋਂ ਕਿਹੜੀ ਸਰਕਾਰੀ ਮੈਡੀਕਲ ਬੀਮਾ ਯੋਜਨਾ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 54,
+    "parameter_value": "ਕੋਈ ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) ਨਿਮਨਲਿਖਤ ਵਿੱਚੋਂ ਕਿਹੜੀ ਸਰਕਾਰੀ ਮੈਡੀਕਲ ਬੀਮਾ ਯੋਜਨਾ ਵਿੱਚ ਤੁਸੀਂ ਦਾਖਲ ਹੋ (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)?",
+    "parameter_value_id": 55,
+    "parameter_value": "ਕੋਈ ਹੋਰ ਰਾਜ ਸਰਕਾਰ ਦੀ ਸਕੀਮ"
+  },
+  {
+    "parameter_id": 33,
+    "parameter_name": "ਕਿਰਪਾ ਕਰਕੇ ਨਾਮ ਦੱਸੋ",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(4.5.?) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਜਨ ਧਨ ਬੈਂਕ ਖਾਤਾ ਹੈ?",
+    "parameter_value_id": 56,
+    "parameter_value": "ਹਾਂ"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(4.5.?) ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਜਨ ਧਨ ਬੈਂਕ ਖਾਤਾ ਹੈ?",
+    "parameter_value_id": 57,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 35,
+    "parameter_name": "(5.1) ਇਸ ਵੇਲੇ, ਤੁਹਾਡੇ ਘਰ ਵਿੱਚ ਤੁਹਾਡੇ ਤੋਂ ਇਲਾਵਾ ਕਿੰਨੇ ਲੋਕ ਰਹਿੰਦੇ ਹਨ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 36,
+    "parameter_name": "(5.2) ਕਿੰਨੇ ਪਰਿਵਾਰਕ ਮੈਂਬਰ (ਮਾਪੇ, ਜੀਵਨ ਸਾਥੀ, 18 ਸਾਲ ਤੋਂ ਘੱਟ ਉਮਰ ਦੇ ਬੱਚੇ) ਤੁਹਾਡੇ ਉੱਤੇ ਵਿੱਤੀ ਤੌਰ 'ਤੇ ਨਿਰਭਰ ਹਨ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ਘਰ ਤੋਂ ਕੰਮ ਕਰਦਿਆਂ ਤੁਹਾਨੂੰ ਕਿਹੜੀਆਂ- ਕਿਹੜੀਆਂ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈਂਦਾ ਹੈ?(ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 58,
+    "parameter_value": "ਕੋਈ ਚੁਣੌਤੀ ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ਘਰ ਤੋਂ ਕੰਮ ਕਰਦਿਆਂ ਤੁਹਾਨੂੰ ਕਿਹੜੀਆਂ- ਕਿਹੜੀਆਂ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈਂਦਾ ਹੈ?(ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 59,
+    "parameter_value": "ਮਾੜਾ ਇੰਟਰਨੈਟ / ਨੈਟਵਰਕ ਕਨੈਕਟੀਵਿਟੀ"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ਘਰ ਤੋਂ ਕੰਮ ਕਰਦਿਆਂ ਤੁਹਾਨੂੰ ਕਿਹੜੀਆਂ- ਕਿਹੜੀਆਂ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈਂਦਾ ਹੈ?(ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 60,
+    "parameter_value": "ਕੰਮ ਕਰਨ ਲਈ ਜਗ੍ਹਾ ਦੀ ਘਾਟ"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ਘਰ ਤੋਂ ਕੰਮ ਕਰਦਿਆਂ ਤੁਹਾਨੂੰ ਕਿਹੜੀਆਂ- ਕਿਹੜੀਆਂ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈਂਦਾ ਹੈ?(ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 61,
+    "parameter_value": "ਬਿਜਲੀ ਦੇ ਮੁੱਦੇ"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ਘਰ ਤੋਂ ਕੰਮ ਕਰਦਿਆਂ ਤੁਹਾਨੂੰ ਕਿਹੜੀਆਂ- ਕਿਹੜੀਆਂ ਚੁਣੌਤੀਆਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪੈਂਦਾ ਹੈ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 62,
+    "parameter_value": "ਕੋਈ ਹੋਰ, ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ"
+  },
+  {
+    "parameter_id": 38,
+    "parameter_name": "ਕੋਈ ਹੋਰ, ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) ਜੇ ਦਫਤਰ ਦੁਬਾਰਾ ਖੁੱਲ੍ਹਦਾ ਹੈ, ਤਾਂ ਤੁਹਾਡੇ ਲਈ ਕੰਮ ਤੇ ਆਉਣ-ਜਾਣ ਦਾ ਸਾਧਨ ਕੀ ਹੋਵੇਗਾ?",
+    "parameter_value_id": 63,
+    "parameter_value": "ਆਪਣਾ / ਪਰਿਵਾਰਕ ਵਾਹਨ (2/4-ਪਹੀਆ ਵਾਲਾ ਵਾਹਨ)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) ਜੇ ਦਫਤਰ ਦੁਬਾਰਾ ਖੁੱਲ੍ਹਦਾ ਹੈ, ਤਾਂ ਤੁਹਾਡੇ ਲਈ ਕੰਮ ਤੇ ਆਉਣ-ਜਾਣ ਦਾ ਸਾਧਨ ਕੀ ਹੋਵੇਗਾ?",
+    "parameter_value_id": 64,
+    "parameter_value": "ਜਨਤਕ ਆਵਾਜਾਈ (ਈ-ਰਿਕਸ਼ਾ, ਬੱਸ, ਰੇਲ, ਮੈਟਰੋ, ਆਟੋ, ਕੈਬ)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) ਜੇ ਦਫਤਰ ਦੁਬਾਰਾ ਖੁੱਲ੍ਹਦਾ ਹੈ, ਤਾਂ ਤੁਹਾਡੇ ਲਈ ਕੰਮ ਤੇ ਆਉਣ-ਜਾਣ ਦਾ ਸਾਧਨ ਕੀ ਹੋਵੇਗਾ?",
+    "parameter_value_id": 65,
+    "parameter_value": "ਤੁਰ ਕੇ"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) ਜੇ ਦਫਤਰ ਦੁਬਾਰਾ ਖੁੱਲ੍ਹਦਾ ਹੈ, ਤਾਂ ਤੁਹਾਡੇ ਲਈ ਕੰਮ ਤੇ ਆਉਣ-ਜਾਣ ਦਾ ਸਾਧਨ ਕੀ ਹੋਵੇਗਾ?",
+    "parameter_value_id": 66,
+    "parameter_value": "ਕੋਈ ਹੋਰ, ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ"
+  },
+  {
+    "parameter_id": 40,
+    "parameter_name": "ਕੋਈ ਹੋਰ, ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੋ",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) ਕੀ ਤੁਸੀਂ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨਾਲ ਰਹਿੰਦੇ ਹੋ ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 85,
+    "parameter_value": "ਕੋਈ ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) ਕੀ ਤੁਸੀਂ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨਾਲ ਰਹਿੰਦੇ ਹੋ ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 86,
+    "parameter_value": "0-6 ਸਾਲ ਦੇ ਬੱਚੇ"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) ਕੀ ਤੁਸੀਂ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨਾਲ ਰਹਿੰਦੇ ਹੋ ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 87,
+    "parameter_value": "ਸਕੂਲ ਜਾਣ ਵਾਲੇ ਬੱਚੇ (ਪਹਿਲੀ ਜਮਾਤ-ਬਾਰ੍ਹਵੀਂ)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) ਕੀ ਤੁਸੀਂ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨਾਲ ਰਹਿੰਦੇ ਹੋ ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 88,
+    "parameter_value": "60 ਸਾਲ ਤੋਂ ਵੱਧ ਉਮਰ ਦੇ ਲੋਕ"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) ਕੀ ਤੁਸੀਂ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨਾਲ ਰਹਿੰਦੇ ਹੋ ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 89,
+    "parameter_value": "ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਡਾਕਟਰੀ ਸਥਿਤੀਆਂ ਵਾਲੇ ਲੋਕ (ਜਿਵੇਂ ਦਮਾ, ਸ਼ੂਗਰ, ਦਿਲ ਦੀ ਬਿਮਾਰੀ ਆਦਿ)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) ਕੀ ਤੁਸੀਂ ਨਿਯਮਿਤ ਤੌਰ 'ਤੇ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਸੇ ਨਾਲ ਰਹਿੰਦੇ ਹੋ ? (ਇੱਕ ਤੋਂ ਵੱਧ ਵਿਕਲਪ ਚੁਣ ਸਕਦੇ ਹੋ)",
+    "parameter_value_id": 90,
+    "parameter_value": "ਗਰਭਵਤੀ ਔਰਤ"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(5.6) ਕੀ ਤੁਹਾਡੇ ਘਰ ਵਿੱਚ ਕੋਈ ਵੀ (ਜੋ ਤੁਹਾਡੇ ਨਾਲ ਨਿਯਮਿਤ ਰੂਪ ਵਿੱਚ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦਾ ਹੈ) ਵਰਤਮਾਨ ਵਿੱਚ ਕੰਮ 'ਤੇ ਜਾਂਦਾ ਹੈ?",
+    "parameter_value_id": 67,
+    "parameter_value": "ਹਾਂ"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(5.6) ਕੀ ਤੁਹਾਡੇ ਘਰ ਵਿੱਚ ਕੋਈ ਵੀ (ਜੋ ਤੁਹਾਡੇ ਨਾਲ ਨਿਯਮਿਤ ਰੂਪ ਵਿੱਚ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦਾ ਹੈ) ਵਰਤਮਾਨ ਵਿੱਚ ਕੰਮ 'ਤੇ ਜਾਂਦਾ ਹੈ?",
+    "parameter_value_id": 68,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) ਕੀ ਤੁਹਾਡਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ-19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?",
+    "parameter_value_id": 69,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) ਕੀ ਤੁਹਾਡਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ-19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?",
+    "parameter_value_id": 70,
+    "parameter_value": "ਹਾਂ, ਸਕਾਰਾਤਮਕ ਟੈਸਟ"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) ਕੀ ਤੁਹਾਡਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ-19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?",
+    "parameter_value_id": 71,
+    "parameter_value": "ਹਾਂ, ਨਕਾਰਾਤਮਕ ਟੈਸਟ"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) ਕੀ ਤੁਹਾਡਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ-19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?",
+    "parameter_value_id": 93,
+    "parameter_value": "ਹਾਂ, ਨਤੀਜੇ ਦਾ ਇੰਤਜ਼ਾਰ ਹੈ"
+  },
+  {
+    "parameter_id": 45,
+    "parameter_name": "(3.1.1) ਤੁਹਾਨੂੰ ਕਿਸ ਮਿਤੀ ਨੂੰ ਸਕਾਰਾਤਮਕ ਪਾਇਆ ਗਿਆ (DD/MM/YYYY)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) ਕੀ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦੇ ਕਿਸੇ ਵੀ ਵਿਅਕਤੀ ਦਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ -19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?",
+    "parameter_value_id": 72,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) ਕੀ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦੇ ਕਿਸੇ ਵੀ ਵਿਅਕਤੀ ਦਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ -19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?",
+    "parameter_value_id": 73,
+    "parameter_value": "ਹਾਂ, ਸਕਾਰਾਤਮਕ ਟੈਸਟ"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) ਕੀ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦੇ ਕਿਸੇ ਵੀ ਵਿਅਕਤੀ ਦਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ -19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?",
+    "parameter_value_id": 74,
+    "parameter_value": "ਹਾਂ, ਨਕਾਰਾਤਮਕ ਟੈਸਟ"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) ਕੀ ਤੁਹਾਡੇ ਨਾਲ ਰਹਿੰਦੇ ਕਿਸੇ ਵੀ ਵਿਅਕਤੀ ਦਾ ਪਿਛਲੇ 4 ਮਹੀਨਿਆਂ ਵਿੱਚ ਕੋਵਿਡ -19 ਲਈ ਟੈਸਟ ਕੀਤਾ ਗਿਆ ਹੈ?",
+    "parameter_value_id": 94,
+    "parameter_value": "ਹਾਂ, ਨਤੀਜੇ ਦਾ ਇੰਤਜ਼ਾਰ ਹੈ"
+  },
+  {
+    "parameter_id": 47,
+    "parameter_name": "(3.2.1) ਕਿਸ ਤਾਰੀਖ 'ਤੇ ਉਨ੍ਹਾਂ ਦਾ ਸਕਾਰਾਤਮਕ ਟੈਸਟ ਕੀਤਾ ਗਿਆ (DD/ MM/ YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) ਅਰੋਗਿਆ ਸੇਤੂ ਐਪ ਦੇ ਸੰਬੰਧ ਵਿਚ, ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਵਿਕਲਪ ਤੁਹਾਡੇ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?",
+    "parameter_value_id": 75,
+    "parameter_value": "ਪਿਛਲੇ 1 ਹਫ਼ਤੇ ਵਿੱਚ ਐਪ ਡਾਉਨਲੋਡ ਕੀਤੀ ਗਈ ਅਤੇ ਸਵੈ ਮੁਲਾਂਕਣ ਕੀਤਾ"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) ਅਰੋਗਿਆ ਸੇਤੂ ਐਪ ਦੇ ਸੰਬੰਧ ਵਿਚ, ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਵਿਕਲਪ ਤੁਹਾਡੇ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?",
+    "parameter_value_id": 76,
+    "parameter_value": "ਐਪ ਡਾਉਨਲੋਡ ਕੀਤਾ ਪਰ ਪਿਛਲੇ 1 ਹਫ਼ਤੇ ਵਿੱਚ ਸਵੈ ਮੁਲਾਂਕਣ ਨਹੀਂ ਕੀਤਾ"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) ਅਰੋਗਿਆ ਸੇਤੂ ਐਪ ਦੇ ਸੰਬੰਧ ਵਿਚ, ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਵਿਕਲਪ ਤੁਹਾਡੇ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?",
+    "parameter_value_id": 77,
+    "parameter_value": "ਐਪ ਡਾਉਨਲੋਡ ਕੀਤਾ ਪਰ ਸਵੈ ਮੁਲਾਂਕਣ ਕਦੇ ਨਹੀਂ ਕੀਤਾ"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) ਅਰੋਗਿਆ ਸੇਤੂ ਐਪ ਦੇ ਸੰਬੰਧ ਵਿਚ, ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਵਿਕਲਪ ਤੁਹਾਡੇ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ?",
+    "parameter_value_id": 91,
+    "parameter_value": "ਐਪ ਨੂੰ ਡਾਉਨਲੋਡ ਨਹੀਂ ਕੀਤਾ"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) ਕੀ ਤੁਹਾਡੇ ਖੇਤਰ ਨੂੰ ਕੰਟੇਨਮੈਂਟ ਜ਼ੋਨ ਬਣਾਇਆ ਗਿਆ ਹੈ (ਤੁਹਾਡੇ ਰਾਜ / ਜ਼ਿਲ੍ਹਾ / ਨਗਰਪਾਲਿਕਾ ਵੱਲੋ)",
+    "parameter_value_id": 78,
+    "parameter_value": "ਹਾਂ - ਇਸ ਵੇਲੇ ਕੰਟੇਨਮੈਂਟ ਜ਼ੋਨ ਹੈ"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) ਕੀ ਤੁਹਾਡੇ ਖੇਤਰ ਨੂੰ ਕੰਟੇਨਮੈਂਟ ਜ਼ੋਨ ਬਣਾਇਆ ਗਿਆ ਹੈ (ਤੁਹਾਡੇ ਰਾਜ / ਜ਼ਿਲ੍ਹਾ / ਨਗਰਪਾਲਿਕਾ ਵੱਲੋ)",
+    "parameter_value_id": 79,
+    "parameter_value": "ਨਹੀਂ - ਪਰ ਪਹਿਲਾਂ ਇਕ ਵਾਰ ਸੀ"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) ਕੀ ਤੁਹਾਡੇ ਖੇਤਰ ਨੂੰ ਕੰਟੇਨਮੈਂਟ ਜ਼ੋਨ ਬਣਾਇਆ ਗਿਆ ਹੈ (ਤੁਹਾਡੇ ਰਾਜ / ਜ਼ਿਲ੍ਹਾ / ਨਗਰਪਾਲਿਕਾ ਵੱਲੋ)",
+    "parameter_value_id": 80,
+    "parameter_value": "ਨਹੀਂ"
+  },
+  {
+    "parameter_id": 50,
+    "parameter_name": "ਕਿਰਪਾ ਕਰਕੇ ਨਿਰਧਾਰਿਤ ਕਰੋ",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  }
+]

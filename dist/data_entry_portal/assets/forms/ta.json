@@ -1,0 +1,686 @@
+[
+  {
+    "parameter_id": 1,
+    "parameter_name": "(1.1)உங்கள் முழு பெயர் என்ன?(அரசு ஆவனத்தின் படி)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 2,
+    "parameter_name": "(1.2)உங்கள் தனிப்பட்ட மின் அஞ்சல் முகவரி என்ன?(மின் அஞ்சல் முகவரி இல்லை என்றால் na@na என்று பதிவிடவும்)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.2)உங்கள் பாலினம் என்ன?",
+    "parameter_value_id": 1,
+    "parameter_value": "ஆண்"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.2)உங்கள் பாலினம் என்ன?",
+    "parameter_value_id": 2,
+    "parameter_value": "பெண்"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.2)உங்கள் பாலினம் என்ன?",
+    "parameter_value_id": 3,
+    "parameter_value": "சொல்ல விருப்பம் இல்லை"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.2)உங்கள் பாலினம் என்ன?",
+    "parameter_value_id": 4,
+    "parameter_value": "வேறு"
+  },
+  {
+    "parameter_id": 4,
+    "parameter_name": "வேறு என்றால் இங்கே பதிவிடவும்",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4)நீங்கள் எந்த செயல்முறை திட்டத்தில் உள்ளீர்கள்?",
+    "parameter_value_id": 5,
+    "parameter_value": "ASER (Assessment, Survey etc)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4)நீங்கள் எந்த செயல்முறை திட்டத்தில் உள்ளீர்கள்?",
+    "parameter_value_id": 6,
+    "parameter_value": "Education (ECE, Elementary, Beyond Elementary, Digital etc)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4)நீங்கள் எந்த செயல்முறை திட்டத்தில் உள்ளீர்கள்?",
+    "parameter_value_id": 7,
+    "parameter_value": "PCVC"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4)நீங்கள் எந்த செயல்முறை திட்டத்தில் உள்ளீர்கள்?",
+    "parameter_value_id": 8,
+    "parameter_value": "Vocational Skilling"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4)நீங்கள் எந்த செயல்முறை திட்டத்தில் உள்ளீர்கள்?",
+    "parameter_value_id": 9,
+    "parameter_value": "Central support functions (HR, Finance, PMG, Central MME, Central Content etc)"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5)நீங்கள் எந்த குழுவில் உள்ளீர்கள்?",
+    "parameter_value_id": 10,
+    "parameter_value": "Block/ District/ Location"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5)நீங்கள் எந்த குழுவில் உள்ளீர்கள்?",
+    "parameter_value_id": 11,
+    "parameter_value": "State"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5)நீங்கள் எந்த குழுவில் உள்ளீர்கள்?",
+    "parameter_value_id": 12,
+    "parameter_value": "Central"
+  },
+  {
+    "parameter_id": 7,
+    "parameter_name": "(1.6)உங்களின் பிறந்த தேதி என்ன?(DD/MM/YYYY)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 13,
+    "parameter_value": "A+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 14,
+    "parameter_value": "A-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 15,
+    "parameter_value": "B+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 16,
+    "parameter_value": "B-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 17,
+    "parameter_value": "O+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 18,
+    "parameter_value": "O-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 19,
+    "parameter_value": "AB+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 20,
+    "parameter_value": "AB-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7)உங்களின் இரத்த பிரிவு என்ன?",
+    "parameter_value_id": 21,
+    "parameter_value": "எனக்கு தெரியாது"
+  },
+  {
+    "parameter_id": 9,
+    "parameter_name": "(1.8)நீங்கள் தினசரி உபயோகிக்கும் தொலைபேசி எண்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(1.8.1)இந்த எண்ணில் Whatsapp உள்ளதா?",
+    "parameter_value_id": 22,
+    "parameter_value": "ஆம்"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(1.8.1)இந்த எண்ணில் Whatsapp உள்ளதா?",
+    "parameter_value_id": 23,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 11,
+    "parameter_name": "(1.8.3)உங்களின் வேறு தொடர்பு எண் என்ன(Whatsapp உள்ளதா)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(1.8.2)உங்களுக்கு மற்ற எண்ணில் Whatsapp உள்ளதா?",
+    "parameter_value_id": 25,
+    "parameter_value": "ஆம்"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(1.8.2)உங்களுக்கு மற்ற எண்ணில் Whatsapp உள்ளதா?",
+    "parameter_value_id": 26,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 14,
+    "parameter_name": "(1.9)உங்கள் அவசர தொடர்பு நபரின் பெயர் என்ன?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 15,
+    "parameter_name": "(1.10)அவசர தொடர்பு நபரிற்கும் உங்களுக்கும் இடையேயான உறவு என்ன?(தாய், தந்தை, மனைவி, கணவன், சகோதரி, சகோதரன் மற்றவை)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 16,
+    "parameter_name": "(1.11)அவசர தொடர்பு நபரின் தொலைபேசி எண் என்ன?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 17,
+    "parameter_name": "(2.1)உங்களின் தற்போதைய முகவரி என்ன?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 18,
+    "parameter_name": "(2.2)உங்களின் தற்போதைய அஞ்சல் குறியீடு என்ன?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 19,
+    "parameter_name": "(2.3)தற்போது நீங்கள் எந்த மாநிலதில் உள்ளீர்கள்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 20,
+    "parameter_name": "(2.4)தற்போது நீங்கள் எந்த மாவட்டதில் உள்ளீர்கள்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 21,
+    "parameter_name": "(2.5)தற்போது நீங்கள் எந்த தொகுதி / வார்டு / வட்டத்தில் உள்ளீர்கள்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(2.6)உங்கள் தற்போதைய முகவரி COVID-19 க்கு முன்பு நீங்கள் வசிக்கும் முகவரியும் ஒன்றா?",
+    "parameter_value_id": 31,
+    "parameter_value": "ஆம்"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(2.6)உங்கள் தற்போதைய முகவரி COVID-19 க்கு முன்பு நீங்கள் வசிக்கும் முகவரியும் ஒன்றா?",
+    "parameter_value_id": 92,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 23,
+    "parameter_name": "(2.6.1)COVID-19 க்கு முன்பு, நீங்கள் பணிபுரியும் போது நீங்கள் வசித்த முகவரி என்ன?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 24,
+    "parameter_name": "(2.6.2)COVID-19 க்கு முன்பு, நீங்கள் பணிபுரியும் போது நீங்கள் வசித்த முகவரியின் அஞ்சல் குறியீடு என்ன?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 25,
+    "parameter_name": "(2.6.3)COVID-19 க்கு முன்பு, நீங்கள் எந்த மாநிலத்தில் இருந்தீர்கள்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 26,
+    "parameter_name": "(2.6.3)COVID-19 க்கு முன்பு, நீங்கள் எந்த மாவட்டத்தில் இருந்தீர்கள்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 27,
+    "parameter_name": "(2.6.3)COVID-19 க்கு முன்பு, நீங்கள் எந்த தொகுதி/ வார்டு/ வட்டத்தில் இருந்தீர்கள்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) கடந்த 6 மாதங்களில் ஏதேனும் இயற்கை பேரழிவுகளால் உங்கள் அருகிலுள்ளவர்கள் பாதிக்கப்பட்டு உள்ளார்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 35,
+    "parameter_value": "பாதிக்கபடவில்லை"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) கடந்த 6 மாதங்களில் ஏதேனும் இயற்கை பேரழிவுகளால் உங்கள் அருகிலுள்ளவர்கள் பாதிக்கப்பட்டு உள்ளார்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 36,
+    "parameter_value": "வெள்ளம்"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) கடந்த 6 மாதங்களில் ஏதேனும் இயற்கை பேரழிவுகளால் உங்கள் அருகிலுள்ளவர்கள் பாதிக்கப்பட்டு உள்ளார்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 37,
+    "parameter_value": "சூறாவளி"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) கடந்த 6 மாதங்களில் ஏதேனும் இயற்கை பேரழிவுகளால் உங்கள் அருகிலுள்ளவர்கள் பாதிக்கப்பட்டு உள்ளார்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 81,
+    "parameter_value": "வறட்சி"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) கடந்த 6 மாதங்களில் ஏதேனும் இயற்கை பேரழிவுகளால் உங்கள் அருகிலுள்ளவர்கள் பாதிக்கப்பட்டு உள்ளார்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 82,
+    "parameter_value": "நில நடுக்கம்"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) கடந்த 6 மாதங்களில் ஏதேனும் இயற்கை பேரழிவுகளால் உங்கள் அருகிலுள்ளவர்கள் பாதிக்கப்பட்டு உள்ளார்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 83,
+    "parameter_value": "(COVID-19 தவிற) மற்ற நோய்"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) கடந்த 6 மாதங்களில் ஏதேனும் இயற்கை பேரழிவுகளால் உங்கள் அருகிலுள்ளவர்கள் பாதிக்கப்பட்டு உள்ளார்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 84,
+    "parameter_value": "வேறு ஏதாவது என்றால் - குறிப்பிடவும்"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1)தற்போது நீங்கள் வைத்து இருக்கும் ஆவணத்தை தேர்வு செய்யவும் (பல்வேறு தேர்வுகள் செய்யலாம்):",
+    "parameter_value_id": 38,
+    "parameter_value": "Aadhaar Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1)தற்போது நீங்கள் வைத்து இருக்கும் ஆவணத்தை தேர்வு செய்யவும் (பல்வேறு தேர்வுகள் செய்யலாம்):",
+    "parameter_value_id": 39,
+    "parameter_value": "ESI Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1)தற்போது நீங்கள் வைத்து இருக்கும் ஆவணத்தை தேர்வு செய்யவும் (பல்வேறு தேர்வுகள் செய்யலாம்):",
+    "parameter_value_id": 40,
+    "parameter_value": "MNREGA Job Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1)தற்போது நீங்கள் வைத்து இருக்கும் ஆவணத்தை தேர்வு செய்யவும் (பல்வேறு தேர்வுகள் செய்யலாம்):",
+    "parameter_value_id": 41,
+    "parameter_value": "PAN Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1)தற்போது நீங்கள் வைத்து இருக்கும் ஆவணத்தை தேர்வு செய்யவும் (பல்வேறு தேர்வுகள் செய்யலாம்):",
+    "parameter_value_id": 42,
+    "parameter_value": "Voter ID Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1)தற்போது நீங்கள் வைத்து இருக்கும் ஆவணத்தை தேர்வு செய்யவும் (பல்வேறு தேர்வுகள் செய்யலாம்):",
+    "parameter_value_id": 43,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) உங்கள் வீட்டுக்கு ரேஷன் கார்டு இருக்கிறதா?",
+    "parameter_value_id": 44,
+    "parameter_value": "ஆம் & அதில் என் பெயரும் உள்ளது"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) உங்கள் வீட்டுக்கு ரேஷன் கார்டு இருக்கிறதா?",
+    "parameter_value_id": 45,
+    "parameter_value": "ஆம் & ஆனால் என் பெயர் அதில் இல்லை"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) உங்கள் வீட்டுக்கு ரேஷன் கார்டு இருக்கிறதா?",
+    "parameter_value_id": 46,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) உங்கள் வீட்டுக்கு ரேஷன் கார்டு இருக்கிறதா?",
+    "parameter_value_id": 95,
+    "parameter_value": "தெரியவில்லை"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(4.3) எந்தவொரு காப்பீட்டு நிறுவனத்திடமிருந்தும் உங்களுக்கு தனிப்பட்ட மருத்துவ காப்பீடு இருக்கிறதா? (ICICI, LIC, தேசிய காப்பீடு நிறுவனம் மற்றவை போன்று.)?",
+    "parameter_value_id": 47,
+    "parameter_value": "ஆம்"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(4.3) எந்தவொரு காப்பீட்டு நிறுவனத்திடமிருந்தும் உங்களுக்கு தனிப்பட்ட மருத்துவ காப்பீடு இருக்கிறதா? (ICICI, LIC, தேசிய காப்பீடு நிறுவனம் மற்றவை போன்று.)?",
+    "parameter_value_id": 48,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4)பின்வரும் எந்த அரசு மருத்துவ காப்பீடு திட்டத்தின் கீழ் நீங்கள் சேர்ந்து உள்ளீர்கள்(பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 49,
+    "parameter_value": "Ayushman Bharat"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4)பின்வரும் எந்த அரசு மருத்துவ காப்பீடு திட்டத்தின் கீழ் நீங்கள் சேர்ந்து உள்ளீர்கள்(பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 50,
+    "parameter_value": "Rashtriya Swasthya Bima Yojana (RSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4)பின்வரும் எந்த அரசு மருத்துவ காப்பீடு திட்டத்தின் கீழ் நீங்கள் சேர்ந்து உள்ளீர்கள்(பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 51,
+    "parameter_value": "Aam Aadmi Bima Yojana"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4)பின்வரும் எந்த அரசு மருத்துவ காப்பீடு திட்டத்தின் கீழ் நீங்கள் சேர்ந்து உள்ளீர்கள்(பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 52,
+    "parameter_value": "Janni Suraksha Yojana"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4)பின்வரும் எந்த அரசு மருத்துவ காப்பீடு திட்டத்தின் கீழ் நீங்கள் சேர்ந்து உள்ளீர்கள்(பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 53,
+    "parameter_value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4)பின்வரும் எந்த அரசு மருத்துவ காப்பீடு திட்டத்தின் கீழ் நீங்கள் சேர்ந்து உள்ளீர்கள்(பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 54,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4)பின்வரும் எந்த அரசு மருத்துவ காப்பீடு திட்டத்தின் கீழ் நீங்கள் சேர்ந்து உள்ளீர்கள்(பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 55,
+    "parameter_value": "வேறு மாநில அரசின் திட்டம்"
+  },
+  {
+    "parameter_id": 33,
+    "parameter_name": "பெயரைக் குறிப்பிடவும்",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(4.5) உங்களிடம் ஜன தன் வங்கி கணக்கு இருக்கிறதா?",
+    "parameter_value_id": 56,
+    "parameter_value": "ஆம்"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(4.5) உங்களிடம் ஜன தன் வங்கி கணக்கு இருக்கிறதா?",
+    "parameter_value_id": 57,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 35,
+    "parameter_name": "(5.1) தற்போது, உங்கள் வீட்டில் உங்களை தவிர எத்தனை நபர்கள் உள்ளனர்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 36,
+    "parameter_name": "(5.2) எத்தனை குடும்ப உறுப்பினர்கள் (பெற்றோர், மனைவி, 18 வயதுக்குக் குறைவான குழந்தைகள்) உங்களைச் சார்ந்திருக்கிறார்கள்?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) 'வீட்டிலிருந்து வேலை செய்யும் போது' நீங்கள் அடிக்கடி எதிர்கொள்ளும் சவால்கள் யாவை?(பல்வேறு தேர்வுகள் செய்யலாம்)",
+    "parameter_value_id": 58,
+    "parameter_value": "மாற்றம் இல்லை"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) 'வீட்டிலிருந்து வேலை செய்யும் போது' நீங்கள் அடிக்கடி எதிர்கொள்ளும் சவால்கள் யாவை?(பல்வேறு தேர்வுகள் செய்யலாம்)",
+    "parameter_value_id": 59,
+    "parameter_value": "இணைய சேவை சரி இல்லை/மோசமான இணைய சேவை"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) 'வீட்டிலிருந்து வேலை செய்யும் போது' நீங்கள் அடிக்கடி எதிர்கொள்ளும் சவால்கள் யாவை?(பல்வேறு தேர்வுகள் செய்யலாம்)",
+    "parameter_value_id": 60,
+    "parameter_value": "வேலை செய்ய போதிய இடம் இல்லை"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) 'வீட்டிலிருந்து வேலை செய்யும் போது' நீங்கள் அடிக்கடி எதிர்கொள்ளும் சவால்கள் யாவை?(பல்வேறு தேர்வுகள் செய்யலாம்)",
+    "parameter_value_id": 61,
+    "parameter_value": "மின்சார சிக்கல்கள்"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) 'வீட்டிலிருந்து வேலை செய்யும் போது' நீங்கள் அடிக்கடி எதிர்கொள்ளும் சவால்கள் யாவை?(பல்வேறு தேர்வுகள் செய்யலாம்)",
+    "parameter_value_id": 62,
+    "parameter_value": "வேறு ஏதாவது என்றால் - குறிப்பிடவும்"
+  },
+  {
+    "parameter_id": 38,
+    "parameter_name": "வேறு ஏதாவது இருந்தால், குறிப்பிடவும்",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) அலுவலகம் மீண்டும் திறந்தால், வேலைக்கு நீங்கள் விரும்பும் பயண முறை எதுவாக இருக்கும்?",
+    "parameter_value_id": 63,
+    "parameter_value": "சுய/ குடும்ப வாகனம் (2/4-wheeler, Cycle)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) அலுவலகம் மீண்டும் திறந்தால், வேலைக்கு நீங்கள் விரும்பும் பயண முறை எதுவாக இருக்கும்?",
+    "parameter_value_id": 64,
+    "parameter_value": "பொது போக்குவரத்து (e-Rickshaw, Bus, Train, Metro, Auto, Cab)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) அலுவலகம் மீண்டும் திறந்தால், வேலைக்கு நீங்கள் விரும்பும் பயண முறை எதுவாக இருக்கும்?",
+    "parameter_value_id": 65,
+    "parameter_value": "நடை பயணம்"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) அலுவலகம் மீண்டும் திறந்தால், வேலைக்கு நீங்கள் விரும்பும் பயண முறை எதுவாக இருக்கும்?",
+    "parameter_value_id": 66,
+    "parameter_value": "வேறு ஏதாவது என்றால் - குறிப்பிடவும்"
+  },
+  {
+    "parameter_id": 40,
+    "parameter_name": "வேறு ஏதாவது இருந்தால், குறிப்பிடவும்",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) பின்வரும் மக்களுடன் தினசரி சேர்ந்து வாழ்வீர்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 85,
+    "parameter_value": "ஒன்றுமே இல்லை"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) பின்வரும் மக்களுடன் தினசரி சேர்ந்து வாழ்வீர்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 86,
+    "parameter_value": "0-6 வயது குழந்தைகள்"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) பின்வரும் மக்களுடன் தினசரி சேர்ந்து வாழ்வீர்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 87,
+    "parameter_value": "பள்ளி செல்லும் குழந்தைகள் (Std I-XII)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) பின்வரும் மக்களுடன் தினசரி சேர்ந்து வாழ்வீர்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 88,
+    "parameter_value": "60 வயதுக்கு மேற்ப்பட்டவர்கள்"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) பின்வரும் மக்களுடன் தினசரி சேர்ந்து வாழ்வீர்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 89,
+    "parameter_value": "People with pre-existing medical conditions (such as asthma, diabetes, heart disease etc)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) பின்வரும் மக்களுடன் தினசரி சேர்ந்து வாழ்வீர்களா? (பல்வேறு தேர்வுகள் செய்யலாம்)?",
+    "parameter_value_id": 90,
+    "parameter_value": "கர்ப்பிணி பெண்கள்"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(5.6) உங்கள் வீட்டில் வேறு யாராவது (உங்களுடன் தினமும் வசிப்பவர்கள்) தற்போது வேலைக்காக பயணம் செய்கிறார்களா?",
+    "parameter_value_id": 67,
+    "parameter_value": "ஆம்"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(5.6) உங்கள் வீட்டில் வேறு யாராவது (உங்களுடன் தினமும் வசிப்பவர்கள்) தற்போது வேலைக்காக பயணம் செய்கிறார்களா?",
+    "parameter_value_id": 68,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) கடந்த 4 மாதங்களில் நீங்கள் COVID-19 க்கு சோதனை செய்து உள்ளீர்களா?",
+    "parameter_value_id": 69,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) கடந்த 4 மாதங்களில் நீங்கள் COVID-19 க்கு சோதனை செய்து உள்ளீர்களா?",
+    "parameter_value_id": 70,
+    "parameter_value": "ஆம், தொற்று உறுதி செய்யப்பட்டது"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) கடந்த 4 மாதங்களில் நீங்கள் COVID-19 க்கு சோதனை செய்து உள்ளீர்களா?",
+    "parameter_value_id": 71,
+    "parameter_value": "ஆம், தொற்று இல்லை"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) கடந்த 4 மாதங்களில் நீங்கள் COVID-19 க்கு சோதனை செய்து உள்ளீர்களா?",
+    "parameter_value_id": 93,
+    "parameter_value": "ஆம், முடிவுக்கு காத்திருக்கிறோம்"
+  },
+  {
+    "parameter_id": 45,
+    "parameter_name": "(3.1.1) எந்த தேதியில் உங்களுக்கு நோய் தொற்று உறுதிசெய்யப்பட்டது? (DD/MM/YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) கடந்த 4 மாதங்களில் உங்களுடன் வசிக்கும் யாருக்காவது COVID-19 க்கு சோதனை செய்யப்பட்டுள்ளதா?",
+    "parameter_value_id": 72,
+    "parameter_value": "No"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) கடந்த 4 மாதங்களில் உங்களுடன் வசிக்கும் யாருக்காவது COVID-19 க்கு சோதனை செய்யப்பட்டுள்ளதா?",
+    "parameter_value_id": 73,
+    "parameter_value": "ஆம், தொற்று உறுதி செய்யப்பட்டது"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) கடந்த 4 மாதங்களில் உங்களுடன் வசிக்கும் யாருக்காவது COVID-19 க்கு சோதனை செய்யப்பட்டுள்ளதா?",
+    "parameter_value_id": 74,
+    "parameter_value": "ஆம், தொற்று இல்லை"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) கடந்த 4 மாதங்களில் உங்களுடன் வசிக்கும் யாருக்காவது COVID-19 க்கு சோதனை செய்யப்பட்டுள்ளதா?",
+    "parameter_value_id": 94,
+    "parameter_value": "ஆம், முடிவுக்கு காத்திருக்கிறோம்"
+  },
+  {
+    "parameter_id": 47,
+    "parameter_name": "(3.2.1) எந்த தேதியில் அவர்களுக்கு நோய் தொற்று உறுதிசெய்யப்பட்டது? (DD/MM/YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) ஆரோக்யா சேது செயலி பயன்பாட்டைப் பொறுத்தவரை, பின்வருவனவற்றில் எது உங்களுக்கு பொருந்தும்?",
+    "parameter_value_id": 75,
+    "parameter_value": "பதிவிறக்கம் செய்து முதல் வாரத்தில் சுய பரிசோதனை செய்த்தேன்"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) ஆரோக்யா சேது செயலி பயன்பாட்டைப் பொறுத்தவரை, பின்வருவனவற்றில் எது உங்களுக்கு பொருந்தும்?",
+    "parameter_value_id": 76,
+    "parameter_value": "பதிவிறக்கம் செய்து முதல் வாரத்தில் சுய பரிசோதனை செய்யவில்லை"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) ஆரோக்யா சேது செயலி பயன்பாட்டைப் பொறுத்தவரை, பின்வருவனவற்றில் எது உங்களுக்கு பொருந்தும்?",
+    "parameter_value_id": 77,
+    "parameter_value": "பதிவிறக்கம் செய்த்திலிருந்து சுய பரிசோதனை செய்யவில்லை"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) ஆரோக்யா சேது செயலி பயன்பாட்டைப் பொறுத்தவரை, பின்வருவனவற்றில் எது உங்களுக்கு பொருந்தும்?",
+    "parameter_value_id": 91,
+    "parameter_value": "பதிவிறக்கம் செய்யவில்லை"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) உங்கள் பகுதி ஒரு கட்டுப்பாட்டு மண்டலமாக வகைப்படுத்தப்பட்டுள்ளதா (உங்கள் மாநிலம் / மாவட்டம் / நகராட்சி போன்றவை)?",
+    "parameter_value_id": 78,
+    "parameter_value": "ஆம்-கட்டுப்பாட்டு மண்டலமாக உள்ளது"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) உங்கள் பகுதி ஒரு கட்டுப்பாட்டு மண்டலமாக வகைப்படுத்தப்பட்டுள்ளதா (உங்கள் மாநிலம் / மாவட்டம் / நகராட்சி போன்றவை)?",
+    "parameter_value_id": 79,
+    "parameter_value": "இல்லை - ஆனால் முன்பு ஒன்று இருந்தது"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) உங்கள் பகுதி ஒரு கட்டுப்பாட்டு மண்டலமாக வகைப்படுத்தப்பட்டுள்ளதா (உங்கள் மாநிலம் / மாவட்டம் / நகராட்சி போன்றவை)?",
+    "parameter_value_id": 80,
+    "parameter_value": "இல்லை"
+  },
+  {
+    "parameter_id": 50,
+    "parameter_name": "",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  }
+]

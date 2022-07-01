@@ -1,0 +1,686 @@
+[
+  {
+    "parameter_id": 1,
+    "parameter_name": "(1.1) तुमचे पूर्ण नाव काय आहे ? (प्रमाणित शासकीय  ID नुसार)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 2,
+    "parameter_name": "(1.2) तुमची वैयक्तिक इ-मेल ID काय आहे ? (जर तुमच्या कडे वैयक्तिक ईमेल ID नसेल तर ,  \"na@na\" लिहा )?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) आपले लिंग काय आहे ?",
+    "parameter_value_id": 1,
+    "parameter_value": "पुरुष  (Male)"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) आपले लिंग काय आहे ?",
+    "parameter_value_id": 2,
+    "parameter_value": "स्त्री (Female)"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) आपले लिंग काय आहे ?",
+    "parameter_value_id": 3,
+    "parameter_value": "कोणत्याही टिप्पणी नाही"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) आपले लिंग काय आहे ?",
+    "parameter_value_id": 4,
+    "parameter_value": "इत्यादी"
+  },
+  {
+    "parameter_id": 4,
+    "parameter_name": "इत्यादी , खास निर्देश करून सांगा",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) आपण कोणत्या कार्यक्रमात सहभागी आहात ?",
+    "parameter_value_id": 5,
+    "parameter_value": "ASER (Assessment, Survey etc)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) आपण कोणत्या कार्यक्रमात सहभागी आहात ?",
+    "parameter_value_id": 6,
+    "parameter_value": "Education (ECE, Elementary, Beyond Elementary, Digital etc)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) आपण कोणत्या कार्यक्रमात सहभागी आहात ?",
+    "parameter_value_id": 7,
+    "parameter_value": "PCVC"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) आपण कोणत्या कार्यक्रमात सहभागी आहात ?",
+    "parameter_value_id": 8,
+    "parameter_value": "Vocational Skilling"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) आपण कोणत्या कार्यक्रमात सहभागी आहात ?",
+    "parameter_value_id": 9,
+    "parameter_value": "Central support functions (HR, Finance, PMG, Central MME, Central Content etc)"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) आपण कोणत्या स्तरावर काम करता ?",
+    "parameter_value_id": 10,
+    "parameter_value": "तालुका (Block)/ जिल्हा (District)/ ठिकाण (Location)"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) आपण कोणत्या स्तरावर काम करता ?",
+    "parameter_value_id": 11,
+    "parameter_value": "State"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) आपण कोणत्या स्तरावर काम करता ?",
+    "parameter_value_id": 12,
+    "parameter_value": "Central"
+  },
+  {
+    "parameter_id": 7,
+    "parameter_name": "(1.6) आपली जन्म तारीख किती आहे?  (DD/MM/YYYY)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 13,
+    "parameter_value": "A+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 14,
+    "parameter_value": "A-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 15,
+    "parameter_value": "B+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 16,
+    "parameter_value": "B-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 17,
+    "parameter_value": "O+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 18,
+    "parameter_value": "O-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 19,
+    "parameter_value": "AB+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 20,
+    "parameter_value": "AB-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) तुमचा रक्तगट काय आहे ?",
+    "parameter_value_id": 21,
+    "parameter_value": "मला माहित नाही (I don't know)"
+  },
+  {
+    "parameter_id": 9,
+    "parameter_name": "(1.8) आपण नियमितपणे कोणता फोन नंबर वापरता ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(1.8.1) या नंबरवर व्हॉट्सअ‍ॅप आहे का?",
+    "parameter_value_id": 22,
+    "parameter_value": "होय  (Yes)"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(1.8.1) या नंबरवर व्हॉट्सअ‍ॅप आहे का?",
+    "parameter_value_id": 23,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 11,
+    "parameter_name": "(1.8.3) आपला दुसरा संपर्क क्रमांक काय आहे ? (ज्या नंबर ला whats app वापरता)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(1.8.2) आपण व्हॉट्सअ‍ॅप वर दुसरा संपर्क क्रमांक वापरता का ?",
+    "parameter_value_id": 25,
+    "parameter_value": "होय  (Yes)"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(1.8.2) आपण व्हॉट्सअ‍ॅप वर दुसरा संपर्क क्रमांक वापरता का ?",
+    "parameter_value_id": 26,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 14,
+    "parameter_name": "(1.9) तुमच्या आपातकालीन संपर्क व्यक्तीचे नाव काय आहे?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 15,
+    "parameter_name": "(1.10) आपातकालीन संपर्क व्यक्तीशी काय संबध आहे? (आई , बाबा , बायको, नवरा, ताई , दादा  इत्यादी )",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 16,
+    "parameter_name": "(1.11) आपातकालीन च्या वेळी संपर्क करण्याऱ्या व्यक्तीचा संपर्क क्रमांक ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 17,
+    "parameter_name": "(2.1) तुमचा सध्याचा पत्ता काय आहे ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 18,
+    "parameter_name": "(2.2) तुमचा सध्याचा पिनकोड काय आहे ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 19,
+    "parameter_name": "(2.3) सध्या तुम्ही कोणत्या राज्यात आहात ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 20,
+    "parameter_name": "(2.4) सध्या तुम्ही कोणत्या जिल्ह्यात आहात ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 21,
+    "parameter_name": "(2.5) सध्या तुम्ही कोणत्या तालुक्यात आहात ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(2.6) तुमचा सध्याचा पत्ता COVID-19 पूर्वी तुम्ही राहत होता त्याचप्रमाणे आहे का?",
+    "parameter_value_id": 31,
+    "parameter_value": "होय  (Yes)"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(2.6) तुमचा सध्याचा पत्ता COVID-19 पूर्वी तुम्ही राहत होता त्याचप्रमाणे आहे का?",
+    "parameter_value_id": 92,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 23,
+    "parameter_name": "(2.6.1) COVID-19 पूर्वी तुम्ही कुठे काम  करत होते व राहत होते तेथील पत्ता काय होता?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 24,
+    "parameter_name": "(2.6.2) COVID-19 पूर्वी जिथे काम करत होता तेथील पिनकोड काय होता?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 25,
+    "parameter_name": "(2.6.3) COVID-19 पूर्वी तुम्ही कोणत्या राज्यात राहत होता?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 26,
+    "parameter_name": "(2.6.4) COVID-19 पूर्वी तुम्ही कोणत्या जिल्ह्यात राहत होता?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 27,
+    "parameter_name": "(2.6.5) COVID-19 पूर्वी तुम्ही कोणत्या तालुक्यात राहत होता?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) तुमच्या सध्याच्या पत्त्यानुसार तुमच्या जवळच्या शेजार्‍यावर गेल्या ६ महिन्यांत कोणत्याही प्रकारचा नैसर्गिक परिणाम झाला का ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 35,
+    "parameter_value": "परिणाम झाला नाही (Not been affected)"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) तुमच्या सध्याच्या पत्त्यानुसार तुमच्या जवळच्या शेजार्‍यावर गेल्या ६ महिन्यांत कोणत्याही प्रकारचा नैसर्गिक परिणाम झाला का ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 36,
+    "parameter_value": "पूर (Flood)"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) तुमच्या सध्याच्या पत्त्यानुसार तुमच्या जवळच्या शेजार्‍यावर गेल्या ६ महिन्यांत कोणत्याही प्रकारचा नैसर्गिक परिणाम झाला का ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 37,
+    "parameter_value": "चक्रीवादळ (Cyclone)"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) तुमच्या सध्याच्या पत्त्यानुसार तुमच्या जवळच्या शेजार्‍यावर गेल्या ६ महिन्यांत कोणत्याही प्रकारचा नैसर्गिक परिणाम झाला का ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 81,
+    "parameter_value": "दुष्काळ (Drought)"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) तुमच्या सध्याच्या पत्त्यानुसार तुमच्या जवळच्या शेजार्‍यावर गेल्या ६ महिन्यांत कोणत्याही प्रकारचा नैसर्गिक परिणाम झाला का ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 82,
+    "parameter_value": "भूकंप (Earthquake)"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) तुमच्या सध्याच्या पत्त्यानुसार तुमच्या जवळच्या शेजार्‍यावर गेल्या ६ महिन्यांत कोणत्याही प्रकारचा नैसर्गिक परिणाम झाला का ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 83,
+    "parameter_value": "रोग ब्रेकआउट (कोविड वगळता) (Disease breakout (excluding COVID))"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) तुमच्या सध्याच्या पत्त्यानुसार तुमच्या जवळच्या शेजार्‍यावर गेल्या ६ महिन्यांत कोणत्याही प्रकारचा नैसर्गिक परिणाम झाला का ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 84,
+    "parameter_value": "इत्यादी , खास निर्देश करून सांगा (Any other - please specify)"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) सध्या आपल्याकडे असलेली सर्व कागदपत्रे निवडा (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 38,
+    "parameter_value": "Aadhaar Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) सध्या आपल्याकडे असलेली सर्व कागदपत्रे निवडा (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 39,
+    "parameter_value": "ESI Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) सध्या आपल्याकडे असलेली सर्व कागदपत्रे निवडा (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 40,
+    "parameter_value": "MNREGA Job Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) सध्या आपल्याकडे असलेली सर्व कागदपत्रे निवडा (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 41,
+    "parameter_value": "PAN Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) सध्या आपल्याकडे असलेली सर्व कागदपत्रे निवडा (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 42,
+    "parameter_value": "Voter ID Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) सध्या आपल्याकडे असलेली सर्व कागदपत्रे निवडा (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 43,
+    "parameter_value": "None"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) तुमच्या घरात रेशनकार्ड आहे का ?",
+    "parameter_value_id": 44,
+    "parameter_value": "होय , माझे नाव त्यावर आहे (Yes & my name is on it)"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) तुमच्या घरात रेशनकार्ड आहे का ?",
+    "parameter_value_id": 45,
+    "parameter_value": "होय, पण त्यावर माझे नाव नाही (Yes but my name is not on it)"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) तुमच्या घरात रेशनकार्ड आहे का ?",
+    "parameter_value_id": 46,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) तुमच्या घरात रेशनकार्ड आहे का ?",
+    "parameter_value_id": 95,
+    "parameter_value": "माहित नाही (Don't know)"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(4.3) आपल्याकडे कोणत्याही विमा कंपनीकडून वैयक्तिक वैद्यकीय विमा काढलेला आहे का? (उदा - ICICI, LIC, National Insurance Company इत्यादी)?",
+    "parameter_value_id": 47,
+    "parameter_value": "होय  (Yes)"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(4.3) आपल्याकडे कोणत्याही विमा कंपनीकडून वैयक्तिक वैद्यकीय विमा काढलेला आहे का? (उदा - ICICI, LIC, National Insurance Company इत्यादी)?",
+    "parameter_value_id": 48,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) खालीलपैकी कोणत्या शासकीय वैद्यकीय विमा योजनेमध्ये तुम्ही नाव नोंदविला आहे ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 49,
+    "parameter_value": "Ayushman Bharat"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) खालीलपैकी कोणत्या शासकीय वैद्यकीय विमा योजनेमध्ये तुम्ही नाव नोंदविला आहे ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 50,
+    "parameter_value": "Rashtriya Swasthya Bima Yojana (RSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) खालीलपैकी कोणत्या शासकीय वैद्यकीय विमा योजनेमध्ये तुम्ही नाव नोंदविला आहे ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 51,
+    "parameter_value": "Aam Aadmi Bima Yojana"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) खालीलपैकी कोणत्या शासकीय वैद्यकीय विमा योजनेमध्ये तुम्ही नाव नोंदविला आहे ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 52,
+    "parameter_value": "Janni Suraksha Yojana"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) खालीलपैकी कोणत्या शासकीय वैद्यकीय विमा योजनेमध्ये तुम्ही नाव नोंदविला आहे ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 53,
+    "parameter_value": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) खालीलपैकी कोणत्या शासकीय वैद्यकीय विमा योजनेमध्ये तुम्ही नाव नोंदविला आहे ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 54,
+    "parameter_value": "काहीही नाही  (None)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) खालीलपैकी कोणत्या शासकीय वैद्यकीय विमा योजनेमध्ये तुम्ही नाव नोंदविला आहे ?(एकापेक्षा अधिक पर्याय निवडा)",
+    "parameter_value_id": 55,
+    "parameter_value": "इतर कोणतीही राज्य सरकारची योजना (Any other state govt scheme)"
+  },
+  {
+    "parameter_id": 33,
+    "parameter_name": "वरील थोडक्यात वर्णन करा?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(4.5) तुमचा जन धन मध्ये खाता आहे का ?",
+    "parameter_value_id": 56,
+    "parameter_value": "होय  (Yes)"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(4.5) तुमचा जन धन मध्ये खाता आहे का ?",
+    "parameter_value_id": 57,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 35,
+    "parameter_name": "(5.1) तुम्हाला सोडून तुमच्या घरात किती लोक राहतात? ( लहान आणि मोठे सगळे मिळून)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 36,
+    "parameter_name": "(5.2) कुटुंबातील किती सदस्य (आई -बाबा , नवरा , 18 वर्षाखालील मुले) आपल्यावर आर्थिकदृष्ट्या अवलंबून आहेत?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) घरातून काम करताना आपल्याला समोर कोणती आव्हाने उभी राहतात ?( एकापेक्षा जास्त पर्याय निवडू शकता )",
+    "parameter_value_id": 58,
+    "parameter_value": "काहीही आव्हान नाही (No challenge)"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) घरातून काम करताना आपल्याला समोर कोणती आव्हाने उभी राहतात ?( एकापेक्षा जास्त पर्याय निवडू शकता )",
+    "parameter_value_id": 59,
+    "parameter_value": "खराब इंटरनेट / नेटवर्क कनेक्टिव्हिटी (Poor internet / network connectivity)"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) घरातून काम करताना आपल्याला समोर कोणती आव्हाने उभी राहतात ?( एकापेक्षा जास्त पर्याय निवडू शकता )",
+    "parameter_value_id": 60,
+    "parameter_value": "कामासाठी जागेचा अभाव (Lack of space for working)"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) घरातून काम करताना आपल्याला समोर कोणती आव्हाने उभी राहतात ?( एकापेक्षा जास्त पर्याय निवडू शकता )",
+    "parameter_value_id": 61,
+    "parameter_value": "वीजेची समस्या (Electricity issues)"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) घरातून काम करताना आपल्याला समोर कोणती आव्हाने उभी राहतात ?( एकापेक्षा जास्त पर्याय निवडू शकता )",
+    "parameter_value_id": 62,
+    "parameter_value": "इत्यादी , खास निर्देश करून सांगा (Any other - please specify)"
+  },
+  {
+    "parameter_id": 38,
+    "parameter_name": "इत्यादी , खास निर्देश करून सांगा",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) जर कार्यालय पुन्हा उघडले तर आपल्या कामासाठी प्रवासाचा सर्वात योग्य मार्ग कोणता असेल?",
+    "parameter_value_id": 63,
+    "parameter_value": "स्वतःचे / कौटुंबिक वाहन (2/4-चाकी वाहन, सायकल) Own/ family vehicle (2/4-wheeler, Cycle)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) जर कार्यालय पुन्हा उघडले तर आपल्या कामासाठी प्रवासाचा सर्वात योग्य मार्ग कोणता असेल?",
+    "parameter_value_id": 64,
+    "parameter_value": "सार्वजनिक परिवहन (ई-रिक्षा, बस, ट्रेन, मेट्रो, ऑटो, कॅब) , Public Transport (e-Rickshaw, Bus, Train, Metro, Auto, Cab)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) जर कार्यालय पुन्हा उघडले तर आपल्या कामासाठी प्रवासाचा सर्वात योग्य मार्ग कोणता असेल?",
+    "parameter_value_id": 65,
+    "parameter_value": "चालणे (Walking)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) जर कार्यालय पुन्हा उघडले तर आपल्या कामासाठी प्रवासाचा सर्वात योग्य मार्ग कोणता असेल?",
+    "parameter_value_id": 66,
+    "parameter_value": "इत्यादी , खास निर्देश करून सांगा (Any other - please specify)"
+  },
+  {
+    "parameter_id": 40,
+    "parameter_name": "इत्यादी , खास निर्देश करून सांगा",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3)तुम्ही खालीलपैकी कोणत्या व्यक्तीबरोबर नियमितपणे राहता (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 85,
+    "parameter_value": "कोणीही नाही  (No one)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3)तुम्ही खालीलपैकी कोणत्या व्यक्तीबरोबर नियमितपणे राहता (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 86,
+    "parameter_value": "0-6 वर्षाची मुले (0-6 yr old children)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3)तुम्ही खालीलपैकी कोणत्या व्यक्तीबरोबर नियमितपणे राहता (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 87,
+    "parameter_value": "शाळेत जाणारी मुले (इयत्ता पहिली-बारावी) (School-going children (Std I-XII))"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3)तुम्ही खालीलपैकी कोणत्या व्यक्तीबरोबर नियमितपणे राहता (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 88,
+    "parameter_value": "60 वर्षांवरील व्यक्ती (Persons above 60 yrs of age)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3)तुम्ही खालीलपैकी कोणत्या व्यक्तीबरोबर नियमितपणे राहता (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 89,
+    "parameter_value": "People with pre-existing medical conditions (such as asthma, diabetes, heart disease etc)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3)तुम्ही खालीलपैकी कोणत्या व्यक्तीबरोबर नियमितपणे राहता (एकापेक्षा अधिक पर्याय निवडा)?",
+    "parameter_value_id": 90,
+    "parameter_value": "गर्भवती महिला (Pregnant women)"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(5.6) तुमच्या घरात दुसरा कोणी (जो तुमच्याबरोबर नियमितपणे राहतो) आणि सध्या कामावर जातो का? (कार्यालय, शिकवण्याचे काम इ.)",
+    "parameter_value_id": 67,
+    "parameter_value": "होय  (Yes)"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(5.6) तुमच्या घरात दुसरा कोणी (जो तुमच्याबरोबर नियमितपणे राहतो) आणि सध्या कामावर जातो का? (कार्यालय, शिकवण्याचे काम इ.)",
+    "parameter_value_id": 68,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) गेल्या ४ महिन्यात आपल्याकडे COVID-19 ची चाचणी घेण्यात आली का?",
+    "parameter_value_id": 69,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) गेल्या ४ महिन्यात आपल्याकडे COVID-19 ची चाचणी घेण्यात आली का?",
+    "parameter_value_id": 70,
+    "parameter_value": "होय, सकारात्मक चाचणी  (Yes, tested positive)"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) गेल्या ४ महिन्यात आपल्याकडे COVID-19 ची चाचणी घेण्यात आली का?",
+    "parameter_value_id": 71,
+    "parameter_value": "होय, चाचणी नकारात्मक (Yes, tested negative)"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1) गेल्या ४ महिन्यात आपल्याकडे COVID-19 ची चाचणी घेण्यात आली का?",
+    "parameter_value_id": 93,
+    "parameter_value": "होय, चाचणी येण्याची प्रतीक्षा आहे (Yes, result awaited)"
+  },
+  {
+    "parameter_id": 45,
+    "parameter_name": "(3.1.1) तुम्हाला कोणत्या तारखेला सकारात्मक चाचणी मिळाली? (DD/MM/YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) आपण COVID-19 ची चाचणी केलेल्या एखाद्या व्यक्ती बरोबर राहात आहात ज्याची मागील 4 महिन्यात चाचणी घेण्यात आली?",
+    "parameter_value_id": 72,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) आपण COVID-19 ची चाचणी केलेल्या एखाद्या व्यक्ती बरोबर राहात आहात ज्याची मागील 4 महिन्यात चाचणी घेण्यात आली?",
+    "parameter_value_id": 73,
+    "parameter_value": "होय, सकारात्मक चाचणी  (Yes, tested positive)"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) आपण COVID-19 ची चाचणी केलेल्या एखाद्या व्यक्ती बरोबर राहात आहात ज्याची मागील 4 महिन्यात चाचणी घेण्यात आली?",
+    "parameter_value_id": 74,
+    "parameter_value": "होय, चाचणी नकारात्मक (Yes, tested negative)"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) आपण COVID-19 ची चाचणी केलेल्या एखाद्या व्यक्ती बरोबर राहात आहात ज्याची मागील 4 महिन्यात चाचणी घेण्यात आली?",
+    "parameter_value_id": 94,
+    "parameter_value": "होय, चाचणी येण्याची प्रतीक्षा आहे (Yes, result awaited)"
+  },
+  {
+    "parameter_id": 47,
+    "parameter_name": "(3.2.1) कोणत्या तारखेला तो चाचणी मध्ये सकारात्मक सापडला ? (DD/MM/YYYY)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3)आरोग्य सेतु App च्या संदर्भात पुढीलपैकी कोणता पर्याय तुम्हाला लागू  होतो ?",
+    "parameter_value_id": 75,
+    "parameter_value": "Downloaded app & done self assessment in the last 1 week"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3)आरोग्य सेतु App च्या संदर्भात पुढीलपैकी कोणता पर्याय तुम्हाला लागू  होतो ?",
+    "parameter_value_id": 76,
+    "parameter_value": "Downloaded app but not done self assessment in the last 1 week"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3)आरोग्य सेतु App च्या संदर्भात पुढीलपैकी कोणता पर्याय तुम्हाला लागू  होतो ?",
+    "parameter_value_id": 77,
+    "parameter_value": "Downloaded the app but not done self assessment ever"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3)आरोग्य सेतु App च्या संदर्भात पुढीलपैकी कोणता पर्याय तुम्हाला लागू  होतो ?",
+    "parameter_value_id": 91,
+    "parameter_value": "अ‍ॅप डाउनलोड केलेला नाही (Not downloaded the app)"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) आपले क्षेत्र कंटेनमेंट झोन म्हणून वर्गीकृत केले आहे का? (आपले राज्य / जिल्हा / नगरपालिका इ.)",
+    "parameter_value_id": 78,
+    "parameter_value": "होय - सध्या कंटेन्ट झोन (Yes - currently containment zone)"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) आपले क्षेत्र कंटेनमेंट झोन म्हणून वर्गीकृत केले आहे का? (आपले राज्य / जिल्हा / नगरपालिका इ.)",
+    "parameter_value_id": 79,
+    "parameter_value": "नाही - परंतु पूर्वी एक होता ( No - but previously was one)"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) आपले क्षेत्र कंटेनमेंट झोन म्हणून वर्गीकृत केले आहे का? (आपले राज्य / जिल्हा / नगरपालिका इ.)",
+    "parameter_value_id": 80,
+    "parameter_value": "नाही  (No)"
+  },
+  {
+    "parameter_id": 50,
+    "parameter_name": "इत्यादी , खास निर्देश करून सांगा",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  }
+]
