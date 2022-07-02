@@ -1,0 +1,686 @@
+[
+  {
+    "parameter_id": 1,
+    "parameter_name": "ତୁମର ପୂର୍ଣ୍ଣ ନାମ କ’ଣ (କୌଣସି ଅନୁମୋଦିତ ସରକାରୀ ID ଅନୁଯାୟୀ)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 2,
+    "parameter_name": "ତୁମର ବ୍ୟକ୍ତିଗତ ଇମେଲ୍ id କ’ଣ? (ଯଦି ଆପଣଙ୍କର ବ୍ୟକ୍ତିଗତ ଇମେଲ୍ ID ନାହିଁ ତେବେ 'na @ na' ପୁରଣ କରନ୍ତୁ)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "ତୁମର ଲିଙ୍ଗ କ’ଣ?",
+    "parameter_value_id": 1,
+    "parameter_value": "ପୁରୁଷ"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "ତୁମର ଲିଙ୍ଗ କ’ଣ?",
+    "parameter_value_id": 2,
+    "parameter_value": "ମହିଳା"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "ତୁମର ଲିଙ୍ଗ କ’ଣ?",
+    "parameter_value_id": 3,
+    "parameter_value": "କହିବାକୁ ପସନ୍ଦ କରୁନାହିଁ"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "ତୁମର ଲିଙ୍ଗ କ’ଣ?",
+    "parameter_value_id": 4,
+    "parameter_value": "ଅନ୍ୟାନ୍ୟ"
+  },
+  {
+    "parameter_id": 4,
+    "parameter_name": "ଅନ୍ୟ, ଦୟାକରି ଉଲ୍ଲେଖ କରନ୍ତୁ |",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "ଆପଣ କେଉଁ ପ୍ରୋଗ୍ରାମରେ ଅଛନ୍ତି?",
+    "parameter_value_id": 5,
+    "parameter_value": "ASER (ମୂଲ୍ୟାଙ୍କନ, ସର୍ଭେ ଇତ୍ୟାଦି)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "ଆପଣ କେଉଁ ପ୍ରୋଗ୍ରାମରେ ଅଛନ୍ତି?",
+    "parameter_value_id": 6,
+    "parameter_value": "ଶିକ୍ଷା (ECE, ପ୍ରାଥମିକ, ବାହାର ପ୍ରାଥମିକ, ଡିଜିଟାଲ୍ ଇତ୍ୟାଦି)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "ଆପଣ କେଉଁ ପ୍ରୋଗ୍ରାମରେ ଅଛନ୍ତି?",
+    "parameter_value_id": 7,
+    "parameter_value": "ପିସିଭିସି"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "ଆପଣ କେଉଁ ପ୍ରୋଗ୍ରାମରେ ଅଛନ୍ତି?",
+    "parameter_value_id": 8,
+    "parameter_value": "ଧନ୍ଦାମୂଳକ ଦକ୍ଷତା |"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "ଆପଣ କେଉଁ ପ୍ରୋଗ୍ରାମରେ ଅଛନ୍ତି?",
+    "parameter_value_id": 9,
+    "parameter_value": "କେନ୍ଦ୍ରୀୟ ସହାୟତା କାର୍ଯ୍ୟ (HR, Finance, PMG, Central MME, Central Content ଇତ୍ୟାଦି)"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "ଆପଣ କେଉଁ ଦଳରେ ଅଛନ୍ତି?",
+    "parameter_value_id": 10,
+    "parameter_value": "ବ୍ଲକ / ଜିଲ୍ଲା / ନିର୍ଦ୍ଧିଷ୍ଟ ସ୍ଥାନ"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "ଆପଣ କେଉଁ ଦଳରେ ଅଛନ୍ତି?",
+    "parameter_value_id": 11,
+    "parameter_value": "ରାଜ୍ୟ"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "ଆପଣ କେଉଁ ଦଳରେ ଅଛନ୍ତି?",
+    "parameter_value_id": 12,
+    "parameter_value": "କେନ୍ଦ୍ରୀୟ |"
+  },
+  {
+    "parameter_id": 7,
+    "parameter_name": "ତୁମର ଜନ୍ମ ତାରିଖ କ’ଣ (DD / MM / YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 13,
+    "parameter_value": "A+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 14,
+    "parameter_value": "A-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 15,
+    "parameter_value": "B+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 16,
+    "parameter_value": "B-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 17,
+    "parameter_value": "O+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 18,
+    "parameter_value": "O-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 19,
+    "parameter_value": "AB+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 20,
+    "parameter_value": "AB-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "ତୁମର ରକ୍ତ ଗୋଷ୍ଠୀ କ’ଣ?",
+    "parameter_value_id": 21,
+    "parameter_value": "ମୁଁ ଜାଣି ନାହିଁ"
+  },
+  {
+    "parameter_id": 9,
+    "parameter_name": "ଆପଣ କେଉଁ ଫୋନ୍ ନମ୍ବର ନିୟମିତ ବ୍ୟବହାର କରନ୍ତି?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "ଏହି ସଂଖ୍ୟାରେ ହୁଆଟ୍ସ ଆପ୍ ଅଛି କି?",
+    "parameter_value_id": 22,
+    "parameter_value": "ହଁ"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "ଏହି ସଂଖ୍ୟାରେ ହୁଆଟ୍ସ ଆପ୍ ଅଛି କି?",
+    "parameter_value_id": 23,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 11,
+    "parameter_name": "ଆପଣଙ୍କର ଦ୍ବିତୀୟ ଯୋଗାଯୋଗ ନମ୍ବର (ହୁଆଟ୍ସ ଆପ୍ ଆକ୍ସେସ୍ ସହିତ) କ’ଣ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "ଆପଣଙ୍କର ଅନ୍ୟ କୌଣସି ନମ୍ବରରେ ହୁଆଟ୍ସ ଆପ୍ ଆକ୍ସେସ ଅଛି କି?",
+    "parameter_value_id": 25,
+    "parameter_value": "ହଁ"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "ଆପଣଙ୍କର ଅନ୍ୟ କୌଣସି ନମ୍ବରରେ ହୁଆଟ୍ସ ଆପ୍ ଆକ୍ସେସ ଅଛି କି?",
+    "parameter_value_id": 26,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 14,
+    "parameter_name": "ତୁମର ଜରୁରୀ ଯୋଗାଯୋଗ ବ୍ୟକ୍ତିଙ୍କ ନାମ କ’ଣ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 15,
+    "parameter_name": "ତୁମର ଜରୁରୀ ସମ୍ପର୍କ ବ୍ୟକ୍ତିଙ୍କ ସହିତ କ’ଣ ସମ୍ପର୍କ ଅଛି (ମା, ବାପା, ସ୍ତ୍ରୀ, ସ୍ୱାମୀ, ଭଉଣୀ, ଭାଇ ଇତ୍ୟାଦି)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 16,
+    "parameter_name": "ଜରୁରୀକାଳୀନ ଯୋଗାଯୋଗ ବ୍ୟକ୍ତିଙ୍କ ନମ୍ବର କ’ଣ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 17,
+    "parameter_name": "ତୁମର ବର୍ତ୍ତମାନ ଠିକଣା କ’ଣ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 18,
+    "parameter_name": "ତୁମର ବର୍ତ୍ତମାନ ପିନକୋଡ଼ କ’ଣ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 19,
+    "parameter_name": "ଆପଣ ବର୍ତ୍ତମାନ କେଉଁ ରାଜ୍ୟରେ ଅଛନ୍ତି?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 20,
+    "parameter_name": "ଆପଣ ବର୍ତ୍ତମାନ କେଉଁ ଜିଲ୍ଲାରେ ଅଛନ୍ତି?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 21,
+    "parameter_name": "ଆପଣ ବର୍ତ୍ତମାନ କେଉଁ ବ୍ଲକ୍ / ୱାର୍ଡ / ତହସିଲ ଇତ୍ୟାଦିରେ ଅଛନ୍ତି?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "ତୁମର ବର୍ତ୍ତମାନ ଠିକଣା ସେହି ଠିକଣା ସହିତ ସମାନ କି ଯେଉଁଠାରେ ଆପଣ କୋଭିଡ- ୧୯ ପୂର୍ବରୁ ରହୁଥିଲେ?",
+    "parameter_value_id": 31,
+    "parameter_value": "ହଁ"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "ତୁମର ବର୍ତ୍ତମାନ ଠିକଣା ସେହି ଠିକଣା ସହିତ ସମାନ କି ଯେଉଁଠାରେ ଆପଣ କୋଭିଡ- ୧୯ ପୂର୍ବରୁ ରହୁଥିଲେ?",
+    "parameter_value_id": 92,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 23,
+    "parameter_name": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, କାର୍ଯ୍ୟ କରିବା ସମୟରେ ଆପଣ କେଉଁଠାରେ ରହୁଥିଲେ ଆପଣଙ୍କର ଠିକଣା କ’ଣ ଥିଲା?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 24,
+    "parameter_name": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, କାର୍ଯ୍ୟ କରିବା ସମୟରେ ତୁମେ ଯେଉଁଠାରେ ରହୁଥିଲ, ତୁମର ଠିକଣା ପିନକୋଡ଼୍ କ’ଣ ଥିଲା?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 25,
+    "parameter_name": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, ଆପଣ କେଉଁ ରାଜ୍ୟରେ ରହୁଥିଲେ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 26,
+    "parameter_name": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, ଆପଣ କେଉଁ ଜିଲ୍ଲାରେ ରହୁଥିଲେ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 27,
+    "parameter_name": "କୋଭିଡ- ୧୯ ପୂର୍ବରୁ, ଆପଣ କେଉଁ ବ୍ଲକ / ୱାର୍ଡ / ତହସିଲ / ଜୋନ୍ ଇତ୍ୟାଦିରେ ରହୁଥିଲେ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "ଗତ ୬ ମାସ ମଧ୍ୟରେ ଆପଣଙ୍କର ପାଖ ପଡ଼ୋଶୀ କୌଣସି ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇଛନ୍ତି କି (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 35,
+    "parameter_value": "ପ୍ରଭାବିତ ହୋଇନାହିଁ |"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "ଗତ ୬ ମାସ ମଧ୍ୟରେ ଆପଣଙ୍କର ପାଖ ପଡ଼ୋଶୀ କୌଣସି ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇଛନ୍ତି କି (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 36,
+    "parameter_value": "ବନ୍ୟା"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "ଗତ ୬ ମାସ ମଧ୍ୟରେ ଆପଣଙ୍କର ପାଖ ପଡ଼ୋଶୀ କୌଣସି ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇଛନ୍ତି କି (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 37,
+    "parameter_value": "ଘୂର୍ଣ୍ଣିବଳୟ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "ଗତ ୬ ମାସ ମଧ୍ୟରେ ଆପଣଙ୍କର ପାଖ ପଡ଼ୋଶୀ କୌଣସି ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇଛନ୍ତି କି (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 81,
+    "parameter_value": "ମରୁଡ଼ି"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "ଗତ ୬ ମାସ ମଧ୍ୟରେ ଆପଣଙ୍କର ପାଖ ପଡ଼ୋଶୀ କୌଣସି ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇଛନ୍ତି କି (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 82,
+    "parameter_value": "ଭୂକମ୍ପ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "ଗତ ୬ ମାସ ମଧ୍ୟରେ ଆପଣଙ୍କର ପାଖ ପଡ଼ୋଶୀ କୌଣସି ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇଛନ୍ତି କି (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 83,
+    "parameter_value": "ରୋଗ ବ୍ରେକଆଉଟ୍ (କୋଭିଡ କୁ ବାଦ ଦେଇ)"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "ଗତ ୬ ମାସ ମଧ୍ୟରେ ଆପଣଙ୍କର ପାଖ ପଡ଼ୋଶୀ କୌଣସି ପ୍ରାକୃତିକ ବିପର୍ଯ୍ୟୟ ଦ୍ୱାରା ପ୍ରଭାବିତ ହୋଇଛନ୍ତି କି (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 84,
+    "parameter_value": "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "ଆପଣଙ୍କର ବର୍ତ୍ତମାନ ଥିବା ସମସ୍ତ ଡକ୍ୟୁମେଣ୍ଟ୍କୁ ଚୟନ କରନ୍ତୁ (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ):",
+    "parameter_value_id": 38,
+    "parameter_value": "ଆଧାର କାର୍ଡ |"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "ଆପଣଙ୍କର ବର୍ତ୍ତମାନ ଥିବା ସମସ୍ତ ଡକ୍ୟୁମେଣ୍ଟ୍କୁ ଚୟନ କରନ୍ତୁ (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ):",
+    "parameter_value_id": 39,
+    "parameter_value": "ESI କାର୍ଡ |"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "ଆପଣଙ୍କର ବର୍ତ୍ତମାନ ଥିବା ସମସ୍ତ ଡକ୍ୟୁମେଣ୍ଟ୍କୁ ଚୟନ କରନ୍ତୁ (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ):",
+    "parameter_value_id": 40,
+    "parameter_value": "MNREGA ଚାକିରି କାର୍ଡ |"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "ଆପଣଙ୍କର ବର୍ତ୍ତମାନ ଥିବା ସମସ୍ତ ଡକ୍ୟୁମେଣ୍ଟ୍କୁ ଚୟନ କରନ୍ତୁ (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ):",
+    "parameter_value_id": 41,
+    "parameter_value": "ପାନ୍ କାର୍ଡ |"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "ଆପଣଙ୍କର ବର୍ତ୍ତମାନ ଥିବା ସମସ୍ତ ଡକ୍ୟୁମେଣ୍ଟ୍କୁ ଚୟନ କରନ୍ତୁ (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ):",
+    "parameter_value_id": 42,
+    "parameter_value": "ଭୋଟର ପରିଚୟ ପତ୍ର"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "ଆପଣଙ୍କର ବର୍ତ୍ତମାନ ଥିବା ସମସ୍ତ ଡକ୍ୟୁମେଣ୍ଟ୍କୁ ଚୟନ କରନ୍ତୁ (ଏକାଧିକ ଚୟନ ଅନୁମୋଦିତ):",
+    "parameter_value_id": 43,
+    "parameter_value": "କିଛି ନୁହେଁ |"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "ଆପଣଙ୍କ ଘରର ରେସନ କାର୍ଡ ଅଛି କି?",
+    "parameter_value_id": 44,
+    "parameter_value": "ହଁ ଏବଂ ମୋ ନାମ ଏଥିରେ ଅଛି |"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "ଆପଣଙ୍କ ଘରର ରେସନ କାର୍ଡ ଅଛି କି?",
+    "parameter_value_id": 45,
+    "parameter_value": "ହଁ କିନ୍ତୁ ମୋ ନାମ ଏଥିରେ ନାହିଁ |"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "ଆପଣଙ୍କ ଘରର ରେସନ କାର୍ଡ ଅଛି କି?",
+    "parameter_value_id": 46,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "ଆପଣଙ୍କ ଘରର ରେସନ କାର୍ଡ ଅଛି କି?",
+    "parameter_value_id": 95,
+    "parameter_value": "ଜାଣି ନାହିଁ"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "ଆପଣଙ୍କର କୌଣସି ବୀମା କମ୍ପାନୀ (ଯେପରିକି ICICI, LIC, ନ୍ୟାସନାଲ ଇନସୁରାନ୍ସ କମ୍ପାନୀ ଇତ୍ୟାଦି) ଠାରୁ ବ୍ୟକ୍ତିଗତ ଚିକିତ୍ସା ବୀମା ଅଛି କି?",
+    "parameter_value_id": 47,
+    "parameter_value": "ହଁ"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "ଆପଣଙ୍କର କୌଣସି ବୀମା କମ୍ପାନୀ (ଯେପରିକି ICICI, LIC, ନ୍ୟାସନାଲ ଇନସୁରାନ୍ସ କମ୍ପାନୀ ଇତ୍ୟାଦି) ଠାରୁ ବ୍ୟକ୍ତିଗତ ଚିକିତ୍ସା ବୀମା ଅଛି କି?",
+    "parameter_value_id": 48,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଡାକ୍ତରୀ ବୀମା ଯୋଜନାଗୁଡିକରେ ଆପଣ ନାମ ଲେଖାଇଛନ୍ତି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 49,
+    "parameter_value": "ଆୟୁଷ୍ମାନ ଭାରତ"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଡାକ୍ତରୀ ବୀମା ଯୋଜନାଗୁଡିକରେ ଆପଣ ନାମ ଲେଖାଇଛନ୍ତି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 50,
+    "parameter_value": "ରାଷ୍ଟ୍ରିୟ ସ୍ୱାସ୍ଥ୍ୟ ବିମା ଯୋଜନା (RSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଡାକ୍ତରୀ ବୀମା ଯୋଜନାଗୁଡିକରେ ଆପଣ ନାମ ଲେଖାଇଛନ୍ତି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 51,
+    "parameter_value": "ଆମ୍ ଆଦମୀ ବିମା ଯୋଜନା"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଡାକ୍ତରୀ ବୀମା ଯୋଜନାଗୁଡିକରେ ଆପଣ ନାମ ଲେଖାଇଛନ୍ତି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 52,
+    "parameter_value": "ଜନନୀ ସୁରକ୍ଷା ଯୋଜନା"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଡାକ୍ତରୀ ବୀମା ଯୋଜନାଗୁଡିକରେ ଆପଣ ନାମ ଲେଖାଇଛନ୍ତି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 53,
+    "parameter_value": "ପ୍ରଧାନ ମନ୍ତ୍ରୀ ସୁରକ୍ଷା ବିମା ଯୋଜନା (PMSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଡାକ୍ତରୀ ବୀମା ଯୋଜନାଗୁଡିକରେ ଆପଣ ନାମ ଲେଖାଇଛନ୍ତି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 54,
+    "parameter_value": "କିଛି ନୁହେଁ |"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଡାକ୍ତରୀ ବୀମା ଯୋଜନାଗୁଡିକରେ ଆପଣ ନାମ ଲେଖାଇଛନ୍ତି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 55,
+    "parameter_value": "ଅନ୍ୟ କୌଣସି ରାଜ୍ୟ ସରକାର ଯୋଜନା |"
+  },
+  {
+    "parameter_id": 33,
+    "parameter_name": "ଦୟାକରି ନାମ ଉଲ୍ଲେଖ କରନ୍ତୁ |",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "ଆପଣଙ୍କର ଜନଧନ ବ୍ୟାଙ୍କ ଆକାଉଣ୍ଟ ଅଛି କି?",
+    "parameter_value_id": 56,
+    "parameter_value": "ହଁ"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "ଆପଣଙ୍କର ଜନଧନ ବ୍ୟାଙ୍କ ଆକାଉଣ୍ଟ ଅଛି କି?",
+    "parameter_value_id": 57,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 35,
+    "parameter_name": "ବର୍ତ୍ତମାନ, ଆପଣଙ୍କ ବ୍ୟତୀତ ଆପଣଙ୍କ ଘରେ କେତେ ଜଣ ଲୋକ ବାସ କରୁଛନ୍ତି?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 36,
+    "parameter_name": "କେତେ ଜଣ ପରିବାର ସଦସ୍ୟ (ପିତାମାତା, ସ୍ୱାମୀ ବା ସ୍ତ୍ରୀ, 18 ବର୍ଷରୁ କମ୍ ପିଲା) ଆପଣଙ୍କ ଉପରେ ଆର୍ଥିକ ନିର୍ଭରଶୀଳ ଅଛନ୍ତି?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "ଘରୁ କାମ କରିବା' ସମୟରେ ଆପଣ ବାରମ୍ବାର ସମ୍ମୁଖୀନ କରିଥିବା ଚାଲେଞ୍ଜସଗୁଡିକ କ’ଣ (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 58,
+    "parameter_value": "କୌଣସି ଚାଲେଞ୍ଜସ ନାହିଁ"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "ଘରୁ କାମ କରିବା' ସମୟରେ ଆପଣ ବାରମ୍ବାର ସମ୍ମୁଖୀନ କରିଥିବା ଚାଲେଞ୍ଜସଗୁଡିକ କ’ଣ (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 59,
+    "parameter_value": "ଖରାପ ଇଣ୍ଟରନେଟ୍ / ନେଟୱାର୍କ ସଂଯୋଗ |"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "ଘରୁ କାମ କରିବା' ସମୟରେ ଆପଣ ବାରମ୍ବାର ସମ୍ମୁଖୀନ କରିଥିବା ଚାଲେଞ୍ଜସଗୁଡିକ କ’ଣ (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 60,
+    "parameter_value": "କାମ କରିବା ପାଇଁ ସ୍ଥାନ ଅଭାବ |"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "ଘରୁ କାମ କରିବା' ସମୟରେ ଆପଣ ବାରମ୍ବାର ସମ୍ମୁଖୀନ କରିଥିବା ଚାଲେଞ୍ଜସଗୁଡିକ କ’ଣ (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 61,
+    "parameter_value": "ବିଦ୍ୟୁତ୍ ସମସ୍ୟା"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "ଘରୁ କାମ କରିବା' ସମୟରେ ଆପଣ ବାରମ୍ବାର ସମ୍ମୁଖୀନ କରିଥିବା ଚାଲେଞ୍ଜସଗୁଡିକ କ’ଣ (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 62,
+    "parameter_value": "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |"
+  },
+  {
+    "parameter_id": 38,
+    "parameter_name": "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "ଯଦି ଅଫିସ୍ ପୁନଃ-ଖୋଲିବ, କାର୍ଯ୍ୟ ପାଇଁ ଆପଣଙ୍କର ଯାତାୟାତର ସବୁଠାରୁ ପସନ୍ଦ ମୋଡ୍ କ’ଣ ହେବ?",
+    "parameter_value_id": 63,
+    "parameter_value": "ନିଜର / ପାରିବାରିକ ଯାନ (2/4 ଚକିଆ ଯାନ, ଚକ୍ର)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "ଯଦି ଅଫିସ୍ ପୁନଃ-ଖୋଲିବ, କାର୍ଯ୍ୟ ପାଇଁ ଆପଣଙ୍କର ଯାତାୟାତର ସବୁଠାରୁ ପସନ୍ଦ ମୋଡ୍ କ’ଣ ହେବ?",
+    "parameter_value_id": 64,
+    "parameter_value": "ଜନସାଧାରଣ ପରିବହନ (ଇ-ରିକ୍ସା, ବସ୍, ଟ୍ରେନ୍, ମେଟ୍ରୋ, ଅଟୋ, କ୍ୟାବ)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "ଯଦି ଅଫିସ୍ ପୁନଃ-ଖୋଲିବ, କାର୍ଯ୍ୟ ପାଇଁ ଆପଣଙ୍କର ଯାତାୟାତର ସବୁଠାରୁ ପସନ୍ଦ ମୋଡ୍ କ’ଣ ହେବ?",
+    "parameter_value_id": 65,
+    "parameter_value": "ଚାଲିବା"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "ଯଦି ଅଫିସ୍ ପୁନଃ-ଖୋଲିବ, କାର୍ଯ୍ୟ ପାଇଁ ଆପଣଙ୍କର ଯାତାୟାତର ସବୁଠାରୁ ପସନ୍ଦ ମୋଡ୍ କ’ଣ ହେବ?",
+    "parameter_value_id": 66,
+    "parameter_value": "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |"
+  },
+  {
+    "parameter_id": 40,
+    "parameter_name": "ଅନ୍ୟ କୌଣସି, ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "ଆପଣ ନିୟମିତ ଭାବରେ ନିମ୍ନଲିଖିତ ଲୋକମାନଙ୍କ ମଧ୍ୟରୁ କୌଣସି ବ୍ୟକ୍ତିଙ୍କ ସହିତ ରୁହନ୍ତି କି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 85,
+    "parameter_value": "କେହି ନୁହେଁ"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "ଆପଣ ନିୟମିତ ଭାବରେ ନିମ୍ନଲିଖିତ ଲୋକମାନଙ୍କ ମଧ୍ୟରୁ କୌଣସି ବ୍ୟକ୍ତିଙ୍କ ସହିତ ରୁହନ୍ତି କି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 86,
+    "parameter_value": "o-୬ ବର୍ଷର ପିଲାମାନେ |"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "ଆପଣ ନିୟମିତ ଭାବରେ ନିମ୍ନଲିଖିତ ଲୋକମାନଙ୍କ ମଧ୍ୟରୁ କୌଣସି ବ୍ୟକ୍ତିଙ୍କ ସହିତ ରୁହନ୍ତି କି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 87,
+    "parameter_value": "ବିଦ୍ୟାଳୟ ଯାଉଥିବା ପିଲାମାନେ (ଶ୍ରେଣୀ ୧-୧୨)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "ଆପଣ ନିୟମିତ ଭାବରେ ନିମ୍ନଲିଖିତ ଲୋକମାନଙ୍କ ମଧ୍ୟରୁ କୌଣସି ବ୍ୟକ୍ତିଙ୍କ ସହିତ ରୁହନ୍ତି କି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 88,
+    "parameter_value": "୬୦ ବର୍ଷରୁ ଅଧିକ ବୟସ୍କ ବ୍ୟକ୍ତି |"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "ଆପଣ ନିୟମିତ ଭାବରେ ନିମ୍ନଲିଖିତ ଲୋକମାନଙ୍କ ମଧ୍ୟରୁ କୌଣସି ବ୍ୟକ୍ତିଙ୍କ ସହିତ ରୁହନ୍ତି କି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 89,
+    "parameter_value": "ପୂର୍ବରୁ ଚିକିତ୍ସା ଅବସ୍ଥାରେ ଥିବା ବ୍ୟକ୍ତି (ଯେପରିକି ଆଜମା, ମଧୁମେହ, ହୃଦ ରୋଗ ଇତ୍ୟାଦି)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "ଆପଣ ନିୟମିତ ଭାବରେ ନିମ୍ନଲିଖିତ ଲୋକମାନଙ୍କ ମଧ୍ୟରୁ କୌଣସି ବ୍ୟକ୍ତିଙ୍କ ସହିତ ରୁହନ୍ତି କି (ଏକାଧିକ-ଚୟନ ଅନୁମୋଦିତ)?",
+    "parameter_value_id": 90,
+    "parameter_value": "ଗର୍ଭବତୀ ମହିଳା |"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "ଆପଣଙ୍କ ଘରର ଅନ୍ୟ କେହି ସଦସ୍ୟ (ଯିଏ ନିୟମିତ ଆପଣଙ୍କ ସହିତ ରୁହନ୍ତି) ବର୍ତ୍ତମାନ କାମ ପାଇଁ ଯାତାୟାତ କରୁଛନ୍ତି କି?",
+    "parameter_value_id": 67,
+    "parameter_value": "ହଁ"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "ଆପଣଙ୍କ ଘରର ଅନ୍ୟ କେହି ସଦସ୍ୟ (ଯିଏ ନିୟମିତ ଆପଣଙ୍କ ସହିତ ରୁହନ୍ତି) ବର୍ତ୍ତମାନ କାମ ପାଇଁ ଯାତାୟାତ କରୁଛନ୍ତି କି?",
+    "parameter_value_id": 68,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "ଆପଣ ଗତ ୪ ମାସ ମଧ୍ୟରେ ନିଜର କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରିଛନ୍ତି କି?",
+    "parameter_value_id": 69,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "ଆପଣ ଗତ ୪ ମାସ ମଧ୍ୟରେ ନିଜର କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରିଛନ୍ତି କି?",
+    "parameter_value_id": 70,
+    "parameter_value": "ହଁ, ପରୀକ୍ଷା ପଜିଟିଭ୍"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "ଆପଣ ଗତ ୪ ମାସ ମଧ୍ୟରେ ନିଜର କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରିଛନ୍ତି କି?",
+    "parameter_value_id": 71,
+    "parameter_value": "ହଁ, ପରୀକ୍ଷା ନେଗେଟିଭ"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "ଆପଣ ଗତ ୪ ମାସ ମଧ୍ୟରେ ନିଜର କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରିଛନ୍ତି କି?",
+    "parameter_value_id": 93,
+    "parameter_value": "ହଁ, ଫଳାଫଳକୁ ଅପେକ୍ଷା କରିଛି |"
+  },
+  {
+    "parameter_id": 45,
+    "parameter_name": "କେଉଁ ତାରିଖରେ ଆପଣ ପଜିଟିଭ୍ ପରୀକ୍ଷା କରିଥିଲେ (DD / MM / YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "ଆପଣଙ୍କ ସହ ରହୁଥିବା କାହାକୁ ବି ଗତ ୪ ମାସ ମଧ୍ୟରେ କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରାଯାଇଛି କି?",
+    "parameter_value_id": 72,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "ଆପଣଙ୍କ ସହ ରହୁଥିବା କାହାକୁ ବି ଗତ ୪ ମାସ ମଧ୍ୟରେ କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରାଯାଇଛି କି?",
+    "parameter_value_id": 73,
+    "parameter_value": "ହଁ, ପରୀକ୍ଷା ପଜିଟିଭ୍"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "ଆପଣଙ୍କ ସହ ରହୁଥିବା କାହାକୁ ବି ଗତ ୪ ମାସ ମଧ୍ୟରେ କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରାଯାଇଛି କି?",
+    "parameter_value_id": 74,
+    "parameter_value": "ହଁ, ପରୀକ୍ଷା ନେଗେଟିଭ"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "ଆପଣଙ୍କ ସହ ରହୁଥିବା କାହାକୁ ବି ଗତ ୪ ମାସ ମଧ୍ୟରେ କୋଭିଡ- ୧୯ ପାଇଁ ପରୀକ୍ଷା କରାଯାଇଛି କି?",
+    "parameter_value_id": 94,
+    "parameter_value": "ହଁ, ଫଳାଫଳକୁ ଅପେକ୍ଷା କରିଛି |"
+  },
+  {
+    "parameter_id": 47,
+    "parameter_name": "କେଉଁ ତାରିଖରେ ସେମାନେ ପଜିଟିଭ୍ ପରୀକ୍ଷା କରିଥିଲେ (DD / MM / YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "ଆରୋଗ୍ୟ ସେତୁ ଆପ୍ ବିଷୟରେ, ନିମ୍ନଲିଖିତ ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ଆପଣଙ୍କ ପାଇଁ ପ୍ରଯୁଜ୍ୟ?",
+    "parameter_value_id": 75,
+    "parameter_value": "ଆପ୍ ଡାଉନଲୋଡ୍ ହୋଇଛି ଏବଂ ଗତ ୧ ସପ୍ତାହରେ ନିଜର ମୂଲ୍ୟାଙ୍କନ କରିଛି |"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "ଆରୋଗ୍ୟ ସେତୁ ଆପ୍ ବିଷୟରେ, ନିମ୍ନଲିଖିତ ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ଆପଣଙ୍କ ପାଇଁ ପ୍ରଯୁଜ୍ୟ?",
+    "parameter_value_id": 76,
+    "parameter_value": "ଆପ୍ ଡାଉନଲୋଡ୍ ହୋଇଛି କିନ୍ତୁ ଗତ ୧ ସପ୍ତାହରେ ନିଜର ମୂଲ୍ୟାଙ୍କନ କରାଇ ନାହିଁ |"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "ଆରୋଗ୍ୟ ସେତୁ ଆପ୍ ବିଷୟରେ, ନିମ୍ନଲିଖିତ ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ଆପଣଙ୍କ ପାଇଁ ପ୍ରଯୁଜ୍ୟ?",
+    "parameter_value_id": 77,
+    "parameter_value": "ଆପ୍ ଡାଉନଲୋଡ୍ କରିଛ୍ତି କିନ୍ତୁ ସର୍ବଦା ନିଜର ମୂଲ୍ୟାଙ୍କନ କରିନାହିଁ |"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "ଆରୋଗ୍ୟ ସେତୁ ଆପ୍ ବିଷୟରେ, ନିମ୍ନଲିଖିତ ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରୁ କେଉଁଟି ଆପଣଙ୍କ ପାଇଁ ପ୍ରଯୁଜ୍ୟ?",
+    "parameter_value_id": 91,
+    "parameter_value": "ଆପ୍ ଡାଉନଲୋଡ୍ କରିନାହିଁ |"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "ଆପଣଙ୍କ ଅଞ୍ଚଳକୁ ଏକ କଣ୍ଟେନମେଣ୍ଟ ଜୋନରେ ଶ୍ରେଣୀଭୁକ୍ତ କରାଯାଇଛି କି (ଆପଣଙ୍କ ରାଜ୍ୟ / ଜିଲ୍ଲା / ପୌରପାଳିକା ଇତ୍ୟାଦି ଦ୍ୱାରା) ?",
+    "parameter_value_id": 78,
+    "parameter_value": "ହଁ - ବର୍ତ୍ତମାନ କଣ୍ଟେନମେଣ୍ଟ ଜୋନ୍ |"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "ଆପଣଙ୍କ ଅଞ୍ଚଳକୁ ଏକ କଣ୍ଟେନମେଣ୍ଟ ଜୋନରେ ଶ୍ରେଣୀଭୁକ୍ତ କରାଯାଇଛି କି (ଆପଣଙ୍କ ରାଜ୍ୟ / ଜିଲ୍ଲା / ପୌରପାଳିକା ଇତ୍ୟାଦି ଦ୍ୱାରା) ?",
+    "parameter_value_id": 79,
+    "parameter_value": "ନା - କିନ୍ତୁ ପୂର୍ବରୁ ଗୋଟିଏ ଥିଲା |"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "ଆପଣଙ୍କ ଅଞ୍ଚଳକୁ ଏକ କଣ୍ଟେନମେଣ୍ଟ ଜୋନରେ ଶ୍ରେଣୀଭୁକ୍ତ କରାଯାଇଛି କି (ଆପଣଙ୍କ ରାଜ୍ୟ / ଜିଲ୍ଲା / ପୌରପାଳିକା ଇତ୍ୟାଦି ଦ୍ୱାରା) ?",
+    "parameter_value_id": 80,
+    "parameter_value": "ନା"
+  },
+  {
+    "parameter_id": 50,
+    "parameter_name": "ଦୟାକରି ନିର୍ଦ୍ଦିଷ୍ଟ କରନ୍ତୁ |",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  }
+]

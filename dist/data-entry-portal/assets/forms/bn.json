@@ -1,0 +1,686 @@
+[
+  {
+    "parameter_id": 1,
+    "parameter_name": "(১.১) আপনার সম্পুর্ন নাম কি? (যেকোনো সরাকরি নথি অনুযায়ী)",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 2,
+    "parameter_name": "(১.২) আপনার নিজস্ব ই-মেইল আইডি টি কি (যদি না থাকে তো এটি পুরন করুন \"na@na\") ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(১.৩) আপনার লিঙ্গ কি?",
+    "parameter_value_id": 1,
+    "parameter_value": "পুরুষ"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(১.৩) আপনার লিঙ্গ কি?",
+    "parameter_value_id": 2,
+    "parameter_value": "স্ত্রী"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(১.৩) আপনার লিঙ্গ কি?",
+    "parameter_value_id": 3,
+    "parameter_value": "আমি বলতে চাইনা"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(১.৩) আপনার লিঙ্গ কি?",
+    "parameter_value_id": 4,
+    "parameter_value": "অন্য"
+  },
+  {
+    "parameter_id": 4,
+    "parameter_name": "অন্য হলে , দয়া করে উল্লেখ করুন",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(১.৪) আপনি কোন প্রোগ্রামে আছেন?",
+    "parameter_value_id": 5,
+    "parameter_value": "ASER (Assessment, Survey etc)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(১.৪) আপনি কোন প্রোগ্রামে আছেন?",
+    "parameter_value_id": 6,
+    "parameter_value": "Education (ECE, Elementary, Beyond Elementary, Digital etc)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(১.৪) আপনি কোন প্রোগ্রামে আছেন?",
+    "parameter_value_id": 7,
+    "parameter_value": "PCVC"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(১.৪) আপনি কোন প্রোগ্রামে আছেন?",
+    "parameter_value_id": 8,
+    "parameter_value": "Vocational Skilling"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(১.৪) আপনি কোন প্রোগ্রামে আছেন?",
+    "parameter_value_id": 9,
+    "parameter_value": "Central support functions (HR, Finance, PMG, Central MME, Central Content etc)"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(১.৫) আপনি কোন দলে/team এ আছেন?",
+    "parameter_value_id": 10,
+    "parameter_value": "ব্লক / জেলা / অঞ্চল"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(১.৫) আপনি কোন দলে/team এ আছেন?",
+    "parameter_value_id": 11,
+    "parameter_value": "রাজ্য"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(১.৫) আপনি কোন দলে/team এ আছেন?",
+    "parameter_value_id": 12,
+    "parameter_value": "কেন্দ্র"
+  },
+  {
+    "parameter_id": 7,
+    "parameter_name": "(১.৬) আপনার জন্ম তারিখ কি (দিন/মাস/বছর) ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 13,
+    "parameter_value": "A+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 14,
+    "parameter_value": "A-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 15,
+    "parameter_value": "B+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 16,
+    "parameter_value": "B-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 17,
+    "parameter_value": "O+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 18,
+    "parameter_value": "O-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 19,
+    "parameter_value": "AB+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 20,
+    "parameter_value": "AB-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(১.৭) আপনার রক্তের গ্রূপ কি ?",
+    "parameter_value_id": 21,
+    "parameter_value": "আমি জানি না"
+  },
+  {
+    "parameter_id": 9,
+    "parameter_name": "(১.৮) কোন ফোন নম্বরটি আপনি নিয়মিত ব্যবহার করেন ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(১.৮.১) এই নম্বরটি কি whatsapp নম্বর আছে?",
+    "parameter_value_id": 22,
+    "parameter_value": "হ্যাঁ"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(১.৮.১) এই নম্বরটি কি whatsapp নম্বর আছে?",
+    "parameter_value_id": 23,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 11,
+    "parameter_name": "(১.৮.৩) আপনার অন্য/দ্বিতীয় নম্বর টি কি ( যেটিতে whatsapp আছে)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(১.৮.২) আপনি কি অন্যকোন whatsApp নম্বর আছে ?",
+    "parameter_value_id": 25,
+    "parameter_value": "হ্যাঁ"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(১.৮.২) আপনি কি অন্যকোন whatsApp নম্বর আছে ?",
+    "parameter_value_id": 26,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 14,
+    "parameter_name": "(১.৯) আপনার জরুরি যোগাযোগের ব্যক্তির নাম কী?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 15,
+    "parameter_name": "(১.১০) আপনার সাথে জরুরি যোগাযোগের ব্যক্তির (মা, বাবা, স্ত্রী, স্বামী, বোন, ভাই ইত্যাদি) সম্পর্ক কী?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 16,
+    "parameter_name": "(১.১১) জরুরী যোগাযোগের ব্যক্তির ফোন নম্বরটি কী?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 17,
+    "parameter_name": "(২.১) আপনার বর্তমান ঠিকানাটি কী?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 18,
+    "parameter_name": "(২.২) আপনার বর্তমান পিনকোডটি কী?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 19,
+    "parameter_name": "(২.৩) আপনি বর্তমানে কোন রাজ্যে রয়েছেন?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 20,
+    "parameter_name": "(২.৪) আপনি বর্তমানে কোন জেলায় রয়েছেন?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 21,
+    "parameter_name": "(২.৫ ) বর্তমানে আপনি কোন ব্লক / ওয়ার্ড / তহসিল ইত্যাদিতে রয়েছেন?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(২.৬) আপনার বর্তমান ঠিকানাটি ঠিক সেই জায়গার মতোই যেখানে আপনি COVID-19 এর আগে বাস করেছিলেন?",
+    "parameter_value_id": 31,
+    "parameter_value": "হ্যাঁ"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(২.৬) আপনার বর্তমান ঠিকানাটি ঠিক সেই জায়গার মতোই যেখানে আপনি COVID-19 এর আগে বাস করেছিলেন?",
+    "parameter_value_id": 92,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 23,
+    "parameter_name": "(২.৬.১) কোভিড -১৯ এর আগে, আপনি কোথায় কাজ করছিলেন সেই ঠিকানাটি কী ছিল?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 24,
+    "parameter_name": "(২.৬.২) কোভিড -১৯ এর আগে, আপনি কোথায় কাজ করছিলেন সেই ঠিকানাটির পিন কোড কী ছিল?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 25,
+    "parameter_name": "(২.৬.৩) কোভিড -১৯ এর আগে আপনি কোন রাজ্যে বাস করতেন?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 26,
+    "parameter_name": "(২.৬.৪) কোভিড -১৯ এর আগে আপনি কোন জেলায় বাস করতেন?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 27,
+    "parameter_name": "(২.৬.৫) কোভিড -১৯ এর পূর্বে আপনি কোন ব্লক / ওয়ার্ড / তহসিল / অঞ্চল-এ বাস করতেন?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(২.৭) আপনার নিকটবর্তী প্রতিবেশীরা কি গত ৬ মাসে কোনও প্রাকৃতিক দুর্যোগ দ্বারা প্রভাবিত হয়েছে (একের বেশি নির্বাচন প্রযোজ্য)?",
+    "parameter_value_id": 35,
+    "parameter_value": "প্রভাবিত হয়নি"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(২.৭) আপনার নিকটবর্তী প্রতিবেশীরা কি গত ৬ মাসে কোনও প্রাকৃতিক দুর্যোগ দ্বারা প্রভাবিত হয়েছে (একের বেশি নির্বাচন প্রযোজ্য)?",
+    "parameter_value_id": 36,
+    "parameter_value": "বন্যা"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(২.৭) আপনার নিকটবর্তী প্রতিবেশীরা কি গত ৬ মাসে কোনও প্রাকৃতিক দুর্যোগ দ্বারা প্রভাবিত হয়েছে (একের বেশি নির্বাচন প্রযোজ্য)?",
+    "parameter_value_id": 37,
+    "parameter_value": "ঘূর্ণিঝড়"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(২.৭) আপনার নিকটবর্তী প্রতিবেশীরা কি গত ৬ মাসে কোনও প্রাকৃতিক দুর্যোগ দ্বারা প্রভাবিত হয়েছে (একের বেশি নির্বাচন প্রযোজ্য)?",
+    "parameter_value_id": 81,
+    "parameter_value": "খরা"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(২.৭) আপনার নিকটবর্তী প্রতিবেশীরা কি গত ৬ মাসে কোনও প্রাকৃতিক দুর্যোগ দ্বারা প্রভাবিত হয়েছে (একের বেশি নির্বাচন প্রযোজ্য)?",
+    "parameter_value_id": 82,
+    "parameter_value": "ভুমিকম্প"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(২.৭) আপনার নিকটবর্তী প্রতিবেশীরা কি গত ৬ মাসে কোনও প্রাকৃতিক দুর্যোগ দ্বারা প্রভাবিত হয়েছে (একের বেশি নির্বাচন প্রযোজ্য)?",
+    "parameter_value_id": 83,
+    "parameter_value": "রোগ ব্রেকআউট (COVID ব্যতীত)"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(২.৭) আপনার নিকটবর্তী প্রতিবেশীরা কি গত ৬ মাসে কোনও প্রাকৃতিক দুর্যোগ দ্বারা প্রভাবিত হয়েছে (একের বেশি নির্বাচন প্রযোজ্য)?",
+    "parameter_value_id": 84,
+    "parameter_value": "অন্য হলে- বর্ণনা করুন"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(৪.১) আপনার কাছে থাকা সমস্ত নথিপত্র/ডকুমেন্ট করুন (একের বেশি নির্বাচন প্রযোজ্য)",
+    "parameter_value_id": 38,
+    "parameter_value": "আধার কার্ড"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(৪.১) আপনার কাছে থাকা সমস্ত নথিপত্র/ডকুমেন্ট করুন (একের বেশি নির্বাচন প্রযোজ্য)",
+    "parameter_value_id": 39,
+    "parameter_value": "ESI Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(৪.১) আপনার কাছে থাকা সমস্ত নথিপত্র/ডকুমেন্ট করুন (একের বেশি নির্বাচন প্রযোজ্য)",
+    "parameter_value_id": 40,
+    "parameter_value": "MNREGA Job Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(৪.১) আপনার কাছে থাকা সমস্ত নথিপত্র/ডকুমেন্ট করুন (একের বেশি নির্বাচন প্রযোজ্য)",
+    "parameter_value_id": 41,
+    "parameter_value": "প্যান কার্ড"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(৪.১) আপনার কাছে থাকা সমস্ত নথিপত্র/ডকুমেন্ট করুন (একের বেশি নির্বাচন প্রযোজ্য)",
+    "parameter_value_id": 42,
+    "parameter_value": "ভোটার আইডি কার্ড"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(৪.১) আপনার কাছে থাকা সমস্ত নথিপত্র/ডকুমেন্ট করুন (একের বেশি নির্বাচন প্রযোজ্য)",
+    "parameter_value_id": 43,
+    "parameter_value": "কোনটি নয়"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(৪.২) আপনার পরিবারের কি রেশন কার্ড রয়েছে?",
+    "parameter_value_id": 44,
+    "parameter_value": "হ্যাঁ এবং আমার নাম রয়েছে"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(৪.২) আপনার পরিবারের কি রেশন কার্ড রয়েছে?",
+    "parameter_value_id": 45,
+    "parameter_value": "হ্যাঁ কিন্তু আমার নাম নেই"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(৪.২) আপনার পরিবারের কি রেশন কার্ড রয়েছে?",
+    "parameter_value_id": 46,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(৪.২) আপনার পরিবারের কি রেশন কার্ড রয়েছে?",
+    "parameter_value_id": 95,
+    "parameter_value": "জানি না"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(৪.৩) আপনার কোনও বীমা সংস্থা (আইসিসিআই, এলআইসি, জাতীয় বীমা সংস্থা ইত্যাদি) এর কোনও ব্যক্তিগত মেডিকেল বীমা রয়েছে?",
+    "parameter_value_id": 47,
+    "parameter_value": "হ্যাঁ"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(৪.৩) আপনার কোনও বীমা সংস্থা (আইসিসিআই, এলআইসি, জাতীয় বীমা সংস্থা ইত্যাদি) এর কোনও ব্যক্তিগত মেডিকেল বীমা রয়েছে?",
+    "parameter_value_id": 48,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(৪.৪) নিম্নলিখিত সরকারী চিকিত্সা বীমা স্কিম গুলির মধ্যে কোনটিতে আপনি (একের বেশি নির্বাচন প্রযোজ্য) এ তালিকাভুক্ত হয়েছেন ?",
+    "parameter_value_id": 49,
+    "parameter_value": "আয়ুস্মান ভারত"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(৪.৪) নিম্নলিখিত সরকারী চিকিত্সা বীমা স্কিম গুলির মধ্যে কোনটিতে আপনি (একের বেশি নির্বাচন প্রযোজ্য) এ তালিকাভুক্ত হয়েছেন ?",
+    "parameter_value_id": 50,
+    "parameter_value": "জাতীয় স্বাস্থ্য বীমা প্রকল্প (RSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(৪.৪) নিম্নলিখিত সরকারী চিকিত্সা বীমা স্কিম গুলির মধ্যে কোনটিতে আপনি (একের বেশি নির্বাচন প্রযোজ্য) এ তালিকাভুক্ত হয়েছেন ?",
+    "parameter_value_id": 51,
+    "parameter_value": "আম আদমী বিমা যোজনা"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(৪.৪) নিম্নলিখিত সরকারী চিকিত্সা বীমা স্কিম গুলির মধ্যে কোনটিতে আপনি (একের বেশি নির্বাচন প্রযোজ্য) এ তালিকাভুক্ত হয়েছেন ?",
+    "parameter_value_id": 52,
+    "parameter_value": "জননী সুরক্ষা যোজনা"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(৪.৪) নিম্নলিখিত সরকারী চিকিত্সা বীমা স্কিম গুলির মধ্যে কোনটিতে আপনি (একের বেশি নির্বাচন প্রযোজ্য) এ তালিকাভুক্ত হয়েছেন ?",
+    "parameter_value_id": 53,
+    "parameter_value": "প্রধানমন্ত্রী সুরক্ষা বিমা যোজনা (PMSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(৪.৪) নিম্নলিখিত সরকারী চিকিত্সা বীমা স্কিম গুলির মধ্যে কোনটিতে আপনি (একের বেশি নির্বাচন প্রযোজ্য) এ তালিকাভুক্ত হয়েছেন ?",
+    "parameter_value_id": 54,
+    "parameter_value": "কোনটি নয়"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(৪.৪) নিম্নলিখিত সরকারী চিকিত্সা বীমা স্কিম গুলির মধ্যে কোনটিতে আপনি (একের বেশি নির্বাচন প্রযোজ্য) এ তালিকাভুক্ত হয়েছেন ?",
+    "parameter_value_id": 55,
+    "parameter_value": "অন্য রাজ্য সরকারের স্কিম"
+  },
+  {
+    "parameter_id": 33,
+    "parameter_name": "দয়া করে নাম উল্লেখ করুন",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(৪.৫) আপনার কি জনধনের ব্যাংক অ্যাকাউন্ট আছে?",
+    "parameter_value_id": 56,
+    "parameter_value": "হ্যাঁ"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(৪.৫) আপনার কি জনধনের ব্যাংক অ্যাকাউন্ট আছে?",
+    "parameter_value_id": 57,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 35,
+    "parameter_name": "(৫.১) বর্তমানে, নিজেকে বাদ দিয়ে আপনার বাড়িতে কত লোক থাকেন?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 36,
+    "parameter_name": "(৫.২) পরিবারের কতজন সদস্য (পিতা-মাতা, স্ত্রী, 18 বছরের কম বয়সী শিশু) আপনার উপর আর্থিকভাবে নির্ভরশীল?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(৫.৪) 'বাড়ি থেকে কাজ' করার সময় আপনি নিয়মিতভাবে কি কি চ্যালেঞ্জ-এর সম্মুখীন হয়েছেন, (একের বেশি নির্বাচন প্রযোজ্য) ?",
+    "parameter_value_id": 58,
+    "parameter_value": "No challenge"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(৫.৪) 'বাড়ি থেকে কাজ' করার সময় আপনি নিয়মিতভাবে কি কি চ্যালেঞ্জ-এর সম্মুখীন হয়েছেন, (একের বেশি নির্বাচন প্রযোজ্য) ?",
+    "parameter_value_id": 59,
+    "parameter_value": "দুর্বল ইন্টারনেট / নেটওয়ার্ক সংযোগ"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(৫.৪) 'বাড়ি থেকে কাজ' করার সময় আপনি নিয়মিতভাবে কি কি চ্যালেঞ্জ-এর সম্মুখীন হয়েছেন, (একের বেশি নির্বাচন প্রযোজ্য) ?",
+    "parameter_value_id": 60,
+    "parameter_value": "কাজের জায়গার অভাব"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(৫.৪) 'বাড়ি থেকে কাজ' করার সময় আপনি নিয়মিতভাবে কি কি চ্যালেঞ্জ-এর সম্মুখীন হয়েছেন, (একের বেশি নির্বাচন প্রযোজ্য) ?",
+    "parameter_value_id": 61,
+    "parameter_value": "বিদ্যুতের সমস্যা"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(৫.৪) 'বাড়ি থেকে কাজ' করার সময় আপনি নিয়মিতভাবে কি কি চ্যালেঞ্জ-এর সম্মুখীন হয়েছেন, (একের বেশি নির্বাচন প্রযোজ্য) ?",
+    "parameter_value_id": 62,
+    "parameter_value": "অন্য হলে- বর্ণনা করুন"
+  },
+  {
+    "parameter_id": 38,
+    "parameter_name": "অন্য কোন, বর্ণনা করুন",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(৫.৫) যদি অফিসটি আবার খোলে, কাজের জন্য আপনার যাত্রাপথের সর্বাধিক পছন্দের পদ্ধতিটি কী হবে?",
+    "parameter_value_id": 63,
+    "parameter_value": "নিজস্ব / পারিবারিক গাড়ির (2/4-Wheeler, সাইকেল)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(৫.৫) যদি অফিসটি আবার খোলে, কাজের জন্য আপনার যাত্রাপথের সর্বাধিক পছন্দের পদ্ধতিটি কী হবে?",
+    "parameter_value_id": 64,
+    "parameter_value": "গণপরিবহন (ই-রিকশা, বাস, ট্রেন, মেট্রো, অটো, ক্যাব)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(৫.৫) যদি অফিসটি আবার খোলে, কাজের জন্য আপনার যাত্রাপথের সর্বাধিক পছন্দের পদ্ধতিটি কী হবে?",
+    "parameter_value_id": 65,
+    "parameter_value": "হাঁটা"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(৫.৫) যদি অফিসটি আবার খোলে, কাজের জন্য আপনার যাত্রাপথের সর্বাধিক পছন্দের পদ্ধতিটি কী হবে?",
+    "parameter_value_id": 66,
+    "parameter_value": "অন্য হলে- বর্ণনা করুন"
+  },
+  {
+    "parameter_id": 40,
+    "parameter_name": "অন্য কোন, বর্ণনা করুন",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(৫.৩) আপনি কি নিয়মিতভাবে নিম্নলিখিত ব্যক্তির সাথে থাকেন (একের বেশি নির্বাচন প্রযোজ্য )?",
+    "parameter_value_id": 85,
+    "parameter_value": "কেউ না"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(৫.৩) আপনি কি নিয়মিতভাবে নিম্নলিখিত ব্যক্তির সাথে থাকেন (একের বেশি নির্বাচন প্রযোজ্য )?",
+    "parameter_value_id": 86,
+    "parameter_value": "০-৬ বছর বয়সী বাচ্চা"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(৫.৩) আপনি কি নিয়মিতভাবে নিম্নলিখিত ব্যক্তির সাথে থাকেন (একের বেশি নির্বাচন প্রযোজ্য )?",
+    "parameter_value_id": 87,
+    "parameter_value": "স্কুলে পড়া শিশু (শ্রেণী- প্রথম থেকে দ্বাদশ)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(৫.৩) আপনি কি নিয়মিতভাবে নিম্নলিখিত ব্যক্তির সাথে থাকেন (একের বেশি নির্বাচন প্রযোজ্য )?",
+    "parameter_value_id": 88,
+    "parameter_value": "60 বছরের বেশি বয়সী ব্যক্তিরা"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(৫.৩) আপনি কি নিয়মিতভাবে নিম্নলিখিত ব্যক্তির সাথে থাকেন (একের বেশি নির্বাচন প্রযোজ্য )?",
+    "parameter_value_id": 89,
+    "parameter_value": "প্রাক-বিদ্যমান চিকিত্সা শর্তযুক্ত লোকেরা (যেমন হাঁপানি, ডায়াবেটিস, হৃদরোগ ইত্যাদি)"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(৫.৩) আপনি কি নিয়মিতভাবে নিম্নলিখিত ব্যক্তির সাথে থাকেন (একের বেশি নির্বাচন প্রযোজ্য )?",
+    "parameter_value_id": 90,
+    "parameter_value": "গর্ভবতী মহিলা"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(৫.৬) আপনার পরিবারের অন্য কেউ (যারা আপনার সাথে নিয়মিত থাকেন) বর্তমানে কাজের জন্য যাতায়াত করেন?",
+    "parameter_value_id": 67,
+    "parameter_value": "হ্যাঁ"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(৫.৬) আপনার পরিবারের অন্য কেউ (যারা আপনার সাথে নিয়মিত থাকেন) বর্তমানে কাজের জন্য যাতায়াত করেন?",
+    "parameter_value_id": 68,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(৩.১) আপনি কি গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করেছেন?",
+    "parameter_value_id": 69,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(৩.১) আপনি কি গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করেছেন?",
+    "parameter_value_id": 70,
+    "parameter_value": "হ্যাঁ, পরীক্ষিত পজিটিভ"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(৩.১) আপনি কি গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করেছেন?",
+    "parameter_value_id": 71,
+    "parameter_value": "হ্যাঁ, পরীক্ষিত নেগেটিভ"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(৩.১) আপনি কি গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করেছেন?",
+    "parameter_value_id": 93,
+    "parameter_value": "হ্যাঁ, ফলাফল প্রতীক্ষিত"
+  },
+  {
+    "parameter_id": 45,
+    "parameter_name": "(৩.১.১) আপনি কোন তারিখে ইতিবাচক পরীক্ষা করেছেন (দিন /মাস / বছর )?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(৩.২) আপনি যাদের সাথে থাকেন তাদের মধ্যে কারোও , গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করা হয়েছে কি ?",
+    "parameter_value_id": 72,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(৩.২) আপনি যাদের সাথে থাকেন তাদের মধ্যে কারোও , গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করা হয়েছে কি ?",
+    "parameter_value_id": 73,
+    "parameter_value": "হ্যাঁ, পরীক্ষিত পজিটিভ"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(৩.২) আপনি যাদের সাথে থাকেন তাদের মধ্যে কারোও , গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করা হয়েছে কি ?",
+    "parameter_value_id": 74,
+    "parameter_value": "হ্যাঁ, পরীক্ষিত নেগেটিভ"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(৩.২) আপনি যাদের সাথে থাকেন তাদের মধ্যে কারোও , গত ৪ মাসে কোভিড -১৯ এর জন্য পরীক্ষা করা হয়েছে কি ?",
+    "parameter_value_id": 94,
+    "parameter_value": "হ্যাঁ, ফলাফল প্রতীক্ষিত"
+  },
+  {
+    "parameter_id": 47,
+    "parameter_name": "(৩.২.১) কোন তারিখে তাদের ইতিবাচক পরীক্ষা করা হয়েছিল (দিন /মাস / বছর )?",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(৩.৩) আরোগ্য সেতু অ্যাপ্লিকেশন সম্পর্কিত, নিচের কোন বিকল্পগুলি আপনার জন্য প্রযোজ্য?",
+    "parameter_value_id": 75,
+    "parameter_value": "গত 1 সপ্তাহে অ্যাপ্লিকেশন ডাউনলোড হয়েছে এবং নিজের মূল্যায়ন হয়েছে"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(৩.৩) আরোগ্য সেতু অ্যাপ্লিকেশন সম্পর্কিত, নিচের কোন বিকল্পগুলি আপনার জন্য প্রযোজ্য?",
+    "parameter_value_id": 76,
+    "parameter_value": "অ্যাপ্লিকেশন ডাউনলোড হয়েছে তবে গত 1 সপ্তাহে নিজের মূল্যায়ন করা হয়নি"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(৩.৩) আরোগ্য সেতু অ্যাপ্লিকেশন সম্পর্কিত, নিচের কোন বিকল্পগুলি আপনার জন্য প্রযোজ্য?",
+    "parameter_value_id": 77,
+    "parameter_value": "অ্যাপ্লিকেশন ডাউনলোড করেছেন তবে নিজের মূল্যায়ন কখনও করা হয়নি"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(৩.৩) আরোগ্য সেতু অ্যাপ্লিকেশন সম্পর্কিত, নিচের কোন বিকল্পগুলি আপনার জন্য প্রযোজ্য?",
+    "parameter_value_id": 91,
+    "parameter_value": "অ্যাপ্লিকেশন ডাউনলোড করা হয়নি"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(৩.৪) আপনার অঞ্চলটি কি কোনও নিয়ন্ত্রণ ক্ষেত্র/কনটেনমেন্ট জোন হিসাবে শ্রেণীবদ্ধ করা হয়েছে (আপনার রাজ্য / জেলা / পৌরসভা ইত্যাদি)?",
+    "parameter_value_id": 78,
+    "parameter_value": "হ্যাঁ - বর্তমানে কন্টেন্টমেন্ট জোন"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(৩.৪) আপনার অঞ্চলটি কি কোনও নিয়ন্ত্রণ ক্ষেত্র/কনটেনমেন্ট জোন হিসাবে শ্রেণীবদ্ধ করা হয়েছে (আপনার রাজ্য / জেলা / পৌরসভা ইত্যাদি)?",
+    "parameter_value_id": 79,
+    "parameter_value": "না - তবে আগে ছিল"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(৩.৪) আপনার অঞ্চলটি কি কোনও নিয়ন্ত্রণ ক্ষেত্র/কনটেনমেন্ট জোন হিসাবে শ্রেণীবদ্ধ করা হয়েছে (আপনার রাজ্য / জেলা / পৌরসভা ইত্যাদি)?",
+    "parameter_value_id": 80,
+    "parameter_value": "না"
+  },
+  {
+    "parameter_id": 50,
+    "parameter_name": "দয়া করে বর্ণনা করুন",
+    "parameter_value_id": "NULL",
+    "parameter_value": "NULL"
+  }
+]

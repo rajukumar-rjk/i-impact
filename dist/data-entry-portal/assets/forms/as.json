@@ -1,0 +1,686 @@
+[
+  {
+    "parameter_id": 1,
+    "parameter_name": "(1.1) আপোনাৰ সম্পূৰ্ণ নাম কি (যিকোনো চৰকাৰী মান্যতা প্ৰাপ্ত নথি অনুযায়ী)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 2,
+    "parameter_name": "(1.2) আপোনাৰ নিজা ই-মেইল ID কি (যদি নাই তেনেহলে কাষত দিয়াৰ দৰে লিখক - na@na)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) আপোনাৰ লিংগ কি?",
+    "parameter_value_id": 1,
+    "parameter_value": "পুৰুষ"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) আপোনাৰ লিংগ কি?",
+    "parameter_value_id": 2,
+    "parameter_value": "মহিলা"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) আপোনাৰ লিংগ কি?",
+    "parameter_value_id": 3,
+    "parameter_value": "ক'ব বিচৰা নাই"
+  },
+  {
+    "parameter_id": 3,
+    "parameter_name": "(1.3) আপোনাৰ লিংগ কি?",
+    "parameter_value_id": 4,
+    "parameter_value": "অন্য"
+  },
+  {
+    "parameter_id": 4,
+    "parameter_name": "যদি অন্য, উল্লেখ কৰক",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) আপুনি কোনটো কাৰ্যক্ৰমৰ অন্তৰ্ভুক্ত?",
+    "parameter_value_id": 5,
+    "parameter_value": "ASER (মূল্যায়ন, জৰীপ ইত্যাদি)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) আপুনি কোনটো কাৰ্যক্ৰমৰ অন্তৰ্ভুক্ত?",
+    "parameter_value_id": 6,
+    "parameter_value": "Education (ECE, Elementary, Beyond Elementary, Digital etc)"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) আপুনি কোনটো কাৰ্যক্ৰমৰ অন্তৰ্ভুক্ত?",
+    "parameter_value_id": 7,
+    "parameter_value": "PCVC"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) আপুনি কোনটো কাৰ্যক্ৰমৰ অন্তৰ্ভুক্ত?",
+    "parameter_value_id": 8,
+    "parameter_value": "Vocational Skilling"
+  },
+  {
+    "parameter_id": 5,
+    "parameter_name": "(1.4) আপুনি কোনটো কাৰ্যক্ৰমৰ অন্তৰ্ভুক্ত?",
+    "parameter_value_id": 9,
+    "parameter_value": "Central support functions (HR, Finance, PMG, Central MME, Central Content etc)"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) আপুনি কোনটো দলৰ সদস্য?",
+    "parameter_value_id": 10,
+    "parameter_value": "ব্লক/জিলা/অঞ্চল"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) আপুনি কোনটো দলৰ সদস্য?",
+    "parameter_value_id": 11,
+    "parameter_value": "ৰাজ্যিক"
+  },
+  {
+    "parameter_id": 6,
+    "parameter_name": "(1.5) আপুনি কোনটো দলৰ সদস্য?",
+    "parameter_value_id": 12,
+    "parameter_value": "কেন্দ্ৰ"
+  },
+  {
+    "parameter_id": 7,
+    "parameter_name": "(1.6) আপোনাৰ জন্ম তিথি (DD/MM/YYYY)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 13,
+    "parameter_value": "A+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 14,
+    "parameter_value": "A-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 15,
+    "parameter_value": "B+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 16,
+    "parameter_value": "B-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 17,
+    "parameter_value": "O+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 18,
+    "parameter_value": "O-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 19,
+    "parameter_value": "AB+"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 20,
+    "parameter_value": "AB-"
+  },
+  {
+    "parameter_id": 8,
+    "parameter_name": "(1.7) আপোনাৰ তেজৰ গ্ৰুপ?",
+    "parameter_value_id": 21,
+    "parameter_value": "নাজানো"
+  },
+  {
+    "parameter_id": 9,
+    "parameter_name": "(1.8) ফোন নম্বৰ (সদায় ব্যৱহাৰ কৰা)",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(1.8.1) এই নম্বৰত What'sApp আছে নে?",
+    "parameter_value_id": 22,
+    "parameter_value": "আছে"
+  },
+  {
+    "parameter_id": 10,
+    "parameter_name": "(1.8.1) এই নম্বৰত What'sApp আছে নে?",
+    "parameter_value_id": 23,
+    "parameter_value": "নাই"
+  },
+  {
+    "parameter_id": 11,
+    "parameter_name": "(1.8.3) আপোনাৰ অন্য ফোন নম্বৰ (যিটোৱে What'sApp চলাই)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(1.8.2) আন কোনো নম্বৰত What'sApp চলাই নেকি?",
+    "parameter_value_id": 25,
+    "parameter_value": "হয়"
+  },
+  {
+    "parameter_id": 13,
+    "parameter_name": "(1.8.2) আন কোনো নম্বৰত What'sApp চলাই নেকি?",
+    "parameter_value_id": 26,
+    "parameter_value": "নহয়"
+  },
+  {
+    "parameter_id": 14,
+    "parameter_name": "(1.9) আপোনাৰ বাবে জৰুৰীকালীন অৱস্থাত যোগাযোগ কৰিব পৰা ব্যক্তিৰ নাম?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 15,
+    "parameter_name": "(1.10) তেওঁৰ সৈতে আপোনাৰ সম্বন্ধ? (মা, দেউতা, পত্নী, স্বামী, ভাই-ককাই, বাই-ভণী)",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 16,
+    "parameter_name": "(1.11) তেওঁৰ ফোন নম্বৰ?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 17,
+    "parameter_name": "(2.1) আপোনাৰ বৰ্তমান ঠিকনা?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 18,
+    "parameter_name": "(2.2) পিন নং?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 19,
+    "parameter_name": "(2.3) বৰ্তমান কোন ৰাজ্যত আছে?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 20,
+    "parameter_name": "(2.4) বৰ্তমান কোন জিলাত আছে?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 21,
+    "parameter_name": "(2.5) কোন ব্লক/ৱাৰ্ড/তহচিলত আছে?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(2.6) আপোনাৰ বৰ্তমানৰ ঠিকনা আৰু কভিড-১৯ ৰ আগত আপুনি থকাৰ ঠিকনা একে নে?",
+    "parameter_value_id": 31,
+    "parameter_value": "হয়"
+  },
+  {
+    "parameter_id": 22,
+    "parameter_name": "(2.6) আপোনাৰ বৰ্তমানৰ ঠিকনা আৰু কভিড-১৯ ৰ আগত আপুনি থকাৰ ঠিকনা একে নে?",
+    "parameter_value_id": 92,
+    "parameter_value": "নহয়"
+  },
+  {
+    "parameter_id": 23,
+    "parameter_name": "(2.6.1) কভিড-১৯ ৰ আগত যদি‌ কৰ্ম সূত্ৰে আন ঠাইত থাকিছিল তাৰ ঠিকনা দিব",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 24,
+    "parameter_name": "(2.6.2) সেই‌‌‍‌ ঠাইৰ পিন নং দিব",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 25,
+    "parameter_name": "(2.6.3) ৰাজ্যৰ নাম (যদি বেলেগ ৰাজ্যত আছিলে)",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 26,
+    "parameter_name": "(2.6.4)‌ সেই জিলাৰ নাম",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 27,
+    "parameter_name": "(2.6.5) ব্লক/ৱাৰ্ড/তহচিল/অঞ্চলৰ নাম",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) যোৱা ৬য় মাহত দাতি কাষৰীয়া অঞ্চল সমূহত যিকোনো প্ৰাকৃতিক দুৰ্যোগ হৈছিল নেকি? (এটাত কৈ বেছি উত্তৰ বাছিব পাৰে)",
+    "parameter_value_id": 35,
+    "parameter_value": "নাই হোৱা"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) যোৱা ৬য় মাহত দাতি কাষৰীয়া অঞ্চল সমূহত যিকোনো প্ৰাকৃতিক দুৰ্যোগ হৈছিল নেকি? (এটাত কৈ বেছি উত্তৰ বাছিব পাৰে)",
+    "parameter_value_id": 36,
+    "parameter_value": "বানপানী"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) যোৱা ৬য় মাহত দাতি কাষৰীয়া অঞ্চল সমূহত যিকোনো প্ৰাকৃতিক দুৰ্যোগ হৈছিল নেকি? (এটাত কৈ বেছি উত্তৰ বাছিব পাৰে)",
+    "parameter_value_id": 37,
+    "parameter_value": "ঘূৰ্ণি বতাহ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) যোৱা ৬য় মাহত দাতি কাষৰীয়া অঞ্চল সমূহত যিকোনো প্ৰাকৃতিক দুৰ্যোগ হৈছিল নেকি? (এটাত কৈ বেছি উত্তৰ বাছিব পাৰে)",
+    "parameter_value_id": 81,
+    "parameter_value": "খৰাং পৰিস্থিতি"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) যোৱা ৬য় মাহত দাতি কাষৰীয়া অঞ্চল সমূহত যিকোনো প্ৰাকৃতিক দুৰ্যোগ হৈছিল নেকি? (এটাত কৈ বেছি উত্তৰ বাছিব পাৰে)",
+    "parameter_value_id": 82,
+    "parameter_value": "ভূমিকম্প"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) যোৱা ৬য় মাহত দাতি কাষৰীয়া অঞ্চল সমূহত যিকোনো প্ৰাকৃতিক দুৰ্যোগ হৈছিল নেকি? (এটাত কৈ বেছি উত্তৰ বাছিব পাৰে)",
+    "parameter_value_id": 83,
+    "parameter_value": "কভিড-১৯ ৰ বাদে আন তেনে বেমাৰ"
+  },
+  {
+    "parameter_id": 28,
+    "parameter_name": "(2.7) যোৱা ৬য় মাহত দাতি কাষৰীয়া অঞ্চল সমূহত যিকোনো প্ৰাকৃতিক দুৰ্যোগ হৈছিল নেকি? (এটাত কৈ বেছি উত্তৰ বাছিব পাৰে)",
+    "parameter_value_id": 84,
+    "parameter_value": "যদি আন কিবা, উল্লেখ কৰক"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) বৰ্তমান আপোনাৰ লগত থকা নথি-পত্ৰ সমুহ চয়ন কৰক (এটাত কৈ বেছি  বাছিব পাৰে)",
+    "parameter_value_id": 38,
+    "parameter_value": "Aadhaar Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) বৰ্তমান আপোনাৰ লগত থকা নথি-পত্ৰ সমুহ চয়ন কৰক (এটাত কৈ বেছি  বাছিব পাৰে)",
+    "parameter_value_id": 39,
+    "parameter_value": "ESI Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) বৰ্তমান আপোনাৰ লগত থকা নথি-পত্ৰ সমুহ চয়ন কৰক (এটাত কৈ বেছি  বাছিব পাৰে)",
+    "parameter_value_id": 40,
+    "parameter_value": "MNREGA Job Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) বৰ্তমান আপোনাৰ লগত থকা নথি-পত্ৰ সমুহ চয়ন কৰক (এটাত কৈ বেছি  বাছিব পাৰে)",
+    "parameter_value_id": 41,
+    "parameter_value": "PAN Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) বৰ্তমান আপোনাৰ লগত থকা নথি-পত্ৰ সমুহ চয়ন কৰক (এটাত কৈ বেছি  বাছিব পাৰে)",
+    "parameter_value_id": 42,
+    "parameter_value": "Voter ID Card"
+  },
+  {
+    "parameter_id": 29,
+    "parameter_name": "(4.1) বৰ্তমান আপোনাৰ লগত থকা নথি-পত্ৰ সমুহ চয়ন কৰক (এটাত কৈ বেছি  বাছিব পাৰে)",
+    "parameter_value_id": 43,
+    "parameter_value": "এটাও নহয়"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) আপোনালোকৰ ৰাচন কাৰ্ভ আছে নে",
+    "parameter_value_id": 44,
+    "parameter_value": "আছে আৰু মোৰো নাম সোমায় আছে"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) আপোনালোকৰ ৰাচন কাৰ্ভ আছে নে",
+    "parameter_value_id": 45,
+    "parameter_value": "আছে কিন্তু তাত মোৰ নাম নাই"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) আপোনালোকৰ ৰাচন কাৰ্ভ আছে নে",
+    "parameter_value_id": 46,
+    "parameter_value": "নাই"
+  },
+  {
+    "parameter_id": 30,
+    "parameter_name": "(4.2) আপোনালোকৰ ৰাচন কাৰ্ভ আছে নে",
+    "parameter_value_id": 95,
+    "parameter_value": "নাজানো"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(4.3) যিকোনো বীমা কোম্পানী সৈতে আপোনাৰ কোনো চিকিৎসা বীমা কৰাই থৈছে নেকি? (যেনে- ICICI, LIC বা NIC ইত্যাদিত)",
+    "parameter_value_id": 47,
+    "parameter_value": "আছে"
+  },
+  {
+    "parameter_id": 31,
+    "parameter_name": "(4.3) যিকোনো বীমা কোম্পানী সৈতে আপোনাৰ কোনো চিকিৎসা বীমা কৰাই থৈছে নেকি? (যেনে- ICICI, LIC বা NIC ইত্যাদিত)",
+    "parameter_value_id": 48,
+    "parameter_value": "নাই"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) উল্লেখিত কোনো এটা বা একাধিক চৰকাৰী বীমা আঁচনিত আপোনাৰ নাম তালিকাভূক্ত কৰিছে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 49,
+    "parameter_value": "আয়ুস্মান ভাৰত"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) উল্লেখিত কোনো এটা বা একাধিক চৰকাৰী বীমা আঁচনিত আপোনাৰ নাম তালিকাভূক্ত কৰিছে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 50,
+    "parameter_value": "ৰাষ্ট্ৰীয় স্বাস্থ্য বীমা যোজনা (RSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) উল্লেখিত কোনো এটা বা একাধিক চৰকাৰী বীমা আঁচনিত আপোনাৰ নাম তালিকাভূক্ত কৰিছে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 51,
+    "parameter_value": "আম আদমি বীমা যোজনা"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) উল্লেখিত কোনো এটা বা একাধিক চৰকাৰী বীমা আঁচনিত আপোনাৰ নাম তালিকাভূক্ত কৰিছে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 52,
+    "parameter_value": "জননী সুৰক্ষা যোজনা"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) উল্লেখিত কোনো এটা বা একাধিক চৰকাৰী বীমা আঁচনিত আপোনাৰ নাম তালিকাভূক্ত কৰিছে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 53,
+    "parameter_value": "প্ৰধান মন্ত্ৰী সুৰক্ষা বীমা যোজনা (PMSBY)"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) উল্লেখিত কোনো এটা বা একাধিক চৰকাৰী বীমা আঁচনিত আপোনাৰ নাম তালিকাভূক্ত কৰিছে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 54,
+    "parameter_value": "এটাও নহয়"
+  },
+  {
+    "parameter_id": 32,
+    "parameter_name": "(4.4) উল্লেখিত কোনো এটা বা একাধিক চৰকাৰী বীমা আঁচনিত আপোনাৰ নাম তালিকাভূক্ত কৰিছে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 55,
+    "parameter_value": "অন্য কোনো ৰাজ্যিক চৰকাৰৰ আঁচনি"
+  },
+  {
+    "parameter_id": 33,
+    "parameter_name": "যদি অন্য, নাম উল্লেখ কৰিব",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(4.5) আপোনাৰ জন ধন বেঙ্ক একাউণ্ট আছে নেকি?",
+    "parameter_value_id": 56,
+    "parameter_value": "আছে"
+  },
+  {
+    "parameter_id": 34,
+    "parameter_name": "(4.5) আপোনাৰ জন ধন বেঙ্ক একাউণ্ট আছে নেকি?",
+    "parameter_value_id": 57,
+    "parameter_value": "নাই"
+  },
+  {
+    "parameter_id": 35,
+    "parameter_name": "(5.1) আপোনাৰ বাহিৰে বৰ্তমান ঘৰত আৰু কেইজন সদস্য থাকে?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 36,
+    "parameter_name": "(5.2) আৰ্থিক ভাবে পৰিয়ালৰ কেইজন সদস্য আপোনাৰ ওপৰত নিৰ্ভৰশীল (যেনে - পিতৃ-মাতৃ, পতি-পত্নী, ১৮ বছৰৰ তলৰ শিশু)?",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ঘৰৰ পৰাই কাম কৰি থকা অৱস্থাত আপুনি সচৰাচৰ কেনেধৰণৰ সমস্যাৰ সম্মুখীন হৈছে (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 58,
+    "parameter_value": "তেনে কোনো সমস্যা নাই"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ঘৰৰ পৰাই কাম কৰি থকা অৱস্থাত আপুনি সচৰাচৰ কেনেধৰণৰ সমস্যাৰ সম্মুখীন হৈছে (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 59,
+    "parameter_value": "নিম্ন ইন্টাৰনেট/নেটৱৰ্ক সেৱা"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ঘৰৰ পৰাই কাম কৰি থকা অৱস্থাত আপুনি সচৰাচৰ কেনেধৰণৰ সমস্যাৰ সম্মুখীন হৈছে (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 60,
+    "parameter_value": "কাম কৰাৰ ঠাইৰ অভাৱ"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ঘৰৰ পৰাই কাম কৰি থকা অৱস্থাত আপুনি সচৰাচৰ কেনেধৰণৰ সমস্যাৰ সম্মুখীন হৈছে (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 61,
+    "parameter_value": "বিজুলীৰ সমস্যা"
+  },
+  {
+    "parameter_id": 37,
+    "parameter_name": "(5.4) ঘৰৰ পৰাই কাম কৰি থকা অৱস্থাত আপুনি সচৰাচৰ কেনেধৰণৰ সমস্যাৰ সম্মুখীন হৈছে (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 62,
+    "parameter_value": "আৰু অন্য অসুবিধা আছে নেকি জনাওক"
+  },
+  {
+    "parameter_id": 38,
+    "parameter_name": "আৰু অন্য অসুবিধা আছে নেকি জনাওক",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) যদি কাৰ্যালয় পুণৰ খোলা হয়, আপোনাৰ বাবে যাতায়তৰ আটাইতকৈ সু-ব্যবস্থা কি হʼব?",
+    "parameter_value_id": 63,
+    "parameter_value": "নিজৰ বা ঘৰৰ বাহন"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) যদি কাৰ্যালয় পুণৰ খোলা হয়, আপোনাৰ বাবে যাতায়তৰ আটাইতকৈ সু-ব্যবস্থা কি হʼব?",
+    "parameter_value_id": 64,
+    "parameter_value": "সমুহীয়া বাহন (ই-ৰিক্সা, বাছ, ট্ৰেন, মেট্ৰ', অʼট, সৰু গাড়ী)"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) যদি কাৰ্যালয় পুণৰ খোলা হয়, আপোনাৰ বাবে যাতায়তৰ আটাইতকৈ সু-ব্যবস্থা কি হʼব?",
+    "parameter_value_id": 65,
+    "parameter_value": "খোজকাঢ়ি যোৱা"
+  },
+  {
+    "parameter_id": 39,
+    "parameter_name": "(5.5) যদি কাৰ্যালয় পুণৰ খোলা হয়, আপোনাৰ বাবে যাতায়তৰ আটাইতকৈ সু-ব্যবস্থা কি হʼব?",
+    "parameter_value_id": 66,
+    "parameter_value": "যদি অন্য উল্লেখ কৰিব"
+  },
+  {
+    "parameter_id": 40,
+    "parameter_name": "যদি অন্য উল্লেখ কৰিব",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) উল্লেখিত এনে কোনো ব্যক্তিৰ সৈতে দৈনিক বসবাস কৰে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 85,
+    "parameter_value": "০-৬ বছৰ বয়সৰ শিশু"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) উল্লেখিত এনে কোনো ব্যক্তিৰ সৈতে দৈনিক বসবাস কৰে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 86,
+    "parameter_value": "শ্ৰেণী ১-১২ লৈ স্কুল গৈ থকা শিশু"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) উল্লেখিত এনে কোনো ব্যক্তিৰ সৈতে দৈনিক বসবাস কৰে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 87,
+    "parameter_value": "৬০ বছৰ উৰ্ধ ব্যক্তিৰ লগত"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) উল্লেখিত এনে কোনো ব্যক্তিৰ সৈতে দৈনিক বসবাস কৰে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 88,
+    "parameter_value": "কোনো অসুস্থ ব্যক্তি যেনে হাঁপানি, মধুমেহ বা হৃদৰোগ থকা"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) উল্লেখিত এনে কোনো ব্যক্তিৰ সৈতে দৈনিক বসবাস কৰে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 89,
+    "parameter_value": "গৰ্ভৱতী মহিলা"
+  },
+  {
+    "parameter_id": 41,
+    "parameter_name": "(5.3) উল্লেখিত এনে কোনো ব্যক্তিৰ সৈতে দৈনিক বসবাস কৰে নেকি (এটাত কৈ বেছি বাছিব পাৰে)?",
+    "parameter_value_id": 90,
+    "parameter_value": "এটাও নহয়"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(5.6)পৰিয়ালৰ এনে কোনো ব্যক্তি (সদায় একেলগে থাকা) কাম কৰিবলৈ গৈ আছে নেকি?",
+    "parameter_value_id": 67,
+    "parameter_value": "আছে"
+  },
+  {
+    "parameter_id": 43,
+    "parameter_name": "(5.6)পৰিয়ালৰ এনে কোনো ব্যক্তি (সদায় একেলগে থাকা) কাম কৰিবলৈ গৈ আছে নেকি?",
+    "parameter_value_id": 68,
+    "parameter_value": "নাই"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1)বিগত ৪ মাহত আপোনাৰ কভিড-১৯ ৰ পৰীক্ষা কৰাইছে নেকি?",
+    "parameter_value_id": 69,
+    "parameter_value": "নাই"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1)বিগত ৪ মাহত আপোনাৰ কভিড-১৯ ৰ পৰীক্ষা কৰাইছে নেকি?",
+    "parameter_value_id": 70,
+    "parameter_value": "হয়, Positive"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1)বিগত ৪ মাহত আপোনাৰ কভিড-১৯ ৰ পৰীক্ষা কৰাইছে নেকি?",
+    "parameter_value_id": 71,
+    "parameter_value": "হয়, Negative"
+  },
+  {
+    "parameter_id": 44,
+    "parameter_name": "(3.1)বিগত ৪ মাহত আপোনাৰ কভিড-১৯ ৰ পৰীক্ষা কৰাইছে নেকি?",
+    "parameter_value_id": 93,
+    "parameter_value": "হয়, ফলাফল অহা নাই"
+  },
+  {
+    "parameter_id": 45,
+    "parameter_name": "(3.1.1) যদি আক্ৰান্ত হৈছিল কোন তাৰিখৰ পৰা, তাৰিখটো জনাব (DD/MM/YYYY)",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) বিগত ৪ মাহত একেলগে থকা আন কৰোবাৰ কভিড-১৯ ৰ পৰীক্ষা কৰোৱা হৈছিল নেকি?",
+    "parameter_value_id": 72,
+    "parameter_value": "নাই"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) বিগত ৪ মাহত একেলগে থকা আন কৰোবাৰ কভিড-১৯ ৰ পৰীক্ষা কৰোৱা হৈছিল নেকি?",
+    "parameter_value_id": 73,
+    "parameter_value": "হয়, Positive"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) বিগত ৪ মাহত একেলগে থকা আন কৰোবাৰ কভিড-১৯ ৰ পৰীক্ষা কৰোৱা হৈছিল নেকি?",
+    "parameter_value_id": 74,
+    "parameter_value": "হয়, Negative"
+  },
+  {
+    "parameter_id": 46,
+    "parameter_name": "(3.2) বিগত ৪ মাহত একেলগে থকা আন কৰোবাৰ কভিড-১৯ ৰ পৰীক্ষা কৰোৱা হৈছিল নেকি?",
+    "parameter_value_id": 94,
+    "parameter_value": "হয়, ফলাফল অহা নাই"
+  },
+  {
+    "parameter_id": 47,
+    "parameter_name": "(3.2.1) যদি আক্ৰান্ত হৈছিল কোন তাৰিখৰ পৰা, তাৰিখটো জনাব (DD/MM/YYYY)",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) আৰোগ্য সেতু এʼপ টোৰ সম্বন্ধত আপোনাৰ সৈতে উল্লেখিত কোনটো কথা প্ৰযোজ্য হ'ব?",
+    "parameter_value_id": 75,
+    "parameter_value": "যোৱা সপ্তাহত ডাউনলোড কৰি নিজৰ পৰীক্ষা কৰা হয়"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) আৰোগ্য সেতু এʼপ টোৰ সম্বন্ধত আপোনাৰ সৈতে উল্লেখিত কোনটো কথা প্ৰযোজ্য হ'ব?",
+    "parameter_value_id": 76,
+    "parameter_value": "যোৱা সপ্তাহত ডাউনলোড কৰা হʼল কিন্তু নিজৰ পৰীক্ষা কৰা হোৱা নাই"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) আৰোগ্য সেতু এʼপ টোৰ সম্বন্ধত আপোনাৰ সৈতে উল্লেখিত কোনটো কথা প্ৰযোজ্য হ'ব?",
+    "parameter_value_id": 77,
+    "parameter_value": "ডাউনলোড কৰা হʼল কিন্তু কেতিয়াও নিজৰ পৰীক্ষা কৰা হোৱা নাই"
+  },
+  {
+    "parameter_id": 48,
+    "parameter_name": "(3.3) আৰোগ্য সেতু এʼপ টোৰ সম্বন্ধত আপোনাৰ সৈতে উল্লেখিত কোনটো কথা প্ৰযোজ্য হ'ব?",
+    "parameter_value_id": 91,
+    "parameter_value": "এʼপ টো ডাউনলোড কৰা হোৱা নাই"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) আপোনাৰ অঞ্চলটোক কণ্টেনমেণ্ট জ'ন ঘোষণা কৰিছিল নেকি (ৰাজ্য/জিলা/পৌৰসভাৰ দ্বাৰা)",
+    "parameter_value_id": 78,
+    "parameter_value": "হয়, বৰ্তমান কণ্টেনমেণ্ট জ'ন"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) আপোনাৰ অঞ্চলটোক কণ্টেনমেণ্ট জ'ন ঘোষণা কৰিছিল নেকি (ৰাজ্য/জিলা/পৌৰসভাৰ দ্বাৰা)",
+    "parameter_value_id": 79,
+    "parameter_value": "বৰ্তমান নহয়"
+  },
+  {
+    "parameter_id": 49,
+    "parameter_name": "(3.4) আপোনাৰ অঞ্চলটোক কণ্টেনমেণ্ট জ'ন ঘোষণা কৰিছিল নেকি (ৰাজ্য/জিলা/পৌৰসভাৰ দ্বাৰা)",
+    "parameter_value_id": 80,
+    "parameter_value": "নাই"
+  },
+  {
+    "parameter_id": 50,
+    "parameter_name": "সময়ৰ বৰ্ণনা দিব",
+    "parameter_value_id": "NULL",
+    "parameter_value": ""
+  }
+]
