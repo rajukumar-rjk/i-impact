@@ -1470,7 +1470,7 @@
 
     /***/
     function qH(module) {
-      module.exports = JSON.parse("[{\"element_type\":\"page\",\"element_data\":{\"element_title\":\"\",\"element_subtitle\":\"\"},\"element_id\":1,\"childrens\":[{\"element_id\":0,\"element_type\":\"section\",\"element_size\":12,\"element_data\":{\"element_title\":\"LC Locations \",\"element_subtitle\":\"\"},\"childrens\":[{\"element_id\":1,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"state_id\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"State\",\"hi\":\"State\",\"mr\":\"State\",\"gu\":\"State\",\"bn\":\"State\",\"as\":\"State\",\"or\":\"State\",\"te\":\"State\",\"kn\":\"State\",\"ta\":\"State\",\"ur\":\"State\",\"pa\":\"State\"},\"elementTooltip\":{\"en\":\"State\",\"hi\":\"State\",\"mr\":\"State\",\"gu\":\"State\",\"bn\":\"State\",\"as\":\"State\",\"or\":\"State\",\"te\":\"State\",\"kn\":\"State\",\"ta\":\"State\",\"ur\":\"State\",\"pa\":\"State\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":2,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"state\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"State\",\"hi\":\"State\",\"mr\":\"State\",\"gu\":\"State\",\"bn\":\"State\",\"as\":\"State\",\"or\":\"State\",\"te\":\"State\",\"kn\":\"State\",\"ta\":\"State\",\"ur\":\"State\",\"pa\":\"State\"},\"elementTooltip\":{\"en\":\"State\",\"hi\":\"State\",\"mr\":\"State\",\"gu\":\"State\",\"bn\":\"State\",\"as\":\"State\",\"or\":\"State\",\"te\":\"State\",\"kn\":\"State\",\"ta\":\"State\",\"ur\":\"State\",\"pa\":\"State\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":3,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"district_id\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"District\",\"hi\":\"District\",\"mr\":\"District\",\"gu\":\"District\",\"bn\":\"District\",\"as\":\"District\",\"or\":\"District\",\"te\":\"District\",\"kn\":\"District\",\"ta\":\"District\",\"ur\":\"District\",\"pa\":\"District\"},\"elementTooltip\":{\"en\":\"District\",\"hi\":\"District\",\"mr\":\"District\",\"gu\":\"District\",\"bn\":\"District\",\"as\":\"District\",\"or\":\"District\",\"te\":\"District\",\"kn\":\"District\",\"ta\":\"District\",\"ur\":\"District\",\"pa\":\"District\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":4,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"district\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"District\",\"hi\":\"District\",\"mr\":\"District\",\"gu\":\"District\",\"bn\":\"District\",\"as\":\"District\",\"or\":\"District\",\"te\":\"District\",\"kn\":\"District\",\"ta\":\"District\",\"ur\":\"District\",\"pa\":\"District\"},\"elementTooltip\":{\"en\":\"District\",\"hi\":\"District\",\"mr\":\"District\",\"gu\":\"District\",\"bn\":\"District\",\"as\":\"District\",\"or\":\"District\",\"te\":\"District\",\"kn\":\"District\",\"ta\":\"District\",\"ur\":\"District\",\"pa\":\"District\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":5,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"block_id\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Block\",\"hi\":\"Block\",\"mr\":\"Block\",\"gu\":\"Block\",\"bn\":\"Block\",\"as\":\"Block\",\"or\":\"Block\",\"te\":\"Block\",\"kn\":\"Block\",\"ta\":\"Block\",\"ur\":\"Block\",\"pa\":\"Block\"},\"elementTooltip\":{\"en\":\"Block\",\"hi\":\"Block\",\"mr\":\"Block\",\"gu\":\"Block\",\"bn\":\"Block\",\"as\":\"Block\",\"or\":\"Block\",\"te\":\"Block\",\"kn\":\"Block\",\"ta\":\"Block\",\"ur\":\"Block\",\"pa\":\"Block\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":6,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"user\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"User Id\",\"hi\":\"User Id\",\"mr\":\"User Id\",\"gu\":\"User Id\",\"bn\":\"User Id\",\"as\":\"User Id\",\"or\":\"User Id\",\"te\":\"User Id\",\"kn\":\"User Id\",\"ta\":\"User Id\",\"ur\":\"User Id\",\"pa\":\"User Id\"},\"elementTooltip\":{\"en\":\"User Id\",\"hi\":\"User Id\",\"mr\":\"User Id\",\"gu\":\"User Id\",\"bn\":\"User Id\",\"as\":\"User Id\",\"or\":\"User Id\",\"te\":\"User Id\",\"kn\":\"User Id\",\"ta\":\"User Id\",\"ur\":\"User Id\",\"pa\":\"User Id\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":7,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"user_id\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"User Id\",\"hi\":\"User Id\",\"mr\":\"User Id\",\"gu\":\"User Id\",\"bn\":\"User Id\",\"as\":\"User Id\",\"or\":\"User Id\",\"te\":\"User Id\",\"kn\":\"User Id\",\"ta\":\"User Id\",\"ur\":\"User Id\",\"pa\":\"User Id\"},\"elementTooltip\":{\"en\":\"User Id\",\"hi\":\"User Id\",\"mr\":\"User Id\",\"gu\":\"User Id\",\"bn\":\"User Id\",\"as\":\"User Id\",\"or\":\"User Id\",\"te\":\"User Id\",\"kn\":\"User Id\",\"ta\":\"User Id\",\"ur\":\"User Id\",\"pa\":\"User Id\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":8,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"block\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Block\",\"hi\":\"Block\",\"mr\":\"Block\",\"gu\":\"Block\",\"bn\":\"Block\",\"as\":\"Block\",\"or\":\"Block\",\"te\":\"Block\",\"kn\":\"Block\",\"ta\":\"Block\",\"ur\":\"Block\",\"pa\":\"Block\"},\"elementTooltip\":{\"en\":\"Block\",\"hi\":\"Block\",\"mr\":\"Block\",\"gu\":\"Block\",\"bn\":\"Block\",\"as\":\"Block\",\"or\":\"Block\",\"te\":\"Block\",\"kn\":\"Block\",\"ta\":\"Block\",\"ur\":\"Block\",\"pa\":\"Block\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":9,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"lc_code\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"LC Code\",\"hi\":\"LC Code\",\"mr\":\"LC Code\",\"gu\":\"LC Code\",\"bn\":\"LC Code\",\"as\":\"LC Code\",\"or\":\"LC Code\",\"te\":\"LC Code\",\"kn\":\"LC Code\",\"ta\":\"LC Code\",\"ur\":\"LC Code\",\"pa\":\"LC Code\"},\"elementTooltip\":{\"en\":\"LC Code\",\"hi\":\"LC Code\",\"mr\":\"LC Code\",\"gu\":\"LC Code\",\"bn\":\"LC Code\",\"as\":\"LC Code\",\"or\":\"LC Code\",\"te\":\"LC Code\",\"kn\":\"LC Code\",\"ta\":\"LC Code\",\"ur\":\"LC Code\",\"pa\":\"LC Code\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":10,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"lc_name\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"LC Name\",\"hi\":\"LC Name\",\"mr\":\"LC Name\",\"gu\":\"LC Name\",\"bn\":\"LC Name\",\"as\":\"LC Name\",\"or\":\"LC Name\",\"te\":\"LC Name\",\"kn\":\"LC Name\",\"ta\":\"LC Name\",\"ur\":\"LC Name\",\"pa\":\"LC Name\"},\"elementTooltip\":{\"en\":\"LC Name\",\"hi\":\"LC Name\",\"mr\":\"LC Name\",\"gu\":\"LC Name\",\"bn\":\"LC Name\",\"as\":\"LC Name\",\"or\":\"LC Name\",\"te\":\"LC Name\",\"kn\":\"LC Name\",\"ta\":\"LC Name\",\"ur\":\"LC Name\",\"pa\":\"LC Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":11,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"supervisor_name\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Supervisor Name\",\"hi\":\"Supervisor Name\",\"mr\":\"Supervisor Name\",\"gu\":\"Supervisor Name\",\"bn\":\"Supervisor Name\",\"as\":\"Supervisor Name\",\"or\":\"Supervisor Name\",\"te\":\"Supervisor Name\",\"kn\":\"Supervisor Name\",\"ta\":\"Supervisor Name\",\"ur\":\"Supervisor Name\",\"pa\":\"Supervisor Name\"},\"elementTooltip\":{\"en\":\"Supervisor Name\",\"hi\":\"Supervisor Name\",\"mr\":\"Supervisor Name\",\"gu\":\"Supervisor Name\",\"bn\":\"Supervisor Name\",\"as\":\"Supervisor Name\",\"or\":\"Supervisor Name\",\"te\":\"Supervisor Name\",\"kn\":\"Supervisor Name\",\"ta\":\"Supervisor Name\",\"ur\":\"Supervisor Name\",\"pa\":\"Supervisor Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":12,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"donor_name\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Donor Name\",\"hi\":\"Donor Name\",\"mr\":\"Donor Name\",\"gu\":\"Donor Name\",\"bn\":\"Donor Name\",\"as\":\"Donor Name\",\"or\":\"Donor Name\",\"te\":\"Donor Name\",\"kn\":\"Donor Name\",\"ta\":\"Donor Name\",\"ur\":\"Donor Name\",\"pa\":\"Donor Name\"},\"elementTooltip\":{\"en\":\"Donor Name\",\"hi\":\"Donor Name\",\"mr\":\"Donor Name\",\"gu\":\"Donor Name\",\"bn\":\"Donor Name\",\"as\":\"Donor Name\",\"or\":\"Donor Name\",\"te\":\"Donor Name\",\"kn\":\"Donor Name\",\"ta\":\"Donor Name\",\"ur\":\"Donor Name\",\"pa\":\"Donor Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":13,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"teacher_code\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Teacher Code\",\"hi\":\"Teacher Code\",\"mr\":\"Teacher Code\",\"gu\":\"Teacher Code\",\"bn\":\"Teacher Code\",\"as\":\"Teacher Code\",\"or\":\"Teacher Code\",\"te\":\"Teacher Code\",\"kn\":\"Teacher Code\",\"ta\":\"Teacher Code\",\"ur\":\"Teacher Code\",\"pa\":\"Teacher Code\"},\"elementTooltip\":{\"en\":\"Teacher Code\",\"hi\":\"Teacher Code\",\"mr\":\"Teacher Code\",\"gu\":\"Teacher Code\",\"bn\":\"Teacher Code\",\"as\":\"Teacher Code\",\"or\":\"Teacher Code\",\"te\":\"Teacher Code\",\"kn\":\"Teacher Code\",\"ta\":\"Teacher Code\",\"ur\":\"Teacher Code\",\"pa\":\"Teacher Code\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":14,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"teacher_name\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Teacher Name\",\"hi\":\"Teacher Name\",\"mr\":\"Teacher Name\",\"gu\":\"Teacher Name\",\"bn\":\"Teacher Name\",\"as\":\"Teacher Name\",\"or\":\"Teacher Name\",\"te\":\"Teacher Name\",\"kn\":\"Teacher Name\",\"ta\":\"Teacher Name\",\"ur\":\"Teacher Name\",\"pa\":\"Teacher Name\"},\"elementTooltip\":{\"en\":\"Teacher Name\",\"hi\":\"Teacher Name\",\"mr\":\"Teacher Name\",\"gu\":\"Teacher Name\",\"bn\":\"Teacher Name\",\"as\":\"Teacher Name\",\"or\":\"Teacher Name\",\"te\":\"Teacher Name\",\"kn\":\"Teacher Name\",\"ta\":\"Teacher Name\",\"ur\":\"Teacher Name\",\"pa\":\"Teacher Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":15,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"pngo\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"PNGO Name\",\"hi\":\"PNGO Name\",\"mr\":\"PNGO Name\",\"gu\":\"PNGO Name\",\"bn\":\"PNGO Name\",\"as\":\"PNGO Name\",\"or\":\"PNGO Name\",\"te\":\"PNGO Name\",\"kn\":\"PNGO Name\",\"ta\":\"PNGO Name\",\"ur\":\"PNGO Name\",\"pa\":\"PNGO Name\"},\"elementTooltip\":{\"en\":\"PNGO Name\",\"hi\":\"PNGO Name\",\"mr\":\"PNGO Name\",\"gu\":\"PNGO Name\",\"bn\":\"PNGO Name\",\"as\":\"PNGO Name\",\"or\":\"PNGO Name\",\"te\":\"PNGO Name\",\"kn\":\"PNGO Name\",\"ta\":\"PNGO Name\",\"ur\":\"PNGO Name\",\"pa\":\"PNGO Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":16,\"element_type\":\"ElementButton\",\"element_size\":12,\"database_param\":\"btn_save\",\"is_required\":\"false\",\"is_editable\":\"true\",\"input_type\":\"button\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Save\",\"hi\":\"Save\",\"mr\":\"Save\",\"gu\":\"Save\",\"bn\":\"Save\",\"as\":\"Save\",\"or\":\"Save\",\"te\":\"Save\",\"kn\":\"Save\",\"ta\":\"Save\",\"ur\":\"Save\",\"pa\":\"Save\"},\"elementTooltip\":{\"en\":\"Save\",\"hi\":\"Save\",\"mr\":\"Save\",\"gu\":\"Save\",\"bn\":\"Save\",\"as\":\"Save\",\"or\":\"Save\",\"te\":\"Save\",\"kn\":\"Save\",\"ta\":\"Save\",\"ur\":\"Save\",\"pa\":\"Save\"},\"element_data\":{\"options\":[],\"submit-url\":\"https://tarlinsights.org/impact/api/child_test/\",\"method\":\"post\",\"parameters\":{\"action\":\"update\"}},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null}]},{\"element_id\":\"2\",\"element_type\":\"table\",\"element_size\":12,\"element_data\":{\"element_title\":\"Location List\",\"element_subtitle\":\"\",\"element_url\":\"https://tarlinsights.org/impact/api/user/\",\"element_parameters\":{\"unit_id\":\"1\"},\"element_header\":[{\"param\":\"lc_code\",\"label\":\"LC Code\"},{\"param\":\"lc_name\",\"label\":\"LC Name\"},{\"param\":\"supervisor_name\",\"label\":\"supervisor_name\"},{\"param\":\"block_name\",\"label\":\"Block\"},{\"param\":\"pngo\",\"label\":\"PNGO\"}]}}]}]");
+      module.exports = JSON.parse("[{\"element_type\":\"page\",\"element_data\":{\"element_title\":\"\",\"element_subtitle\":\"\"},\"get_url\":\"https://tarlinsights.org/impact/api/user/\",\"element_id\":1,\"childrens\":[{\"element_id\":0,\"element_type\":\"section\",\"element_size\":12,\"element_data\":{\"element_title\":\"LC Locations \",\"element_subtitle\":\"\"},\"childrens\":[{\"element_id\":1,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"state_id\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"State\",\"hi\":\"State\",\"mr\":\"State\",\"gu\":\"State\",\"bn\":\"State\",\"as\":\"State\",\"or\":\"State\",\"te\":\"State\",\"kn\":\"State\",\"ta\":\"State\",\"ur\":\"State\",\"pa\":\"State\"},\"elementTooltip\":{\"en\":\"State\",\"hi\":\"State\",\"mr\":\"State\",\"gu\":\"State\",\"bn\":\"State\",\"as\":\"State\",\"or\":\"State\",\"te\":\"State\",\"kn\":\"State\",\"ta\":\"State\",\"ur\":\"State\",\"pa\":\"State\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":2,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"state\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"State\",\"hi\":\"State\",\"mr\":\"State\",\"gu\":\"State\",\"bn\":\"State\",\"as\":\"State\",\"or\":\"State\",\"te\":\"State\",\"kn\":\"State\",\"ta\":\"State\",\"ur\":\"State\",\"pa\":\"State\"},\"elementTooltip\":{\"en\":\"State\",\"hi\":\"State\",\"mr\":\"State\",\"gu\":\"State\",\"bn\":\"State\",\"as\":\"State\",\"or\":\"State\",\"te\":\"State\",\"kn\":\"State\",\"ta\":\"State\",\"ur\":\"State\",\"pa\":\"State\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":3,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"district_id\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"District\",\"hi\":\"District\",\"mr\":\"District\",\"gu\":\"District\",\"bn\":\"District\",\"as\":\"District\",\"or\":\"District\",\"te\":\"District\",\"kn\":\"District\",\"ta\":\"District\",\"ur\":\"District\",\"pa\":\"District\"},\"elementTooltip\":{\"en\":\"District\",\"hi\":\"District\",\"mr\":\"District\",\"gu\":\"District\",\"bn\":\"District\",\"as\":\"District\",\"or\":\"District\",\"te\":\"District\",\"kn\":\"District\",\"ta\":\"District\",\"ur\":\"District\",\"pa\":\"District\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":4,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"district\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"District\",\"hi\":\"District\",\"mr\":\"District\",\"gu\":\"District\",\"bn\":\"District\",\"as\":\"District\",\"or\":\"District\",\"te\":\"District\",\"kn\":\"District\",\"ta\":\"District\",\"ur\":\"District\",\"pa\":\"District\"},\"elementTooltip\":{\"en\":\"District\",\"hi\":\"District\",\"mr\":\"District\",\"gu\":\"District\",\"bn\":\"District\",\"as\":\"District\",\"or\":\"District\",\"te\":\"District\",\"kn\":\"District\",\"ta\":\"District\",\"ur\":\"District\",\"pa\":\"District\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":5,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"block_id\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Block\",\"hi\":\"Block\",\"mr\":\"Block\",\"gu\":\"Block\",\"bn\":\"Block\",\"as\":\"Block\",\"or\":\"Block\",\"te\":\"Block\",\"kn\":\"Block\",\"ta\":\"Block\",\"ur\":\"Block\",\"pa\":\"Block\"},\"elementTooltip\":{\"en\":\"Block\",\"hi\":\"Block\",\"mr\":\"Block\",\"gu\":\"Block\",\"bn\":\"Block\",\"as\":\"Block\",\"or\":\"Block\",\"te\":\"Block\",\"kn\":\"Block\",\"ta\":\"Block\",\"ur\":\"Block\",\"pa\":\"Block\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":6,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"user\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"User Id\",\"hi\":\"User Id\",\"mr\":\"User Id\",\"gu\":\"User Id\",\"bn\":\"User Id\",\"as\":\"User Id\",\"or\":\"User Id\",\"te\":\"User Id\",\"kn\":\"User Id\",\"ta\":\"User Id\",\"ur\":\"User Id\",\"pa\":\"User Id\"},\"elementTooltip\":{\"en\":\"User Id\",\"hi\":\"User Id\",\"mr\":\"User Id\",\"gu\":\"User Id\",\"bn\":\"User Id\",\"as\":\"User Id\",\"or\":\"User Id\",\"te\":\"User Id\",\"kn\":\"User Id\",\"ta\":\"User Id\",\"ur\":\"User Id\",\"pa\":\"User Id\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":7,\"element_type\":\"ElementHidden\",\"element_size\":3,\"database_param\":\"user_id\",\"is_required\":\"true\",\"is_editable\":\"false\",\"input_type\":\"hidden\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"User Id\",\"hi\":\"User Id\",\"mr\":\"User Id\",\"gu\":\"User Id\",\"bn\":\"User Id\",\"as\":\"User Id\",\"or\":\"User Id\",\"te\":\"User Id\",\"kn\":\"User Id\",\"ta\":\"User Id\",\"ur\":\"User Id\",\"pa\":\"User Id\"},\"elementTooltip\":{\"en\":\"User Id\",\"hi\":\"User Id\",\"mr\":\"User Id\",\"gu\":\"User Id\",\"bn\":\"User Id\",\"as\":\"User Id\",\"or\":\"User Id\",\"te\":\"User Id\",\"kn\":\"User Id\",\"ta\":\"User Id\",\"ur\":\"User Id\",\"pa\":\"User Id\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":8,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"block\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Block\",\"hi\":\"Block\",\"mr\":\"Block\",\"gu\":\"Block\",\"bn\":\"Block\",\"as\":\"Block\",\"or\":\"Block\",\"te\":\"Block\",\"kn\":\"Block\",\"ta\":\"Block\",\"ur\":\"Block\",\"pa\":\"Block\"},\"elementTooltip\":{\"en\":\"Block\",\"hi\":\"Block\",\"mr\":\"Block\",\"gu\":\"Block\",\"bn\":\"Block\",\"as\":\"Block\",\"or\":\"Block\",\"te\":\"Block\",\"kn\":\"Block\",\"ta\":\"Block\",\"ur\":\"Block\",\"pa\":\"Block\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":9,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"lc_code\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"LC Code\",\"hi\":\"LC Code\",\"mr\":\"LC Code\",\"gu\":\"LC Code\",\"bn\":\"LC Code\",\"as\":\"LC Code\",\"or\":\"LC Code\",\"te\":\"LC Code\",\"kn\":\"LC Code\",\"ta\":\"LC Code\",\"ur\":\"LC Code\",\"pa\":\"LC Code\"},\"elementTooltip\":{\"en\":\"LC Code\",\"hi\":\"LC Code\",\"mr\":\"LC Code\",\"gu\":\"LC Code\",\"bn\":\"LC Code\",\"as\":\"LC Code\",\"or\":\"LC Code\",\"te\":\"LC Code\",\"kn\":\"LC Code\",\"ta\":\"LC Code\",\"ur\":\"LC Code\",\"pa\":\"LC Code\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":10,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"lc_name\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"LC Name\",\"hi\":\"LC Name\",\"mr\":\"LC Name\",\"gu\":\"LC Name\",\"bn\":\"LC Name\",\"as\":\"LC Name\",\"or\":\"LC Name\",\"te\":\"LC Name\",\"kn\":\"LC Name\",\"ta\":\"LC Name\",\"ur\":\"LC Name\",\"pa\":\"LC Name\"},\"elementTooltip\":{\"en\":\"LC Name\",\"hi\":\"LC Name\",\"mr\":\"LC Name\",\"gu\":\"LC Name\",\"bn\":\"LC Name\",\"as\":\"LC Name\",\"or\":\"LC Name\",\"te\":\"LC Name\",\"kn\":\"LC Name\",\"ta\":\"LC Name\",\"ur\":\"LC Name\",\"pa\":\"LC Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":11,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"supervisor_name\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Supervisor Name\",\"hi\":\"Supervisor Name\",\"mr\":\"Supervisor Name\",\"gu\":\"Supervisor Name\",\"bn\":\"Supervisor Name\",\"as\":\"Supervisor Name\",\"or\":\"Supervisor Name\",\"te\":\"Supervisor Name\",\"kn\":\"Supervisor Name\",\"ta\":\"Supervisor Name\",\"ur\":\"Supervisor Name\",\"pa\":\"Supervisor Name\"},\"elementTooltip\":{\"en\":\"Supervisor Name\",\"hi\":\"Supervisor Name\",\"mr\":\"Supervisor Name\",\"gu\":\"Supervisor Name\",\"bn\":\"Supervisor Name\",\"as\":\"Supervisor Name\",\"or\":\"Supervisor Name\",\"te\":\"Supervisor Name\",\"kn\":\"Supervisor Name\",\"ta\":\"Supervisor Name\",\"ur\":\"Supervisor Name\",\"pa\":\"Supervisor Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":12,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"donor_name\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Donor Name\",\"hi\":\"Donor Name\",\"mr\":\"Donor Name\",\"gu\":\"Donor Name\",\"bn\":\"Donor Name\",\"as\":\"Donor Name\",\"or\":\"Donor Name\",\"te\":\"Donor Name\",\"kn\":\"Donor Name\",\"ta\":\"Donor Name\",\"ur\":\"Donor Name\",\"pa\":\"Donor Name\"},\"elementTooltip\":{\"en\":\"Donor Name\",\"hi\":\"Donor Name\",\"mr\":\"Donor Name\",\"gu\":\"Donor Name\",\"bn\":\"Donor Name\",\"as\":\"Donor Name\",\"or\":\"Donor Name\",\"te\":\"Donor Name\",\"kn\":\"Donor Name\",\"ta\":\"Donor Name\",\"ur\":\"Donor Name\",\"pa\":\"Donor Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":13,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"teacher_code\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Teacher Code\",\"hi\":\"Teacher Code\",\"mr\":\"Teacher Code\",\"gu\":\"Teacher Code\",\"bn\":\"Teacher Code\",\"as\":\"Teacher Code\",\"or\":\"Teacher Code\",\"te\":\"Teacher Code\",\"kn\":\"Teacher Code\",\"ta\":\"Teacher Code\",\"ur\":\"Teacher Code\",\"pa\":\"Teacher Code\"},\"elementTooltip\":{\"en\":\"Teacher Code\",\"hi\":\"Teacher Code\",\"mr\":\"Teacher Code\",\"gu\":\"Teacher Code\",\"bn\":\"Teacher Code\",\"as\":\"Teacher Code\",\"or\":\"Teacher Code\",\"te\":\"Teacher Code\",\"kn\":\"Teacher Code\",\"ta\":\"Teacher Code\",\"ur\":\"Teacher Code\",\"pa\":\"Teacher Code\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":14,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"teacher_name\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Teacher Name\",\"hi\":\"Teacher Name\",\"mr\":\"Teacher Name\",\"gu\":\"Teacher Name\",\"bn\":\"Teacher Name\",\"as\":\"Teacher Name\",\"or\":\"Teacher Name\",\"te\":\"Teacher Name\",\"kn\":\"Teacher Name\",\"ta\":\"Teacher Name\",\"ur\":\"Teacher Name\",\"pa\":\"Teacher Name\"},\"elementTooltip\":{\"en\":\"Teacher Name\",\"hi\":\"Teacher Name\",\"mr\":\"Teacher Name\",\"gu\":\"Teacher Name\",\"bn\":\"Teacher Name\",\"as\":\"Teacher Name\",\"or\":\"Teacher Name\",\"te\":\"Teacher Name\",\"kn\":\"Teacher Name\",\"ta\":\"Teacher Name\",\"ur\":\"Teacher Name\",\"pa\":\"Teacher Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":15,\"element_type\":\"ElementText\",\"element_size\":2,\"database_param\":\"pngo\",\"is_required\":\"true\",\"is_editable\":\"true\",\"input_type\":\"text\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"PNGO Name\",\"hi\":\"PNGO Name\",\"mr\":\"PNGO Name\",\"gu\":\"PNGO Name\",\"bn\":\"PNGO Name\",\"as\":\"PNGO Name\",\"or\":\"PNGO Name\",\"te\":\"PNGO Name\",\"kn\":\"PNGO Name\",\"ta\":\"PNGO Name\",\"ur\":\"PNGO Name\",\"pa\":\"PNGO Name\"},\"elementTooltip\":{\"en\":\"PNGO Name\",\"hi\":\"PNGO Name\",\"mr\":\"PNGO Name\",\"gu\":\"PNGO Name\",\"bn\":\"PNGO Name\",\"as\":\"PNGO Name\",\"or\":\"PNGO Name\",\"te\":\"PNGO Name\",\"kn\":\"PNGO Name\",\"ta\":\"PNGO Name\",\"ur\":\"PNGO Name\",\"pa\":\"PNGO Name\"},\"element_data\":{\"options\":[]},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null},{\"element_id\":16,\"element_type\":\"ElementButton\",\"element_size\":12,\"database_param\":\"btn_save\",\"is_required\":\"false\",\"is_editable\":\"true\",\"input_type\":\"button\",\"min_val\":\"\",\"max_val\":\"\",\"elementLabel\":{\"en\":\"Save\",\"hi\":\"Save\",\"mr\":\"Save\",\"gu\":\"Save\",\"bn\":\"Save\",\"as\":\"Save\",\"or\":\"Save\",\"te\":\"Save\",\"kn\":\"Save\",\"ta\":\"Save\",\"ur\":\"Save\",\"pa\":\"Save\"},\"elementTooltip\":{\"en\":\"Save\",\"hi\":\"Save\",\"mr\":\"Save\",\"gu\":\"Save\",\"bn\":\"Save\",\"as\":\"Save\",\"or\":\"Save\",\"te\":\"Save\",\"kn\":\"Save\",\"ta\":\"Save\",\"ur\":\"Save\",\"pa\":\"Save\"},\"element_data\":{\"options\":[],\"submit-url\":\"https://tarlinsights.org/impact/api/user/\",\"method\":\"post\",\"parameters\":{\"action\":\"update\"}},\"operation\":\"\",\"operator\":\"\",\"operator_result\":\"\",\"dependant\":\"\",\"dependent_operator\":\"\",\"dependent_result\":\"\",\"is_dependent\":false,\"expression\":null,\"is_visible\":null}]},{\"element_id\":\"2\",\"element_type\":\"table\",\"element_size\":12,\"element_data\":{\"element_title\":\"Location List\",\"element_subtitle\":\"\",\"element_url\":\"https://tarlinsights.org/impact/api/user/\",\"element_parameters\":{\"unit_id\":\"1\"},\"element_header\":[{\"param\":\"lc_code\",\"label\":\"LC Code\"},{\"param\":\"lc_name\",\"label\":\"LC Name\"},{\"param\":\"supervisor_name\",\"label\":\"supervisor_name\"},{\"param\":\"block_name\",\"label\":\"Block\"},{\"param\":\"pngo\",\"label\":\"PNGO\"}]}}]}]");
       /***/
     },
 
@@ -4312,26 +4312,60 @@
           value: function sendData(url, data) {
             var _this25 = this;
 
+            var updateId = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
             return new Promise(function (resolve, reject) {
               var body = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpParams"]();
-              var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]().set('Content-Type', 'application/json'); // console.log(JSON.stringify(data));
-
+              var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]().set('Content-Type', 'application/json');
               var keys = Object.keys(data);
               keys.forEach(function (element) {
-                //console.log(element,data[element])
                 body = body.append(element, data[element]);
-              }); // body = body.append("filter_value",district_id);
-              // body = body.append("filter_type","district");
-
-              console.log(url, '-', body);
-
-              _this25.http.post(url, body).subscribe(function (res) {
-                resolve(res);
-              }, function (err) {
-                return reject(err);
               });
+              console.log(url, '-', body); // this.http.post(url, body).subscribe(
+              //   res => {
+              //     resolve(res);
+              //   },
+              //   err => reject(err)
+              // )
+
+              if (updateId == "") {
+                _this25.http.post(url, body).subscribe(function (res) {
+                  resolve(res);
+                }, function (err) {
+                  return reject(err);
+                });
+              } else {
+                _this25.http.patch(url + updateId + "/", body).subscribe(function (res) {
+                  resolve(res);
+                }, function (err) {
+                  return reject(err);
+                });
+              }
             });
-          }
+          } // addVolunteer(bodyData:any, url:any, updateId = ""){
+          //   return new Promise((resolve, reject) => {
+          //     let body: HttpParams = new HttpParams();
+          //     let keys = Object.keys(bodyData)
+          //     keys.forEach(element => {
+          //       body = body.append(element,bodyData[element]);
+          //     });
+          //     if(updateId==""){
+          //       this.http.post(this.servername + url, body).subscribe(
+          //         res => {
+          //           resolve(res);
+          //         },
+          //         err => reject(err)
+          //       )
+          //     }else{
+          //       this.http.patch(this.servername + url + updateId + "/", body).subscribe(
+          //         res => {
+          //           resolve(res);
+          //         },
+          //         err => reject(err)
+          //       )
+          //     }
+          //   });
+          // }
+
         }, {
           key: "fetchDropdownData",
           value: function fetchDropdownData(url, data) {
@@ -5701,37 +5735,43 @@
       /* harmony import */
 
 
-      var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
+
+
+      var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/forms */
       "3Pt+");
       /* harmony import */
 
 
-      var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/common */
       "ofXK");
       /* harmony import */
 
 
-      var _custom_text_box_custom_text_box_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      var _custom_text_box_custom_text_box_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! ../custom-text-box/custom-text-box.component */
       "ZoVi");
       /* harmony import */
 
 
-      var _custom_dropdown_custom_dropdown_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      var _custom_dropdown_custom_dropdown_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
       /*! ../custom-dropdown/custom-dropdown.component */
       "0Cur");
       /* harmony import */
 
 
-      var angular2_ladda__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+      var angular2_ladda__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
       /*! angular2-ladda */
       "19Fg");
       /* harmony import */
 
 
-      var _custom_tabular_custom_tabular_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+      var _custom_tabular_custom_tabular_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
       /*! ../custom-tabular/custom-tabular.component */
       "BTxV");
 
@@ -6092,22 +6132,29 @@
       }
 
       var CustomSectionComponent = /*#__PURE__*/function () {
-        function CustomSectionComponent(serverService) {
+        function CustomSectionComponent(serverService, route) {
+          var _this45 = this;
+
           _classCallCheck(this, CustomSectionComponent);
 
           this.serverService = serverService;
+          this.route = route;
+          this.form_id = 0;
           this.unitData = {};
           this.isLoading = false;
           this.error = false;
           this.currentAction = 'insert';
           this.reloadTable = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
           this.resultData = {};
+          this.route.params.subscribe(function (event) {
+            _this45.form_id = event.id;
+          });
         }
 
         _createClass(CustomSectionComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this45 = this;
+            var _this46 = this;
 
             //this.unitData = this.formData;
             this.unitData['state'] = localStorage.getItem('state_name');
@@ -6125,26 +6172,26 @@
             this.unitData['user'] = localStorage.getItem('user_id');
             console.log(this.unitData);
             setTimeout(function () {
-              console.log(_this45.sectionData.childrens);
+              console.log(_this46.sectionData.childrens);
 
-              _this45.sectionData.childrens.forEach(function (element) {
+              _this46.sectionData.childrens.forEach(function (element) {
                 if (element.element_type == "ElementText" || element.element_type == "ElementHidden") {
                   ////console.log(element.is_editable, element);
                   //$('#'+element.element_id).attr('disabled',true);
-                  if (_this45.unitData != undefined && _this45.unitData.hasOwnProperty(element.database_param)) {
-                    $('#' + element.element_id).val(_this45.unitData[element.database_param]);
+                  if (_this46.unitData != undefined && _this46.unitData.hasOwnProperty(element.database_param)) {
+                    $('#' + element.element_id).val(_this46.unitData[element.database_param]);
 
                     if ("is_editable" in element) {
                       $('#' + element.element_id).attr('disabled', element['is_editable'] == "false");
                     }
 
-                    element.element_value = _this45.unitData[element.database_param];
+                    element.element_value = _this46.unitData[element.database_param];
                   }
 
-                  if (_this45.unitData != undefined && _this45.unitData.hasOwnProperty("unit_name") && element.element_id == "SchoolName") {
-                    $('#SchoolName').val(_this45.unitData["unit_name"] + " (" + _this45.unitData["unit_code"] + ")");
+                  if (_this46.unitData != undefined && _this46.unitData.hasOwnProperty("unit_name") && element.element_id == "SchoolName") {
+                    $('#SchoolName').val(_this46.unitData["unit_name"] + " (" + _this46.unitData["unit_code"] + ")");
                     if (!element.hasOwnProperty("is_editable")) $('#SchoolName').attr('disabled', true);
-                    element.element_value = _this45.unitData["unit_name"] + " (" + _this45.unitData["unit_code"] + ")";
+                    element.element_value = _this46.unitData["unit_name"] + " (" + _this46.unitData["unit_code"] + ")";
                   } //school_name
                   // if(element.database_param=='unit_id'){
                   //   $('#'+element.element_id).val(this.unitData['UnitId']);
@@ -6152,9 +6199,9 @@
                   // }
 
                 } else if (element.element_type == "ElementDate") {
-                  if (_this45.unitData != undefined && _this45.unitData.hasOwnProperty(element.database_param)) {
+                  if (_this46.unitData != undefined && _this46.unitData.hasOwnProperty(element.database_param)) {
                     //console.log(this.unitData[element.database_param]);
-                    var dateSelected = moment(_this45.unitData[element.database_param], 'YYYY-MM-DD').format('DD-MM-YYYY');
+                    var dateSelected = moment(_this46.unitData[element.database_param], 'YYYY-MM-DD').format('DD-MM-YYYY');
                     setTimeout(function () {
                       var picker = $('#' + element.element_id).flatpickr({
                         altInput: true,
@@ -6172,13 +6219,13 @@
                     console.log(element);
                   }
                 } else if (element.element_type == "ElementDateRange") {
-                  if (_this45.unitData != undefined && _this45.unitData.hasOwnProperty(element.database_param)) {
+                  if (_this46.unitData != undefined && _this46.unitData.hasOwnProperty(element.database_param)) {
                     var picker = $('#' + element.element_id).flatpickr({
                       altInput: true,
                       altFormat: 'd-m-Y',
                       dateFormat: "d-m-Y",
                       mode: "range",
-                      defaultDate: _this45.unitData[element.database_param]
+                      defaultDate: _this46.unitData[element.database_param]
                     });
 
                     if ("is_editable" in element && element['is_editable'] == "false") {
@@ -6186,36 +6233,36 @@
                       picker._input.setAttribute("disabled", "disabled");
                     }
 
-                    element.element_value = _this45.unitData[element.database_param];
+                    element.element_value = _this46.unitData[element.database_param];
                   }
                 } else if (element.element_type == "ElementDropDown") {
-                  if (_this45.unitData != undefined && _this45.unitData.hasOwnProperty(element.database_param)) {
-                    $('#' + element.element_id).selectpicker('val', _this45.unitData[element.database_param]);
+                  if (_this46.unitData != undefined && _this46.unitData.hasOwnProperty(element.database_param)) {
+                    $('#' + element.element_id).selectpicker('val', _this46.unitData[element.database_param]);
 
                     if ("is_editable" in element) {
                       $('#' + element.element_id).attr('disabled', element['is_editable'] == "false");
                       $('#' + element.element_id).selectpicker('refresh');
                     }
 
-                    element.element_value = _this45.unitData[element.database_param];
+                    element.element_value = _this46.unitData[element.database_param];
                   }
                 } else if (element.element_type == "ElementButton") {
                   console.log(element.element_data.parameters['action']);
 
-                  if (_this45.unitData != undefined && element.element_data.parameters['action'] == "update") {
+                  if (_this46.unitData != undefined && element.element_data.parameters['action'] == "update") {
                     $('#' + element.element_id).attr('disabled', element['is_editable'] == "false");
-                    _this45.currentAction = "update";
+                    _this46.currentAction = "update";
                   }
                 }
               });
 
-              _this45.initializeMask();
+              _this46.initializeMask();
             }, 1000);
           }
         }, {
           key: "ngOnChanges",
           value: function ngOnChanges(changes) {
-            var _this46 = this;
+            var _this47 = this;
 
             if (changes.submittedData.currentValue != undefined) {
               this.currentAction = changes.submittedData.currentValue['action'];
@@ -6226,20 +6273,20 @@
               if (element.element_type == "ElementText" || element.element_type == "ElementHidden") {
                 ////console.log(element.is_editable, element);
                 //$('#'+element.element_id).attr('disabled',true);
-                if (_this46.submittedData != undefined && _this46.submittedData.hasOwnProperty(element.database_param)) {
-                  $('#' + element.element_id).val(_this46.submittedData[element.database_param]);
+                if (_this47.submittedData != undefined && _this47.submittedData.hasOwnProperty(element.database_param)) {
+                  $('#' + element.element_id).val(_this47.submittedData[element.database_param]);
 
                   if ("is_editable" in element) {
                     $('#' + element.element_id).attr('disabled', element['is_editable'] == "false");
                   }
 
-                  element.element_value = _this46.submittedData[element.database_param];
+                  element.element_value = _this47.submittedData[element.database_param];
                 }
 
-                if (_this46.submittedData != undefined && _this46.submittedData.hasOwnProperty("unit_name") && element.element_id == "SchoolName") {
-                  $('#SchoolName').val(_this46.submittedData["unit_name"] + " (" + _this46.submittedData["unit_code"] + ")");
+                if (_this47.submittedData != undefined && _this47.submittedData.hasOwnProperty("unit_name") && element.element_id == "SchoolName") {
+                  $('#SchoolName').val(_this47.submittedData["unit_name"] + " (" + _this47.submittedData["unit_code"] + ")");
                   if (!element.hasOwnProperty("is_editable")) $('#SchoolName').attr('disabled', true);
-                  element.element_value = _this46.submittedData["unit_name"] + " (" + _this46.submittedData["unit_code"] + ")";
+                  element.element_value = _this47.submittedData["unit_name"] + " (" + _this47.submittedData["unit_code"] + ")";
                 } //school_name
                 // if(element.database_param=='unit_id'){
                 //   $('#'+element.element_id).val(this.unitData['UnitId']);
@@ -6247,9 +6294,9 @@
                 // }
 
               } else if (element.element_type == "ElementDate") {
-                if (_this46.submittedData != undefined && _this46.submittedData.hasOwnProperty(element.database_param)) {
+                if (_this47.submittedData != undefined && _this47.submittedData.hasOwnProperty(element.database_param)) {
                   //console.log(this.submittedData[element.database_param], moment(this.submittedData[element.database_param],'YYYY-MM-DD').format('DD-MM-YYYY'));
-                  var dateSelected = moment(_this46.submittedData[element.database_param], 'YYYY-MM-DD').format('DD-MM-YYYY');
+                  var dateSelected = moment(_this47.submittedData[element.database_param], 'YYYY-MM-DD').format('DD-MM-YYYY');
                   var picker = $('#' + element.element_id).flatpickr({
                     altInput: true,
                     altFormat: 'd-m-Y',
@@ -6265,8 +6312,8 @@
                   console.log(element);
                 }
               } else if (element.element_type == "ElementDateRange") {
-                if (_this46.submittedData != undefined && _this46.submittedData.hasOwnProperty(element.database_param)) {
-                  var _dateSelected = moment(_this46.submittedData[element.database_param], 'YYYY-MM-DD').format('DD-MM-YYYY');
+                if (_this47.submittedData != undefined && _this47.submittedData.hasOwnProperty(element.database_param)) {
+                  var _dateSelected = moment(_this47.submittedData[element.database_param], 'YYYY-MM-DD').format('DD-MM-YYYY');
 
                   var picker = $('#' + element.element_id).flatpickr({
                     altInput: true,
@@ -6281,34 +6328,34 @@
                     picker._input.setAttribute("disabled", "disabled");
                   }
 
-                  element.element_value = _this46.submittedData[element.database_param];
+                  element.element_value = _this47.submittedData[element.database_param];
                 }
               } else if (element.element_type == "ElementDropDown") {
-                if (_this46.submittedData != undefined && _this46.submittedData.hasOwnProperty(element.database_param)) {
-                  $('#' + element.element_id).selectpicker('val', _this46.submittedData[element.database_param]);
+                if (_this47.submittedData != undefined && _this47.submittedData.hasOwnProperty(element.database_param)) {
+                  $('#' + element.element_id).selectpicker('val', _this47.submittedData[element.database_param]);
 
                   if ("is_editable" in element) {
                     $('#' + element.element_id).attr('disabled', element['is_editable'] == "false");
                     $('#' + element.element_id).selectpicker('refresh');
                   }
 
-                  element.element_value = _this46.submittedData[element.database_param];
+                  element.element_value = _this47.submittedData[element.database_param];
                   var dd_change = {
                     "response": [],
-                    "selected_id": _this46.submittedData[element.database_param],
+                    "selected_id": _this47.submittedData[element.database_param],
                     "element_id": element.element_id,
                     "elementData": element.elementOptionDependent
                   };
                   setTimeout(function () {
                     $('.selectpicker').selectpicker('refresh');
 
-                    _this46.dropDownChange(dd_change);
+                    _this47.dropDownChange(dd_change);
                   }, 1500);
                 }
               } else if (element.element_type == "ElementButton") {
                 $('#' + element.element_id).text('Update');
 
-                if (_this46.submittedData != undefined && element.element_data.parameters['action'] == "update") {
+                if (_this47.submittedData != undefined && element.element_data.parameters['action'] == "update") {
                   $('#' + element.element_id).attr('disabled', element['is_editable'] == "false");
                 }
               }
@@ -6321,7 +6368,7 @@
         }, {
           key: "dropDownChange",
           value: function dropDownChange(event) {
-            var _this47 = this;
+            var _this48 = this;
 
             var _a; //console.log(event);
 
@@ -6400,10 +6447,10 @@
                   var elementsChange = data['elements'];
                   elementsChange.forEach(function (element) {
                     if (details == element['element_value']) {
-                      _this47.sectionData.childrens.filter(function (x) {
+                      _this48.sectionData.childrens.filter(function (x) {
                         return x.element_id == element['element_visible'];
                       })[0].is_hidden = "false";
-                      _this47.sectionData.childrens.filter(function (x) {
+                      _this48.sectionData.childrens.filter(function (x) {
                         return x.element_id == element['element_hidden'];
                       })[0].is_hidden = "true";
                     }
@@ -6438,7 +6485,7 @@
         }, {
           key: "validateCondition",
           value: function validateCondition(row) {
-            var _this48 = this;
+            var _this49 = this;
 
             //console.log(row);
             var condition = row.dependant;
@@ -6464,7 +6511,7 @@
                   this.errorMessage = "Allocation Mismatch. Total should be " + total;
                   this.errorHighlight(dependentID[0]);
                   dependentID.forEach(function (ele) {
-                    _this48.errorHighlight(ele);
+                    _this49.errorHighlight(ele);
                   });
                   this.error = true; //$('#'+dependentID[0]).scrollintoview({ duration: 1000});
 
@@ -6500,7 +6547,7 @@
                   this.errorHighlight(_dependentID2[0]);
 
                   _dependentID2.forEach(function (ele) {
-                    _this48.errorHighlight(ele);
+                    _this49.errorHighlight(ele);
                   });
 
                   this.error = true; //$('#'+dependentID[0]).scrollintoview({ duration: 1000});
@@ -6567,39 +6614,49 @@
         }, {
           key: "finalSubmitData",
           value: function finalSubmitData(url, parameters) {
-            var _this49 = this;
+            var _this50 = this;
 
             //console.log(parameters.action);
             this.error = false;
             this.sectionData.childrens.forEach(function (element) {
-              if (_this49.error == false) {
+              if (_this50.error == false) {
                 if (element.element_type == "ElementText" || element.element_type == "ElementDate" || element.element_type == "ElementDateRange" || element.element_type == "ElementHidden" || element.element_type == "ElementDropDown") {
-                  _this49.validate(element);
+                  _this50.validate(element);
                 } else if (element.element_type == "ElementTable") {
                   element.childrens.forEach(function (e) {
                     e.childrens.forEach(function (el) {
-                      _this49.validate(el);
+                      _this50.validate(el);
                     });
                   });
                 }
-              }
+              } //this.resultData[element['database_param']] = element.element_value
+
             });
 
             if (!this.error) {
               //this.resultData['action'] = parameters.action
               this.resultData['action'] = this.currentAction;
               console.log(this.resultData);
-              this.serverService.sendData(url, this.resultData).then(function () {
+
+              if (this.form_id == 1) {
+                this.updateId = localStorage.getItem('test_id');
+              } else if (this.form_id == 2) {
+                this.updateId = localStorage.getItem('child_id');
+              } else if (this.form_id == 3) {
+                this.updateId = localStorage.getItem('user_id');
+              }
+
+              this.serverService.sendData(url, this.resultData, this.updateId).then(function () {
                 sweetalert2__WEBPACK_IMPORTED_MODULE_1___default.a.fire({
                   icon: 'success',
                   title: '',
                   text: 'Data Added Successfully'
                 });
-                _this49.isLoading = false; //this.reset();
+                _this50.isLoading = false; //this.reset();
 
                 location.reload();
 
-                _this49.reloadTable.emit(true);
+                _this50.reloadTable.emit(true);
               })["catch"](function (err) {
                 //console.log(err)
                 sweetalert2__WEBPACK_IMPORTED_MODULE_1___default.a.fire({
@@ -6608,7 +6665,7 @@
                   //text: "chk"
                   text: JSON.stringify(err['error'])
                 });
-                _this49.isLoading = false;
+                _this50.isLoading = false;
               });
             } else {
               sweetalert2__WEBPACK_IMPORTED_MODULE_1___default.a.fire({
@@ -6717,7 +6774,7 @@
       }();
 
       CustomSectionComponent.ɵfac = function CustomSectionComponent_Factory(t) {
-        return new (t || CustomSectionComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_server_service__WEBPACK_IMPORTED_MODULE_2__["ServerService"]));
+        return new (t || CustomSectionComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_server_service__WEBPACK_IMPORTED_MODULE_2__["ServerService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]));
       };
 
       CustomSectionComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
@@ -6781,7 +6838,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.sectionData.childrens);
           }
         },
-        directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgForm"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _custom_text_box_custom_text_box_component__WEBPACK_IMPORTED_MODULE_5__["CustomTextBoxComponent"], _custom_dropdown_custom_dropdown_component__WEBPACK_IMPORTED_MODULE_6__["CustomDropdownComponent"], angular2_ladda__WEBPACK_IMPORTED_MODULE_7__["LaddaDirective"], _custom_tabular_custom_tabular_component__WEBPACK_IMPORTED_MODULE_8__["CustomTabularComponent"]],
+        directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgForm"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _custom_text_box_custom_text_box_component__WEBPACK_IMPORTED_MODULE_6__["CustomTextBoxComponent"], _custom_dropdown_custom_dropdown_component__WEBPACK_IMPORTED_MODULE_7__["CustomDropdownComponent"], angular2_ladda__WEBPACK_IMPORTED_MODULE_8__["LaddaDirective"], _custom_tabular_custom_tabular_component__WEBPACK_IMPORTED_MODULE_9__["CustomTabularComponent"]],
         styles: [".primary-border[_ngcontent-%COMP%]{\r\n  border-color: #fff23d !important;\r\n}\r\n\r\n.row-height[_ngcontent-%COMP%]{\r\n  margin-bottom: 10vh;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImN1c3RvbS1zZWN0aW9uLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQ0FBZ0M7QUFDbEM7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckIiLCJmaWxlIjoiY3VzdG9tLXNlY3Rpb24uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcmltYXJ5LWJvcmRlcntcclxuICBib3JkZXItY29sb3I6ICNmZmYyM2QgIWltcG9ydGFudDtcclxufVxyXG5cclxuLnJvdy1oZWlnaHR7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTB2aDtcclxufVxyXG5cclxuIl19 */"]
       });
       /***/
@@ -6874,7 +6931,7 @@
         }, {
           key: "onSubmit",
           value: function onSubmit() {
-            var _this50 = this;
+            var _this51 = this;
 
             this.submitted = true; // stop here if form is invalid
 
@@ -6899,12 +6956,12 @@
                 localStorage.setItem('is_tracker', data['program'][0]['is_tracker']);
                 localStorage.setItem('Program', program);
 
-                _this50.router.navigate([_this50.returnUrl]);
+                _this51.router.navigate([_this51.returnUrl]);
               }
             })["catch"](function (err) {
               console.log(err);
-              _this50.error = err;
-              _this50.loading = false;
+              _this51.error = err;
+              _this51.loading = false;
             });
           }
         }]);
@@ -7373,7 +7430,7 @@
 
       var SummarySheetComponent = /*#__PURE__*/function () {
         function SummarySheetComponent(spinner, _router, _service, route) {
-          var _this51 = this;
+          var _this52 = this;
 
           _classCallCheck(this, SummarySheetComponent);
 
@@ -7386,15 +7443,15 @@
           this.Action_button = [];
           this.programName = '';
           this.route.params.subscribe(function (event) {
-            _this51.programId = event.program_id;
-            _this51.project = localStorage.getItem('project');
+            _this52.programId = event.program_id;
+            _this52.project = localStorage.getItem('project');
           });
         }
 
         _createClass(SummarySheetComponent, [{
           key: "onPopState",
           value: function onPopState(event) {
-            var _this52 = this;
+            var _this53 = this;
 
             setTimeout(function () {
               var history = localStorage.getItem('history');
@@ -7410,12 +7467,12 @@
                   cancelButtonText: 'Cancel'
                 }).then(function (result) {
                   if (result.value) {
-                    _this52.logout();
+                    _this53.logout();
                   } else if (result.dismiss === sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.DismissReason.cancel) {}
                 });
               }
 
-              _this52._router.navigate(["unitlist"]);
+              _this53._router.navigate(["unitlist"]);
 
               localStorage.setItem('history', '');
             }, 50);
@@ -13773,7 +13830,7 @@
 
       var UnitlistComponent = /*#__PURE__*/function () {
         function UnitlistComponent(spinner, _router, _service, route) {
-          var _this53 = this;
+          var _this54 = this;
 
           _classCallCheck(this, UnitlistComponent);
 
@@ -13787,15 +13844,15 @@
           this.programName = '';
           this.program_id = 0;
           this.route.params.subscribe(function (event) {
-            _this53.programId = event.program_id;
-            _this53.project = localStorage.getItem('project');
+            _this54.programId = event.program_id;
+            _this54.project = localStorage.getItem('project');
           });
         }
 
         _createClass(UnitlistComponent, [{
           key: "onPopState",
           value: function onPopState(event) {
-            var _this54 = this;
+            var _this55 = this;
 
             setTimeout(function () {
               var history = localStorage.getItem('history');
@@ -13811,12 +13868,12 @@
                   cancelButtonText: 'Cancel'
                 }).then(function (result) {
                   if (result.value) {
-                    _this54.logout();
+                    _this55.logout();
                   } else if (result.dismiss === sweetalert2__WEBPACK_IMPORTED_MODULE_1___default.a.DismissReason.cancel) {}
                 });
               }
 
-              _this54._router.navigate(["unitlist"]);
+              _this55._router.navigate(["unitlist"]);
 
               localStorage.setItem('history', '');
             }, 50);
@@ -13909,7 +13966,7 @@
         }, {
           key: "onClickSelectProgram",
           value: function onClickSelectProgram(ProgramId, program, program_icon) {
-            var _this55 = this;
+            var _this56 = this;
 
             this.spinner.show();
             this.BlockId = JSON.parse(localStorage.getItem("BlockId"));
@@ -13919,7 +13976,7 @@
               if (val.ProgramId == ProgramId) {
                 if (val.action_key != null) {
                   val.action_key.forEach(function (v) {
-                    _this55.Action_button.push(v);
+                    _this56.Action_button.push(v);
                   });
                 } else {
                   hasAction = false;
@@ -14569,7 +14626,7 @@
 
       var CustomTableComponent = /*#__PURE__*/function () {
         function CustomTableComponent(route, serverService) {
-          var _this56 = this;
+          var _this57 = this;
 
           _classCallCheck(this, CustomTableComponent);
 
@@ -14581,7 +14638,7 @@
           this.tabularHeader = [];
           this.responseData = [];
           this.route.params.subscribe(function (event) {
-            _this56.form_id = event.id;
+            _this57.form_id = event.id;
           });
         } //action_header:any = {param: "del", label: "Action"}; 
 
@@ -14589,7 +14646,7 @@
         _createClass(CustomTableComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this57 = this;
+            var _this58 = this;
 
             var url = this.tabularData.element_data['element_url'];
             var parameters = this.tabularData.element_data['element_parameters']; //this.tabularData.element_data['element_header'].push(this.action_header);
@@ -14602,7 +14659,7 @@
 
             this.serverService.fetchTabularData_get(url, this.unitData['user_id']).then(function (response) {
               console.log(response['results']);
-              _this57.responseData = response['results'];
+              _this58.responseData = response['results'];
               $('#data_entry_data').DataTable().destroy();
               setTimeout(function () {
                 $("#data_entry_data").DataTable({
@@ -14645,6 +14702,8 @@
           value: function sendData(child_data) {
             child_data['action'] = "update";
             console.log(child_data);
+            localStorage.setItem('test_id', child_data['test_id']);
+            localStorage.setItem('child_id', child_data['child_id']);
             this.sendFormData.emit(child_data);
           }
         }, {
@@ -14833,7 +14892,7 @@
 
       var CreateFormComponent = /*#__PURE__*/function () {
         function CreateFormComponent(spinner, _router, _service, route) {
-          var _this58 = this;
+          var _this59 = this;
 
           _classCallCheck(this, CreateFormComponent);
 
@@ -14846,15 +14905,15 @@
           this.Action_button = [];
           this.programName = '';
           this.route.params.subscribe(function (event) {
-            _this58.programId = event.program_id;
-            _this58.project = localStorage.getItem('project');
+            _this59.programId = event.program_id;
+            _this59.project = localStorage.getItem('project');
           });
         }
 
         _createClass(CreateFormComponent, [{
           key: "onPopState",
           value: function onPopState(event) {
-            var _this59 = this;
+            var _this60 = this;
 
             setTimeout(function () {
               var history = localStorage.getItem('history');
@@ -14870,12 +14929,12 @@
                   cancelButtonText: 'Cancel'
                 }).then(function (result) {
                   if (result.value) {
-                    _this59.logout();
+                    _this60.logout();
                   } else if (result.dismiss === sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.DismissReason.cancel) {}
                 });
               }
 
-              _this59._router.navigate(["unitlist"]);
+              _this60._router.navigate(["unitlist"]);
 
               localStorage.setItem('history', '');
             }, 50);
@@ -15365,7 +15424,7 @@
 
       var ChildDataEntryComponent = /*#__PURE__*/function () {
         function ChildDataEntryComponent(route, router, server) {
-          var _this60 = this;
+          var _this61 = this;
 
           _classCallCheck(this, ChildDataEntryComponent);
 
@@ -15383,10 +15442,10 @@
           this.app_type = 1;
           this.lang = 'en';
           this.route.params.subscribe(function (event) {
-            _this60.form_id = event.id;
-            _this60.category_id = event.id;
-            _this60.state = event.state;
-            _this60.program_id = localStorage.getItem('history');
+            _this61.form_id = event.id;
+            _this61.category_id = event.id;
+            _this61.state = event.state;
+            _this61.program_id = localStorage.getItem('history');
           });
           this.local_key = this.state + '/' + this.form_id;
           this.form_data = JSON.parse(localStorage.getItem(this.local_key));
@@ -15395,7 +15454,7 @@
         _createClass(ChildDataEntryComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this61 = this;
+            var _this62 = this;
 
             setTimeout(function () {
               $(".form-control").keypress(function (event) {
@@ -15446,17 +15505,17 @@
             } else {
               console.log(this.program_id);
               this.server.getJson(this.app_type, this.project_id, this.program_id, this.category_id).then(function (res) {
-                console.log(res, _this61.state, _this61.program_id);
-                console.log(_this61.state == _this61.program_id);
+                console.log(res, _this62.state, _this62.program_id);
+                console.log(_this62.state == _this62.program_id);
 
                 if (res != "") {
-                  if (_this61.state == _this61.program_id) {
-                    if (_this61.form_id == _this61.category_id) {
-                      _this61.data = JSON.parse(JSON.stringify(res));
-                      _this61.assessment_cycle = 1;
-                      _this61.url = _this61.data[0].get_url;
+                  if (_this62.state == _this62.program_id) {
+                    if (_this62.form_id == _this62.category_id) {
+                      _this62.data = JSON.parse(JSON.stringify(res));
+                      _this62.assessment_cycle = 1;
+                      _this62.url = _this62.data[0].get_url;
 
-                      _this61.sendData();
+                      _this62.sendData();
                     }
 
                     setTimeout(function () {
@@ -15486,7 +15545,7 @@
         }, {
           key: "sendData",
           value: function sendData() {
-            var _this62 = this;
+            var _this63 = this;
 
             var parameters = [];
             console.log(this.form_data);
@@ -15496,15 +15555,15 @@
             parameters['child_id'] = this.child_id;
             parameters['action'] = 'get';
             this.server.fetchData(this.url, parameters).then(function (response) {
-              var elements = _this62.data[0]['childrens'][0]['childrens'];
+              var elements = _this63.data[0]['childrens'][0]['childrens'];
               var data = response['data'][0];
 
               if (Object.keys(data).length > 0) {
                 elements.forEach(function (element) {
                   if (element.element_type == "ElementText" || element.element_type == "ElementHidden" || element.element_type == "ElementTable" || element.element_type == "ElementDate" || element.element_type == "ElementDateRange" || element.element_type == "ElementDropDown" || element.element_type == "ElementButton") {
                     // element.element_value = data[element['database_param']]
-                    if (!_this62.form_data.hasOwnProperty(element.database_param)) {
-                      _this62.form_data[element.database_param] = data[element['database_param']];
+                    if (!_this63.form_data.hasOwnProperty(element.database_param)) {
+                      _this63.form_data[element.database_param] = data[element['database_param']];
                     }
 
                     if (element.element_type == "ElementButton") {
@@ -15517,7 +15576,7 @@
                       element['childrens'].forEach(function (el) {
                         //console.log(el);
                         el['childrens'].forEach(function (e) {
-                          if (!_this62.form_data.hasOwnProperty(e.database_param)) {
+                          if (!_this63.form_data.hasOwnProperty(e.database_param)) {
                             $('#' + e.element_id).val(data[e['database_param']]);
                           }
                         });
@@ -16084,7 +16143,7 @@
 
       var PreviewComponent = /*#__PURE__*/function () {
         function PreviewComponent(spinner, route, router, server) {
-          var _this63 = this;
+          var _this64 = this;
 
           _classCallCheck(this, PreviewComponent);
 
@@ -16104,9 +16163,9 @@
           this["class"] = 0;
           this.isParametrsShow = false;
           this.route.params.subscribe(function (event) {
-            _this63.form_id = 1;
-            _this63.state = 'ECE -AP';
-            _this63.program_id = localStorage.getItem('history');
+            _this64.form_id = 1;
+            _this64.state = 'ECE -AP';
+            _this64.program_id = localStorage.getItem('history');
           });
           this.local_key = this.state + '/' + this.form_id;
           this.form_data = JSON.parse(localStorage.getItem(this.local_key));
@@ -16125,7 +16184,7 @@
         }, {
           key: "get_Program",
           value: function get_Program() {
-            var _this64 = this;
+            var _this65 = this;
 
             this.project_id = $('#project').val();
 
@@ -16133,7 +16192,7 @@
               //url = ''
               this.server.fetchProgramGP(this.project_id).then(function (res) {
                 console.log(res);
-                _this64.programs = res['program']; //console.log(this.programs);
+                _this65.programs = res['program']; //console.log(this.programs);
 
                 setTimeout(function () {
                   $('.selectpicker').selectpicker('refresh');
@@ -16142,7 +16201,7 @@
             } else {
               this.server.fetchProgram().then(function (res) {
                 console.log(res);
-                _this64.programs = res['results']; //console.log(this.category);
+                _this65.programs = res['results']; //console.log(this.category);
 
                 setTimeout(function () {
                   $('.selectpicker').selectpicker('refresh');
@@ -16153,12 +16212,12 @@
         }, {
           key: "selectProgram",
           value: function selectProgram(event) {
-            var _this65 = this;
+            var _this66 = this;
 
             this.program_id = event.target.value; //console.log(event.target.value);
 
             this.category = this.programs.filter(function (prg) {
-              return prg.ProgramId == _this65.program_id;
+              return prg.ProgramId == _this66.program_id;
             })[0]['categories']; //console.log(this.category);
 
             setTimeout(function () {
@@ -16174,23 +16233,23 @@
         }, {
           key: "submit_CSV",
           value: function submit_CSV() {
-            var _this66 = this;
+            var _this67 = this;
 
             this.spinner.show();
             this.server.submitCSV(this.app_type, this.project_id, this.file, this.program_id, this.category_id).then(function (res) {
               console.log(res);
 
               if (res != "") {
-                if (_this66.state == 'ECE -AP') {
-                  if (_this66.form_id == 1) {
-                    _this66.data = JSON.parse(JSON.stringify(res));
-                    _this66.JsonToSave = JSON.stringify(res);
-                    _this66.assessment_cycle = 1;
-                    console.log(_this66.data);
+                if (_this67.state == 'ECE -AP') {
+                  if (_this67.form_id == 1) {
+                    _this67.data = JSON.parse(JSON.stringify(res));
+                    _this67.JsonToSave = JSON.stringify(res);
+                    _this67.assessment_cycle = 1;
+                    console.log(_this67.data);
                     ; //this.class = 6;
                     //this.url = 'https://testgp.prathamapps.com/3.0/index.php/pre_primary_portal/get_childwise_assessment';
 
-                    _this66.spinner.hide();
+                    _this67.spinner.hide();
 
                     $("#btn_publish").removeClass("d-none");
                   } //this.data = JSON.parse(JSON.stringify(res));
@@ -16203,7 +16262,7 @@
                 }
               }
             })["catch"](function (err) {
-              _this66.spinner.hide();
+              _this67.spinner.hide();
 
               $("#btn_publish").addClass("d-none");
             });
@@ -16211,22 +16270,22 @@
         }, {
           key: "get_json",
           value: function get_json() {
-            var _this67 = this;
+            var _this68 = this;
 
             this.spinner.show();
             this.server.getJson(this.app_type, this.project_id, this.program_id, this.category_id).then(function (res) {
               console.log(res);
 
               if (res != "") {
-                if (_this67.state == 'ECE -AP') {
-                  if (_this67.form_id == 1) {
-                    _this67.data = JSON.parse(JSON.stringify(res));
-                    _this67.assessment_cycle = 1;
-                    console.log(_this67.data);
+                if (_this68.state == 'ECE -AP') {
+                  if (_this68.form_id == 1) {
+                    _this68.data = JSON.parse(JSON.stringify(res));
+                    _this68.assessment_cycle = 1;
+                    console.log(_this68.data);
 
-                    _this67.spinner.hide();
+                    _this68.spinner.hide();
 
-                    _this67.isParametrsShow = true;
+                    _this68.isParametrsShow = true;
                   } //this.data = JSON.parse(JSON.stringify(res));
                   //this.districtArr = res['data'];
 
@@ -16237,26 +16296,26 @@
                 }
               }
             })["catch"](function (err) {
-              _this67.spinner.hide();
+              _this68.spinner.hide();
             });
           }
         }, {
           key: "Publish_json",
           value: function Publish_json() {
-            var _this68 = this;
+            var _this69 = this;
 
             this.spinner.show();
             this.server.saveJson(this.app_type, this.project_id, this.JsonToSave, this.program_id, this.category_id).then(function (res) {
               console.log(res);
               alert("Saved Successfully");
             })["catch"](function (err) {
-              _this68.spinner.hide();
+              _this69.spinner.hide();
             });
           }
         }, {
           key: "GetExcel",
           value: function GetExcel() {
-            var _this69 = this;
+            var _this70 = this;
 
             this.spinner.show();
             this.server.getExcel(this.app_type, this.project_id, this.program_id, this.category_id).then(function (res) {
@@ -16279,9 +16338,9 @@
               a.download = "Parameters_" + new Date() + ".xlsx";
               a.click();
 
-              _this69.spinner.hide();
+              _this70.spinner.hide();
             })["catch"](function (err) {
-              _this69.spinner.hide();
+              _this70.spinner.hide();
             });
           }
         }, {
@@ -16311,7 +16370,7 @@
         }, {
           key: "validateCondition",
           value: function validateCondition(row) {
-            var _this70 = this;
+            var _this71 = this;
 
             var condition = row.dependant;
             var operators = row.dependent_operator;
@@ -16336,7 +16395,7 @@
                   this.errorToastr("Allocation Mismatch. Total should be " + total);
                   this.errorHighlight(dependentID[0]);
                   dependentID.forEach(function (ele) {
-                    _this70.errorHighlight(ele);
+                    _this71.errorHighlight(ele);
                   });
                   this.error = true; //$('#'+dependentID[0]).scrollintoview({ duration: 1000});
 
@@ -16401,20 +16460,20 @@
         }, {
           key: "finalSubmitData",
           value: function finalSubmitData() {
-            var _this71 = this;
+            var _this72 = this;
 
             this.error = false;
             console.log(this.data);
             this.data.childrens.forEach(function (sectionData) {
               sectionData.childrens.forEach(function (element) {
-                if (_this71.error == false) {
+                if (_this72.error == false) {
                   if (element.element_type == "ElementText" || element.element_type == "ElementDate" || element.element_type == "ElementDateRange" || element.element_type == "ElementHidden" || element.element_type == "ElementDropDown") {
-                    if (_this71.error == false) {
-                      _this71.validateBlankField(element);
+                    if (_this72.error == false) {
+                      _this72.validateBlankField(element);
                     }
 
-                    if (_this71.error == false) {
-                      _this71.validateCondition(element);
+                    if (_this72.error == false) {
+                      _this72.validateCondition(element);
                     }
                   }
                 } // if(element.element_type=="ElementText" || element.element_type=="ElementDate" || element.element_type=="ElementDateRange" || element.element_type=="ElementHidden" || element.element_type=="ElementDropDown"){
@@ -17301,7 +17360,7 @@
         }, {
           key: "onSubmit",
           value: function onSubmit() {
-            var _this72 = this;
+            var _this73 = this;
 
             this.submitted = true; // stop here if form is invalid
 
@@ -17311,7 +17370,7 @@
 
             this.loading = true;
             this.ServerService.login(this.f.email.value, this.f.password.value, this.f.project.value).then(function (data) {
-              console.log(_this72.f.project.value);
+              console.log(_this73.f.project.value);
 
               if (data['status'] != 'success') {
                 sweetalert2__WEBPACK_IMPORTED_MODULE_1___default.a.fire({
@@ -17328,18 +17387,18 @@
                 localStorage.setItem('roleId', data['user_details'].roleId);
                 localStorage.setItem('is_tracker', data['program'][0]['is_tracker']);
                 localStorage.setItem('Program', program);
-                localStorage.setItem('project', _this72.f.project.value);
+                localStorage.setItem('project', _this73.f.project.value);
 
                 if (data['user_details'].roleId == 2) {
-                  _this72.router.navigate(["admin"]);
+                  _this73.router.navigate(["admin"]);
                 } else {
-                  _this72.router.navigate([_this72.returnUrl]);
+                  _this73.router.navigate([_this73.returnUrl]);
                 }
               }
             })["catch"](function (err) {
               console.log(err);
-              _this72.error = err;
-              _this72.loading = false;
+              _this73.error = err;
+              _this73.loading = false;
             });
           }
         }]);
