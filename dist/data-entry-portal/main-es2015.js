@@ -3742,6 +3742,9 @@ class CustomSectionComponent {
     }
     validateBlankField(row) {
         //console.log(row.element_id, $('#'+row.element_id).val());
+        if ($("#status").val() == 1) {
+            console.log("status is 1");
+        }
         if ($('#' + row.element_id).val() == "" || $('#' + row.element_id).val() == null) {
             console.log(row.element_id, $('#' + row.element_id).val());
             //$('#'+row.element_id).scrollintoview({ duration: 1000});
