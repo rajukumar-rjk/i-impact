@@ -6774,7 +6774,7 @@
                       element.is_required = 'true';
                     }
 
-                    if (element.element_id == '37' && el_val_lang < 25 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                    if (element.element_id == '37' && el_val_lang < 25 && el_val_lang > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                       element.is_required = 'true';
                     }
 
@@ -6790,15 +6790,15 @@
                       element.is_required = 'true';
                     }
 
-                    if (element.element_id == '37' && el_val_lang_1_lw < 25 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                    if (element.element_id == '37' && el_val_lang_1_lw < 25 && el_val_lang_1_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                       element.is_required = 'true';
                     }
 
-                    if (element.element_id == '38' && el_val_lang_2_lw < 25 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                    if (element.element_id == '38' && el_val_lang_2_lw < 25 && el_val_lang_2_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                       element.is_required = 'true';
                     }
 
-                    if (element.element_id == '39' && el_val_lang_3_lw < 25 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                    if (element.element_id == '39' && el_val_lang_3_lw < 25 && el_val_lang_3_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                       element.is_required = 'true';
                     }
 
@@ -6806,7 +6806,7 @@
                       element.is_required = 'true';
                     }
 
-                    if (element.element_id == '47' && el_val_math < 25 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                    if (element.element_id == '47' && el_val_math < 25 && el_val_math > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                       element.is_required = 'true';
                     }
 
@@ -6822,15 +6822,15 @@
                       element.is_required = 'true';
                     }
 
-                    if (element.element_id == '48' && el_val_m_1_lw < 25 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                    if (element.element_id == '48' && el_val_m_1_lw < 25 && el_val_m_1_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                       element.is_required = 'true';
                     }
 
-                    if (element.element_id == '49' && el_val_m_2_lw < 25 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                    if (element.element_id == '49' && el_val_m_2_lw < 25 && el_val_m_2_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                       element.is_required = 'true';
                     }
 
-                    if (element.element_id == '50' && el_val_m_3_lw < 25 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                    if (element.element_id == '50' && el_val_m_3_lw < 25 && el_val_m_3_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                       element.is_required = 'true';
                     }
 
