@@ -569,12 +569,26 @@ class CustomDropdownComponent {
         if (element_id == "18") {
             //console.log($("#"+element_id+ " option:selected").attr("child_name"))
             $('#19').val($("#" + element_id + " option:selected").attr("child_name"));
+            let child_code_val = $("#" + element_id + " option:selected").text();
             //$('#'element_id).att('')
             //$("#"+element_id+ " option:selected").attr("child_name");
             localStorage.setItem('child_id', selected_id);
+            localStorage.setItem('child_code', child_code_val);
         }
         let change_action = this.elementData.change_action;
         //console.log(event.target.id);
+        if ($('#25').val() == 3) {
+            console.log("chk cdn");
+            $('#252').attr('is_required', 'false');
+            $('#253').attr('is_required', 'false');
+            $('#254').attr('is_required', 'false');
+            $('#255').attr('is_required', 'false');
+            $('#252').val(0);
+            $('#253').val(0);
+            $('#254').val(0);
+            $('#255').val(0);
+        }
+        console.log($('#252').val());
         this.action.emit({ response, selected_id, element_id, change_action, elementData });
     }
     checkifObjectReturnString(option) {
@@ -3807,6 +3821,7 @@ class CustomSectionComponent {
         if (!this.error) {
             //this.resultData['action'] = parameters.action
             this.resultData['action'] = this.currentAction;
+            this.resultData['age'] = $('#20').val();
             console.log(this.resultData);
             if (this.resultData['action'] != 'insert') {
                 if (this.form_id == 1) {
@@ -3860,10 +3875,34 @@ class CustomSectionComponent {
                 if ($('#parent_' + element.element_id).parent().attr('hidden')) {
                 }
                 else {
+                    console.log($('#' + element.element_id).val());
+                    let el_val_f_status = $('#25').val();
+                    if (el_val_f_status == 3) {
+                        $('#252').attr('is_required', 'false');
+                        $('#253').attr('is_required', 'false');
+                        $('#254').attr('is_required', 'false');
+                        $('#255').attr('is_required', 'false');
+                        $('#252').val(0);
+                        $('#253').val(0);
+                        $('#254').val(0);
+                        $('#255').val(0);
+                    }
+                    // if(($('#'+element.element_id).val()==undefined) || $('#'+element.element_id).val()== null){
+                    //   console.log("chk und");
+                    // }
                     if (this.error == false) {
                         if (element.is_required == 'true') {
                             console.log(element);
-                            this.validateBlankField(element);
+                            let el_val_f_status = $('#25').val();
+                            if (el_val_f_status == 3) {
+                                $('#252').attr('is_required', 'false');
+                                $('#253').attr('is_required', 'false');
+                                $('#254').attr('is_required', 'false');
+                                $('#255').attr('is_required', 'false');
+                            }
+                            else {
+                                this.validateBlankField(element);
+                            }
                         }
                     }
                     if (this.error == false) {
@@ -3878,8 +3917,15 @@ class CustomSectionComponent {
                 if ($('#' + element.element_id).parent().parent().parent().attr('hidden')) {
                     //$('#'+element.element_id).prop('required', false);
                 }
+                let el_val_f_status = $('#25').val();
+                if (el_val_f_status == 3) {
+                    //element.is_required='false';
+                    $('#109').attr('is_required', 'false');
+                    $('#110').attr('is_required', 'false');
+                }
                 else if ((element.input_type == 'number') && (element.is_required == 'true')) {
                     let el_val = parseInt($('#' + element.element_id).val());
+                    console.log(el_val);
                     if (isNaN(el_val)) {
                         //this.error = true;
                         el_val = -1;
@@ -3981,6 +4027,7 @@ class CustomSectionComponent {
                     }
                     if (this.error == false) {
                         //this.resultData[element['database_param']] = element.element_value
+                        console.log(this.resultData);
                         this.resultData[element['database_param']] = $('#' + element.element_id).val();
                     }
                 }
@@ -7415,9 +7462,14 @@ class CustomTextBoxComponent {
         }
     }
     textInput(evt, element) {
+        let el_val_f_status = $('#25').val();
+        if (el_val_f_status == 3) {
+            $('#109').attr('is_required', 'false');
+            $('#110').attr('is_required', 'false');
+        }
         if ((element.input_type == 'number')) {
             let el_val = $('#' + element.element_id).val();
-            console.log(el_val);
+            console.log(element.element_id, el_val);
             if (((element.max_val != '') && (el_val > element.max_val))) {
                 $('#' + element.element_id).removeClass('form-control-focus').addClass('highlight');
                 this.errorToastr(element.elementLabel['en'] + " is max " + element.max_val);
