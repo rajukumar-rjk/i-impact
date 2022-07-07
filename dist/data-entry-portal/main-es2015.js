@@ -4127,7 +4127,7 @@ class CustomSectionComponent {
                     let value = $('#' + ele).val();
                     //console.log(value, ele);
                     if (value != '' && !isNaN(value)) {
-                        otherTotal += parseInt(value);
+                        otherTotal += parseFloat(value);
                     }
                 });
                 if (otherTotal > total) {
@@ -4164,7 +4164,7 @@ class CustomSectionComponent {
                     let value = $('#' + ele).val();
                     //console.log($('#'+ele).val());
                     if (value != '' && !isNaN(value)) {
-                        otherTotal += parseInt(value);
+                        otherTotal += parseFloat(value);
                     }
                 });
                 //console.log(otherTotal);
@@ -8115,12 +8115,12 @@ class CustomTextBoxComponent {
         if (element.operation == 'sum') {
             let dependant = element.operator;
             if (dependant != undefined) {
-                let otherTotal = 0;
+                let otherTotal = 0.0;
                 let dependentID = dependant.split(',');
                 dependentID.forEach(ele => {
                     let value = $('#' + ele).val();
                     if (value != '' && !isNaN(value)) {
-                        otherTotal += parseInt(value);
+                        otherTotal += parseFloat(value);
                     }
                 });
                 $('#' + element.operator_result).val(otherTotal);
@@ -8146,7 +8146,7 @@ class CustomTextBoxComponent {
                 dependentID.forEach(ele => {
                     let value = $('#' + ele).val();
                     if (value != '' && !isNaN(value)) {
-                        otherTotal += parseInt(value);
+                        otherTotal += parseFloat(value);
                     }
                 });
                 console.log(dependentID, otherTotal);

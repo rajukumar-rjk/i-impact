@@ -6970,7 +6970,7 @@
                   var value = $('#' + ele).val(); //console.log(value, ele);
 
                   if (value != '' && !isNaN(value)) {
-                    otherTotal += parseInt(value);
+                    otherTotal += parseFloat(value);
                   }
                 });
 
@@ -7010,7 +7010,7 @@
                   var value = $('#' + ele).val(); //console.log($('#'+ele).val());
 
                   if (value != '' && !isNaN(value)) {
-                    _otherTotal2 += parseInt(value);
+                    _otherTotal2 += parseFloat(value);
                   }
                 }); //console.log(otherTotal);
 
@@ -14077,13 +14077,13 @@
               var dependant = element.operator;
 
               if (dependant != undefined) {
-                var otherTotal = 0;
+                var otherTotal = 0.0;
                 var dependentID = dependant.split(',');
                 dependentID.forEach(function (ele) {
                   var value = $('#' + ele).val();
 
                   if (value != '' && !isNaN(value)) {
-                    otherTotal += parseInt(value);
+                    otherTotal += parseFloat(value);
                   }
                 });
                 $('#' + element.operator_result).val(otherTotal);
@@ -14114,7 +14114,7 @@
                   var value = $('#' + ele).val();
 
                   if (value != '' && !isNaN(value)) {
-                    _otherTotal3 += parseInt(value);
+                    _otherTotal3 += parseFloat(value);
                   }
                 });
 
