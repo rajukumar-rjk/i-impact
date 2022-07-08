@@ -1021,11 +1021,19 @@
               $('#33').attr('is_required', 'true');
               $('#34').attr('is_required', 'true');
               $('#35').attr('is_required', 'true');
+              $('#32').removeAttr('disabled');
+              $('#33').removeAttr('disabled');
+              $('#34').removeAttr('disabled');
+              $('#35').removeAttr('disabled');
             } else {
               $('#32').attr('is_required', 'false');
               $('#33').attr('is_required', 'false');
               $('#34').attr('is_required', 'false');
               $('#35').attr('is_required', 'false');
+              $('#32').attr('disabled', 'disabled');
+              $('#33').attr('disabled', 'disabled');
+              $('#34').attr('disabled', 'disabled');
+              $('#35').attr('disabled', 'disabled');
             }
 
             var el_status_lang_low = $('#361').val();
@@ -1310,16 +1318,11 @@
 
             var el_status_life_skill_oral = $('#1081').val();
 
-            if (el_status_life_skill_oral == 1) {
+            if (el_status_life_skill_oral == 1 || el_status_life_skill_oral == 3) {
               $('#109').attr('is_required', 'true');
               $('#110').attr('is_required', 'true');
               $('#109').removeAttr('disabled');
               $('#110').removeAttr('disabled');
-            } else if (el_status_life_skill_oral == 3) {
-              $('#109').attr('is_required', 'false');
-              $('#110').attr('is_required', 'false');
-              $('#109').attr('disabled', 'disabled');
-              $('#110').attr('disabled', 'disabled');
             } else {
               $('#109').attr('is_required', 'false');
               $('#110').attr('is_required', 'false');
@@ -1332,6 +1335,17 @@
               $('#253').attr('is_required', 'false');
               $('#254').attr('is_required', 'false');
               $('#255').attr('is_required', 'false');
+            }
+
+            if ($('#311').val() != 1) {
+              $('#32').attr('is_required', 'false');
+              $('#32').attr('disabled', 'disabled');
+              $('#33').attr('is_required', 'false');
+              $('#33').attr('disabled', 'disabled');
+              $('#34').attr('is_required', 'false');
+              $('#34').attr('disabled', 'disabled');
+              $('#35').attr('is_required', 'false');
+              $('#35').attr('disabled', 'disabled');
             }
 
             this.action.emit({
@@ -7218,6 +7232,50 @@
                   //element.is_required='false';
                   $('#109').attr('is_required', 'false');
                   $('#110').attr('is_required', 'false');
+                }
+
+                if ($('#311').val() != 1) {
+                  $('#32').attr('is_required', 'false');
+                  $('#32').attr('disabled', 'disabled');
+                  $('#33').attr('is_required', 'false');
+                  $('#33').attr('disabled', 'disabled');
+                  $('#34').attr('is_required', 'false');
+                  $('#34').attr('disabled', 'disabled');
+                  $('#35').attr('is_required', 'false');
+                  $('#35').attr('disabled', 'disabled');
+                }
+
+                if ($('#361').val() != 1) {
+                  $('#37').attr('is_required', 'false');
+                  $('#37').attr('disabled', 'disabled');
+                  $('#38').attr('is_required', 'false');
+                  $('#38').attr('disabled', 'disabled');
+                  $('#39').attr('is_required', 'false');
+                  $('#39').attr('disabled', 'disabled');
+                  $('#40').attr('is_required', 'false');
+                  $('#40').attr('disabled', 'disabled');
+                }
+
+                if ($('#411').val() != 1) {
+                  $('#42').attr('is_required', 'false');
+                  $('#42').attr('disabled', 'disabled');
+                  $('#43').attr('is_required', 'false');
+                  $('#43').attr('disabled', 'disabled');
+                  $('#44').attr('is_required', 'false');
+                  $('#44').attr('disabled', 'disabled');
+                  $('#45').attr('is_required', 'false');
+                  $('#45').attr('disabled', 'disabled');
+                }
+
+                if ($('#461').val() != 1) {
+                  $('#47').attr('is_required', 'false');
+                  $('#47').attr('disabled', 'disabled');
+                  $('#48').attr('is_required', 'false');
+                  $('#48').attr('disabled', 'disabled');
+                  $('#49').attr('is_required', 'false');
+                  $('#49').attr('disabled', 'disabled');
+                  $('#50').attr('is_required', 'false');
+                  $('#50').attr('disabled', 'disabled');
                 } else if (element.input_type == 'number' && element.is_required == 'true') {
                   var el_val = parseInt($('#' + element.element_id).val());
                   console.log(el_val);
@@ -13878,6 +13936,16 @@
                 }, 2000);
               }
             } //lang up grade
+            // if($('#311').val()!=1){
+            //   $('#32').attr('is_required','false');
+            //   $('#32').attr('disabled','disabled');
+            //   $('#33').attr('is_required','false');
+            //   $('#33').attr('disabled','disabled');
+            //   $('#34').attr('is_required','false');
+            //   $('#34').attr('disabled','disabled');
+            //   $('#35').attr('is_required','false');
+            //   $('#35').attr('disabled','disabled');
+            // }
 
 
             if ($('#27').val() < 36 && $('#27').val() > 24) {
