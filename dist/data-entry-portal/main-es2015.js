@@ -4492,58 +4492,6 @@ class CustomSectionComponent {
                         if ((element.element_id == '50') && (el_val_m_3_lw < 25) && (el_val_m_3_lw > 0) && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
                             element.is_required = 'true';
                         }
-                        // let el_status_l_w = $('#511').val();
-                        // if((el_status_l_w==1)){
-                        //   $('#52').attr('is_required','true');
-                        //   $('#53').attr('is_required','true');
-                        //   $('#54').attr('is_required','true');
-                        //   $('#55').attr('is_required','true');
-                        //   $('#56').attr('is_required','true');
-                        //   $('#57').attr('is_required','true');
-                        //   $('#58').attr('is_required','true');
-                        //   $('#59').attr('is_required','true');
-                        //   $('#60').attr('is_required','true');
-                        //   $('#62').attr('is_required','true');
-                        //   $('#61').attr('is_required','true');
-                        //   $('#63').attr('is_required','true');
-                        // }else{
-                        //   $('#52').attr('is_required','false');
-                        //   $('#53').attr('is_required','false');
-                        //   $('#54').attr('is_required','false');
-                        //   $('#55').attr('is_required','false');
-                        //   $('#56').attr('is_required','false');
-                        //   $('#57').attr('is_required','false');
-                        //   $('#58').attr('is_required','false');
-                        //   $('#59').attr('is_required','false');
-                        //   $('#60').attr('is_required','false');
-                        //   $('#61').attr('is_required','false');
-                        //   $('#62').attr('is_required','false');
-                        //   $('#63').attr('is_required','false');
-                        // }
-                        // let el_status_m_w = $('#641').val();
-                        // if((el_status_m_w==1)){
-                        //   $('#65').attr('is_required','true');
-                        //   $('#63').attr('is_required','true');
-                        //   $('#64').attr('is_required','true');
-                        //   $('#55').attr('is_required','true');
-                        //   $('#66').attr('is_required','true');
-                        //   $('#67').attr('is_required','true');
-                        //   $('#68').attr('is_required','true');
-                        //   $('#69').attr('is_required','true');
-                        //   $('#70').attr('is_required','true');
-                        //   $('#71').attr('is_required','true');
-                        // }else{
-                        //   $('#65').attr('is_required','false');
-                        //   $('#63').attr('is_required','false');
-                        //   $('#64').attr('is_required','false');
-                        //   $('#55').attr('is_required','false');
-                        //   $('#66').attr('is_required','false');
-                        //   $('#67').attr('is_required','false');
-                        //   $('#68').attr('is_required','false');
-                        //   $('#69').attr('is_required','false');
-                        //   $('#70').attr('is_required','false');
-                        //   $('#71').attr('is_required','false');
-                        // }
                         if (element.is_required == 'true') {
                             this.validateBlankField(element);
                         }
