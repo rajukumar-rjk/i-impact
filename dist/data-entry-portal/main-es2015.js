@@ -4357,46 +4357,46 @@ class CustomSectionComponent {
                     $('#109').attr('is_required', 'false');
                     $('#110').attr('is_required', 'false');
                 }
-                if ($('#311').val() != 1) {
-                    $('#32').attr('is_required', 'false');
-                    $('#32').attr('disabled', 'disabled');
-                    $('#33').attr('is_required', 'false');
-                    $('#33').attr('disabled', 'disabled');
-                    $('#34').attr('is_required', 'false');
-                    $('#34').attr('disabled', 'disabled');
-                    $('#35').attr('is_required', 'false');
-                    $('#35').attr('disabled', 'disabled');
-                }
-                if ($('#361').val() != 1) {
-                    $('#37').attr('is_required', 'false');
-                    $('#37').attr('disabled', 'disabled');
-                    $('#38').attr('is_required', 'false');
-                    $('#38').attr('disabled', 'disabled');
-                    $('#39').attr('is_required', 'false');
-                    $('#39').attr('disabled', 'disabled');
-                    $('#40').attr('is_required', 'false');
-                    $('#40').attr('disabled', 'disabled');
-                }
-                if ($('#411').val() != 1) {
-                    $('#42').attr('is_required', 'false');
-                    $('#42').attr('disabled', 'disabled');
-                    $('#43').attr('is_required', 'false');
-                    $('#43').attr('disabled', 'disabled');
-                    $('#44').attr('is_required', 'false');
-                    $('#44').attr('disabled', 'disabled');
-                    $('#45').attr('is_required', 'false');
-                    $('#45').attr('disabled', 'disabled');
-                }
-                if ($('#461').val() != 1) {
-                    $('#47').attr('is_required', 'false');
-                    $('#47').attr('disabled', 'disabled');
-                    $('#48').attr('is_required', 'false');
-                    $('#48').attr('disabled', 'disabled');
-                    $('#49').attr('is_required', 'false');
-                    $('#49').attr('disabled', 'disabled');
-                    $('#50').attr('is_required', 'false');
-                    $('#50').attr('disabled', 'disabled');
-                }
+                // if($('#311').val()!=1){
+                //   $('#32').attr('is_required','false');
+                //   $('#32').attr('disabled','disabled');
+                //   $('#33').attr('is_required','false');
+                //   $('#33').attr('disabled','disabled');
+                //   $('#34').attr('is_required','false');
+                //   $('#34').attr('disabled','disabled');
+                //   $('#35').attr('is_required','false');
+                //   $('#35').attr('disabled','disabled');
+                // }
+                // if($('#361').val()!=1){
+                //   $('#37').attr('is_required','false');
+                //   $('#37').attr('disabled','disabled');
+                //   $('#38').attr('is_required','false');
+                //   $('#38').attr('disabled','disabled');
+                //   $('#39').attr('is_required','false');
+                //   $('#39').attr('disabled','disabled');
+                //   $('#40').attr('is_required','false');
+                //   $('#40').attr('disabled','disabled');
+                // }
+                // if($('#411').val()!=1){
+                //   $('#42').attr('is_required','false');
+                //   $('#42').attr('disabled','disabled');
+                //   $('#43').attr('is_required','false');
+                //   $('#43').attr('disabled','disabled');
+                //   $('#44').attr('is_required','false');
+                //   $('#44').attr('disabled','disabled');
+                //   $('#45').attr('is_required','false');
+                //   $('#45').attr('disabled','disabled');
+                // }
+                // if($('#461').val()!=1){
+                //   $('#47').attr('is_required','false');
+                //   $('#47').attr('disabled','disabled');
+                //   $('#48').attr('is_required','false');
+                //   $('#48').attr('disabled','disabled');
+                //   $('#49').attr('is_required','false');
+                //   $('#49').attr('disabled','disabled');
+                //   $('#50').attr('is_required','false');
+                //   $('#50').attr('disabled','disabled');
+                // }
                 else if ((element.input_type == 'number') && (element.is_required == 'true')) {
                     let el_val = parseInt($('#' + element.element_id).val());
                     console.log(el_val);

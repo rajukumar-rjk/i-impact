@@ -7232,183 +7232,179 @@
                   //element.is_required='false';
                   $('#109').attr('is_required', 'false');
                   $('#110').attr('is_required', 'false');
-                }
+                } // if($('#311').val()!=1){
+                //   $('#32').attr('is_required','false');
+                //   $('#32').attr('disabled','disabled');
+                //   $('#33').attr('is_required','false');
+                //   $('#33').attr('disabled','disabled');
+                //   $('#34').attr('is_required','false');
+                //   $('#34').attr('disabled','disabled');
+                //   $('#35').attr('is_required','false');
+                //   $('#35').attr('disabled','disabled');
+                // }
+                // if($('#361').val()!=1){
+                //   $('#37').attr('is_required','false');
+                //   $('#37').attr('disabled','disabled');
+                //   $('#38').attr('is_required','false');
+                //   $('#38').attr('disabled','disabled');
+                //   $('#39').attr('is_required','false');
+                //   $('#39').attr('disabled','disabled');
+                //   $('#40').attr('is_required','false');
+                //   $('#40').attr('disabled','disabled');
+                // }
+                // if($('#411').val()!=1){
+                //   $('#42').attr('is_required','false');
+                //   $('#42').attr('disabled','disabled');
+                //   $('#43').attr('is_required','false');
+                //   $('#43').attr('disabled','disabled');
+                //   $('#44').attr('is_required','false');
+                //   $('#44').attr('disabled','disabled');
+                //   $('#45').attr('is_required','false');
+                //   $('#45').attr('disabled','disabled');
+                // }
+                // if($('#461').val()!=1){
+                //   $('#47').attr('is_required','false');
+                //   $('#47').attr('disabled','disabled');
+                //   $('#48').attr('is_required','false');
+                //   $('#48').attr('disabled','disabled');
+                //   $('#49').attr('is_required','false');
+                //   $('#49').attr('disabled','disabled');
+                //   $('#50').attr('is_required','false');
+                //   $('#50').attr('disabled','disabled');
+                // }
+                else if (element.input_type == 'number' && element.is_required == 'true') {
+                    var el_val = parseInt($('#' + element.element_id).val());
+                    console.log(el_val);
 
-                if ($('#311').val() != 1) {
-                  $('#32').attr('is_required', 'false');
-                  $('#32').attr('disabled', 'disabled');
-                  $('#33').attr('is_required', 'false');
-                  $('#33').attr('disabled', 'disabled');
-                  $('#34').attr('is_required', 'false');
-                  $('#34').attr('disabled', 'disabled');
-                  $('#35').attr('is_required', 'false');
-                  $('#35').attr('disabled', 'disabled');
-                }
+                    if (isNaN(el_val)) {
+                      //this.error = true;
+                      el_val = -1;
+                    }
 
-                if ($('#361').val() != 1) {
-                  $('#37').attr('is_required', 'false');
-                  $('#37').attr('disabled', 'disabled');
-                  $('#38').attr('is_required', 'false');
-                  $('#38').attr('disabled', 'disabled');
-                  $('#39').attr('is_required', 'false');
-                  $('#39').attr('disabled', 'disabled');
-                  $('#40').attr('is_required', 'false');
-                  $('#40').attr('disabled', 'disabled');
-                }
+                    if ((element.min_val != '' || element.min_val == '0') && el_val < element.min_val || element.max_val != '' && el_val > element.max_val) {
+                      this.errorHighlight(element.element_id);
+                      this.errorToastr(element.elementLabel['en'] + " is between " + element.min_val + " to" + element.max_val);
+                      this.errorMessage = element.elementLabel['en'] + " is between " + element.min_val + " to" + element.max_val; //alert(element.elementLabel['en']+" is between "+ element.min_val+" to"+element.max_val);
 
-                if ($('#411').val() != 1) {
-                  $('#42').attr('is_required', 'false');
-                  $('#42').attr('disabled', 'disabled');
-                  $('#43').attr('is_required', 'false');
-                  $('#43').attr('disabled', 'disabled');
-                  $('#44').attr('is_required', 'false');
-                  $('#44').attr('disabled', 'disabled');
-                  $('#45').attr('is_required', 'false');
-                  $('#45').attr('disabled', 'disabled');
-                }
+                      this.error = true;
+                    }
 
-                if ($('#461').val() != 1) {
-                  $('#47').attr('is_required', 'false');
-                  $('#47').attr('disabled', 'disabled');
-                  $('#48').attr('is_required', 'false');
-                  $('#48').attr('disabled', 'disabled');
-                  $('#49').attr('is_required', 'false');
-                  $('#49').attr('disabled', 'disabled');
-                  $('#50').attr('is_required', 'false');
-                  $('#50').attr('disabled', 'disabled');
-                } else if (element.input_type == 'number' && element.is_required == 'true') {
-                  var el_val = parseInt($('#' + element.element_id).val());
-                  console.log(el_val);
+                    if (this.error == false) {
+                      this.resultData[element['database_param']] = $('#' + element.element_id).val(); //element.element_value
+                    }
+                  } else {
+                    if (this.error == false) {
+                      var el_val_foundation = $('#26').val();
+                      var el_val_lang = $('#27').val();
+                      var el_val_math = $('#28').val();
+                      var el_val_lang_1_up = $('#32').val();
+                      var el_val_lang_2_up = $('#33').val();
+                      var el_val_lang_3_up = $('#34').val();
+                      var el_val_lang_1_lw = $('#37').val();
+                      var el_val_lang_2_lw = $('#38').val();
+                      var el_val_lang_3_lw = $('#39').val();
+                      var el_val_m_1_up = $('#43').val();
+                      var el_val_m_2_up = $('#44').val();
+                      var el_val_m_3_up = $('#45').val();
+                      var el_val_m_1_lw = $('#48').val();
+                      var el_val_m_2_lw = $('#49').val();
+                      var el_val_m_3_lw = $('#50').val();
 
-                  if (isNaN(el_val)) {
-                    //this.error = true;
-                    el_val = -1;
+                      if (element.element_id == '27' && el_val_foundation > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '28' && el_val_foundation > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '29' && el_val_foundation > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '30' && el_val_foundation > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '32' && el_val_lang > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '37' && el_val_lang < 25 && el_val_lang > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '33' && el_val_lang_1_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '34' && el_val_lang_2_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '35' && el_val_lang_3_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '37' && el_val_lang_1_lw < 25 && el_val_lang_1_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '38' && el_val_lang_2_lw < 25 && el_val_lang_2_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '39' && el_val_lang_3_lw < 25 && el_val_lang_3_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '42' && el_val_math > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '47' && el_val_math < 25 && el_val_math > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '43' && el_val_m_1_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '44' && el_val_m_2_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '45' && el_val_m_3_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '48' && el_val_m_1_lw < 25 && el_val_m_1_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '49' && el_val_m_2_lw < 25 && el_val_m_2_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.element_id == '50' && el_val_m_3_lw < 25 && el_val_m_3_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
+                        element.is_required = 'true';
+                      }
+
+                      if (element.is_required == 'true') {
+                        this.validateBlankField(element);
+                      }
+                    }
+
+                    if (this.error == false) {
+                      this.validateCondition(element);
+                    }
+
+                    if (this.error == false) {
+                      //this.resultData[element['database_param']] = element.element_value
+                      console.log(this.resultData);
+                      this.resultData[element['database_param']] = $('#' + element.element_id).val();
+                    }
                   }
-
-                  if ((element.min_val != '' || element.min_val == '0') && el_val < element.min_val || element.max_val != '' && el_val > element.max_val) {
-                    this.errorHighlight(element.element_id);
-                    this.errorToastr(element.elementLabel['en'] + " is between " + element.min_val + " to" + element.max_val);
-                    this.errorMessage = element.elementLabel['en'] + " is between " + element.min_val + " to" + element.max_val; //alert(element.elementLabel['en']+" is between "+ element.min_val+" to"+element.max_val);
-
-                    this.error = true;
-                  }
-
-                  if (this.error == false) {
-                    this.resultData[element['database_param']] = $('#' + element.element_id).val(); //element.element_value
-                  }
-                } else {
-                  if (this.error == false) {
-                    var el_val_foundation = $('#26').val();
-                    var el_val_lang = $('#27').val();
-                    var el_val_math = $('#28').val();
-                    var el_val_lang_1_up = $('#32').val();
-                    var el_val_lang_2_up = $('#33').val();
-                    var el_val_lang_3_up = $('#34').val();
-                    var el_val_lang_1_lw = $('#37').val();
-                    var el_val_lang_2_lw = $('#38').val();
-                    var el_val_lang_3_lw = $('#39').val();
-                    var el_val_m_1_up = $('#43').val();
-                    var el_val_m_2_up = $('#44').val();
-                    var el_val_m_3_up = $('#45').val();
-                    var el_val_m_1_lw = $('#48').val();
-                    var el_val_m_2_lw = $('#49').val();
-                    var el_val_m_3_lw = $('#50').val();
-
-                    if (element.element_id == '27' && el_val_foundation > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '28' && el_val_foundation > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '29' && el_val_foundation > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '30' && el_val_foundation > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '32' && el_val_lang > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '37' && el_val_lang < 25 && el_val_lang > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '33' && el_val_lang_1_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '34' && el_val_lang_2_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '35' && el_val_lang_3_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '37' && el_val_lang_1_lw < 25 && el_val_lang_1_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '38' && el_val_lang_2_lw < 25 && el_val_lang_2_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '39' && el_val_lang_3_lw < 25 && el_val_lang_3_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '42' && el_val_math > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '47' && el_val_math < 25 && el_val_math > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '43' && el_val_m_1_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '44' && el_val_m_2_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '45' && el_val_m_3_up > 35 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '48' && el_val_m_1_lw < 25 && el_val_m_1_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '49' && el_val_m_2_lw < 25 && el_val_m_2_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.element_id == '50' && el_val_m_3_lw < 25 && el_val_m_3_lw > 0 && ($('#' + element.element_id).val() == "" || $('#' + element.element_id).val() == null)) {
-                      element.is_required = 'true';
-                    }
-
-                    if (element.is_required == 'true') {
-                      this.validateBlankField(element);
-                    }
-                  }
-
-                  if (this.error == false) {
-                    this.validateCondition(element);
-                  }
-
-                  if (this.error == false) {
-                    //this.resultData[element['database_param']] = element.element_value
-                    console.log(this.resultData);
-                    this.resultData[element['database_param']] = $('#' + element.element_id).val();
-                  }
-                }
               } // else if(element.element_type=="ElementDropDown"){
               //   if(this.error==false){
               //     if(element.is_required=='true'){
