@@ -4322,7 +4322,7 @@ class CustomSectionComponent {
                 //this.isLoading = false;
                 this.reset();
                 localStorage.setItem('user_id', localStorage.getItem('user'));
-                //location.reload();
+                location.reload();
                 this.reloadTable.emit(true);
             }).catch((err) => {
                 //console.log(err)

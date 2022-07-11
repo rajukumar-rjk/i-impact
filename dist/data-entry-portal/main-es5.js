@@ -7190,7 +7190,8 @@
 
                 _this50.reset();
 
-                localStorage.setItem('user_id', localStorage.getItem('user')); //location.reload();
+                localStorage.setItem('user_id', localStorage.getItem('user'));
+                location.reload();
 
                 _this50.reloadTable.emit(true);
               })["catch"](function (err) {
